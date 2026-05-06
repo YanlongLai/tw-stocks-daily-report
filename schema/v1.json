@@ -1,0 +1,571 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/YanlongLai/tw-stocks-core/main/schema/v1.json",
+  "title": "TW Stocks Daily Report",
+  "description": "Envelope schema for report.json emitted by tw-stocks-core. The same ticker_data payload is also available flat in data.json (legacy, no envelope).",
+  "type": "object",
+  "required": ["schema_version", "generated_at_utc", "source", "ticker_count", "data"],
+  "additionalProperties": true,
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "description": "Semantic version of this schema (e.g. '1.0.0')",
+      "examples": ["1.0.0"]
+    },
+    "generated_at_utc": {
+      "type": "string",
+      "format": "date-time",
+      "description": "ISO 8601 UTC timestamp of report generation"
+    },
+    "source": {
+      "type": "string",
+      "description": "Identifier of the engine that produced this report",
+      "examples": ["tw-stocks-core"]
+    },
+    "schema_url": {
+      "type": "string",
+      "format": "uri",
+      "description": "URL pointing to the JSON Schema file that describes this document"
+    },
+    "ticker_count": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Number of tickers present in data.ticker_data"
+    },
+    "data": {
+      "$ref": "#/$defs/ReportPayload"
+    }
+  },
+  "$defs": {
+    "ReportPayload": {
+      "type": "object",
+      "description": "Core report payload — mirrors the legacy data.json top-level structure",
+      "required": ["last_updated", "tickers", "ticker_data"],
+      "additionalProperties": true,
+      "properties": {
+        "last_updated": {
+          "type": "string",
+          "description": "Report date in YYYY-MM-DD format",
+          "examples": ["2026-05-04"]
+        },
+        "tickers": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Ordered list of ticker symbols covered by this report"
+        },
+        "fetched_at": {
+          "type": "string",
+          "format": "date-time",
+          "description": "ISO 8601 UTC timestamp of when data was fetched"
+        },
+        "data_hash": {
+          "type": "string",
+          "description": "Short SHA-256 fingerprint of tickers + verdicts + market_regime (first 16 hex chars)"
+        },
+        "ticker_data": {
+          "type": "object",
+          "description": "Map of ticker symbol → TickerPayload",
+          "additionalProperties": { "$ref": "#/$defs/TickerPayload" }
+        },
+        "sector_rotation": {
+          "type": "object",
+          "description": "Map of sector name → SectorSummary",
+          "additionalProperties": { "$ref": "#/$defs/SectorSummary" }
+        },
+        "sector_correlation": {
+          "type": "object",
+          "description": "Pairwise correlation coefficients between sector return series",
+          "additionalProperties": { "type": "object", "additionalProperties": { "type": "number" } }
+        },
+        "market_regime": { "$ref": "#/$defs/MarketRegime" },
+        "recommendations": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/Recommendation" }
+        },
+        "cautions": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/Recommendation" }
+        },
+        "weekly_verdict_movers": { "$ref": "#/$defs/WeeklyVerdictMovers" },
+        "ai_commentary_summary": {
+          "type": "string",
+          "description": "Short AI-generated market summary sentence"
+        },
+        "ai_commentary_highlights": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Bullet-point highlights extracted from full AI commentary"
+        },
+        "report_one_liner": { "type": "string" },
+        "report_two_liner": { "type": "string" }
+      }
+    },
+    "TickerPayload": {
+      "type": "object",
+      "description": "Full per-ticker analysis block",
+      "required": ["symbol", "name", "price_change_pct", "indicators", "signals"],
+      "additionalProperties": true,
+      "properties": {
+        "symbol": {
+          "type": "string",
+          "description": "TWSE ticker code (e.g. '2330')"
+        },
+        "name": {
+          "type": "string",
+          "description": "Company Chinese name"
+        },
+        "price_change_pct": {
+          "type": "number",
+          "description": "Day-over-day price change percentage"
+        },
+        "price_changes": {
+          "type": "object",
+          "description": "Multi-period price change percentages",
+          "additionalProperties": true,
+          "properties": {
+            "1d_pct": { "type": ["number", "null"] },
+            "5d_pct": { "type": ["number", "null"] },
+            "30d_pct": { "type": ["number", "null"] },
+            "90d_pct": { "type": ["number", "null"] },
+            "ytd_pct": { "type": ["number", "null"] }
+          }
+        },
+        "indicators": { "$ref": "#/$defs/Indicators" },
+        "chip": { "$ref": "#/$defs/Chip" },
+        "chip_streaks": { "$ref": "#/$defs/ChipStreaks" },
+        "chip_cohesion": { "$ref": "#/$defs/ChipCohesion" },
+        "holders": { "$ref": "#/$defs/Holders" },
+        "broker_concentration": { "$ref": "#/$defs/BrokerConcentration" },
+        "lending": { "$ref": "#/$defs/Lending" },
+        "buyback": { "$ref": "#/$defs/Buyback" },
+        "orderbook": { "$ref": "#/$defs/Orderbook" },
+        "margin_ratio": { "$ref": "#/$defs/MarginRatio" },
+        "revenue": { "$ref": "#/$defs/Revenue" },
+        "signals": { "$ref": "#/$defs/Signals" },
+        "sector_rs": { "$ref": "#/$defs/SectorRS" },
+        "news": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/NewsItem" }
+        },
+        "news_sentiment": { "$ref": "#/$defs/NewsSentiment" },
+        "announcements": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/Announcement" }
+        },
+        "news_commentary": {
+          "type": "string",
+          "description": "Gemini-generated per-ticker news commentary (full text)"
+        },
+        "news_commentary_summary": {
+          "type": "string",
+          "description": "Cleaned one-sentence summary of per-ticker news commentary"
+        },
+        "news_commentary_highlights": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Bullet-point highlights from per-ticker commentary"
+        },
+        "data_quality": {
+          "type": "object",
+          "additionalProperties": true,
+          "description": "Data quality diagnostics for this ticker"
+        },
+        "hot_rank": {
+          "type": "object",
+          "additionalProperties": true,
+          "description": "Composite hotness ranking score and breakdown"
+        },
+        "verdict_history": {
+          "type": "array",
+          "items": { "type": "object", "additionalProperties": true },
+          "description": "Recent daily verdicts for tracking changes over time"
+        },
+        "price_history": {
+          "type": "array",
+          "description": "Up to 750 trading-day OHLCV bars (oldest first)",
+          "items": { "$ref": "#/$defs/OHLCVBar" }
+        }
+      }
+    },
+    "Indicators": {
+      "type": "object",
+      "description": "Computed technical indicators",
+      "additionalProperties": true,
+      "properties": {
+        "latest_close": { "type": ["number", "null"] },
+        "ma_5": { "type": ["number", "null"] },
+        "ma_10": { "type": ["number", "null"] },
+        "ma_20": { "type": ["number", "null"] },
+        "ma_60": { "type": ["number", "null"] },
+        "ma_120": { "type": ["number", "null"] },
+        "ma_200": { "type": ["number", "null"] },
+        "ma_200_slope": { "type": ["number", "null"] },
+        "rsi_14": { "type": ["number", "null"] },
+        "macd": {
+          "type": "object",
+          "additionalProperties": true,
+          "properties": {
+            "macd": { "type": ["number", "null"] },
+            "signal": { "type": ["number", "null"] },
+            "hist": { "type": ["number", "null"] }
+          }
+        },
+        "kd": {
+          "type": "object",
+          "additionalProperties": true,
+          "properties": {
+            "k": { "type": ["number", "null"] },
+            "d": { "type": ["number", "null"] },
+            "cross": { "type": ["string", "null"] }
+          }
+        },
+        "bollinger": {
+          "type": "object",
+          "additionalProperties": true,
+          "properties": {
+            "upper": { "type": ["number", "null"] },
+            "mid": { "type": ["number", "null"] },
+            "lower": { "type": ["number", "null"] },
+            "bandwidth": { "type": ["number", "null"] }
+          }
+        },
+        "hv_20": { "type": ["number", "null"], "description": "20-day historical volatility (annualised)" },
+        "volume_5d_avg": { "type": ["number", "null"] },
+        "volume_today": { "type": ["number", "null"] },
+        "obv": {
+          "type": "object",
+          "additionalProperties": true,
+          "properties": {
+            "latest": { "type": ["number", "null"] },
+            "ma_20": { "type": ["number", "null"] },
+            "trend": { "type": ["string", "null"] },
+            "divergence": { "type": ["string", "null"] }
+          }
+        },
+        "mfi_14": { "type": ["number", "null"], "description": "Money Flow Index (14-period)" },
+        "atr_14": {
+          "type": "object",
+          "additionalProperties": true,
+          "properties": {
+            "atr": { "type": ["number", "null"] },
+            "atr_pct": { "type": ["number", "null"] }
+          }
+        }
+      }
+    },
+    "Chip": {
+      "type": "object",
+      "description": "Three Big Investors (三大法人) 5-day net flows and margin data",
+      "additionalProperties": true,
+      "properties": {
+        "foreign_5d": { "type": ["integer", "null"], "description": "Foreign investor 5-day net (thousand shares)" },
+        "trust_5d": { "type": ["integer", "null"], "description": "Trust fund 5-day net (thousand shares)" },
+        "dealer_5d": { "type": ["integer", "null"], "description": "Dealer 5-day net (thousand shares)" },
+        "margin_balance": { "type": ["integer", "null"] },
+        "short_balance": { "type": ["integer", "null"] }
+      }
+    },
+    "ChipStreaks": {
+      "type": "object",
+      "description": "Consecutive buy/sell streak info for each institutional class",
+      "additionalProperties": true,
+      "properties": {
+        "foreign": { "$ref": "#/$defs/StreakEntry" },
+        "trust": { "$ref": "#/$defs/StreakEntry" },
+        "dealer": { "$ref": "#/$defs/StreakEntry" },
+        "any_strong_buy": { "type": ["boolean", "null"] },
+        "any_strong_sell": { "type": ["boolean", "null"] }
+      }
+    },
+    "StreakEntry": {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "streak": { "type": "integer", "description": "Positive = consecutive buy days, negative = sell days" },
+        "side": { "type": "string", "enum": ["buy", "sell", "flat"] },
+        "total_net": { "type": "number" },
+        "started": { "type": "string", "description": "YYYY-MM-DD date the streak began" }
+      }
+    },
+    "ChipCohesion": {
+      "type": "object",
+      "description": "Synthetic multi-signal chip cohesion score",
+      "additionalProperties": true,
+      "properties": {
+        "score": { "type": ["number", "null"] },
+        "level": { "type": ["string", "null"] }
+      }
+    },
+    "Holders": {
+      "type": "object",
+      "description": "TDCC weekly large-holder and retail shareholder percentages",
+      "additionalProperties": true,
+      "properties": {
+        "large_holder_pct": { "type": ["number", "null"] },
+        "large_holder_pct_4w_delta": { "type": ["number", "null"] },
+        "retail_pct": { "type": ["number", "null"] },
+        "retail_pct_4w_delta": { "type": ["number", "null"] },
+        "trend": { "type": "string" }
+      }
+    },
+    "BrokerConcentration": {
+      "type": "object",
+      "description": "Top-15 broker buy-side concentration over 5 days",
+      "additionalProperties": true,
+      "properties": {
+        "concentration_pct_5d": { "type": ["number", "null"] },
+        "level": { "type": "string" }
+      }
+    },
+    "Lending": {
+      "type": "object",
+      "description": "Securities lending (借券) balance and trend",
+      "additionalProperties": true,
+      "properties": {
+        "balance_latest": { "type": ["number", "null"] },
+        "balance_30d_change_pct": { "type": ["number", "null"] },
+        "trend": { "type": "string" }
+      }
+    },
+    "Buyback": {
+      "type": "object",
+      "description": "Treasury buyback (庫藏股) execution status",
+      "additionalProperties": true,
+      "properties": {
+        "active": { "type": ["boolean", "null"] },
+        "latest_completion_pct": { "type": ["number", "null"] },
+        "executed_shares": { "type": ["integer", "null"] },
+        "planned_shares": { "type": ["integer", "null"] },
+        "avg_price": { "type": ["number", "null"] },
+        "started_date": { "type": ["string", "null"] }
+      }
+    },
+    "Orderbook": {
+      "type": "object",
+      "description": "Closing 5-level order book summary",
+      "additionalProperties": true,
+      "properties": {
+        "spread_pct": { "type": ["number", "null"] },
+        "bid_depth_total": { "type": ["number", "null"] },
+        "ask_depth_total": { "type": ["number", "null"] },
+        "imbalance": { "type": "string" },
+        "imbalance_ratio": { "type": ["number", "null"] }
+      }
+    },
+    "MarginRatio": {
+      "type": "object",
+      "description": "Margin balance and short-to-margin ratio analysis",
+      "additionalProperties": true,
+      "properties": {
+        "margin_balance": { "type": ["integer", "null"] },
+        "short_balance": { "type": ["integer", "null"] },
+        "short_to_margin_ratio_pct": { "type": ["number", "null"] },
+        "margin_5d_change_pct": { "type": ["number", "null"] },
+        "level": { "type": "string" },
+        "squeeze_risk": { "type": "boolean" }
+      }
+    },
+    "Revenue": {
+      "type": "object",
+      "description": "Monthly revenue YoY trend",
+      "additionalProperties": true,
+      "properties": {
+        "latest_month": { "type": ["string", "null"], "description": "YYYY-MM" },
+        "latest_revenue": { "type": ["number", "null"] },
+        "yoy_pct": { "type": ["number", "null"] },
+        "yoy_3m_ma_pct": { "type": ["number", "null"] },
+        "trend": { "type": ["string", "null"] },
+        "history_12m": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": true,
+            "properties": {
+              "month": { "type": "string" },
+              "revenue": { "type": "number" },
+              "yoy_pct": { "type": ["number", "null"] }
+            }
+          }
+        }
+      }
+    },
+    "Signals": {
+      "type": "object",
+      "description": "Rule-based signal labels, reasons, and overall verdict",
+      "required": ["verdict"],
+      "additionalProperties": true,
+      "properties": {
+        "trend_label": { "type": "string" },
+        "trend_reason": { "type": "string" },
+        "momentum_label": { "type": "string" },
+        "momentum_reason": { "type": "string" },
+        "volume_label": { "type": "string" },
+        "volume_reason": { "type": "string" },
+        "chip_label": { "type": "string" },
+        "chip_reason": { "type": "string" },
+        "verdict": {
+          "type": "string",
+          "enum": ["BUY", "WATCH", "SELL"],
+          "description": "Overall daily verdict"
+        },
+        "verdict_reason": { "type": "string" },
+        "contributions": {
+          "type": "object",
+          "description": "Per-signal contribution scores in the range -2..+2",
+          "additionalProperties": true,
+          "properties": {
+            "trend": { "type": "integer" },
+            "momentum": { "type": "integer" },
+            "volume": { "type": "integer" },
+            "chip": { "type": "integer" }
+          }
+        }
+      }
+    },
+    "SectorRS": {
+      "type": "object",
+      "description": "Relative strength vs sector and market over multiple periods",
+      "additionalProperties": true,
+      "properties": {
+        "stock_5d_pct": { "type": ["number", "null"] },
+        "sector_5d_pct": { "type": ["number", "null"] },
+        "market_5d_pct": { "type": ["number", "null"] },
+        "rs_vs_sector_5d": { "type": ["number", "null"] },
+        "rs_vs_market_5d": { "type": ["number", "null"] },
+        "stock_30d_pct": { "type": ["number", "null"] },
+        "sector_30d_pct": { "type": ["number", "null"] },
+        "market_30d_pct": { "type": ["number", "null"] },
+        "rs_vs_sector_30d": { "type": ["number", "null"] },
+        "rs_vs_market_30d": { "type": ["number", "null"] },
+        "stock_90d_pct": { "type": ["number", "null"] },
+        "sector_90d_pct": { "type": ["number", "null"] },
+        "market_90d_pct": { "type": ["number", "null"] },
+        "rs_vs_sector_90d": { "type": ["number", "null"] },
+        "rs_vs_market_90d": { "type": ["number", "null"] },
+        "tier_30d": { "type": ["string", "null"] }
+      }
+    },
+    "NewsItem": {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "title": { "type": "string" },
+        "url": { "type": "string", "format": "uri" },
+        "source": { "type": "string" },
+        "date": { "type": "string" },
+        "summary": { "type": "string" }
+      }
+    },
+    "NewsSentiment": {
+      "type": "object",
+      "description": "Rule-based Chinese sentiment score over fetched news",
+      "additionalProperties": true,
+      "properties": {
+        "score": { "type": ["number", "null"] },
+        "positive_count": { "type": "integer" },
+        "negative_count": { "type": "integer" },
+        "neutral_count": { "type": "integer" },
+        "label": { "type": "string", "enum": ["positive", "negative", "neutral"] },
+        "top_positive_title": { "type": ["string", "null"] },
+        "top_negative_title": { "type": ["string", "null"] }
+      }
+    },
+    "Announcement": {
+      "type": "object",
+      "description": "Material disclosure (重大訊息) item",
+      "additionalProperties": true,
+      "properties": {
+        "title": { "type": "string" },
+        "url": { "type": "string" },
+        "date": { "type": "string" },
+        "type": { "type": "string" }
+      }
+    },
+    "OHLCVBar": {
+      "type": "object",
+      "required": ["date", "close", "high", "low", "volume"],
+      "additionalProperties": true,
+      "properties": {
+        "date": { "type": "string", "description": "YYYY-MM-DD" },
+        "open": { "type": "number" },
+        "close": { "type": "number" },
+        "high": { "type": "number" },
+        "low": { "type": "number" },
+        "volume": { "type": "integer" }
+      }
+    },
+    "SectorSummary": {
+      "type": "object",
+      "description": "Sector-level aggregation for sector rotation view",
+      "additionalProperties": true,
+      "properties": {
+        "tickers": { "type": "array", "items": { "type": "string" } },
+        "avg_change_pct": { "type": ["number", "null"] },
+        "avg_rsi": { "type": ["number", "null"] },
+        "foreign_net_5d_total": { "type": ["number", "null"] },
+        "verdict": { "type": "string" },
+        "verdict_reason": { "type": "string" },
+        "top_gainer": {
+          "type": "object",
+          "additionalProperties": true,
+          "properties": {
+            "ticker": { "type": "string" },
+            "name": { "type": "string" },
+            "change_pct": { "type": "number" }
+          }
+        },
+        "top_loser": {
+          "type": "object",
+          "additionalProperties": true,
+          "properties": {
+            "ticker": { "type": "string" },
+            "name": { "type": "string" },
+            "change_pct": { "type": "number" }
+          }
+        }
+      }
+    },
+    "MarketRegime": {
+      "type": "object",
+      "description": "Macro market regime classification",
+      "additionalProperties": true,
+      "properties": {
+        "regime": { "type": "string", "description": "e.g. 'bull', 'bear', 'neutral'" },
+        "taiex_trend": { "type": ["string", "null"] },
+        "taiex_above_50ma": { "type": ["boolean", "null"] },
+        "taiex_above_200ma": { "type": ["boolean", "null"] },
+        "advance_decline_ratio": { "type": ["number", "null"] },
+        "breadth_score": { "type": ["number", "null"] },
+        "vol_regime": { "type": ["string", "null"] },
+        "sector_dispersion": { "type": ["number", "null"] },
+        "rationale": { "type": ["string", "null"] }
+      }
+    },
+    "Recommendation": {
+      "type": "object",
+      "description": "A curated buy candidate or caution item",
+      "additionalProperties": true,
+      "properties": {
+        "symbol": { "type": "string" },
+        "name": { "type": "string" },
+        "score": { "type": "number" },
+        "reason": { "type": "string" },
+        "signals": { "type": "array", "items": { "type": "string" } },
+        "rsi": { "type": ["number", "null"] },
+        "latest_close": { "type": ["number", "null"] },
+        "hv_20": { "type": ["number", "null"] }
+      }
+    },
+    "WeeklyVerdictMovers": {
+      "type": "object",
+      "description": "Tickers whose verdict upgraded or downgraded vs 7 days ago",
+      "additionalProperties": true,
+      "properties": {
+        "upgrades": { "type": "array", "items": { "type": "string" } },
+        "downgrades": { "type": "array", "items": { "type": "string" } },
+        "consistent_buys": { "type": "array", "items": { "type": "string" } },
+        "consistent_sells": { "type": "array", "items": { "type": "string" } }
+      }
+    }
+  }
+}
