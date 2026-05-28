@@ -1,7 +1,7 @@
 {
-  "hash": "59a0cb9460b39ee17f6a9baf338eaee4d350ce86218f4eb91a404d20c3a77b3b",
+  "hash": "b6e62d6711add22f7ec2c8bbd90f02c3601a14232a386db9b86e9625f7a44d50",
   "schema_version": "1.2.0",
-  "generated_at_utc": "2026-05-28T03:08:42Z",
-  "data_url_v2": "dashboard/data-59a0cb9460b3.json",
+  "generated_at_utc": "2026-05-28T08:39:40Z",
+  "data_url_v2": "dashboard/data-b6e62d6711ad.json",
   "data_url": "https://raw.githubusercontent.com/YanlongLai/tw-stocks-daily-report/main/dashboard/data.json"
 }
