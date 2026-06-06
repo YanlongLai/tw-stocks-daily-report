@@ -1,7 +1,7 @@
 {
-  "run_id": "cc5dd45a-2e56-45ac-877b-5b49eb6e75bc",
-  "started_at": "2026-06-06T05:32:59.111719+00:00",
-  "finished_at": "2026-06-06T05:39:11.450567+00:00",
+  "run_id": "8f3f87f4-e460-41c4-965c-cf6682dc5463",
+  "started_at": "2026-06-06T08:53:35.396681+00:00",
+  "finished_at": "2026-06-06T09:02:55.417741+00:00",
   "tickers_attempted": [
     "2330",
     "2454",
@@ -103,69 +103,24 @@
     "6505",
     "1101",
     "1802",
-    "1473"
+    "1473",
+    "2002",
+    "2027",
+    "3711",
+    "4736",
+    "1707",
+    "1216",
+    "2912",
+    "2731",
+    "0050",
+    "0056",
+    "00878"
   ],
-  "tickers_failed": [
-    {
-      "ticker": "2002",
-      "stage": "fetch",
-      "error": "raw fetch returned empty / errored"
-    },
-    {
-      "ticker": "2027",
-      "stage": "fetch",
-      "error": "raw fetch returned empty / errored"
-    },
-    {
-      "ticker": "3711",
-      "stage": "fetch",
-      "error": "raw fetch returned empty / errored"
-    },
-    {
-      "ticker": "4736",
-      "stage": "fetch",
-      "error": "raw fetch returned empty / errored"
-    },
-    {
-      "ticker": "1707",
-      "stage": "fetch",
-      "error": "raw fetch returned empty / errored"
-    },
-    {
-      "ticker": "1216",
-      "stage": "fetch",
-      "error": "raw fetch returned empty / errored"
-    },
-    {
-      "ticker": "2912",
-      "stage": "fetch",
-      "error": "raw fetch returned empty / errored"
-    },
-    {
-      "ticker": "2731",
-      "stage": "fetch",
-      "error": "raw fetch returned empty / errored"
-    },
-    {
-      "ticker": "0050",
-      "stage": "fetch",
-      "error": "raw fetch returned empty / errored"
-    },
-    {
-      "ticker": "0056",
-      "stage": "fetch",
-      "error": "raw fetch returned empty / errored"
-    },
-    {
-      "ticker": "00878",
-      "stage": "fetch",
-      "error": "raw fetch returned empty / errored"
-    }
-  ],
+  "tickers_failed": [],
   "ai_commentary_count": 0,
   "sources_status": {
     "translation": "down",
-    "finmind": "partial",
+    "finmind": "ok",
     "gemini": "down",
     "finnhub": "not_used"
   },
