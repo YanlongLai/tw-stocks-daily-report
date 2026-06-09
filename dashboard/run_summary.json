@@ -1,7 +1,7 @@
 {
-  "run_id": "82df39f6-94a8-45b0-a710-f50c103e07af",
-  "started_at": "2026-06-09T01:06:43.469964+00:00",
-  "finished_at": "2026-06-09T01:11:44.030834+00:00",
+  "run_id": "c88ceaa5-5c6d-4d1f-8c00-2fdd181eef67",
+  "started_at": "2026-06-09T03:02:31.014225+00:00",
+  "finished_at": "2026-06-09T03:08:57.458968+00:00",
   "tickers_attempted": [
     "2330",
     "2454",
@@ -117,7 +117,7 @@
     "00878"
   ],
   "tickers_failed": [],
-  "ai_commentary_count": 55,
+  "ai_commentary_count": 40,
   "sources_status": {
     "translation": "ok",
     "finmind": "ok",
