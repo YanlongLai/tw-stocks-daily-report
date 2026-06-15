@@ -1,7 +1,7 @@
 {
-  "run_id": "5cee990f-9dd0-419f-8288-041f177c14f1",
-  "started_at": "2026-06-14T08:53:58.119591+00:00",
-  "finished_at": "2026-06-14T08:59:57.664545+00:00",
+  "run_id": "54ea8f62-5b76-4a28-9a98-1c8ea08394e6",
+  "started_at": "2026-06-15T00:14:39.136265+00:00",
+  "finished_at": "2026-06-15T00:22:17.010451+00:00",
   "tickers_attempted": [
     "2330",
     "2454",
@@ -107,12 +107,16 @@
     "2002",
     "2027",
     "3711",
-    "1707",
-    "1216"
+    "4736"
   ],
   "tickers_failed": [
     {
-      "ticker": "4736",
+      "ticker": "1707",
+      "stage": "fetch",
+      "error": "raw fetch returned empty / errored"
+    },
+    {
+      "ticker": "1216",
       "stage": "fetch",
       "error": "raw fetch returned empty / errored"
     },
