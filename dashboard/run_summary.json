@@ -1,7 +1,7 @@
 {
-  "run_id": "b00aa2fd-58cd-4664-9848-45332cf9af94",
-  "started_at": "2026-07-14T08:54:59.814580+00:00",
-  "finished_at": "2026-07-14T09:03:33.528127+00:00",
+  "run_id": "590fa5b7-063d-4f18-a8e1-41ce14759705",
+  "started_at": "2026-07-15T00:15:48.319626+00:00",
+  "finished_at": "2026-07-15T00:22:40.025829+00:00",
   "tickers_attempted": [
     "2330",
     "2454",
@@ -99,28 +99,89 @@
     "3045",
     "1301",
     "1303",
-    "1326",
-    "6505",
-    "1101",
-    "1802",
-    "1473",
-    "2002",
-    "2027",
-    "3711",
-    "4736",
-    "1707",
-    "1216",
-    "2912",
-    "2731",
-    "0050",
-    "0056",
-    "00878"
+    "1326"
   ],
-  "tickers_failed": [],
+  "tickers_failed": [
+    {
+      "ticker": "6505",
+      "stage": "fetch",
+      "error": "raw fetch returned empty / errored"
+    },
+    {
+      "ticker": "1101",
+      "stage": "fetch",
+      "error": "raw fetch returned empty / errored"
+    },
+    {
+      "ticker": "1802",
+      "stage": "fetch",
+      "error": "raw fetch returned empty / errored"
+    },
+    {
+      "ticker": "1473",
+      "stage": "fetch",
+      "error": "raw fetch returned empty / errored"
+    },
+    {
+      "ticker": "2002",
+      "stage": "fetch",
+      "error": "raw fetch returned empty / errored"
+    },
+    {
+      "ticker": "2027",
+      "stage": "fetch",
+      "error": "raw fetch returned empty / errored"
+    },
+    {
+      "ticker": "3711",
+      "stage": "fetch",
+      "error": "raw fetch returned empty / errored"
+    },
+    {
+      "ticker": "4736",
+      "stage": "fetch",
+      "error": "raw fetch returned empty / errored"
+    },
+    {
+      "ticker": "1707",
+      "stage": "fetch",
+      "error": "raw fetch returned empty / errored"
+    },
+    {
+      "ticker": "1216",
+      "stage": "fetch",
+      "error": "raw fetch returned empty / errored"
+    },
+    {
+      "ticker": "2912",
+      "stage": "fetch",
+      "error": "raw fetch returned empty / errored"
+    },
+    {
+      "ticker": "2731",
+      "stage": "fetch",
+      "error": "raw fetch returned empty / errored"
+    },
+    {
+      "ticker": "0050",
+      "stage": "fetch",
+      "error": "raw fetch returned empty / errored"
+    },
+    {
+      "ticker": "0056",
+      "stage": "fetch",
+      "error": "raw fetch returned empty / errored"
+    },
+    {
+      "ticker": "00878",
+      "stage": "fetch",
+      "error": "raw fetch returned empty / errored"
+    }
+  ],
   "ai_commentary_count": 0,
   "sources_status": {
     "translation": "down",
-    "finmind": "ok",
+    "finmind": "partial",
     "gemini": "down",
     "finnhub": "not_used"
   },
