@@ -1,7 +1,7 @@
 {
-  "run_id": "590fa5b7-063d-4f18-a8e1-41ce14759705",
-  "started_at": "2026-07-15T00:15:48.319626+00:00",
-  "finished_at": "2026-07-15T00:22:40.025829+00:00",
+  "run_id": "c5d25071-5fb3-482b-a925-665bc6cccd93",
+  "started_at": "2026-07-15T05:34:37.527363+00:00",
+  "finished_at": "2026-07-15T05:41:41.081081+00:00",
   "tickers_attempted": [
     "2330",
     "2454",
@@ -99,59 +99,19 @@
     "3045",
     "1301",
     "1303",
-    "1326"
+    "1326",
+    "6505",
+    "1101",
+    "1802",
+    "1473",
+    "2002",
+    "2027",
+    "3711",
+    "4736",
+    "1707",
+    "1216"
   ],
   "tickers_failed": [
-    {
-      "ticker": "6505",
-      "stage": "fetch",
-      "error": "raw fetch returned empty / errored"
-    },
-    {
-      "ticker": "1101",
-      "stage": "fetch",
-      "error": "raw fetch returned empty / errored"
-    },
-    {
-      "ticker": "1802",
-      "stage": "fetch",
-      "error": "raw fetch returned empty / errored"
-    },
-    {
-      "ticker": "1473",
-      "stage": "fetch",
-      "error": "raw fetch returned empty / errored"
-    },
-    {
-      "ticker": "2002",
-      "stage": "fetch",
-      "error": "raw fetch returned empty / errored"
-    },
-    {
-      "ticker": "2027",
-      "stage": "fetch",
-      "error": "raw fetch returned empty / errored"
-    },
-    {
-      "ticker": "3711",
-      "stage": "fetch",
-      "error": "raw fetch returned empty / errored"
-    },
-    {
-      "ticker": "4736",
-      "stage": "fetch",
-      "error": "raw fetch returned empty / errored"
-    },
-    {
-      "ticker": "1707",
-      "stage": "fetch",
-      "error": "raw fetch returned empty / errored"
-    },
-    {
-      "ticker": "1216",
-      "stage": "fetch",
-      "error": "raw fetch returned empty / errored"
-    },
     {
       "ticker": "2912",
       "stage": "fetch",
