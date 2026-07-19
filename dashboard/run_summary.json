@@ -1,7 +1,7 @@
 {
-  "run_id": "28900417-9041-47e1-a0ce-7b8cbf906f77",
-  "started_at": "2026-07-19T00:15:51.970567+00:00",
-  "finished_at": "2026-07-19T00:23:02.807265+00:00",
+  "run_id": "b3be99ea-33eb-4f54-8382-d1a7c0d36115",
+  "started_at": "2026-07-19T05:34:42.203902+00:00",
+  "finished_at": "2026-07-19T05:42:04.437960+00:00",
   "tickers_attempted": [
     "2330",
     "2454",
@@ -107,49 +107,20 @@
     "2002",
     "2027",
     "3711",
-    "4736"
+    "4736",
+    "1707",
+    "1216",
+    "2912",
+    "2731",
+    "0050",
+    "0056",
+    "00878"
   ],
-  "tickers_failed": [
-    {
-      "ticker": "1707",
-      "stage": "fetch",
-      "error": "raw fetch returned empty / errored"
-    },
-    {
-      "ticker": "1216",
-      "stage": "fetch",
-      "error": "raw fetch returned empty / errored"
-    },
-    {
-      "ticker": "2912",
-      "stage": "fetch",
-      "error": "raw fetch returned empty / errored"
-    },
-    {
-      "ticker": "2731",
-      "stage": "fetch",
-      "error": "raw fetch returned empty / errored"
-    },
-    {
-      "ticker": "0050",
-      "stage": "fetch",
-      "error": "raw fetch returned empty / errored"
-    },
-    {
-      "ticker": "0056",
-      "stage": "fetch",
-      "error": "raw fetch returned empty / errored"
-    },
-    {
-      "ticker": "00878",
-      "stage": "fetch",
-      "error": "raw fetch returned empty / errored"
-    }
-  ],
+  "tickers_failed": [],
   "ai_commentary_count": 0,
   "sources_status": {
     "translation": "down",
-    "finmind": "partial",
+    "finmind": "ok",
     "gemini": "down",
     "finnhub": "not_used"
   },
