@@ -1,7 +1,7 @@
 {
-  "run_id": "066913dd-79cf-44d6-884e-464fed278469",
-  "started_at": "2026-07-23T08:55:45.739488+00:00",
-  "finished_at": "2026-07-23T09:04:30.717671+00:00",
+  "run_id": "b5f39a4e-750d-4935-af67-daf974a4ee8a",
+  "started_at": "2026-07-24T00:15:55.333120+00:00",
+  "finished_at": "2026-07-24T00:24:00.074168+00:00",
   "tickers_attempted": [
     "2330",
     "2454",
@@ -112,15 +112,24 @@
     "1216",
     "2912",
     "2731",
-    "0050",
-    "0056",
-    "00878"
+    "0050"
   ],
-  "tickers_failed": [],
+  "tickers_failed": [
+    {
+      "ticker": "0056",
+      "stage": "fetch",
+      "error": "raw fetch returned empty / errored"
+    },
+    {
+      "ticker": "00878",
+      "stage": "fetch",
+      "error": "raw fetch returned empty / errored"
+    }
+  ],
   "ai_commentary_count": 0,
   "sources_status": {
     "translation": "down",
-    "finmind": "ok",
+    "finmind": "partial",
     "gemini": "down",
     "finnhub": "not_used"
   },
