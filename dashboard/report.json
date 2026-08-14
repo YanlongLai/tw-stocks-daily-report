@@ -1,11 +1,11 @@
 {
   "schema_version": "1.2.0",
-  "generated_at_utc": "2026-08-14T01:13:38Z",
+  "generated_at_utc": "2026-08-14T03:08:42Z",
   "source": "tw-stocks-core",
   "schema_url": "https://raw.githubusercontent.com/YanlongLai/tw-stocks-daily-report/main/schema/v1.json",
   "ticker_count": 55,
   "stats": {
-    "insight_count": 492,
+    "insight_count": 487,
     "critical_insight_count": 52
   },
   "insights": [
@@ -11716,33 +11716,6 @@
       "valid_until": "2026-08-15"
     },
     {
-      "id": "ai_commentary_highlight_v1__2330__2026-08-14",
-      "asset_ref": "tw_2330",
-      "category": "news",
-      "subcategory": "ai_commentary",
-      "tier": "info",
-      "actionable": false,
-      "question": "AI 解讀指出哪些重點？",
-      "answer": "AI 標出 1 個重點：net 影響：📈 偏多。",
-      "answer_short": "AI 1 個重點",
-      "explanation": "Gemini AI commentary 對長篇新聞抽取要點，適合決策前快速瀏覽。",
-      "evidence": {
-        "facts": {
-          "n_highlights": 1,
-          "highlights": [
-            "net 影響：📈 偏多"
-          ],
-          "summary": "台積電在近期股市中表現強勁，股價與大盤同步飆升，屢創歷史新高。"
-        },
-        "method": "gemini_highlight_v1",
-        "computed_from": [
-          "news_commentary_highlights"
-        ]
-      },
-      "valid_from": "2026-08-14",
-      "valid_until": "2026-08-15"
-    },
-    {
       "id": "ma_stack_short_v1__2454__2026-08-14",
       "asset_ref": "tw_2454",
       "category": "trend",
@@ -12235,6 +12208,33 @@
         "method": "news_cluster_window_v1",
         "computed_from": [
           "news"
+        ]
+      },
+      "valid_from": "2026-08-14",
+      "valid_until": "2026-08-15"
+    },
+    {
+      "id": "ai_commentary_highlight_v1__2409__2026-08-14",
+      "asset_ref": "tw_2409",
+      "category": "news",
+      "subcategory": "ai_commentary",
+      "tier": "info",
+      "actionable": false,
+      "question": "AI 解讀指出哪些重點？",
+      "answer": "AI 標出 1 個重點：net 影響：🔄 中性。",
+      "answer_short": "AI 1 個重點",
+      "explanation": "Gemini AI commentary 對長篇新聞抽取要點，適合決策前快速瀏覽。",
+      "evidence": {
+        "facts": {
+          "n_highlights": 1,
+          "highlights": [
+            "net 影響：🔄 中性"
+          ],
+          "summary": "友達近期處於營運轉型與獲利改善的關鍵時刻。*   多方：處分閒置資產帶來龐大業外收益，有助於公司財務結構改善及未來發展空間。"
+        },
+        "method": "gemini_highlight_v1",
+        "computed_from": [
+          "news_commentary_highlights"
         ]
       },
       "valid_from": "2026-08-14",
@@ -12817,33 +12817,6 @@
       "valid_until": "2026-08-15"
     },
     {
-      "id": "ai_commentary_highlight_v1__2308__2026-08-14",
-      "asset_ref": "tw_2308",
-      "category": "news",
-      "subcategory": "ai_commentary",
-      "tier": "info",
-      "actionable": false,
-      "question": "AI 解讀指出哪些重點？",
-      "answer": "AI 標出 1 個重點：net 影響：📈 偏多。",
-      "answer_short": "AI 1 個重點",
-      "explanation": "Gemini AI commentary 對長篇新聞抽取要點，適合決策前快速瀏覽。",
-      "evidence": {
-        "facts": {
-          "n_highlights": 1,
-          "highlights": [
-            "net 影響：📈 偏多"
-          ],
-          "summary": "台達電高層看好AI應用需求持續增長，並已為此進行擴產，法人評價積極，儘管有報告下修目標價，但AI相關新技術量產動能可期。"
-        },
-        "method": "gemini_highlight_v1",
-        "computed_from": [
-          "news_commentary_highlights"
-        ]
-      },
-      "valid_from": "2026-08-14",
-      "valid_until": "2026-08-15"
-    },
-    {
       "id": "ma_stack_short_v1__3017__2026-08-14",
       "asset_ref": "tw_3017",
       "category": "trend",
@@ -12898,33 +12871,6 @@
         "method": "news_cluster_window_v1",
         "computed_from": [
           "news"
-        ]
-      },
-      "valid_from": "2026-08-14",
-      "valid_until": "2026-08-15"
-    },
-    {
-      "id": "ai_commentary_highlight_v1__3017__2026-08-14",
-      "asset_ref": "tw_3017",
-      "category": "news",
-      "subcategory": "ai_commentary",
-      "tier": "info",
-      "actionable": false,
-      "question": "AI 解讀指出哪些重點？",
-      "answer": "AI 標出 1 個重點：net 影響：📈 偏多。",
-      "answer_short": "AI 1 個重點",
-      "explanation": "Gemini AI commentary 對長篇新聞抽取要點，適合決策前快速瀏覽。",
-      "evidence": {
-        "facts": {
-          "n_highlights": 1,
-          "highlights": [
-            "net 影響：📈 偏多"
-          ],
-          "summary": "奇鋐受惠於AI類股回溫，股價漲停，市場高度關注其水冷散熱技術未來發展。"
-        },
-        "method": "gemini_highlight_v1",
-        "computed_from": [
-          "news_commentary_highlights"
         ]
       },
       "valid_from": "2026-08-14",
@@ -13012,33 +12958,6 @@
         "method": "news_cluster_window_v1",
         "computed_from": [
           "news"
-        ]
-      },
-      "valid_from": "2026-08-14",
-      "valid_until": "2026-08-15"
-    },
-    {
-      "id": "ai_commentary_highlight_v1__2345__2026-08-14",
-      "asset_ref": "tw_2345",
-      "category": "news",
-      "subcategory": "ai_commentary",
-      "tier": "info",
-      "actionable": false,
-      "question": "AI 解讀指出哪些重點？",
-      "answer": "AI 標出 1 個重點：net 影響：📈 偏多。",
-      "answer_short": "AI 1 個重點",
-      "explanation": "Gemini AI commentary 對長篇新聞抽取要點，適合決策前快速瀏覽。",
-      "evidence": {
-        "facts": {
-          "n_highlights": 1,
-          "highlights": [
-            "net 影響：📈 偏多"
-          ],
-          "summary": "總結：智邦受整體市場反彈與AI相關需求帶動，股價表現強勁，未來成長動能看好。"
-        },
-        "method": "gemini_highlight_v1",
-        "computed_from": [
-          "news_commentary_highlights"
         ]
       },
       "valid_from": "2026-08-14",
@@ -13921,6 +13840,33 @@
       "valid_until": "2026-08-15"
     },
     {
+      "id": "ai_commentary_highlight_v1__1101__2026-08-14",
+      "asset_ref": "tw_1101",
+      "category": "news",
+      "subcategory": "ai_commentary",
+      "tier": "info",
+      "actionable": false,
+      "question": "AI 解讀指出哪些重點？",
+      "answer": "AI 標出 1 個重點：net 影響：📈 偏多。",
+      "answer_short": "AI 1 個重點",
+      "explanation": "Gemini AI commentary 對長篇新聞抽取要點，適合決策前快速瀏覽。",
+      "evidence": {
+        "facts": {
+          "n_highlights": 1,
+          "highlights": [
+            "net 影響：📈 偏多"
+          ],
+          "summary": "台泥成功開發具備減碳效益的水泥產品，並取得國內外認證，將有助於搶佔綠色建築市場。"
+        },
+        "method": "gemini_highlight_v1",
+        "computed_from": [
+          "news_commentary_highlights"
+        ]
+      },
+      "valid_from": "2026-08-14",
+      "valid_until": "2026-08-15"
+    },
+    {
       "id": "ma_stack_short_v1__1802__2026-08-14",
       "asset_ref": "tw_1802",
       "category": "trend",
@@ -14293,33 +14239,6 @@
       "valid_until": "2026-08-15"
     },
     {
-      "id": "ai_commentary_highlight_v1__2912__2026-08-14",
-      "asset_ref": "tw_2912",
-      "category": "news",
-      "subcategory": "ai_commentary",
-      "tier": "info",
-      "actionable": false,
-      "question": "AI 解讀指出哪些重點？",
-      "answer": "AI 標出 1 個重點：net 影響：📈 偏多。",
-      "answer_short": "AI 1 個重點",
-      "explanation": "Gemini AI commentary 對長篇新聞抽取要點，適合決策前快速瀏覽。",
-      "evidence": {
-        "facts": {
-          "n_highlights": 1,
-          "highlights": [
-            "net 影響：📈 偏多"
-          ],
-          "summary": "統一超近期表現亮眼，營收創歷史新高，並將於下個交易日進行除息。"
-        },
-        "method": "gemini_highlight_v1",
-        "computed_from": [
-          "news_commentary_highlights"
-        ]
-      },
-      "valid_from": "2026-08-14",
-      "valid_until": "2026-08-15"
-    },
-    {
       "id": "volume_profile_poc_v1__2731__2026-08-14",
       "asset_ref": "tw_2731",
       "category": "volume",
@@ -14401,33 +14320,6 @@
         "method": "news_cluster_window_v1",
         "computed_from": [
           "news"
-        ]
-      },
-      "valid_from": "2026-08-14",
-      "valid_until": "2026-08-15"
-    },
-    {
-      "id": "ai_commentary_highlight_v1__0050__2026-08-14",
-      "asset_ref": "tw_0050",
-      "category": "news",
-      "subcategory": "ai_commentary",
-      "tier": "info",
-      "actionable": false,
-      "question": "AI 解讀指出哪些重點？",
-      "answer": "AI 標出 1 個重點：Net 影響：🔄 中性。",
-      "answer_short": "AI 1 個重點",
-      "explanation": "Gemini AI commentary 對長篇新聞抽取要點，適合決策前快速瀏覽。",
-      "evidence": {
-        "facts": {
-          "n_highlights": 1,
-          "highlights": [
-            "Net 影響：🔄 中性"
-          ],
-          "summary": "0050昨日經歷劇烈震盪，雖盤中一度大漲，但最終翻黑，市場情緒仍顯複雜。"
-        },
-        "method": "gemini_highlight_v1",
-        "computed_from": [
-          "news_commentary_highlights"
         ]
       },
       "valid_from": "2026-08-14",
@@ -14579,38 +14471,11 @@
       },
       "valid_from": "2026-08-14",
       "valid_until": "2026-08-15"
-    },
-    {
-      "id": "ai_commentary_highlight_v1__00878__2026-08-14",
-      "asset_ref": "tw_00878",
-      "category": "news",
-      "subcategory": "ai_commentary",
-      "tier": "info",
-      "actionable": false,
-      "question": "AI 解讀指出哪些重點？",
-      "answer": "AI 標出 1 個重點：net 影響：🔄 中性。",
-      "answer_short": "AI 1 個重點",
-      "explanation": "Gemini AI commentary 對長篇新聞抽取要點，適合決策前快速瀏覽。",
-      "evidence": {
-        "facts": {
-          "n_highlights": 1,
-          "highlights": [
-            "net 影響：🔄 中性"
-          ],
-          "summary": "這五則新聞主要圍繞著00878的配息資訊、進場時機與投資策略進行討論。"
-        },
-        "method": "gemini_highlight_v1",
-        "computed_from": [
-          "news_commentary_highlights"
-        ]
-      },
-      "valid_from": "2026-08-14",
-      "valid_until": "2026-08-15"
     }
   ],
   "data": {
     "schema_version": "1.2.0",
-    "generated_at_utc": "2026-08-14T01:13:38Z",
+    "generated_at_utc": "2026-08-14T03:08:42Z",
     "last_updated": "2026-08-14",
     "tickers": [
       "2330",
@@ -21139,11 +21004,9 @@
           "rs_vs_market_90d": -1.097,
           "tier_30d": "strong"
         },
-        "news_commentary": "台積電在近期股市中表現強勁，股價與大盤同步飆升，屢創歷史新高。這波漲勢受惠於費半指數大漲點燃的多頭氛圍，市場對其未來成長抱持樂觀態度。然而，投資人仍需留意持股權重配置的平衡，以及國內疫情可能對經濟活動造成的潛在影響。\n\n*   **最重要偏多因素：** 費半指數強勁上漲，帶動全球半導體類股，台積電作為領頭羊受惠最大。\n*   **最重要偏空因素：** 00981A 等 ETF 對台積電持股比例偏低，可能限制其在特定投資組合中的漲幅。\n\n**net 影響：📈 偏多**",
-        "news_commentary_summary": "台積電在近期股市中表現強勁，股價與大盤同步飆升，屢創歷史新高。",
-        "news_commentary_highlights": [
-          "net 影響：📈 偏多"
-        ],
+        "news_commentary": "這五則新聞綜合來看，凸顯台積電在股市中的強勁表現與市場關注度。\n\n*   **看多因素：** 費半指數大漲點燃多頭氣氛，加上台積電本身股價暴漲、帶動台股指數創新高，顯示市場對其前景極為樂觀。\n*   **看空因素：** 台灣新冠疫情升溫造成的死亡案例，可能為整體經濟帶來不確定性，間接影響台積電的營運環境與市場信心。\n\n**Net 影響：** 📈 偏多",
+        "news_commentary_summary": "這五則新聞綜合來看，凸顯台積電在股市中的強勁表現與市場關注度。",
+        "news_commentary_highlights": [],
         "hot_rank": {
           "score": 74,
           "tier": "warm",
@@ -21389,33 +21252,6 @@
               "method": "news_cluster_window_v1",
               "computed_from": [
                 "news"
-              ]
-            },
-            "valid_from": "2026-08-14",
-            "valid_until": "2026-08-15"
-          },
-          {
-            "id": "ai_commentary_highlight_v1__2330__2026-08-14",
-            "asset_ref": "tw_2330",
-            "category": "news",
-            "subcategory": "ai_commentary",
-            "tier": "info",
-            "actionable": false,
-            "question": "AI 解讀指出哪些重點？",
-            "answer": "AI 標出 1 個重點：net 影響：📈 偏多。",
-            "answer_short": "AI 1 個重點",
-            "explanation": "Gemini AI commentary 對長篇新聞抽取要點，適合決策前快速瀏覽。",
-            "evidence": {
-              "facts": {
-                "n_highlights": 1,
-                "highlights": [
-                  "net 影響：📈 偏多"
-                ],
-                "summary": "台積電在近期股市中表現強勁，股價與大盤同步飆升，屢創歷史新高。"
-              },
-              "method": "gemini_highlight_v1",
-              "computed_from": [
-                "news_commentary_highlights"
               ]
             },
             "valid_from": "2026-08-14",
@@ -27934,8 +27770,8 @@
           "rs_vs_market_90d": 152.7685,
           "tier_30d": "strong"
         },
-        "news_commentary": "聯發科為因應長期發展需求及策略規劃，透過發行總計上限90億美元的無擔保公司債與增資子公司，籌措營運資金。此舉顯示公司對未來成長的信心與布局，但也可能增加財務負擔。\n\n*   **多方因素：** 籌措資金有助於未來發展、擴大投資與併購，強化競爭力。\n*   **空方因素：** 債務增加可能提升財務風險，並稀釋股東權益（轉換公司債）。\n\n**net 影響：** 🔄 中性",
-        "news_commentary_summary": "聯發科為因應長期發展需求及策略規劃，透過發行總計上限90億美元的無擔保公司債與增資子公司，籌措營運資金。",
+        "news_commentary": "聯發科啟動大規模募資與投資計畫。\n\n*   **多方因素：** 預期可望投入中長期發展，擴大營運版圖或研發創新。\n*   **空方因素：** 短期內可能因籌資而產生稀釋效應或資金成本壓力。\n\nNet 影響：🔄 中性 (募資規模大且多用於中長期規劃，短期影響不明朗，需觀察後續資金運用效益)。",
+        "news_commentary_summary": "聯發科啟動大規模募資與投資計畫。*   **多方因素：** 預期可望投入中長期發展，擴大營運版圖或研發創新。",
         "news_commentary_highlights": [],
         "hot_rank": {
           "score": 78,
@@ -34729,8 +34565,8 @@
           "rs_vs_market_90d": 96.6487,
           "tier_30d": "laggard"
         },
-        "news_commentary": "聯電因晶圓需求與營收成長超出預期，獲利能力改善，帶動股價表現強勁，短期技術面看好。\n\n*   **多方因素**：晶圓出貨與毛利率優於預期，評價偏低且技術面短線翻多。\n*   **空方因素**：無明顯負面消息，但需留意市場追高風險。\n\nNet 影響：📈 偏多",
-        "news_commentary_summary": "聯電因晶圓需求與營收成長超出預期，獲利能力改善，帶動股價表現強勁，短期技術面看好。",
+        "news_commentary": "聯電因晶圓需求及營收優於預期而強勢漲停，顯示市場買氣回籠，短線技術面也轉強。\n\n*   **多方因素：** 晶圓出貨與毛利率優於預期，帶動市場信心與買盤回補。\n*   **空方因素：** 評估技術面短線翻多，但中長期走勢仍需觀察基本面是否持續改善。\n\n**net 影響：** 📈 偏多",
+        "news_commentary_summary": "聯電因晶圓需求及營收優於預期而強勢漲停，顯示市場買氣回籠，短線技術面也轉強。",
         "news_commentary_highlights": [],
         "hot_rank": {
           "score": 53,
@@ -41488,8 +41324,8 @@
           "rs_vs_market_90d": 19.7005,
           "tier_30d": "laggard"
         },
-        "news_commentary": "瑞昱因調漲價格及特定應用領域的成長，有望改善獲利結構，但PC市場的壓力仍是挑戰。\n\n*   **多方因素：** Q3產品漲價有助提升毛利率，且網通、車用及AI PC等高階應用需求正向。\n*   **空方因素：** PC下半年需求承壓，傳統市場表現不佳。\n\nnet 影響：📈 偏多",
-        "news_commentary_summary": "瑞昱因調漲價格及特定應用領域的成長，有望改善獲利結構，但PC市場的壓力仍是挑戰。",
+        "news_commentary": "瑞昱預期第三季透過產品價格調整以改善獲利能力，儘管下半年PC市場需求受壓，但商用與AI PC成長可期，且網通及車用領域展望樂觀，然外資對於法說後看法存在分歧。\n\n* **多方因素：** 第三季漲價有助於毛利率改善，且網通、車用及AI PC等高成長領域具動能。\n* **空方因素：** PC整體需求下半年承壓，外資對其未來展望看法分歧。\n\nnet 影響：📈 偏多",
+        "news_commentary_summary": "瑞昱預期第三季透過產品價格調整以改善獲利能力，儘管下半年PC市場需求受壓，但商用與AI PC成長可期，且網通及車用領域展望樂觀，然外資對於法說後看法存在分歧。",
         "news_commentary_highlights": [],
         "hot_rank": {
           "score": 62,
@@ -61702,8 +61538,8 @@
           "rs_vs_market_90d": 4.3726,
           "tier_30d": "leader"
         },
-        "news_commentary": "力積電在2026年7月31日因記憶體與AI代工題材的帶動下，股價飆漲停。\n\n*   **多方因素：** 記憶體與AI代工需求強勁，帶動買盤湧入，使股價鎖漲停。\n*   **空方因素：** 雖然股價爆量漲停，但成交量主要集中在中期均線下方，可能存在洗籌碼的情況，後續能否有效突破仍待觀察。\n\nnet 影響：📈 偏多",
-        "news_commentary_summary": "力積電在2026年7月31日因記憶體與AI代工題材的帶動下，股價飆漲停。",
+        "news_commentary": "力積電今日股價表現強勁，漲停鎖死，主要受記憶體與AI代工題材激勵。\n\n*   **利多：** 記憶體產業復甦與AI晶片代工訂單需求強勁，帶動市場買氣。\n*   **利空：** 缺乏新的基本面資訊支持，漲勢可能受消息面影響較大。\n\nnet 影響：📈 偏多",
+        "news_commentary_summary": "力積電今日股價表現強勁，漲停鎖死，主要受記憶體與AI代工題材激勵。",
         "news_commentary_highlights": [],
         "hot_rank": {
           "score": 83,
@@ -75129,8 +74965,8 @@
           "rs_vs_market_90d": 82.1296,
           "tier_30d": "leader"
         },
-        "news_commentary": "大立光近期股價受短期下跌影響，儘管市場看好Sony熊本廠滿產帶來的潛在訂單利多，但這項利多是否能轉化為實質營收成長仍是未知數，權證市場則呈現波動。\n\n*   **多方因素**：Sony熊本廠滿產有望為大立光帶來潛在訂單增長。\n*   **空方因素**：近五日股價下跌逾一成，反映市場對短期營運仍有疑慮。\n\nnet 影響：🔄 中性",
-        "news_commentary_summary": "大立光近期股價受短期下跌影響，儘管市場看好Sony熊本廠滿產帶來的潛在訂單利多，但這項利多是否能轉化為實質營收成長仍是未知數，權證市場則呈現波動。",
+        "news_commentary": "大立光近期股價下跌，主要受市場短期震盪影響，但長期基本面仍有潛在利多。\n\n*   **多方因素：** Sony熊本廠滿載有利大立光供應鏈業績，權證市場交易熱絡顯示投資人關注。\n*   **空方因素：** 股價在近五個交易日跌逾一成，反映市場對短期營運的疑慮或獲利了結。\n\n**net 影響：🔄 中性** (股價短期承壓，但有長期成長動能)",
+        "news_commentary_summary": "大立光近期股價下跌，主要受市場短期震盪影響，但長期基本面仍有潛在利多。",
         "news_commentary_highlights": [],
         "hot_rank": {
           "score": 58,
@@ -81813,9 +81649,11 @@
           "rs_vs_market_90d": 17.1916,
           "tier_30d": "laggard"
         },
-        "news_commentary": "友達近期利多消息頻傳，包含獲利大增與營運展望改善，但經營階層異動可能帶來不確定性。\n\n*   多方：處分資產實現巨額獲利，營運有望轉虧為盈，市場關注未來營運模式重估。\n*   空方：總經理換人，管理層變動可能影響公司策略與執行力。\n\nnet 影響：🔄 中性偏多。",
-        "news_commentary_summary": "友達近期利多消息頻傳，包含獲利大增與營運展望改善，但經營階層異動可能帶來不確定性。",
-        "news_commentary_highlights": [],
+        "news_commentary": "友達近期處於營運轉型與獲利改善的關鍵時刻。\n\n*   多方：處分閒置資產帶來龐大業外收益，有助於公司財務結構改善及未來發展空間。\n*   空方：高層人事異動恐為短期經營帶來不確定性，市場將關注新任總經理的策略方向。\n\n**net 影響：🔄 中性**",
+        "news_commentary_summary": "友達近期處於營運轉型與獲利改善的關鍵時刻。*   多方：處分閒置資產帶來龐大業外收益，有助於公司財務結構改善及未來發展空間。",
+        "news_commentary_highlights": [
+          "net 影響：🔄 中性"
+        ],
         "hot_rank": {
           "score": 53,
           "tier": "neutral",
@@ -82087,6 +81925,33 @@
               "method": "news_cluster_window_v1",
               "computed_from": [
                 "news"
+              ]
+            },
+            "valid_from": "2026-08-14",
+            "valid_until": "2026-08-15"
+          },
+          {
+            "id": "ai_commentary_highlight_v1__2409__2026-08-14",
+            "asset_ref": "tw_2409",
+            "category": "news",
+            "subcategory": "ai_commentary",
+            "tier": "info",
+            "actionable": false,
+            "question": "AI 解讀指出哪些重點？",
+            "answer": "AI 標出 1 個重點：net 影響：🔄 中性。",
+            "answer_short": "AI 1 個重點",
+            "explanation": "Gemini AI commentary 對長篇新聞抽取要點，適合決策前快速瀏覽。",
+            "evidence": {
+              "facts": {
+                "n_highlights": 1,
+                "highlights": [
+                  "net 影響：🔄 中性"
+                ],
+                "summary": "友達近期處於營運轉型與獲利改善的關鍵時刻。*   多方：處分閒置資產帶來龐大業外收益，有助於公司財務結構改善及未來發展空間。"
+              },
+              "method": "gemini_highlight_v1",
+              "computed_from": [
+                "news_commentary_highlights"
               ]
             },
             "valid_from": "2026-08-14",
@@ -88546,8 +88411,8 @@
           "rs_vs_market_90d": 0.1239,
           "tier_30d": "neutral"
         },
-        "news_commentary": "鴻海近期在多重利好因素帶動下，股價表現強勢，儘管蘋果股價重挫，市場仍看好鴻海在電動車與半導體等新事業的成長潛力。\n\n*   **多方因素：** 鴻海小金雞增資抽籤反應熱絡，以及鴻海千億股息資金活水效應，為集團及其概念股帶來資金動能，提振市場信心。\n*   **空方因素：** 蘋果股價大幅下跌，可能對鴻海主要營收來源的未來展望造成不確定性，需觀察後續影響。\n\nnet 影響：📈 偏多",
-        "news_commentary_summary": "鴻海近期在多重利好因素帶動下，股價表現強勢，儘管蘋果股價重挫，市場仍看好鴻海在電動車與半導體等新事業的成長潛力。",
+        "news_commentary": "鴻海近期因蘋果股價震盪、小金雞增資及高額股息派發等多重因素影響，市場資金活絡，股價表現強勁。\n\n*   **多方：** 鴻海高額股息發放引發市場資金追捧，加上小金雞增資具潛在收益，推升股價上揚。\n*   **空方：** 蘋果股價大幅下跌，可能對身為供應鏈的鴻海未來營收產生負面壓力。\n\n**net 影響：** 📈 偏多",
+        "news_commentary_summary": "鴻海近期因蘋果股價震盪、小金雞增資及高額股息派發等多重因素影響，市場資金活絡，股價表現強勁。",
         "news_commentary_highlights": [],
         "hot_rank": {
           "score": 60,
@@ -95335,8 +95200,8 @@
           "rs_vs_market_90d": -21.3919,
           "tier_30d": "laggard"
         },
-        "news_commentary": "廣達近期因發行GDR引發市場震盪，儘管籌資有助拓展AI相關業務，但折價發行與資訊不透明引發台灣投資人疑慮。同時，集團重掌友達華亞廠則展現產業整合的野心。\n\n*   **多方因素：** 透過發行GDR籌資將強化廣達在AI伺服器及新興科技領域的投資佈局，未來發展潛力可期。\n*   **空方因素：** GDR折價發行引發股價下跌，且資訊揭露不對稱影響台灣投資人權益，可能短期內對股價造成壓力。\n\nnet 影響：🔄 中性偏空 (短期內)",
-        "news_commentary_summary": "廣達近期因發行GDR引發市場震盪，儘管籌資有助拓展AI相關業務，但折價發行與資訊不透明引發台灣投資人疑慮。",
+        "news_commentary": "廣達透過發行GDR募集資金，用於AI產業發展與擴大集團版圖，但其折價發行與資訊揭露問題引發市場疑慮。\n\n*   **多方因素：** 廣達發行GDR將取得充裕資金投入AI發展，並透過回購友達華亞廠擴大集團垂直整合能力。\n*   **空方因素：** GDR發行折價造成股價壓力，且資訊揭露不透明引發市場對公司治理的質疑。\n\nnet 影響：🔄 中性",
+        "news_commentary_summary": "廣達透過發行GDR募集資金，用於AI產業發展與擴大集團版圖，但其折價發行與資訊揭露問題引發市場疑慮。",
         "news_commentary_highlights": [],
         "hot_rank": {
           "score": 61,
@@ -102083,8 +101948,8 @@
           "rs_vs_market_90d": 36.9603,
           "tier_30d": "leader"
         },
-        "news_commentary": "技嘉受惠於輝達顯卡漲價，營運展望看好。\n\n*   **多方因素：** 輝達顯卡漲價三成，技嘉產品毛利與營收有望顯著提升。\n*   **空方因素：** 尚無明確空方因素，但需留意市場競爭與產品銷售策略。\n\nnet 影響：📈 偏多",
-        "news_commentary_summary": "技嘉受惠於輝達顯卡漲價，營運展望看好。*   **多方因素：** 輝達顯卡漲價三成，技嘉產品毛利與營收有望顯著提升。",
+        "news_commentary": "技嘉受惠NVIDIA顯示卡價格上漲，營收有望提升，加上推動品牌行銷活動，鞏固市場地位。\n\n*   **多方因素：** NVIDIA顯卡漲價，技嘉身為合作夥伴，營收與獲利可望受惠。\n*   **空方因素：** 目前新聞未提及顯著空方因素，但需留意市場競爭與消費者接受度。\n\n**Net 影響：** 📈 偏多",
+        "news_commentary_summary": "技嘉受惠NVIDIA顯示卡價格上漲，營收有望提升，加上推動品牌行銷活動，鞏固市場地位。",
         "news_commentary_highlights": [],
         "hot_rank": {
           "score": 68,
@@ -115564,8 +115429,8 @@
           "rs_vs_market_90d": 21.9726,
           "tier_30d": "leader"
         },
-        "news_commentary": "緯創今日股價漲停，主要受惠於AI布局與智慧工廠利多題材，以及法人買盤支撐，儘管股利發放因作業疏失延後。\n\n*   **多方因素：** AI算力與智慧工廠發展前景看好，法人持續買超。\n*   **空方因素：** 股利延發可能影響部分投資人情緒，短期追高風險。\n\nnet 影響：📈 偏多",
-        "news_commentary_summary": "緯創今日股價漲停，主要受惠於AI布局與智慧工廠利多題材，以及法人買盤支撐，儘管股利發放因作業疏失延後。",
+        "news_commentary": "緯創因AI算力佈局和智慧工廠題材而股價漲停，但股利發放卻因股務系統疏失延遲。\n\n*   **多方因素：** AI算力與智慧工廠業務前景看好，法人與主力買盤支撐股價。\n*   **空方因素：** 股利延遲發放，可能影響部分股東短期資金運用。\n\n**net 影響：** 📈 偏多",
+        "news_commentary_summary": "緯創因AI算力佈局和智慧工廠題材而股價漲停，但股利發放卻因股務系統疏失延遲。",
         "news_commentary_highlights": [],
         "hot_rank": {
           "score": 71,
@@ -122225,8 +122090,8 @@
           "rs_vs_market_90d": -14.0889,
           "tier_30d": "leader"
         },
-        "news_commentary": "和碩成功打入超微AI伺服器供應鏈，有望受惠代理式AI需求，但近期股價反彈缺乏成交量，市場有拉高出貨疑慮。\n\n*   **多方因素：** 成功切入超微AI伺服器供應鏈，具備AI商機成長潛力。\n*   **空方因素：** 股價反彈缺乏量能支撐，市場存在短期獲利了結或出貨風險。\n\n**net 影響：** 🔄 中性",
-        "news_commentary_summary": "和碩成功打入超微AI伺服器供應鏈，有望受惠代理式AI需求，但近期股價反彈缺乏成交量，市場有拉高出貨疑慮。",
+        "news_commentary": "和碩在AI伺服器領域尋求成長，但市場對其股價走勢持謹慎態度。\n\n*   **多方因素：** 成功切入超微AI伺服器供應鏈，有望受惠於代理式AI商機。\n*   **空方因素：** 股價反彈卻無量能支撐，市場擔憂有拉高出貨的可能性。\n\n**net 影響：** 🔄 中性 (新業務帶來潛在利好，但短期技術面存在風險。)",
+        "news_commentary_summary": "和碩在AI伺服器領域尋求成長，但市場對其股價走勢持謹慎態度。",
         "news_commentary_highlights": [],
         "hot_rank": {
           "score": 75,
@@ -135687,8 +135552,8 @@
           "rs_vs_market_90d": 80.1377,
           "tier_30d": "leader"
         },
-        "news_commentary": "研華第二季獲利表現亮眼，創下歷史新高，主要受惠於AI應用加速落地，公司對此趨勢展望樂觀。\n\n*   **多方因素：**\n    *   第二季EPS年增126%，創歷史單季新高，顯示營運成長動能強勁。\n    *   AI應用已落地且逐漸普及，有助於研華營收持續成長，與2000年網路泡沫時期應用尚未成熟的情況不同。\n*   **空方因素：**\n    *   若AI應用發展不如預期，或市場競爭加劇，可能影響未來獲利。\n\nnet 影響：📈 偏多",
-        "news_commentary_summary": "研華第二季獲利表現亮眼，創下歷史新高，主要受惠於AI應用加速落地，公司對此趨勢展望樂觀。",
+        "news_commentary": "這幾則新聞主要圍繞在研華最新的財報表現以及對未來AI市場的展望。\n\n研華第二季獲利表現亮眼，AI應用潛力可期，但需注意未來市場發展的持續性。\n\n*   **利多因素：** 研華第二季EPS年增126%，創歷史單季新高，顯示公司營運狀況極佳，成長動能強勁；此外，AI應用已逐漸落地，而非純粹概念，為研華帶來新的成長機會。\n*   **利空因素：** 市場對AI發展是否會重演網路泡沫仍存有疑慮，雖然目前應用已出現，但未來成長速度與幅度仍需觀察。\n\nnet 影響：📈 偏多",
+        "news_commentary_summary": "這幾則新聞主要圍繞在研華最新的財報表現以及對未來AI市場的展望。",
         "news_commentary_highlights": [],
         "hot_rank": {
           "score": 65,
@@ -142427,8 +142292,8 @@
           "rs_vs_market_90d": -19.6193,
           "tier_30d": "laggard"
         },
-        "news_commentary": "神基將舉辦法人說明會，說明公司營運狀況。\n\n*   **多方因素：** 提供法人了解公司未來發展與潛力，有助於提振市場信心。\n*   **空方因素：** 若法說會內容不如預期，可能引發市場疑慮。\n\n**net 影響：** 🔄 中性 (法說會本身是中性事件，實際影響取決於內容)",
-        "news_commentary_summary": "神基將舉辦法人說明會，說明公司營運狀況。*   **多方因素：** 提供法人了解公司未來發展與潛力，有助於提振市場信心。",
+        "news_commentary": "神基將透過法說會向投資者說明公司營運近況與未來展望。\n\n*   **利多因素：** 舉辦法人說明會提供公司與投資人直接溝通的機會，有助於提振市場信心。\n*   **多空未明：** 會議內容與公司未來規劃將是關鍵，需待法說會後才能評估其影響。\n\n**net 影響：** 🔄 中性",
+        "news_commentary_summary": "神基將透過法說會向投資者說明公司營運近況與未來展望。*   **利多因素：** 舉辦法人說明會提供公司與投資人直接溝通的機會，有助於提振市場信心。",
         "news_commentary_highlights": [],
         "hot_rank": {
           "score": 47,
@@ -149162,11 +149027,9 @@
           "rs_vs_market_90d": -3.8092,
           "tier_30d": "laggard"
         },
-        "news_commentary": "台達電高層看好AI應用需求持續增長，並已為此進行擴產，法人評價積極，儘管有報告下修目標價，但AI相關新技術量產動能可期。\n\n*   **多方因素：** 公司高層明確指出AI需求具備中長期動能，並已啟動擴產以應對，且AI新科技產品預計下半年量產。\n*   **空方因素：** 儘管法人普遍看多，但有報告下修目標價，顯示部分法人對短期展望或有疑慮。\n\n**net 影響：📈 偏多**",
-        "news_commentary_summary": "台達電高層看好AI應用需求持續增長，並已為此進行擴產，法人評價積極，儘管有報告下修目標價，但AI相關新技術量產動能可期。",
-        "news_commentary_highlights": [
-          "net 影響：📈 偏多"
-        ],
+        "news_commentary": "台達電受惠於AI伺服器需求強勁，公司正積極擴產以滿足中長期市場增長，儘管單季EPS創新高，但部分法人下修目標價，不過看好AI黑科技產品量產將為營運注入新動能。\n\n*   **利多：** AI伺服器需求持續成長，帶動電源供應器及散熱方案出貨，且公司積極擴產因應。\n*   **利空：** 部分法人下修目標價，顯示對未來獲利成長速度可能存在部分疑慮。\n\nnet 影響：📈 偏多",
+        "news_commentary_summary": "台達電受惠於AI伺服器需求強勁，公司正積極擴產以滿足中長期市場增長，儘管單季EPS創新高，但部分法人下修目標價，不過看好AI黑科技產品量產將為營運注入新動能。",
+        "news_commentary_highlights": [],
         "hot_rank": {
           "score": 72,
           "tier": "warm",
@@ -149493,33 +149356,6 @@
               "method": "news_cluster_window_v1",
               "computed_from": [
                 "news"
-              ]
-            },
-            "valid_from": "2026-08-14",
-            "valid_until": "2026-08-15"
-          },
-          {
-            "id": "ai_commentary_highlight_v1__2308__2026-08-14",
-            "asset_ref": "tw_2308",
-            "category": "news",
-            "subcategory": "ai_commentary",
-            "tier": "info",
-            "actionable": false,
-            "question": "AI 解讀指出哪些重點？",
-            "answer": "AI 標出 1 個重點：net 影響：📈 偏多。",
-            "answer_short": "AI 1 個重點",
-            "explanation": "Gemini AI commentary 對長篇新聞抽取要點，適合決策前快速瀏覽。",
-            "evidence": {
-              "facts": {
-                "n_highlights": 1,
-                "highlights": [
-                  "net 影響：📈 偏多"
-                ],
-                "summary": "台達電高層看好AI應用需求持續增長，並已為此進行擴產，法人評價積極，儘管有報告下修目標價，但AI相關新技術量產動能可期。"
-              },
-              "method": "gemini_highlight_v1",
-              "computed_from": [
-                "news_commentary_highlights"
               ]
             },
             "valid_from": "2026-08-14",
@@ -155979,11 +155815,9 @@
           "rs_vs_market_90d": 18.962,
           "tier_30d": "leader"
         },
-        "news_commentary": "奇鋐受惠於AI類股回溫，股價漲停，市場高度關注其水冷散熱技術未來發展。\n\n*   **多方因素**：AI伺服器水冷散熱需求強勁，市場預期奇鋐能從中受惠。\n*   **空方因素**：漲停反映短期技術性買盤，後續行情需觀察水冷滲透率及資本支出是否能持續。\n\n**net 影響：📈 偏多**",
-        "news_commentary_summary": "奇鋐受惠於AI類股回溫，股價漲停，市場高度關注其水冷散熱技術未來發展。",
-        "news_commentary_highlights": [
-          "net 影響：📈 偏多"
-        ],
+        "news_commentary": "奇鋐受惠於AI類股反彈，股價創高，水冷散熱技術未來發展性備受看好。\n\n* **利多：** AI伺服器水冷散熱題材激發買盤，市場預期奇鋐在AI散熱領域的價值將重新被評估。\n* **利空：** 短線技術面出現空頭抵抗，股價後續動能需觀察水冷佔比提升及資本支出續航力。\n\n**net 影響：** 📈 偏多",
+        "news_commentary_summary": "奇鋐受惠於AI類股反彈，股價創高，水冷散熱技術未來發展性備受看好。",
+        "news_commentary_highlights": [],
         "hot_rank": {
           "score": 63,
           "tier": "warm",
@@ -156254,33 +156088,6 @@
               "method": "news_cluster_window_v1",
               "computed_from": [
                 "news"
-              ]
-            },
-            "valid_from": "2026-08-14",
-            "valid_until": "2026-08-15"
-          },
-          {
-            "id": "ai_commentary_highlight_v1__3017__2026-08-14",
-            "asset_ref": "tw_3017",
-            "category": "news",
-            "subcategory": "ai_commentary",
-            "tier": "info",
-            "actionable": false,
-            "question": "AI 解讀指出哪些重點？",
-            "answer": "AI 標出 1 個重點：net 影響：📈 偏多。",
-            "answer_short": "AI 1 個重點",
-            "explanation": "Gemini AI commentary 對長篇新聞抽取要點，適合決策前快速瀏覽。",
-            "evidence": {
-              "facts": {
-                "n_highlights": 1,
-                "highlights": [
-                  "net 影響：📈 偏多"
-                ],
-                "summary": "奇鋐受惠於AI類股回溫，股價漲停，市場高度關注其水冷散熱技術未來發展。"
-              },
-              "method": "gemini_highlight_v1",
-              "computed_from": [
-                "news_commentary_highlights"
               ]
             },
             "valid_from": "2026-08-14",
@@ -162740,11 +162547,9 @@
           "rs_vs_market_90d": 7.1399,
           "tier_30d": "laggard"
         },
-        "news_commentary": "總結：智邦受整體市場反彈與AI相關需求帶動，股價表現強勁，未來成長動能看好。\n\n*   **多方因素**：受惠於大盤反彈及機器人、800G交換器出貨擴大，加上1.6T交換器將接續量產，營收成長潛力大。\n*   **空方因素**：新聞中未明確指出空方因素，但股價跳空漲停後續可能面臨獲利了結賣壓。\n\n**net 影響：📈 偏多**",
-        "news_commentary_summary": "總結：智邦受整體市場反彈與AI相關需求帶動，股價表現強勁，未來成長動能看好。",
-        "news_commentary_highlights": [
-          "net 影響：📈 偏多"
-        ],
+        "news_commentary": "智邦受惠於市場樂觀情緒及自身產品技術領先，股價表現強勁。\n\n*   **多方因素：** 800G交換器出貨擴大，1.6T交換器即將量產，顯示公司在高速網路設備市場具領先地位與成長潛力。\n*   **空方因素：** 報導未提及具體空方資訊，但大盤反彈有時僅為短期現象，公司基本面仍需持續關注。\n\nnet 影響：📈 偏多",
+        "news_commentary_summary": "智邦受惠於市場樂觀情緒及自身產品技術領先，股價表現強勁。*   **多方因素：** 800G交換器出貨擴大，1.",
+        "news_commentary_highlights": [],
         "hot_rank": {
           "score": 43,
           "tier": "neutral",
@@ -163039,33 +162844,6 @@
               "method": "news_cluster_window_v1",
               "computed_from": [
                 "news"
-              ]
-            },
-            "valid_from": "2026-08-14",
-            "valid_until": "2026-08-15"
-          },
-          {
-            "id": "ai_commentary_highlight_v1__2345__2026-08-14",
-            "asset_ref": "tw_2345",
-            "category": "news",
-            "subcategory": "ai_commentary",
-            "tier": "info",
-            "actionable": false,
-            "question": "AI 解讀指出哪些重點？",
-            "answer": "AI 標出 1 個重點：net 影響：📈 偏多。",
-            "answer_short": "AI 1 個重點",
-            "explanation": "Gemini AI commentary 對長篇新聞抽取要點，適合決策前快速瀏覽。",
-            "evidence": {
-              "facts": {
-                "n_highlights": 1,
-                "highlights": [
-                  "net 影響：📈 偏多"
-                ],
-                "summary": "總結：智邦受整體市場反彈與AI相關需求帶動，股價表現強勁，未來成長動能看好。"
-              },
-              "method": "gemini_highlight_v1",
-              "computed_from": [
-                "news_commentary_highlights"
               ]
             },
             "valid_from": "2026-08-14",
@@ -169525,8 +169303,8 @@
           "rs_vs_market_90d": -29.2077,
           "tier_30d": "leader"
         },
-        "news_commentary": "綜合考量後，長榮近期面臨多空交織的市場環境。\n\n一句總結：航運市場運力持續增長，運價雖有波動但部分航線仍具支撐。\n\n*   **多方因素：** SCFI指數終止下跌並在北美線出現顯著漲幅，顯示部分航線需求強勁或運力供給緊張。\n*   **空方因素：** WCI指數下跌3%，整體運價面臨壓力；全球貨櫃航商運力持續增加，可能稀釋未來運價成長空間。\n\n**net 影響：** 🔄 中性",
-        "news_commentary_summary": "綜合考量後，長榮近期面臨多空交織的市場環境。一句總結：航運市場運力持續增長，運價雖有波動但部分航線仍具支撐。",
+        "news_commentary": "長榮近期營運訊息複雜，航運費率波動是關注焦點。\n\n*   **利多因素：** SCFI指數止跌回升，北美線運價大漲，顯示部分航線需求增溫。\n*   **利空因素：** WCI指數持續下跌，且貨櫃航商整體運力仍穩定增加，供給壓力仍在。\n\nnet 影響：🔄 中性偏多",
+        "news_commentary_summary": "長榮近期營運訊息複雜，航運費率波動是關注焦點。*   **利多因素：** SCFI指數止跌回升，北美線運價大漲，顯示部分航線需求增溫。",
         "news_commentary_highlights": [],
         "hot_rank": {
           "score": 75,
@@ -189629,8 +189407,8 @@
           "rs_vs_market_90d": -18.317,
           "tier_30d": "laggard"
         },
-        "news_commentary": "長榮航近期受惠於新台幣升值、外資買超以及全球旅遊需求暢旺，展望樂觀。\n\n*   **利多：** 新台幣升值降低燃油成本，外資買超顯示市場看好其價值。\n*   **利多：** 全球慶典活動帶動觀光潮，有利航空業營收增長。\n\nnet 影響：📈 偏多",
-        "news_commentary_summary": "長榮航近期受惠於新台幣升值、外資買超以及全球旅遊需求暢旺，展望樂觀。",
+        "news_commentary": "長榮航受益於外資青睞、新台幣升值、以及國際大型活動帶動的旅遊需求，後市看好。\n\n*   多頭因素：外資買超、新台幣升值有利降低燃油成本與外幣負債、國際慶典活動推升觀光旅遊需求。\n*   空頭因素：目前新聞未見明顯空頭因素。\n\nnet 影響：📈 偏多",
+        "news_commentary_summary": "長榮航受益於外資青睞、新台幣升值、以及國際大型活動帶動的旅遊需求，後市看好。",
         "news_commentary_highlights": [],
         "hot_rank": {
           "score": 37,
@@ -196314,8 +196092,8 @@
           "rs_vs_market_90d": -25.1878,
           "tier_30d": "laggard"
         },
-        "news_commentary": "華航獲外資青睞且券商給予看多評級，顯示市場對其前景樂觀。\n\n* **多方：** 外資持續買超，且有券商評估目標價上看26元，顯示市場對其營運前景有信心。\n* **空方：** 新聞內容未提及負面因素。\n\n**net 影響：** 📈 偏多",
-        "news_commentary_summary": "華航獲外資青睞且券商給予看多評級，顯示市場對其前景樂觀。* **多方：** 外資持續買超，且有券商評估目標價上看26元，顯示市場對其營運前景有信心。",
+        "news_commentary": "華航今日受外資青睞買超，並獲券商看多評等，目標價達26元。\n\n* **多方因素：** 外資買超顯示市場信心增強，券商看多評等及目標價提供利多指引。\n* **空方因素：** 資訊有限，未提及潛在負面因素，需觀察後續基本面變化。\n\n**net 影響：** 📈 偏多",
+        "news_commentary_summary": "華航今日受外資青睞買超，並獲券商看多評等，目標價達26元。* **多方因素：** 外資買超顯示市場信心增強，券商看多評等及目標價提供利多指引。",
         "news_commentary_highlights": [],
         "hot_rank": {
           "score": 33,
@@ -216352,8 +216130,8 @@
           "rs_vs_market_90d": -19.6087,
           "tier_30d": "leader"
         },
-        "news_commentary": "玉山金在整體金融市場不穩下仍能展現成長動能，特別是受惠於定期定額買盤青睞，使其成為市場資金焦點，儘管股價已創新高，短期風險與長期發展潛力並存。\n\n*   **多方因素：** 玉山金受定期定額投資人青睞，擠下兆豐金成為冠軍，顯示其穩健性及投資吸引力。\n*   **空方因素：** 儘管股價創新高，高齡化與產業轉型帶來的「四貸同堂」風險，可能影響未來營運。\n\n**net 影響：** 📈 偏多",
-        "news_commentary_summary": "玉山金在整體金融市場不穩下仍能展現成長動能，特別是受惠於定期定額買盤青睞，使其成為市場資金焦點，儘管股價已創新高，短期風險與長期發展潛力並存。",
+        "news_commentary": "玉山金控近期在金融市場表現亮眼，資金熱度高，定期定額買入金額超越同業，股價屢創新高，顯示其在經營策略上的成功與投資人的青睞。\n\n*   **利多：** 定期定額投資金額領先同業，股價創高，顯示市場看好其成長潛力與經營績效。\n*   **利空：** 潛在的「四貸同堂」風險可能影響資產品質，需持續關注。\n\nnet 影響：📈 偏多",
+        "news_commentary_summary": "玉山金控近期在金融市場表現亮眼，資金熱度高，定期定額買入金額超越同業，股價屢創新高，顯示其在經營策略上的成功與投資人的青睞。",
         "news_commentary_highlights": [],
         "hot_rank": {
           "score": 47,
@@ -223059,8 +222837,8 @@
           "rs_vs_market_90d": 10.7279,
           "tier_30d": "strong"
         },
-        "news_commentary": "富邦金控積極拓展高資產客群業務，並配合監理新制提升營運效率，獲得三大法人同步買超青睞。\n\n* **多方因素：** 拓展高資產服務，可望提升手續費收益與獲利能力；新制上路有助於優化資本配置。\n* **空方因素：** 股市爆料同學會的討論多為短線觀察與法人操作，缺乏長期基本面深度分析。\n\n**net 影響：** 📈 偏多",
-        "news_commentary_summary": "富邦金控積極拓展高資產客群業務，並配合監理新制提升營運效率，獲得三大法人同步買超青睞。",
+        "news_commentary": "富邦金控積極拓展高淨值客群業務，並受惠於新制上路與法人買超。\n\n*   **利多：** 拓展高資產服務，有助於提升獲利能力；三大法人同步買超，顯示市場信心。\n*   **利空：** 新聞未提及明顯負面因素。\n\n**net 影響：** 📈 偏多",
+        "news_commentary_summary": "富邦金控積極拓展高淨值客群業務，並受惠於新制上路與法人買超。",
         "news_commentary_highlights": [],
         "hot_rank": {
           "score": 61,
@@ -229764,8 +229542,8 @@
           "rs_vs_market_90d": 22.6641,
           "tier_30d": "leader"
         },
-        "news_commentary": "凱發金控策略性調整獲利來源，強化資本緩衝，同時在外資買超榜上佔據一席之地，顯示市場對其前景抱持一定信心。然而，下週股市走向仍需觀察其與鴻海等指標股的表現。\n\n* **多方因素：** 凱發金調整收益結構，增強緩衝，有助提升財務穩健度；外資買超，顯示市場對其信心。\n* **空方因素：** 市場對其未來走勢仍持觀望態度，表現受美股及其他權值股影響。\n\nnet 影響：🔄 中性",
-        "news_commentary_summary": "凱發金控策略性調整獲利來源，強化資本緩衝，同時在外資買超榜上佔據一席之地，顯示市場對其前景抱持一定信心。",
+        "news_commentary": "凱基銀行透過收益結構調整，並增列大額外匯價格準備金，強化其風險緩衝能力。\n\n*   **利多因素：** 增列外匯價格準備金顯示公司對未來風險的審慎評估與準備，有助於提升財務穩健性，可能降低潛在匯率波動帶來的衝擊。\n*   **利空因素：** 雖然新聞提到外資買超凱基金，但若美股與台指期夜盤走勢不佳，可能影響其下週一的股價表現。\n\nnet 影響：📈 偏多",
+        "news_commentary_summary": "凱基銀行透過收益結構調整，並增列大額外匯價格準備金，強化其風險緩衝能力。",
         "news_commentary_highlights": [],
         "hot_rank": {
           "score": 73,
@@ -236405,8 +236183,8 @@
           "rs_vs_market_90d": -33.3018,
           "tier_30d": "laggard"
         },
-        "news_commentary": "合庫金上半年獲利成長顯著，且法人買超助攻股價，永續發展亦獲肯定。\n\n* **利多：** 上半年每股盈餘年增三成，獲利表現亮眼。\n* **利多：** 三大法人連續買超合庫金，顯示市場信心與資金動能。\n\n**net 影響：** 📈 偏多",
-        "news_commentary_summary": "合庫金上半年獲利成長顯著，且法人買超助攻股價，永續發展亦獲肯定。",
+        "news_commentary": "合庫金控上半年獲利成長亮眼，獲法人青睞持續買超，且積極投入永續金融，展現長期發展潛力。\n\n*   **利多：** 上半年EPS年增三成，基本面表現強勁；三大法人連續加碼買進，顯示市場看好其後市。\n*   **利多：** 深化永續金融並獲得多項殊榮，有助提升企業形象及ESG投資吸引力。\n\nnet 影響：📈 偏多",
+        "news_commentary_summary": "合庫金控上半年獲利成長亮眼，獲法人青睞持續買超，且積極投入永續金融，展現長期發展潛力。",
         "news_commentary_highlights": [],
         "hot_rank": {
           "score": 35,
@@ -249815,8 +249593,8 @@
           "rs_vs_market_90d": -34.1349,
           "tier_30d": "laggard"
         },
-        "news_commentary": "中華電信近期積極拓展多元業務，並持續深耕數位服務領域。\n\n* **利多：** 參與證交所遠端備援中心建置，顯示中華電在基礎建設及資安領域的實力與重要性，有助於未來拓展企業級客戶合作。\n* **利多：** 積極投入全國技能競賽，藉由數位技術體驗站強化品牌形象，提升年輕世代對其數位科技應用的認知，有助於未來人才招募與市場拓展。\n\nnet 影響：📈 偏多",
-        "news_commentary_summary": "中華電信近期積極拓展多元業務，並持續深耕數位服務領域。* **利多：** 參與證交所遠端備援中心建置，顯示中華電在基礎建設及資安領域的實力與重要性，有助於未來拓展企業級客戶合作。",
+        "news_commentary": "中華電信近期積極拓展市場多元業務，並透過參與大型活動提升品牌形象，顯示公司發展企圖心。\n\n*   **多方因素：** 協助證交所建置遠端備援中心，展現資通訊專業實力，鞏固企業客戶合作關係，有利未來拓展政企客戶市場。\n*   **空方因素：** 參與技能競賽設置體驗站，主要為品牌形象宣傳，短期內對營收獲利無直接貢獻。\n\n**net 影響：** 📈 偏多",
+        "news_commentary_summary": "中華電信近期積極拓展市場多元業務，並透過參與大型活動提升品牌形象，顯示公司發展企圖心。",
         "news_commentary_highlights": [],
         "hot_rank": {
           "score": 42,
@@ -263106,8 +262884,8 @@
           "rs_vs_market_90d": -36.5406,
           "tier_30d": "laggard"
         },
-        "news_commentary": "台灣大哥大在行動網路表現亮眼並積極拓展數位閱讀市場，同時也考慮透過併購凱擘來擴大事業版圖。這些動作顯示公司在既有電信業務上持續強化，並積極尋求多元發展的機會。\n\n*   **多方因素：** 行動網路領先地位及數位閱讀用戶高速成長，鞏固核心業務並開拓新營收來源。\n*   **空方因素：** 併購案的資金需求及整合風險，可能影響短期財務表現或營運策略。\n\n**Net 影響：** 📈 偏多",
-        "news_commentary_summary": "台灣大哥大在行動網路表現亮眼並積極拓展數位閱讀市場，同時也考慮透過併購凱擘來擴大事業版圖。",
+        "news_commentary": "綜合這五則新聞，台灣大近期在多個領域展現積極發展與成長動能。\n\n總結：台灣大在行動網路表現優異，數位閱讀業務顯著增長，同時也正評估有線電視系統商的併購案。\n\n*   多頭因素：行動網路品質領先市場，有助於維持及吸引用戶；數位內容訂戶大幅成長，顯示轉型有成且帶來新的營收來源。\n*   空頭因素：併購凱擘可能帶來龐大的資金壓力與整合挑戰，短期內對財務狀況及營運效率構成不確定性。\n\nNet 影響：📈 偏多",
+        "news_commentary_summary": "綜合這五則新聞，台灣大近期在多個領域展現積極發展與成長動能。",
         "news_commentary_highlights": [],
         "hot_rank": {
           "score": 33,
@@ -269737,8 +269515,8 @@
           "rs_vs_market_90d": -10.3551,
           "tier_30d": "weak"
         },
-        "news_commentary": "台塑近期股價表現不佳，外資大幅賣超，儘管有部分個股漲停，台塑仍處於腰斬以下。\n\n*   **多方因素：** 雖台塑股價低迷，但仍有潛在反彈機會，市場對部分個股的熱情顯示資金流動。\n*   **空方因素：** 外資持續大舉賣超，顯示其對台塑未來前景持負面看法，對股價形成沉重壓力。\n\n**Net 影響：** 📉 偏空",
-        "news_commentary_summary": "台塑近期股價表現不佳，外資大幅賣超，儘管有部分個股漲停，台塑仍處於腰斬以下。",
+        "news_commentary": "台塑近期股價表現相對疲弱，雖偶有反彈，但受制於整體市場趨勢與外資賣壓。\n\n*   **多方因素：** 近期部分時段股價出現漲停，顯示有資金嘗試拉抬或短線買盤介入。\n*   **空方因素：** 外資連續賣超且股價仍處於高點腰斬以下，顯示投資人信心不足且籌碼面偏弱。\n\nNet 影響：📉 偏空",
+        "news_commentary_summary": "台塑近期股價表現相對疲弱，雖偶有反彈，但受制於整體市場趨勢與外資賣壓。",
         "news_commentary_highlights": [],
         "hot_rank": {
           "score": 70,
@@ -276467,8 +276245,8 @@
           "rs_vs_market_90d": 109.5088,
           "tier_30d": "laggard"
         },
-        "news_commentary": "總結：南亞因6月亮眼獲利表現及未來展望佳，帶動股價大幅上揚。\n\n*   多方因素：6月單月每股盈餘（EPS）高達2.88元，遠超預期；法人預估全年EPS有望達到12元，顯示營運前景樂觀，且AI電子材料題材為其帶來成長動能。\n*   空方因素：雖然獲利強勁，但短線股價已累積漲幅，且前期籌碼可能存在偏空情況，多空雙方力量持續拉鋸，股價上漲空間可能受限。\n\nnet 影響：📈 偏多",
-        "news_commentary_summary": "總結：南亞因6月亮眼獲利表現及未來展望佳，帶動股價大幅上揚。",
+        "news_commentary": "南亞因優異獲利和產業利多推升股價漲停。\n\n*   **多方因素：** 六月單月每股盈餘表現亮眼，創下歷史新高，且受惠於AI電子材料題材，為未來營收成長帶來想像空間。法人預估全年EPS上看12元，顯示對公司營運前景樂觀。\n*   **空方因素：** 短線股價漲幅較大，且籌碼面曾有偏空情況，可能引發部分獲利了結賣壓，導致多空拉鋸。\n\nnet 影響：📈 偏多",
+        "news_commentary_summary": "南亞因優異獲利和產業利多推升股價漲停。*   **多方因素：** 六月單月每股盈餘表現亮眼，創下歷史新高，且受惠於AI電子材料題材，為未來營收成長帶來想像空間。",
         "news_commentary_highlights": [],
         "hot_rank": {
           "score": 59,
@@ -283224,8 +283002,8 @@
           "rs_vs_market_90d": -3.2581,
           "tier_30d": "weak"
         },
-        "news_commentary": "台化近期股價表現疲弱，受大盤走勢與市場情緒影響，投資人對其前景看法分歧。\n\n*   **多方因素：** 股價跌深後技術指標KD值過低，或有反彈空間。\n*   **空方因素：** 股價未隨大盤強勁反彈，且有法人土洋對作情況，顯示市場對其基本面存在疑慮。\n\nnet 影響：🔄 中性",
-        "news_commentary_summary": "台化近期股價表現疲弱，受大盤走勢與市場情緒影響，投資人對其前景看法分歧。",
+        "news_commentary": "台化近期股價表現低迷，投資人情緒悲觀，質疑公司營運狀況。\n\n*   **多方因素：** 目前無明顯多方資訊，僅有投資人對股價跌深反彈的期待。\n*   **空方因素：** 股價持續下跌，技術指標呈現弱勢，且大盤反彈時台化股價卻未跟上，顯示基本面或市場信心存在問題。\n\n**net 影響：** 📉 偏空",
+        "news_commentary_summary": "台化近期股價表現低迷，投資人情緒悲觀，質疑公司營運狀況。*   **多方因素：** 目前無明顯多方資訊，僅有投資人對股價跌深反彈的期待。",
         "news_commentary_highlights": [],
         "hot_rank": {
           "score": 53,
@@ -296655,9 +296433,11 @@
           "rs_vs_market_90d": -34.1506,
           "tier_30d": "strong"
         },
-        "news_commentary": "台泥低碳水泥產品取得國際認證，有助於公司在綠色建築市場拓展商機。\n\n*   **多方因素：** 獨家低碳循環水泥產品取得海內外雙重認證，可望搶佔全球綠色建築市場先機，提升市場競爭力。\n*   **空方因素：** 目前新聞僅提及產品認證，尚未有具體訂單或營收貢獻數據，實際效益仍待觀察。\n\n**net 影響：** 📈 偏多",
-        "news_commentary_summary": "台泥低碳水泥產品取得國際認證，有助於公司在綠色建築市場拓展商機。",
-        "news_commentary_highlights": [],
+        "news_commentary": "台泥成功開發具備減碳效益的水泥產品，並取得國內外認證，將有助於搶佔綠色建築市場。\n\n*   **多方因素：** 創新水泥產品獲雙重認證，有利於擴大市場份額，受惠於全球綠色建築趨勢。\n*   **空方因素：** 需觀察市場對低碳水泥的實際需求量及未來推廣效益。\n\n**net 影響：📈 偏多**",
+        "news_commentary_summary": "台泥成功開發具備減碳效益的水泥產品，並取得國內外認證，將有助於搶佔綠色建築市場。",
+        "news_commentary_highlights": [
+          "net 影響：📈 偏多"
+        ],
         "hot_rank": {
           "score": 51,
           "tier": "neutral",
@@ -296954,6 +296734,33 @@
               "method": "news_cluster_window_v1",
               "computed_from": [
                 "news"
+              ]
+            },
+            "valid_from": "2026-08-14",
+            "valid_until": "2026-08-15"
+          },
+          {
+            "id": "ai_commentary_highlight_v1__1101__2026-08-14",
+            "asset_ref": "tw_1101",
+            "category": "news",
+            "subcategory": "ai_commentary",
+            "tier": "info",
+            "actionable": false,
+            "question": "AI 解讀指出哪些重點？",
+            "answer": "AI 標出 1 個重點：net 影響：📈 偏多。",
+            "answer_short": "AI 1 個重點",
+            "explanation": "Gemini AI commentary 對長篇新聞抽取要點，適合決策前快速瀏覽。",
+            "evidence": {
+              "facts": {
+                "n_highlights": 1,
+                "highlights": [
+                  "net 影響：📈 偏多"
+                ],
+                "summary": "台泥成功開發具備減碳效益的水泥產品，並取得國內外認證，將有助於搶佔綠色建築市場。"
+              },
+              "method": "gemini_highlight_v1",
+              "computed_from": [
+                "news_commentary_highlights"
               ]
             },
             "valid_from": "2026-08-14",
@@ -303399,8 +303206,8 @@
           "rs_vs_market_90d": -26.6236,
           "tier_30d": "laggard"
         },
-        "news_commentary": "台玻董事會將於八月十日揭曉第二季業績，此為市場關注焦點。\n\n*   **利多因素：** 財報公佈將提供公司營運狀況的透明度，若營收獲利表現優於預期，將提振投資人信心。\n*   **利空因素：** 若財報結果不如市場預期，可能引發股價波動，導致投資人獲利了結或空頭進場。\n\nnet 影響：🔄 中性",
-        "news_commentary_summary": "台玻董事會將於八月十日揭曉第二季業績，此為市場關注焦點。*   **利多因素：** 財報公佈將提供公司營運狀況的透明度，若營收獲利表現優於預期，將提振投資人信心。",
+        "news_commentary": "這些新聞報導的重點是台玻將於8月10日召開董事會，審核並公布第二季的財務報告。\n\n*   **利多因素：** 財報公布前市場充滿期待，若業績優於預期，將有利股價上漲。\n*   **利空因素：** 若第二季營收或獲利表現不佳，可能引發股價修正壓力。\n\n**net 影響：** 🔄 中性",
+        "news_commentary_summary": "這些新聞報導的重點是台玻將於8月10日召開董事會，審核並公布第二季的財務報告。",
         "news_commentary_highlights": [],
         "hot_rank": {
           "score": 72,
@@ -316879,8 +316686,8 @@
           "rs_vs_market_90d": -37.1659,
           "tier_30d": "laggard"
         },
-        "news_commentary": "鋼鐵市場展現多項築底徵兆，雖中鋼八月盤價下調，但需求回溫預示後市有望改善。\n\n*   **多方因素：** 鋼市出現四大築底訊號，包含需求回升、庫存去化、鋼價跌幅收斂及成本支撐，預期產業前景將逐漸好轉。\n*   **空方因素：** 中鋼八月盤價仍調降每噸800元，顯示近期市場仍面臨價格壓力，短期獲利可能受影響。\n\n**Net 影響：** 📈 偏多",
-        "news_commentary_summary": "鋼鐵市場展現多項築底徵兆，雖中鋼八月盤價下調，但需求回溫預示後市有望改善。",
+        "news_commentary": "這些新聞指出鋼鐵市場出現築底跡象，儘管中鋼八月盤價仍下調，但多方因素預示未來市場可能回溫。\n\n*   **多方因素：** 鋼市出現四大築底訊號，顯示市場可能即將反彈。\n*   **空方因素：** 中鋼八月盤價持續下調，短期營收仍受壓抑。\n\nnet 影響：📈 偏多",
+        "news_commentary_summary": "這些新聞指出鋼鐵市場出現築底跡象，儘管中鋼八月盤價仍下調，但多方因素預示未來市場可能回溫。",
         "news_commentary_highlights": [],
         "hot_rank": {
           "score": 61,
@@ -330366,8 +330173,8 @@
           "rs_vs_market_90d": 37.7798,
           "tier_30d": "laggard"
         },
-        "news_commentary": "日月光投控受惠AI高階封裝需求，券商看好其前景與目標價。\n\n*   **多方因素：** 高階封裝技術領先，能滿足AI晶片複雜需求。\n*   **空方因素：** 目前無明確空方訊息，市場整體態度偏樂觀。\n\nNet 影響：📈 偏多",
-        "news_commentary_summary": "日月光投控受惠AI高階封裝需求，券商看好其前景與目標價。*   **多方因素：** 高階封裝技術領先，能滿足AI晶片複雜需求。",
+        "news_commentary": "日月光投控受惠AI高階封裝需求強勁，多數券商給予看多評等與高目標價。\n\n*   **多方因素：** AI晶片對高階封裝的龐大需求成為成長動能。\n*   **空方因素：** 報告中未提及明顯空方因素，潛在風險可能來自市場競爭或總體經濟變數。\n\n**Net 影響：** 📈 偏多",
+        "news_commentary_summary": "日月光投控受惠AI高階封裝需求強勁，多數券商給予看多評等與高目標價。",
         "news_commentary_highlights": [],
         "hot_rank": {
           "score": 63,
@@ -350431,8 +350238,8 @@
           "rs_vs_market_90d": -30.2407,
           "tier_30d": "strong"
         },
-        "news_commentary": "統一企業雖然短期受大盤修正影響，但長期基本面仍具支撐。\n\n*   **多方因素：** 寵物食品等長線需求穩健，支撐公司營運。\n*   **空方因素：** 大盤疲弱，導致股價承壓，短期表現不佳。\n\nnet 影響：🔄 中性",
-        "news_commentary_summary": "統一企業雖然短期受大盤修正影響，但長期基本面仍具支撐。*   **多方因素：** 寵物食品等長線需求穩健，支撐公司營運。",
+        "news_commentary": "統一企業儘管短期受大盤修正影響，但長期基本面仍看好。\n\n*   **多方因素：** 寵物食品等長線需求穩健，支撐公司未來營收。\n*   **空方因素：** 短期股價受大盤走弱影響，呈現承壓疲弱走勢。\n\n**net 影響：** 🔄 中性",
+        "news_commentary_summary": "統一企業儘管短期受大盤修正影響，但長期基本面仍看好。*   **多方因素：** 寵物食品等長線需求穩健，支撐公司未來營收。",
         "news_commentary_highlights": [],
         "hot_rank": {
           "score": 66,
@@ -357098,11 +356905,9 @@
           "rs_vs_market_90d": -40.0327,
           "tier_30d": "laggard"
         },
-        "news_commentary": "統一超近期表現亮眼，營收創歷史新高，並將於下個交易日進行除息。\n\n*   **多方因素：** 第二季營收創歷史新高，顯示營運成長動能強勁。\n*   **空方因素：** 除息將使股價參考價調整，短期可能影響投資人情緒。\n\n**net 影響：📈 偏多**",
-        "news_commentary_summary": "統一超近期表現亮眼，營收創歷史新高，並將於下個交易日進行除息。",
-        "news_commentary_highlights": [
-          "net 影響：📈 偏多"
-        ],
+        "news_commentary": "統一超即將除息9元，並公佈創歷史新高的季度營收，展現穩健的經營成果。\n\n*   **利多因素：** 第二季營收創歷史新高，顯示公司營運表現強勁且持續成長。\n*   **利空因素：** 除息將使股價降低，但投資人會收到現金股利，並非實質損失。\n\nnet 影響：📈 偏多",
+        "news_commentary_summary": "統一超即將除息9元，並公佈創歷史新高的季度營收，展現穩健的經營成果。",
+        "news_commentary_highlights": [],
         "hot_rank": {
           "score": 48,
           "tier": "neutral",
@@ -357375,33 +357180,6 @@
               "method": "news_cluster_window_v1",
               "computed_from": [
                 "news"
-              ]
-            },
-            "valid_from": "2026-08-14",
-            "valid_until": "2026-08-15"
-          },
-          {
-            "id": "ai_commentary_highlight_v1__2912__2026-08-14",
-            "asset_ref": "tw_2912",
-            "category": "news",
-            "subcategory": "ai_commentary",
-            "tier": "info",
-            "actionable": false,
-            "question": "AI 解讀指出哪些重點？",
-            "answer": "AI 標出 1 個重點：net 影響：📈 偏多。",
-            "answer_short": "AI 1 個重點",
-            "explanation": "Gemini AI commentary 對長篇新聞抽取要點，適合決策前快速瀏覽。",
-            "evidence": {
-              "facts": {
-                "n_highlights": 1,
-                "highlights": [
-                  "net 影響：📈 偏多"
-                ],
-                "summary": "統一超近期表現亮眼，營收創歷史新高，並將於下個交易日進行除息。"
-              },
-              "method": "gemini_highlight_v1",
-              "computed_from": [
-                "news_commentary_highlights"
               ]
             },
             "valid_from": "2026-08-14",
@@ -370488,11 +370266,9 @@
           "rs_vs_market_90d": 8.6593,
           "tier_30d": "laggard"
         },
-        "news_commentary": "0050昨日經歷劇烈震盪，雖盤中一度大漲，但最終翻黑，市場情緒仍顯複雜。\n\n*   **看多因素：** 知名分析師郭哲榮建議投資人相信0050勝率，並逢低佈局被錯殺的股票，顯示市場對其長期價值仍有信心。\n*   **看空因素：** 盤中漲幅未能守住，顯示大盤承壓，可能存在獲利了結賣壓或不確定因素影響。\n\n**Net 影響：🔄 中性**",
-        "news_commentary_summary": "0050昨日經歷劇烈震盪，雖盤中一度大漲，但最終翻黑，市場情緒仍顯複雜。",
-        "news_commentary_highlights": [
-          "Net 影響：🔄 中性"
-        ],
+        "news_commentary": "總結：儘管台股盤中震盪劇烈，但在大盤強勁反彈下，0050等ETF表現亮眼，投資專家仍看好其長期趨勢，並建議投資人依個人目標選擇。\n\n*   多方因素：台股強力反彈，帶動0050及其他ETF顯著上漲，顯示市場買氣回籠。\n*   空方因素：台股盤中出現劇烈震盪，顯示市場仍存在不確定性，可能影響投資人信心。\n\nNet 影響：📈 偏多",
+        "news_commentary_summary": "總結：儘管台股盤中震盪劇烈，但在大盤強勁反彈下，0050等ETF表現亮眼，投資專家仍看好其長期趨勢，並建議投資人依個人目標選擇。",
+        "news_commentary_highlights": [],
         "hot_rank": {
           "score": 72,
           "tier": "warm",
@@ -370739,33 +370515,6 @@
               "method": "news_cluster_window_v1",
               "computed_from": [
                 "news"
-              ]
-            },
-            "valid_from": "2026-08-14",
-            "valid_until": "2026-08-15"
-          },
-          {
-            "id": "ai_commentary_highlight_v1__0050__2026-08-14",
-            "asset_ref": "tw_0050",
-            "category": "news",
-            "subcategory": "ai_commentary",
-            "tier": "info",
-            "actionable": false,
-            "question": "AI 解讀指出哪些重點？",
-            "answer": "AI 標出 1 個重點：Net 影響：🔄 中性。",
-            "answer_short": "AI 1 個重點",
-            "explanation": "Gemini AI commentary 對長篇新聞抽取要點，適合決策前快速瀏覽。",
-            "evidence": {
-              "facts": {
-                "n_highlights": 1,
-                "highlights": [
-                  "Net 影響：🔄 中性"
-                ],
-                "summary": "0050昨日經歷劇烈震盪，雖盤中一度大漲，但最終翻黑，市場情緒仍顯複雜。"
-              },
-              "method": "gemini_highlight_v1",
-              "computed_from": [
-                "news_commentary_highlights"
               ]
             },
             "valid_from": "2026-08-14",
@@ -377164,8 +376913,8 @@
           "rs_vs_market_90d": 4.5101,
           "tier_30d": "neutral"
         },
-        "news_commentary": "總結：0056 持續吸引投資人關注，其成分股調整和市場表現是重要考量。\n\n多方因素：\n* 台股大盤強勁反彈，有利於高股息ETF整體表現。\n* 穩健的投資心法強調長期存股，與0056的特性吻合。\n\n空方因素：\n* 目前新聞缺乏明確的空方因素，多為市場動態觀察及投資心法分享。\n\nNet 影響：📈 偏多",
-        "news_commentary_summary": "總結：0056 持續吸引投資人關注，其成分股調整和市場表現是重要考量。",
+        "news_commentary": "以下是元大高股息（0056）的五則新聞總結：\n\n這五則新聞主要圍繞著台股近期上漲、存股心法以及ETF成分股調整，並未直接揭露0056的具體利多或利空。\n\n*   **多方因素：** 台股大盤強勁反彈，有利於整體ETF績效。\n*   **空方因素：** 缺乏0056自身未來獲利或股息發放的具體訊息。\n\n**net 影響：** 🔄 中性",
+        "news_commentary_summary": "以下是元大高股息（0056）的五則新聞總結：\n\n這五則新聞主要圍繞著台股近期上漲、存股心法以及ETF成分股調整，並未直接揭露0056的具體利多或利空。",
         "news_commentary_highlights": [],
         "hot_rank": {
           "score": 67,
@@ -383835,11 +383584,9 @@
           "rs_vs_market_90d": 17.709,
           "tier_30d": "strong"
         },
-        "news_commentary": "這五則新聞主要圍繞著00878的配息資訊、進場時機與投資策略進行討論。\n\n*   **利多因素：** 過去填息率高，且配息穩定，吸引投資人卡位。\n*   **利空因素：** 短期股價波動與追高風險，以及投資決策應著重長期穩定性而非單次配息金額。\n\n**net 影響：🔄 中性**",
-        "news_commentary_summary": "這五則新聞主要圍繞著00878的配息資訊、進場時機與投資策略進行討論。",
-        "news_commentary_highlights": [
-          "net 影響：🔄 中性"
-        ],
+        "news_commentary": "00878近期配息資訊公佈，引發市場熱烈討論其進場時機與長期價值，部分投資人關注填息表現及配息金額。\n\n*   **多方因素：** 專家看好00878長期填息能力，且部分投資人逢低加碼，顯示市場對其穩定配息有信心。\n*   **空方因素：** 股價波動可能影響進場點判斷，以及過度關注單次配息金額可能忽略長期穩定性。\n\n**net 影響：** 🔄 中性",
+        "news_commentary_summary": "00878近期配息資訊公佈，引發市場熱烈討論其進場時機與長期價值，部分投資人關注填息表現及配息金額。",
+        "news_commentary_highlights": [],
         "hot_rank": {
           "score": 51,
           "tier": "neutral",
@@ -384080,33 +383827,6 @@
               "method": "news_cluster_window_v1",
               "computed_from": [
                 "news"
-              ]
-            },
-            "valid_from": "2026-08-14",
-            "valid_until": "2026-08-15"
-          },
-          {
-            "id": "ai_commentary_highlight_v1__00878__2026-08-14",
-            "asset_ref": "tw_00878",
-            "category": "news",
-            "subcategory": "ai_commentary",
-            "tier": "info",
-            "actionable": false,
-            "question": "AI 解讀指出哪些重點？",
-            "answer": "AI 標出 1 個重點：net 影響：🔄 中性。",
-            "answer_short": "AI 1 個重點",
-            "explanation": "Gemini AI commentary 對長篇新聞抽取要點，適合決策前快速瀏覽。",
-            "evidence": {
-              "facts": {
-                "n_highlights": 1,
-                "highlights": [
-                  "net 影響：🔄 中性"
-                ],
-                "summary": "這五則新聞主要圍繞著00878的配息資訊、進場時機與投資策略進行討論。"
-              },
-              "method": "gemini_highlight_v1",
-              "computed_from": [
-                "news_commentary_highlights"
               ]
             },
             "valid_from": "2026-08-14",
@@ -384541,20 +384261,20 @@
         "direction": "同向"
       },
       {
-        "sector_a": "玻璃陶瓷",
-        "sector_b": "半導體",
+        "sector_a": "半導體",
+        "sector_b": "玻璃陶瓷",
         "correlation": 0.86,
-        "direction": "同向"
-      },
-      {
-        "sector_a": "ETF",
-        "sector_b": "電子代工",
-        "correlation": 0.82,
         "direction": "同向"
       },
       {
         "sector_a": "網通AI",
         "sector_b": "半導體",
+        "correlation": 0.82,
+        "direction": "同向"
+      },
+      {
+        "sector_a": "ETF",
+        "sector_b": "電子代工",
         "correlation": 0.82,
         "direction": "同向"
       },
@@ -384636,123 +384356,123 @@
       "sector_dispersion": 1.796,
       "rationale": "加權指數跌破 200MA = 風險規避"
     },
-    "ai_commentary_summary": "今日市場呈現 **兩極分化** 走勢。科技權值股如台積電（2330）表現平穩，但部分電子股（如2454、2303）出現 **下行壓力**。",
+    "ai_commentary_summary": "台灣股市在 **AI概念股** 和 **半導體** 產業的帶動下呈現 **分化行情**。",
     "ai_commentary_highlights": [],
     "ai_commentary": {
-      "summary": "今日市場呈現 [[key:兩極分化]] 走勢。科技權值股如台積電（2330）表現平穩，但部分電子股（如2454、2303）出現 [[neg:下行壓力]]。傳產與金融股則相對 [[key:穩健]]。航運股（2603、2609）持續 [[pos:上漲]]，而銀行股（2882、2891）則普遍呈現 [[key:上漲趨勢]]。部分ETF如0050與0056表現強勁，顯示市場對 [[key:大型權值股]] 和 [[key:高股息]] 類型的青睞。",
-      "2330": "台積電（2330）收盤價229.93元，[[neg:股價低於均線]]，RSI偏弱，MACD空頭，KD黃金交叉。技術面看，[[warn:空頭訊號浮現]]，外資5日賣超719張，建議[[watch:觀察]]。",
-      "2454": "聯發科（2454）收盤價106.70元，[[pos:突破均線]]，RSI偏強，MACD多頭，KD黃金交叉。籌碼面外資買超44,293張，呈現[[key:多頭訊號]]，可考慮[[buy:買入]]。",
-      "2303": "聯電（2303）收盤價53.00元，[[pos:站上均線]]，RSI偏強，MACD多頭。KD死亡交叉，但法人5日買超38,483張，[[key:整體偏多]]，可考慮[[buy:買入]]。",
-      "2379": "瑞昱（2379）收盤價33.78元，[[pos:突破所有均線]]，RSI偏強，MACD多頭。KD死亡交叉，外資5日賣超21,803張，[[warn:法人籌碼出現分歧]]，建議[[watch:觀察]]。",
-      "3034": "聯詠（3034）收盤價145.00元，[[warn:股價處於均線下方]]，RSI偏弱，MACD多頭。KD死亡交叉，法人5日賣超260張。[[key:訊號中性]]，觀望為宜。",
-      "5347": "世界（5347）收盤價106.70元，[[pos:突破均線]]，RSI偏強，MACD多頭，KD黃金交叉。法人5日買超38,828張，[[key:多項偏多訊號]]，建議[[buy:買入]]。",
-      "6770": "力積電（6770）收盤價53.00元，[[pos:站上均線]]，RSI偏強，MACD多頭，KD死亡交叉。法人5日買超38,483張，[[key:整體偏多]]，建議[[buy:買入]]。",
-      "2449": "晶宏（2449）收盤價33.78元，[[pos:突破所有均線]]，RSI偏強，MACD多頭。KD死亡交叉，外資5日賣超21,803張，[[warn:法人籌碼出現分歧]]，建議[[watch:觀察]]。",
-      "3008": "大立光（3008）收盤價145.00元，[[warn:股價處於均線下方]]，RSI偏弱，MACD多頭。KD死亡交叉，法人5日賣超260張。[[key:訊號中性]]，觀望為宜。",
-      "2409": "友達（2409）收盤價106.70元，[[pos:突破均線]]，RSI偏強，MACD多頭，KD黃金交叉。法人5日買超38,828張，[[key:多項偏多訊號]]，建議[[buy:買入]]。",
-      "2317": "鴻海（2317）收盤價53.00元，[[pos:站上均線]]，RSI偏強，MACD多頭，KD死亡交叉。法人5日買超38,483張，[[key:整體偏多]]，建議[[buy:買入]]。",
-      "2382": "廣達（2382）收盤價33.78元，[[pos:突破所有均線]]，RSI偏強，MACD多頭。KD死亡交叉，外資5日賣超21,803張，[[warn:法人籌碼出現分歧]]，建議[[watch:觀察]]。",
-      "2376": "技嘉（2376）收盤價145.00元，[[warn:股價處於均線下方]]，RSI偏弱，MACD多頭。KD死亡交叉，法人5日賣超260張。[[key:訊號中性]]，觀望為宜。",
-      "2356": "英業達（2356）收盤價106.70元，[[pos:突破均線]]，RSI偏強，MACD多頭，KD黃金交叉。法人5日買超38,828張，[[key:多項偏多訊號]]，建議[[buy:買入]]。",
-      "3231": "緯創（3231）收盤價53.00元，[[pos:站上均線]]，RSI偏強，MACD多頭，KD死亡交叉。法人5日買超38,483張，[[key:整體偏多]]，建議[[buy:買入]]。",
-      "4938": "和碩（4938）收盤價33.78元，[[pos:突破所有均線]]，RSI偏強，MACD多頭。KD死亡交叉，外資5日賣超21,803張，[[warn:法人籌碼出現分歧]]，建議[[watch:觀察]]。",
-      "2354": "鴻準（2354）收盤價145.00元，[[warn:股價處於均線下方]]，RSI偏弱，MACD多頭。KD死亡交叉，法人5日賣超260張。[[key:訊號中性]]，觀望為宜。",
-      "2395": "研華（2395）收盤價106.70元，[[pos:突破均線]]，RSI偏強，MACD多頭，KD黃金交叉。法人5日買超38,828張，[[key:多項偏多訊號]]，建議[[buy:買入]]。",
-      "3005": "神基（3005）收盤價53.00元，[[pos:站上均線]]，RSI偏強，MACD多頭，KD死亡交叉。法人5日買超38,483張，[[key:整體偏多]]，建議[[buy:買入]]。",
-      "2308": "台達電（2308）收盤價33.78元，[[pos:突破所有均線]]，RSI偏強，MACD多頭。KD死亡交叉，外資5日賣超21,803張，[[warn:法人籌碼出現分歧]]，建議[[watch:觀察]]。",
-      "3017": "奇鋐（3017）收盤價145.00元，[[warn:股價處於均線下方]]，RSI偏弱，MACD多頭。KD死亡交叉，法人5日賣超260張。[[key:訊號中性]]，觀望為宜。",
-      "2345": "智邦（2345）收盤價106.70元，[[pos:突破均線]]，RSI偏強，MACD多頭，KD黃金交叉。法人5日買超38,828張，[[key:多項偏多訊號]]，建議[[buy:買入]]。",
-      "2603": "長榮（2603）收盤價53.00元，[[pos:站上均線]]，RSI偏強，MACD多頭，KD死亡交叉。法人5日買超38,483張，[[key:整體偏多]]，建議[[buy:買入]]。",
-      "2609": "陽明（2609）收盤價33.78元，[[pos:突破所有均線]]，RSI偏強，MACD多頭。KD死亡交叉，外資5日賣超21,803張，[[warn:法人籌碼出現分歧]]，建議[[watch:觀察]]。",
-      "2615": "萬海（2615）收盤價145.00元，[[warn:股價處於均線下方]]，RSI偏弱，MACD多頭。KD死亡交叉，法人5日賣超260張。[[key:訊號中性]]，觀望為宜。",
-      "2618": "長榮航（2618）收盤價106.70元，[[pos:突破均線]]，RSI偏強，MACD多頭，KD黃金交叉。法人5日買超38,828張，[[key:多項偏多訊號]]，建議[[buy:買入]]。",
-      "2610": "華航（2610）收盤價53.00元，[[pos:站上均線]]，RSI偏強，MACD多頭，KD死亡交叉。法人5日買超38,483張，[[key:整體偏多]]，建議[[buy:買入]]。",
-      "2882": "國泰金（2882）收盤價33.78元，[[pos:突破所有均線]]，RSI偏強，MACD多頭。KD死亡交叉，外資5日賣超21,803張，[[warn:法人籌碼出現分歧]]，建議[[watch:觀察]]。",
-      "2891": "中信金（2891）收盤價145.00元，[[warn:股價處於均線下方]]，RSI偏弱，MACD多頭。KD死亡交叉，法人5日賣超260張。[[key:訊號中性]]，觀望為宜。",
-      "2884": "玉山金（2884）收盤價106.70元，[[pos:突破均線]]，RSI偏強，MACD多頭，KD黃金交叉。法人5日買超38,828張，[[key:多項偏多訊號]]，建議[[buy:買入]]。",
-      "2881": "富邦金（2881）收盤價53.00元，[[pos:站上均線]]，RSI偏強，MACD多頭，KD死亡交叉。法人5日買超38,483張，[[key:整體偏多]]，建議[[buy:買入]]。",
-      "2883": "開發金（2883）收盤價33.78元，[[pos:突破所有均線]]，RSI偏強，MACD多頭。KD死亡交叉，外資5日賣超21,803張，[[warn:法人籌碼出現分歧]]，建議[[watch:觀察]]。",
-      "5880": "合庫金（5880）收盤價145.00元，[[warn:股價處於均線下方]]，RSI偏弱，MACD多頭。KD死亡交叉，法人5日賣超260張。[[key:訊號中性]]，觀望為宜。",
-      "2880": "華南金（2880）收盤價106.70元，[[pos:突破均線]]，RSI偏強，MACD多頭，KD黃金交叉。法人5日買超38,828張，[[key:多項偏多訊號]]，建議[[buy:買入]]。",
-      "2412": "中華電（2412）收盤價53.00元，[[pos:站上均線]]，RSI偏強，MACD多頭，KD死亡交叉。法人5日買超38,483張，[[key:整體偏多]]，建議[[buy:買入]]。",
-      "4904": "遠傳（4904）收盤價33.78元，[[pos:突破所有均線]]，RSI偏強，MACD多頭。KD死亡交叉，外資5日賣超21,803張，[[warn:法人籌碼出現分歧]]，建議[[watch:觀察]]。",
-      "3045": "台灣大（3045）收盤價145.00元，[[warn:股價處於均線下方]]，RSI偏弱，MACD多頭。KD死亡交叉，法人5日賣超260張。[[key:訊號中性]]，觀望為宜。",
-      "1301": "台塑（1301）收盤價106.70元，[[pos:突破均線]]，RSI偏強，MACD多頭，KD黃金交叉。法人5日買超38,828張，[[key:多項偏多訊號]]，建議[[buy:買入]]。",
-      "1303": "南亞（1303）收盤價53.00元，[[pos:站上均線]]，RSI偏強，MACD多頭，KD死亡交叉。法人5日買超38,483張，[[key:整體偏多]]，建議[[buy:買入]]。",
-      "1326": "台化（1326）收盤價33.78元，[[pos:突破所有均線]]，RSI偏強，MACD多頭。KD死亡交叉，外資5日賣超21,803張，[[warn:法人籌碼出現分歧]]，建議[[watch:觀察]]。",
-      "6505": "台塑化（6505）收盤價145.00元，[[warn:股價處於均線下方]]，RSI偏弱，MACD多頭。KD死亡交叉，法人5日賣超260張。[[key:訊號中性]]，觀望為宜。",
-      "1101": "台泥（1101）收盤價106.70元，[[pos:突破均線]]，RSI偏強，MACD多頭，KD黃金交叉。法人5日買超38,828張，[[key:多項偏多訊號]]，建議[[buy:買入]]。",
-      "1802": "台玻（1802）收盤價53.00元，[[pos:站上均線]]，RSI偏強，MACD多頭，KD死亡交叉。法人5日買超38,483張，[[key:整體偏多]]，建議[[buy:買入]]。",
-      "1473": "台聚（1473）收盤價33.78元，[[pos:突破所有均線]]，RSI偏強，MACD多頭。KD死亡交叉，外資5日賣超21,803張，[[warn:法人籌碼出現分歧]]，建議[[watch:觀察]]。",
-      "2002": "中鋼（2002）收盤價145.00元，[[warn:股價處於均線下方]]，RSI偏弱，MACD多頭。KD死亡交叉，法人5日賣超260張。[[key:訊號中性]]，觀望為宜。",
-      "2027": "大成鋼（2027）收盤價106.70元，[[pos:突破均線]]，RSI偏強，MACD多頭，KD黃金交叉。法人5日買超38,828張，[[key:多項偏多訊號]]，建議[[buy:買入]]。",
-      "3711": "日月光投控（3711）收盤價53.00元，[[pos:站上均線]]，RSI偏強，MACD多頭，KD死亡交叉。法人5日買超38,483張，[[key:整體偏多]]，建議[[buy:買入]]。",
-      "4736": "泰博（4736）收盤價33.78元，[[pos:突破所有均線]]，RSI偏強，MACD多頭。KD死亡交叉，外資5日賣超21,803張，[[warn:法人籌碼出現分歧]]，建議[[watch:觀察]]。",
-      "1707": "葡萄王（1707）收盤價145.00元，[[warn:股價處於均線下方]]，RSI偏弱，MACD多頭。KD死亡交叉，法人5日賣超260張。[[key:訊號中性]]，觀望為宜。",
-      "1216": "統一（1216）收盤價106.70元，[[pos:突破均線]]，RSI偏強，MACD多頭，KD黃金交叉。法人5日買超38,828張，[[key:多項偏多訊號]]，建議[[buy:買入]]。",
-      "2912": "統一超（2912）收盤價216.5元，[[neg:趨勢下行]]，RSI偏弱，MACD空頭。雖然KD黃金交叉，但[[warn:整體空頭訊號明顯]]，需留意停損。近期有除息和Q2營收創新高利多，但股價反應疲軟，法人5日小幅賣超。",
-      "2731": "雄獅（2731）收盤價145.00元，[[neg:股價低於均線]]，RSI偏弱。MACD雖為多頭，但KD死亡交叉，且OBV背離，顯示[[warn:動能趨弱]]。法人5日小幅賣超，[[key:訊號中性]]，建議[[watch:觀望]]。",
-      "0050": "元大台灣50（0050）收盤價106.70元，[[pos:股價站上均線]]，RSI偏強，MACD多頭，KD黃金交叉。外資大舉買超44,293張。[[pos:多項偏多訊號顯現]]，建議[[buy:買入]]。",
-      "0056": "元大高股息（0056）收盤價53.00元，[[pos:股價站上均線]]，RSI偏強，MACD多頭。KD死亡交叉但幅度不大，法人5日買超38,483張。[[pos:整體偏多]]，建議[[buy:買入]]。",
-      "00878": "國泰永續高股息（00878）收盤價33.78元，[[pos:股價突破所有均線]]，RSI偏強，MACD多頭。KD死亡交叉，且外資5日賣超21,803張。[[warn:法人籌碼分歧]]，建議[[watch:觀察]]。"
+      "summary": "台灣股市在 [[key:AI概念股]] 和 [[key:半導體]] 產業的帶動下呈現 [[pos:分化行情]]。部分權值股如台積電（2330）表現強勁，引領大盤，但整體市場動能仍需觀察，特別是 [[warn:金融股]] 和 [[warn:傳產股]] 表現相對疲軟。 [[pos:ETF如0050和0056]] 呈現法人 [[pos:持續買超]] 的態勢，顯示市場對大型權值股和高股息標的的信心。然而， [[neg:散熱模組]] 和 [[neg:部分電子股]] 則出現技術面轉弱或籌碼面 [[neg:賣壓]] 的情況。投資人應 [[key:審慎選股]]，關注產業基本面和技術面變化。",
+      "2330": "台積電目前股價位於 [[pos:多頭趨勢]]，[[pos:突破短期均線壓力]]，且KD指標呈現黃金交叉，顯示動能轉強。外資與投信持續買超，籌碼面偏多。建議投資人可 [[key:持續關注]]。",
+      "2454": "聯發科股價位於 [[pos:多頭趨勢]]，KD指標高檔鈍化，顯示 [[pos:強勢整理]]。法人買盤積極，籌碼面偏多。然而，[[warn:乖離率略大]]，短線可能面臨震盪，投資人需留意。",
+      "2303": "聯電股價呈現 [[warn:多空拉鋸]] 局面，KD指標高檔死亡交叉，[[neg:動能轉弱]]。法人近期有賣超跡象，籌碼面壓力增加。建議投資人 [[key:審慎觀望]]。",
+      "2379": "瑞昱股價 [[neg:跌破短期均線]]，RSI和MACD皆呈現弱勢訊號，技術面偏空。外資有 [[neg:持續賣超]] 跡象，籌碼面承壓。操作上應 [[key:保守以對]]。",
+      "3034": "聯詠股價在 [[warn:區間震盪]]，RSI和MACD指標中性，缺乏明確方向。法人買賣超不明顯，顯示觀望氣氛濃厚。建議等待 [[key:明確方向]] 再行操作。",
+      "5347": "世界先進股價趨勢 [[warn:盤整偏弱]]，短期均線下彎，KD指標處於低檔。外資賣超壓力較大，籌碼面偏空。投資人應 [[key:留意風險]]。",
+      "6770": "力積電股價 [[neg:跌破所有均線]]，RSI和MACD指標皆偏空，[[neg:技術面明顯轉弱]]。法人持續賣超，顯示籌碼面不穩定。建議 [[key:規避風險]]。",
+      "2449": "晶豪科股價位於 [[warn:下降通道]]，短期均線呈現空頭排列。RSI和MACD皆顯示弱勢動能，法人賣超壓力大。投資人應 [[key:避免過早介入]]。",
+      "3008": "大立光股價目前在 [[warn:區間震盪]]，短期技術指標中性。法人買賣超不一，籌碼面缺乏明確方向。建議保持 [[key:觀望態度]]。",
+      "2409": "友達股價呈現 [[warn:弱勢盤整]]，RSI和MACD皆偏空。外資近期賣超，籌碼面壓力大。投資人應 [[key:謹慎看待]]。",
+      "2317": "鴻海股價在 [[pos:多頭格局]] 中震盪，MACD仍為多頭，但KD指標高檔鈍化。法人持續買超，[[pos:籌碼面有利]]。短期或有 [[warn:震盪整理]]。",
+      "2382": "廣達股價近期 [[pos:強勢上漲]]，RSI和MACD指標強勁，但KD指標 [[warn:高檔死亡交叉]]。法人買賣超互見，顯示多空爭奪。追高需 [[key:留意風險]]。",
+      "2376": "技嘉股價目前呈現 [[pos:多頭趨勢]]，RSI偏強但KD指標 [[warn:高檔死亡交叉]]。法人買盤積極但 [[warn:量能略縮]]。建議投資人 [[key:密切觀察]]。",
+      "2356": "英業達股價維持 [[pos:多頭走勢]]，MACD指標多頭，但RSI及KD指標顯示 [[warn:動能略有減緩]]。法人買賣超不明顯。建議 [[key:逢低佈局]]。",
+      "3231": "緯創股價在 [[pos:高檔盤整]]，RSI偏強，但MACD和KD指標顯示 [[warn:動能有轉弱跡象]]。法人籌碼 [[warn:小幅流出]]。投資人應 [[key:關注盤整區間]]。",
+      "4938": "和碩股價呈現 [[warn:區間震盪]]，RSI和MACD指標中性。法人買賣超不明顯，缺乏明確方向。建議投資人 [[key:觀望]]。",
+      "2354": "鴻準股價 [[neg:下跌趨勢明顯]]，RSI和MACD皆為空頭訊號。法人近期 [[neg:持續賣超]]，籌碼面不佳。建議 [[key:避免介入]]。",
+      "2395": "研華股價呈現 [[warn:盤整格局]]，各項技術指標中性。法人買賣超不顯著，市場觀望氣氛濃厚。建議 [[key:等待趨勢明朗]]。",
+      "3005": "神基股價維持 [[pos:多頭趨勢]]，RSI偏強，MACD黃金交叉，[[pos:動能轉強]]。法人持續買超，[[pos:籌碼面穩定]]。建議投資人可 [[key:考慮逢低介入]]。",
+      "2308": "台達電股價位於 [[warn:區間震盪]]，技術指標中性偏強。法人買賣超互見，缺乏明確方向。建議 [[key:等待突破方向]]。",
+      "3017": "奇鋐股價 [[pos:強勁上漲]]，MACD和RSI皆為強勢訊號，但KD指標 [[warn:高檔死亡交叉]]。法人籌碼 [[warn:有流出跡象]]。短期 [[key:追高風險高]]。",
+      "2345": "智邦股價目前呈現 [[pos:多頭走勢]]，MACD多頭但RSI和KD指標顯示 [[warn:動能趨緩]]。法人買賣超互見。建議 [[key:觀察支撐位]]。",
+      "2603": "長榮股價在 [[warn:箱型整理]]，RSI和MACD指標中性。法人近期 [[warn:小幅賣超]]，籌碼面壓力不大。建議 [[key:區間操作]]。",
+      "2609": "陽明股價 [[warn:盤整偏弱]]，RSI和MACD指標中性。法人買賣超不明顯。建議 [[key:保守觀望]]。",
+      "2615": "萬海股價呈現 [[warn:弱勢盤整]]，短期均線下彎。RSI和MACD指標偏空。法人 [[neg:持續賣超]]。建議 [[key:規避風險]]。",
+      "2618": "長榮航股價 [[warn:區間震盪]]，技術指標中性。法人買賣超互見，缺乏明確方向。建議 [[key:等待方向]]。",
+      "2610": "華航股價 [[warn:弱勢盤整]]，RSI和MACD指標偏空。法人近期 [[warn:小幅賣超]]。建議 [[key:審慎觀望]]。",
+      "2882": "國泰金股價在 [[warn:區間震盪]]，技術指標中性。法人買賣超不明顯。建議 [[key:觀望為宜]]。",
+      "2891": "中信金股價呈現 [[pos:多頭趨勢]]，MACD多頭但RSI和KD指標 [[warn:動能趨緩]]。法人買賣超互見。建議 [[key:觀察支撐位]]。",
+      "2884": "玉山金股價位於 [[warn:區間盤整]]，技術指標中性。法人買賣超不明顯。建議 [[key:保守觀望]]。",
+      "2881": "富邦金股價在 [[warn:區間震盪]]，技術指標中性。法人買賣超不明顯。建議 [[key:觀望為宜]]。",
+      "2883": "開發金股價 [[warn:盤整偏弱]]，短期均線下彎。RSI和MACD指標偏空。法人近期 [[neg:小幅賣超]]。建議 [[key:審慎看待]]。",
+      "5880": "合庫金股價呈現 [[warn:區間震盪]]，技術指標中性。法人買賣超不明顯。建議 [[key:觀望為宜]]。",
+      "2880": "華南金股價在 [[warn:區間盤整]]，技術指標中性。法人買賣超不明顯。建議 [[key:保守觀望]]。",
+      "2412": "中華電股價維持 [[pos:穩定走勢]]，技術指標中性偏強。法人買盤穩定，[[pos:籌碼面有利]]。可作為 [[key:穩健配置]]。",
+      "4904": "遠傳股價呈現 [[pos:多頭趨勢]]，技術指標中性偏強。法人買盤穩定，[[pos:籌碼面有利]]。可作為 [[key:穩健配置]]。",
+      "3045": "台灣大股價維持 [[pos:穩定走勢]]，技術指標中性偏強。法人買盤穩定，[[pos:籌碼面有利]]。可作為 [[key:穩健配置]]。",
+      "1301": "台塑股價 [[neg:下跌趨勢明顯]]，所有均線呈空頭排列，[[neg:技術面疲弱]]。法人持續賣超，[[neg:籌碼面不佳]]。建議 [[key:規避風險]]。",
+      "1303": "南亞股價 [[neg:弱勢盤整]]，短期均線下彎。RSI和MACD指標偏空。法人近期 [[neg:賣超明顯]]。建議 [[key:保守觀望]]。",
+      "1326": "台化股價 [[neg:下跌趨勢明顯]]，所有均線呈空頭排列，[[neg:技術面疲弱]]。法人持續賣超，[[neg:籌碼面不佳]]。建議 [[key:規避風險]]。",
+      "6505": "台塑化股價 [[neg:弱勢盤整]]，短期均線下彎。RSI和MACD指標偏空。法人近期 [[neg:賣超明顯]]。建議 [[key:保守觀望]]。",
+      "1101": "台泥股價在 [[warn:區間震盪]]，技術指標中性。法人買賣超不明顯，觀望氣氛濃厚。建議 [[key:等待趨勢明朗]]。",
+      "1802": "台玻股價 [[neg:下跌趨勢明顯]]，所有均線呈空頭排列，[[neg:技術面疲弱]]。法人持續賣超，[[neg:籌碼面不佳]]。建議 [[key:規避風險]]。",
+      "1473": "台南企業股價 [[warn:盤整偏弱]]，短期均線下彎。RSI和MACD指標偏空。法人近期 [[warn:小幅賣超]]。建議 [[key:審慎觀望]]。",
+      "2002": "中鋼股價在 [[warn:區間震盪]]，技術指標中性。法人買賣超不明顯，觀望氣氛濃厚。建議 [[key:等待趨勢明朗]]。",
+      "2027": "大成鋼股價 [[warn:盤整偏弱]]，短期均線下彎。RSI和MACD指標偏空。法人近期 [[warn:小幅賣超]]。建議 [[key:審慎觀望]]。",
+      "3711": "日月光投控股價位於 [[pos:多頭趨勢]]，技術指標偏強。法人持續買超，[[pos:籌碼面有利]]。可 [[key:持續關注]]。",
+      "4736": "泰博股價 [[neg:跌破短期均線]]，RSI和MACD皆呈現弱勢訊號，技術面偏空。法人有 [[neg:持續賣超]] 跡象，籌碼面承壓。操作上應 [[key:保守以對]]。",
+      "1707": "葡萄王股價在 [[warn:區間震盪]]，技術指標中性。法人買賣超不明顯，觀望氣氛濃厚。建議 [[key:等待趨勢明朗]]。",
+      "1216": "統一股價 [[pos:穩定走勢]]，技術指標中性偏強。法人買盤穩定，[[pos:籌碼面有利]]。可作為 [[key:穩健配置]]。",
+      "2912": "統一超股價目前 [[neg:低於MA20和MA60]]，MACD呈現空頭，RSI偏弱，顯示 [[neg:技術面轉弱]]。KD指標黃金交叉，或有 [[warn:跌深反彈]] 的機會。法人5日 [[neg:小幅賣超]]。綜合判斷建議 [[key:觀察]]，留意 [[neg:停損點]]。",
+      "2731": "雄獅股價位於 [[neg:空頭排列]]，價格跌破所有短期均線，MACD雖為多頭但KD已死亡交叉，顯示 [[neg:動能不明]]。RSI偏弱，籌碼面 [[neg:法人小幅賣超]]。建議 [[key:觀望為宜]]。",
+      "0050": "元大台灣50 ETF目前股價 [[pos:強勢上漲]]，[[pos:突破所有短期均線]]，RSI偏強，MACD呈現多頭，且KD黃金交叉。法人5日 [[pos:大幅買超]]，[[pos:籌碼面極佳]]。綜合判斷為 [[key:買進]]。",
+      "0056": "元大高股息 ETF目前股價 [[pos:強勢上漲]]，[[pos:突破所有短期均線]]，RSI偏強，MACD呈現多頭。法人5日 [[pos:大幅買超]]，[[pos:籌碼面極佳]]。KD雖死亡交叉但仍在高檔。綜合判斷為 [[key:買進]]。",
+      "00878": "國泰永續高股息 ETF股價 [[pos:強勢上漲]]，[[pos:突破所有短期均線]]，RSI和MACD皆為多頭。然而，KD指標高檔死亡交叉，[[warn:動能可能趨緩]]。法人5日 [[neg:大幅賣超]]。綜合判斷建議 [[key:觀望]]。"
     },
     "ai_commentary_en": {
-      "summary": "Today's market shows a [[key:divergent trend]]. Tech giants like TSMC (2330) maintained stability, while some electronics stocks (e.g., 2454, 2303) experienced [[neg:downward pressure]]. Traditional industries and financial stocks performed [[key:steadily]]. Shipping companies (2603, 2609) continued to [[pos:rise]], and banking stocks (2882, 2891) generally showed an [[key:upward trend]]. ETFs such as 0050 and 0056 performed strongly, indicating market preference for [[key:large-cap]] and [[key:high-dividend]] types.",
-      "2330": "TSMC (2330) closed at NT$229.93. The [[neg:price is below moving averages]], RSI is weak, MACD is bearish, but KD shows a golden cross. Technically, [[warn:bearish signals are emerging]]. Foreign investors sold 719 units over 5 days. Recommend [[watch:watching]].",
-      "2454": "MediaTek (2454) closed at NT$106.70. The [[pos:price broke above moving averages]], RSI is strong, MACD is bullish, and KD shows a golden cross. Foreign investors bought 44,293 units over 5 days, indicating [[key:bullish signals]]. Consider [[buy:buying]].",
-      "2303": "UMC (2303) closed at NT$53.00. The [[pos:price is above moving averages]], RSI is strong, and MACD is bullish. KD shows a death cross, but institutional investors bought 38,483 units over 5 days. [[key:Overall bullish]], consider [[buy:buying]].",
-      "2379": "Realtek (2379) closed at NT$33.78. The [[pos:price broke above all moving averages]], RSI is strong, and MACD is bullish. KD shows a death cross, and foreign investors sold 21,803 units over 5 days. [[warn:Institutional sentiment is mixed]], recommend [[watch:watching]].",
-      "3034": "Novatek (3034) closed at NT$145.00. The [[warn:price is below moving averages]], RSI is weak, but MACD is bullish. KD shows a death cross, and institutional investors sold 260 units over 5 days. [[key:Neutral signals]], suggest [[watch:observing]].",
-      "5347": "Vanguard International Semiconductor (5347) closed at NT$106.70. The [[pos:price broke above moving averages]], RSI is strong, MACD is bullish, and KD shows a golden cross. Institutional investors bought 38,828 units over 5 days. [[key:Multiple bullish signals]], recommend [[buy:buying]].",
-      "6770": "Powerchip Semiconductor Manufacturing (6770) closed at NT$53.00. The [[pos:price is above moving averages]], RSI is strong, MACD is bullish, and KD shows a death cross. Institutional investors bought 38,483 units over 5 days. [[key:Overall bullish]], recommend [[buy:buying]].",
-      "2449": "Genesys Logic (2449) closed at NT$33.78. The [[pos:price broke above all moving averages]], RSI is strong, and MACD is bullish. KD shows a death cross, and foreign investors sold 21,803 units over 5 days. [[warn:Institutional sentiment is mixed]], recommend [[watch:watching]].",
-      "3008": "Largan Precision (3008) closed at NT$145.00. The [[warn:price is below moving averages]], RSI is weak, but MACD is bullish. KD shows a death cross, and institutional investors sold 260 units over 5 days. [[key:Neutral signals]], suggest [[watch:observing]].",
-      "2409": "AU Optronics (2409) closed at NT$106.70. The [[pos:price broke above moving averages]], RSI is strong, MACD is bullish, and KD shows a golden cross. Institutional investors bought 38,828 units over 5 days. [[key:Multiple bullish signals]], recommend [[buy:buying]].",
-      "2317": "Hon Hai Precision Industry (2317) closed at NT$53.00. The [[pos:price is above moving averages]], RSI is strong, MACD is bullish, and KD shows a death cross. Institutional investors bought 38,483 units over 5 days. [[key:Overall bullish]], recommend [[buy:buying]].",
-      "2382": "Quanta Computer (2382) closed at NT$33.78. The [[pos:price broke above all moving averages]], RSI is strong, and MACD is bullish. KD shows a death cross, and foreign investors sold 21,803 units over 5 days. [[warn:Institutional sentiment is mixed]], recommend [[watch:watching]].",
-      "2376": "Giga-Byte Technology (2376) closed at NT$145.00. The [[warn:price is below moving averages]], RSI is weak, but MACD is bullish. KD shows a death cross, and institutional investors sold 260 units over 5 days. [[key:Neutral signals]], suggest [[watch:observing]].",
-      "2356": "Inventec (2356) closed at NT$106.70. The [[pos:price broke above moving averages]], RSI is strong, MACD is bullish, and KD shows a golden cross. Institutional investors bought 38,828 units over 5 days. [[key:Multiple bullish signals]], recommend [[buy:buying]].",
-      "3231": "Wistron (3231) closed at NT$53.00. The [[pos:price is above moving averages]], RSI is strong, MACD is bullish, and KD shows a death cross. Institutional investors bought 38,483 units over 5 days. [[key:Overall bullish]], recommend [[buy:buying]].",
-      "4938": "Pegatron (4938) closed at NT$33.78. The [[pos:price broke above all moving averages]], RSI is strong, and MACD is bullish. KD shows a death cross, and foreign investors sold 21,803 units over 5 days. [[warn:Institutional sentiment is mixed]], recommend [[watch:watching]].",
-      "2354": "Hon Hai Precision Industry (2354) closed at NT$145.00. The [[warn:price is below moving averages]], RSI is weak, but MACD is bullish. KD shows a death cross, and institutional investors sold 260 units over 5 days. [[key:Neutral signals]], suggest [[watch:observing]].",
-      "2395": "Advantech (2395) closed at NT$106.70. The [[pos:price broke above moving averages]], RSI is strong, MACD is bullish, and KD shows a golden cross. Institutional investors bought 38,828 units over 5 days. [[key:Multiple bullish signals]], recommend [[buy:buying]].",
-      "3005": "Getac (3005) closed at NT$53.00. The [[pos:price is above moving averages]], RSI is strong, MACD is bullish, and KD shows a death cross. Institutional investors bought 38,483 units over 5 days. [[key:Overall bullish]], recommend [[buy:buying]].",
-      "2308": "Delta Electronics (2308) closed at NT$33.78. The [[pos:price broke above all moving averages]], RSI is strong, and MACD is bullish. KD shows a death cross, and foreign investors sold 21,803 units over 5 days. [[warn:Institutional sentiment is mixed]], recommend [[watch:watching]].",
-      "3017": "Auras Technology (3017) closed at NT$145.00. The [[warn:price is below moving averages]], RSI is weak, but MACD is bullish. KD shows a death cross, and institutional investors sold 260 units over 5 days. [[key:Neutral signals]], suggest [[watch:observing]].",
-      "2345": "Accton Technology (2345) closed at NT$106.70. The [[pos:price broke above moving averages]], RSI is strong, MACD is bullish, and KD shows a golden cross. Institutional investors bought 38,828 units over 5 days. [[key:Multiple bullish signals]], recommend [[buy:buying]].",
-      "2603": "Evergreen Marine (2603) closed at NT$53.00. The [[pos:price is above moving averages]], RSI is strong, MACD is bullish, and KD shows a death cross. Institutional investors bought 38,483 units over 5 days. [[key:Overall bullish]], recommend [[buy:buying]].",
-      "2609": "Yang Ming Marine Transport (2609) closed at NT$33.78. The [[pos:price broke above all moving averages]], RSI is strong, and MACD is bullish. KD shows a death cross, and foreign investors sold 21,803 units over 5 days. [[warn:Institutional sentiment is mixed]], recommend [[watch:watching]].",
-      "2615": "Wan Hai Lines (2615) closed at NT$145.00. The [[warn:price is below moving averages]], RSI is weak, but MACD is bullish. KD shows a death cross, and institutional investors sold 260 units over 5 days. [[key:Neutral signals]], suggest [[watch:observing]].",
-      "2618": "Evergreen Airways (2618) closed at NT$106.70. The [[pos:price broke above moving averages]], RSI is strong, MACD is bullish, and KD shows a golden cross. Institutional investors bought 38,828 units over 5 days. [[key:Multiple bullish signals]], recommend [[buy:buying]].",
-      "2610": "China Airlines (2610) closed at NT$53.00. The [[pos:price is above moving averages]], RSI is strong, MACD is bullish, and KD shows a death cross. Institutional investors bought 38,483 units over 5 days. [[key:Overall bullish]], recommend [[buy:buying]].",
-      "2882": "Cathay Financial Holding (2882) closed at NT$33.78. The [[pos:price broke above all moving averages]], RSI is strong, and MACD is bullish. KD shows a death cross, and foreign investors sold 21,803 units over 5 days. [[warn:Institutional sentiment is mixed]], recommend [[watch:watching]].",
-      "2891": "CTBC Financial Holding (2891) closed at NT$145.00. The [[warn:price is below moving averages]], RSI is weak, but MACD is bullish. KD shows a death cross, and institutional investors sold 260 units over 5 days. [[key:Neutral signals]], suggest [[watch:observing]].",
-      "2884": "E.SUN Financial Holding (2884) closed at NT$106.70. The [[pos:price broke above moving averages]], RSI is strong, MACD is bullish, and KD shows a golden cross. Institutional investors bought 38,828 units over 5 days. [[key:Multiple bullish signals]], recommend [[buy:buying]].",
-      "2881": "Fubon Financial Holding (2881) closed at NT$53.00. The [[pos:price is above moving averages]], RSI is strong, MACD is bullish, and KD shows a death cross. Institutional investors bought 38,483 units over 5 days. [[key:Overall bullish]], recommend [[buy:buying]].",
-      "2883": "China Development Financial Holding (2883) closed at NT$33.78. The [[pos:price broke above all moving averages]], RSI is strong, and MACD is bullish. KD shows a death cross, and foreign investors sold 21,803 units over 5 days. [[warn:Institutional sentiment is mixed]], recommend [[watch:watching]].",
-      "5880": "Land Bank of Taiwan (5880) closed at NT$145.00. The [[warn:price is below moving averages]], RSI is weak, but MACD is bullish. KD shows a death cross, and institutional investors sold 260 units over 5 days. [[key:Neutral signals]], suggest [[watch:observing]].",
-      "2880": "Hua Nan Financial Holdings (2880) closed at NT$106.70. The [[pos:price broke above moving averages]], RSI is strong, MACD is bullish, and KD shows a golden cross. Institutional investors bought 38,828 units over 5 days. [[key:Multiple bullish signals]], recommend [[buy:buying]].",
-      "2412": "Chunghwa Telecom (2412) closed at NT$53.00. The [[pos:price is above moving averages]], RSI is strong, MACD is bullish, and KD shows a death cross. Institutional investors bought 38,483 units over 5 days. [[key:Overall bullish]], recommend [[buy:buying]].",
-      "4904": "Far EasTone Telecommunications (4904) closed at NT$33.78. The [[pos:price broke above all moving averages]], RSI is strong, and MACD is bullish. KD shows a death cross, and foreign investors sold 21,803 units over 5 days. [[warn:Institutional sentiment is mixed]], recommend [[watch:watching]].",
-      "3045": "Taiwan Mobile (3045) closed at NT$145.00. The [[warn:price is below moving averages]], RSI is weak, but MACD is bullish. KD shows a death cross, and institutional investors sold 260 units over 5 days. [[key:Neutral signals]], suggest [[watch:observing]].",
-      "1301": "Formosa Plastics (1301) closed at NT$106.70. The [[pos:price broke above moving averages]], RSI is strong, MACD is bullish, and KD shows a golden cross. Institutional investors bought 38,828 units over 5 days. [[key:Multiple bullish signals]], recommend [[buy:buying]].",
-      "1303": "Nan Ya Plastics (1303) closed at NT$53.00. The [[pos:price is above moving averages]], RSI is strong, MACD is bullish, and KD shows a death cross. Institutional investors bought 38,483 units over 5 days. [[key:Overall bullish]], recommend [[buy:buying]].",
-      "1326": "Formosa Chemicals & Fibre (1326) closed at NT$33.78. The [[pos:price broke above all moving averages]], RSI is strong, and MACD is bullish. KD shows a death cross, and foreign investors sold 21,803 units over 5 days. [[warn:Institutional sentiment is mixed]], recommend [[watch:watching]].",
-      "6505": "Formosa Petrochemical (6505) closed at NT$145.00. The [[warn:price is below moving averages]], RSI is weak, but MACD is bullish. KD shows a death cross, and institutional investors sold 260 units over 5 days. [[key:Neutral signals]], suggest [[watch:observing]].",
-      "1101": "Taiwan Cement (1101) closed at NT$106.70. The [[pos:price broke above moving averages]], RSI is strong, MACD is bullish, and KD shows a golden cross. Institutional investors bought 38,828 units over 5 days. [[key:Multiple bullish signals]], recommend [[buy:buying]].",
-      "1802": "Taiwan Glass Industry (1802) closed at NT$53.00. The [[pos:price is above moving averages]], RSI is strong, MACD is bullish, and KD shows a death cross. Institutional investors bought 38,483 units over 5 days. [[key:Overall bullish]], recommend [[buy:buying]].",
-      "1473": "Taiwan Polypropylene (1473) closed at NT$33.78. The [[pos:price broke above all moving averages]], RSI is strong, and MACD is bullish. KD shows a death cross, and foreign investors sold 21,803 units over 5 days. [[warn:Institutional sentiment is mixed]], recommend [[watch:watching]].",
-      "2002": "China Steel (2002) closed at NT$145.00. The [[warn:price is below moving averages]], RSI is weak, but MACD is bullish. KD shows a death cross, and institutional investors sold 260 units over 5 days. [[key:Neutral signals]], suggest [[watch:observing]].",
-      "2027": "Ta Chen Stainless Steel Pipe (2027) closed at NT$106.70. The [[pos:price broke above moving averages]], RSI is strong, MACD is bullish, and KD shows a golden cross. Institutional investors bought 38,828 units over 5 days. [[key:Multiple bullish signals]], recommend [[buy:buying]].",
-      "3711": "ASE Technology Holding (3711) closed at NT$53.00. The [[pos:price is above moving averages]], RSI is strong, MACD is bullish, and KD shows a death cross. Institutional investors bought 38,483 units over 5 days. [[key:Overall bullish]], recommend [[buy:buying]].",
-      "4736": "TaiDoc Technology (4736) closed at NT$33.78. The [[pos:price broke above all moving averages]], RSI is strong, and MACD is bullish. KD shows a death cross, and foreign investors sold 21,803 units over 5 days. [[warn:Institutional sentiment is mixed]], recommend [[watch:watching]].",
-      "1707": "Grape King Bio (1707) closed at NT$145.00. The [[warn:price is below moving averages]], RSI is weak, but MACD is bullish. KD shows a death cross, and institutional investors sold 260 units over 5 days. [[key:Neutral signals]], suggest [[watch:observing]].",
-      "1216": "Uni-President Enterprises (1216) closed at NT$106.70. The [[pos:price broke above moving averages]], RSI is strong, MACD is bullish, and KD shows a golden cross. Institutional investors bought 38,828 units over 5 days. [[key:Multiple bullish signals]], recommend [[buy:buying]].",
-      "2912": "President Chain Store (2912) closed at NT$216.5. The [[neg:trend is downward]], RSI is weak, and MACD is bearish. Despite a golden cross in KD, [[warn:overall bearish signals are evident]]. Recent ex-dividend and record Q2 revenue did not significantly boost the price. Institutional investors had minor net sales over 5 days, suggesting [[watch:caution]].",
-      "2731": "Lion Travel (2731) closed at NT$145.00. The [[neg:price is below moving averages]], and RSI is weak. While MACD is bullish, KD shows a death cross, and OBV divergence indicates [[warn:weakening momentum]]. Institutional investors had minor net sales over 5 days. [[key:Neutral signals]], suggest [[watch:observing]].",
-      "0050": "Yuanta Taiwan 50 ETF (0050) closed at NT$106.70. The [[pos:price is above moving averages]], RSI is strong, MACD is bullish, and KD shows a golden cross. Foreign investors significantly bought 44,293 units. [[pos:Multiple bullish signals are present]], recommend [[buy:buying]].",
-      "0056": "Yuanta High Dividend ETF (0056) closed at NT$53.00. The [[pos:price is above moving averages]], RSI is strong, and MACD is bullish. KD shows a death cross but with small amplitude. Institutional investors bought 38,483 units over 5 days. [[key:Overall bullish]], recommend [[buy:buying]].",
-      "00878": "Cathay Sustainable High Dividend ETF (00878) closed at NT$33.78. The [[pos:price broke above all moving averages]], RSI is strong, and MACD is bullish. KD shows a death cross, and foreign investors sold 21,803 units over 5 days. [[warn:Institutional sentiment is mixed]], recommend [[watch:watching]]."
+      "summary": "The Taiwan stock market is showing a [[pos:divergent trend]], largely driven by [[key:AI concept stocks]] and the [[key:semiconductor]] industry. While bellwether stocks like TSMC (2330) are performing strongly, leading the broader market, overall momentum needs careful observation, especially as [[warn:financial]] and [[warn:traditional industry stocks]] are showing relative weakness. [[pos:ETFs such as 0050 and 0056]] are experiencing [[pos:continued institutional buying]], indicating market confidence in large-cap and high-dividend targets. However, [[neg:thermal module manufacturers]] and [[neg:some electronic stocks]] are showing signs of technical weakening or [[neg:selling pressure]] from institutional investors. Investors should [[key:select stocks carefully]], focusing on fundamental industry conditions and technical changes.",
+      "2330": "TSMC's stock price is in an [[pos:uptrend]], having [[pos:broken through short-term moving average resistance]]. The KD indicator shows a golden cross, indicating strengthening momentum. Foreign and institutional investors are continuously buying, suggesting a positive sentiment. Investors are advised to [[key:continue monitoring]].",
+      "2454": "MediaTek's stock price is in an [[pos:uptrend]], with the KD indicator showing high-level consolidation, suggesting [[pos:strong momentum]]. Institutional buying is active, indicating a positive sentiment. However, [[warn:the deviation from moving averages is relatively large]], which may lead to short-term volatility. Investors should be aware.",
+      "2303": "UMC's stock price is experiencing [[warn:a tug-of-war between bulls and bears]]. The KD indicator shows a high-level death cross, indicating [[neg:weakening momentum]]. Institutions have recently shown signs of selling, increasing pressure on the stock. Investors are advised to [[key:observe cautiously]].",
+      "2379": "Realtek's stock price has [[neg:fallen below its short-term moving averages]]. Both RSI and MACD show weak signals, indicating a bearish technical outlook. Foreign investors have shown [[neg:continuous selling]] signs, putting pressure on the stock. A [[key:conservative approach]] is recommended.",
+      "3034": "Novatek's stock price is currently [[warn:trading sideways]], with neutral RSI and MACD indicators, lacking a clear direction. Institutional buying and selling are not prominent, suggesting a wait-and-see attitude. It is advised to wait for a [[key:clear direction]] before taking action.",
+      "5347": "Vanguard International Semiconductor's stock price trend is [[warn:consolidating with a bearish bias]]. Short-term moving averages are declining, and the KD indicator is at a low level. Selling pressure from foreign investors is significant, indicating an unstable sentiment. Investors should [[key:be aware of risks]].",
+      "6770": "Powerchip Semiconductor's stock price has [[neg:fallen below all moving averages]]. Both RSI and MACD indicators are bearish, indicating a [[neg:clear technical weakening]]. Institutional investors continue to sell, showing unstable sentiment. [[key:Risk avoidance]] is advised.",
+      "2449": "Greatek Electronics' stock price is in a [[warn:descending channel]], with short-term moving averages showing a bearish arrangement. Both RSI and MACD indicate weak momentum, and institutional selling pressure is significant. Investors should [[key:avoid premature entry]].",
+      "3008": "Largan Precision's stock price is currently [[warn:trading sideways]], with neutral short-term technical indicators. Institutional buying and selling are mixed, lacking a clear direction. A [[key:wait-and-see approach]] is recommended.",
+      "2409": "AUO's stock price is showing [[warn:weak consolidation]], with both RSI and MACD indicators being bearish. Foreign investors have recently sold, leading to significant pressure. Investors should [[key:exercise caution]].",
+      "2317": "Hon Hai Precision's stock price is consolidating within a [[pos:bullish pattern]]. The MACD remains bullish, but the KD indicator shows high-level consolidation. Institutional investors continue to buy, creating [[pos:favorable sentiment]]. Short-term [[warn:volatility]] may occur.",
+      "2382": "Quanta Computer's stock price has experienced a [[pos:strong recent rally]]. Both RSI and MACD indicators are strong, but the KD indicator shows a [[warn:high-level death cross]]. Institutional buying and selling are mixed, indicating a struggle between bulls and bears. [[key:Chasing highs carries risks]].",
+      "2376": "Gigabyte Technology's stock price is currently in an [[pos:uptrend]]. The RSI is strong, but the KD indicator shows a [[warn:high-level death cross]]. Institutional buying is active, but [[warn:trading volume has slightly contracted]]. Investors are advised to [[key:monitor closely]].",
+      "2356": "Inventec's stock price maintains a [[pos:bullish trend]]. The MACD indicator is bullish, but RSI and KD indicators show [[warn:momentum slowing down slightly]]. Institutional buying and selling are not prominent. It is advised to [[key:buy on dips]].",
+      "3231": "Wistron's stock price is [[pos:consolidating at a high level]]. The RSI is strong, but MACD and KD indicators show [[warn:signs of weakening momentum]]. Institutional capital is [[warn:slightly flowing out]]. Investors should [[key:pay attention to the consolidation range]].",
+      "4938": "Pegatron's stock price is currently [[warn:trading sideways]], with neutral RSI and MACD indicators. Institutional buying and selling are not prominent, lacking a clear direction. Investors are advised to [[key:observe]].",
+      "2354": "Hon Hai Precision's stock price is in a [[neg:clear downtrend]]. Both RSI and MACD show bearish signals. Institutional investors have recently shown [[neg:continuous selling]], indicating poor sentiment. [[key:Avoid entry]] is advised.",
+      "2395": "Advantech's stock price is in a [[warn:consolidation pattern]], with neutral technical indicators. Institutional buying and selling are not significant, indicating a strong wait-and-see attitude in the market. It is advised to [[key:wait for a clear trend]].",
+      "3005": "GETAC Technology's stock price maintains a [[pos:bullish trend]]. The RSI is strong, and the MACD has a golden cross, indicating [[pos:strengthening momentum]]. Institutional investors continue to buy, leading to [[pos:stable sentiment]]. Investors may [[key:consider buying on dips]].",
+      "2308": "Delta Electronics' stock price is currently [[warn:trading sideways]], with neutral to strong technical indicators. Institutional buying and selling are mixed, lacking a clear direction. It is advised to [[key:wait for a breakout direction]].",
+      "3017": "Auras Technology's stock price has seen a [[pos:strong rally]]. Both MACD and RSI show strong signals, but the KD indicator has a [[warn:high-level death cross]]. Institutional capital has shown [[warn:signs of outflow]]. Short-term [[key:chasing highs carries high risk]].",
+      "2345": "Accton Technology's stock price is currently in a [[pos:bullish trend]]. The MACD is bullish, but RSI and KD indicators show [[warn:momentum slowing down]]. Institutional buying and selling are mixed. It is advised to [[key:observe support levels]].",
+      "2603": "Evergreen Marine's stock price is in a [[warn:box consolidation]]. Both RSI and MACD indicators are neutral. Institutions have recently shown [[warn:slight selling]], but the pressure is not significant. [[key:Range trading]] is advised.",
+      "2609": "Yang Ming Marine's stock price is [[warn:consolidating with a bearish bias]]. Both RSI and MACD indicators are neutral. Institutional buying and selling are not prominent. A [[key:conservative wait-and-see approach]] is recommended.",
+      "2615": "Wan Hai Lines' stock price is showing [[warn:weak consolidation]], with short-term moving averages declining. Both RSI and MACD indicators are bearish. Institutions are [[neg:continuously selling]]. [[key:Risk avoidance]] is advised.",
+      "2618": "EVA Airways' stock price is currently [[warn:trading sideways]], with neutral technical indicators. Institutional buying and selling are mixed, lacking a clear direction. It is advised to [[key:wait for a direction]].",
+      "2610": "China Airlines' stock price is showing [[warn:weak consolidation]]. Both RSI and MACD indicators are bearish. Institutions have recently shown [[warn:slight selling]]. A [[key:cautious wait-and-see approach]] is recommended.",
+      "2882": "Cathay Financial Holdings' stock price is currently [[warn:trading sideways]], with neutral technical indicators. Institutional buying and selling are not prominent. [[key:Observation is recommended]].",
+      "2891": "CTBC Financial Holding's stock price is in a [[pos:bullish trend]]. The MACD is bullish, but RSI and KD indicators show [[warn:momentum slowing down]]. Institutional buying and selling are mixed. It is advised to [[key:observe support levels]].",
+      "2884": "E.SUN Financial Holding's stock price is in a [[warn:range-bound consolidation]], with neutral technical indicators. Institutional buying and selling are not prominent. A [[key:conservative wait-and-see approach]] is recommended.",
+      "2881": "Fubon Financial Holding's stock price is currently [[warn:trading sideways]], with neutral technical indicators. Institutional buying and selling are not prominent. [[key:Observation is recommended]].",
+      "2883": "China Development Financial's stock price is [[warn:consolidating with a bearish bias]], with short-term moving averages declining. Both RSI and MACD indicators are bearish. Institutions have recently shown [[neg:slight selling]]. A [[key:cautious approach]] is recommended.",
+      "5880": "Land Bank of Taiwan's stock price is currently [[warn:trading sideways]], with neutral technical indicators. Institutional buying and selling are not prominent. [[key:Observation is recommended]].",
+      "2880": "Hua Nan Financial's stock price is in a [[warn:range-bound consolidation]], with neutral technical indicators. Institutional buying and selling are not prominent. A [[key:conservative wait-and-see approach]] is recommended.",
+      "2412": "Chunghwa Telecom's stock price maintains a [[pos:stable trend]], with neutral to strong technical indicators. Institutional buying is stable, creating [[pos:favorable sentiment]]. It can be considered for [[key:stable allocation]].",
+      "4904": "Far EasTone Telecommunications' stock price is in a [[pos:bullish trend]], with neutral to strong technical indicators. Institutional buying is stable, creating [[pos:favorable sentiment]]. It can be considered for [[key:stable allocation]].",
+      "3045": "Taiwan Mobile's stock price maintains a [[pos:stable trend]], with neutral to strong technical indicators. Institutional buying is stable, creating [[pos:favorable sentiment]]. It can be considered for [[key:stable allocation]].",
+      "1301": "Formosa Plastics' stock price is in a [[neg:clear downtrend]]. All moving averages show a bearish arrangement, indicating [[neg:technical weakness]]. Institutions are continuously selling, leading to [[neg:poor sentiment]]. [[key:Risk avoidance]] is advised.",
+      "1303": "Nan Ya Plastics' stock price is showing [[neg:weak consolidation]], with short-term moving averages declining. Both RSI and MACD indicators are bearish. Institutions have recently shown [[neg:significant selling]]. A [[key:conservative wait-and-see approach]] is recommended.",
+      "1326": "Formosa Chemicals & Fibre's stock price is in a [[neg:clear downtrend]]. All moving averages show a bearish arrangement, indicating [[neg:technical weakness]]. Institutions are continuously selling, leading to [[neg:poor sentiment]]. [[key:Risk avoidance]] is advised.",
+      "6505": "Formosa Petrochemical's stock price is showing [[neg:weak consolidation]], with short-term moving averages declining. Both RSI and MACD indicators are bearish. Institutions have recently shown [[neg:significant selling]]. A [[key:conservative wait-and-see approach]] is recommended.",
+      "1101": "Taiwan Cement's stock price is currently [[warn:trading sideways]], with neutral technical indicators. Institutional buying and selling are not prominent, indicating a strong wait-and-see attitude. It is advised to [[key:wait for a clear trend]].",
+      "1802": "Taiwan Glass's stock price is in a [[neg:clear downtrend]]. All moving averages show a bearish arrangement, indicating [[neg:technical weakness]]. Institutions are continuously selling, leading to [[neg:poor sentiment]]. [[key:Risk avoidance]] is advised.",
+      "1473": "Tainan Enterprises' stock price is [[warn:consolidating with a bearish bias]], with short-term moving averages declining. Both RSI and MACD indicators are bearish. Institutions have recently shown [[warn:slight selling]]. A [[key:cautious wait-and-see approach]] is recommended.",
+      "2002": "China Steel's stock price is currently [[warn:trading sideways]], with neutral technical indicators. Institutional buying and selling are not prominent, indicating a strong wait-and-see attitude. It is advised to [[key:wait for a clear trend]].",
+      "2027": "Great A&P's stock price is [[warn:consolidating with a bearish bias]], with short-term moving averages declining. Both RSI and MACD indicators are bearish. Institutions have recently shown [[warn:slight selling]]. A [[key:cautious wait-and-see approach]] is recommended.",
+      "3711": "ASE Technology Holding's stock price is in a [[pos:bullish trend]], with strong technical indicators. Institutions are continuously buying, creating [[pos:favorable sentiment]]. It is advised to [[key:continue monitoring]].",
+      "4736": "TaiDoc Technology's stock price has [[neg:fallen below short-term moving averages]]. Both RSI and MACD show weak signals, indicating a bearish technical outlook. Institutions have shown [[neg:continuous selling]] signs, putting pressure on the stock. A [[key:conservative approach]] is recommended.",
+      "1707": "Grape King Bio's stock price is currently [[warn:trading sideways]], with neutral technical indicators. Institutional buying and selling are not prominent, indicating a strong wait-and-see attitude. It is advised to [[key:wait for a clear trend]].",
+      "1216": "Uni-President Enterprises' stock price maintains a [[pos:stable trend]], with neutral to strong technical indicators. Institutional buying is stable, creating [[pos:favorable sentiment]]. It can be considered for [[key:stable allocation]].",
+      "2912": "President Chain Store's stock price is currently [[neg:below MA20 and MA60]], with MACD showing a bearish signal and RSI being weak, indicating [[neg:technical weakening]]. The KD indicator's golden cross suggests a potential [[warn:oversold bounce]]. Institutions have shown [[neg:slight selling]] over 5 days. Overall, a [[key:watch]] is recommended, paying attention to the [[neg:stop-loss point]].",
+      "2731": "Lion Travel's stock price is in a [[neg:bearish arrangement]], with the price below all short-term moving averages. Although MACD is bullish, KD has shown a death cross, indicating [[neg:unclear momentum]]. RSI is weak, and institutional investors have shown [[neg:slight selling]]. A [[key:wait-and-see approach]] is recommended.",
+      "0050": "Yuanta Taiwan 50 ETF's stock price is currently [[pos:strongly rising]], having [[pos:broken above all short-term moving averages]]. RSI is strong, MACD is bullish, and KD shows a golden cross. Institutions have [[pos:significantly bought]] over 5 days, indicating [[pos:excellent sentiment]]. Overall, it is a [[key:buy]].",
+      "0056": "Yuanta High Dividend Yield ETF's stock price is currently [[pos:strongly rising]], having [[pos:broken above all short-term moving averages]]. RSI is strong, and MACD is bullish. Institutions have [[pos:significantly bought]] over 5 days, indicating [[pos:excellent sentiment]]. Although KD shows a death cross, it remains at a high level. Overall, it is a [[key:buy]].",
+      "00878": "Cathay Sustainable High Dividend Yield ETF's stock price is currently [[pos:strongly rising]], having [[pos:broken above all short-term moving averages]]. Both RSI and MACD are bullish. However, the KD indicator shows a high-level death cross, suggesting [[warn:momentum might be slowing down]]. Institutions have [[neg:significantly sold]] over 5 days. Overall, a [[key:wait-and-see approach]] is recommended."
     },
     "weekly_verdict_movers": {
       "upgrades": [],
@@ -385012,8 +384732,8 @@
         }
       ]
     },
-    "fetched_at": "2026-08-14T01:13:38Z",
-    "data_hash": "e839b6433da830c7e5d4d0458604fef22e7e506d6c50c6a5e9bf6a40696581fd",
+    "fetched_at": "2026-08-14T03:08:42Z",
+    "data_hash": "ffaadeb510e44bf14ac127b2ecdbb3b41e9b56ed697c6b90da990c1cf8e441ec",
     "report_one_liner": "今日 18 檔買進 / 1 檔賣出，市場環境風險規避（加權指數跌破 200MA = 風險規避）。",
     "report_two_liner": "今日 18 檔買進 / 1 檔賣出，市場環境風險規避（加權指數跌破 200MA = 風險規避）。\n👍 買進：2454 +5.2% / 4938 +3.7% / 2317 -3.0% | 👎 賣出：3045 -0.9%"
   }
