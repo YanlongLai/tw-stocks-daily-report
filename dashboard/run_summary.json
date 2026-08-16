@@ -1,7 +1,7 @@
 {
-  "run_id": "d4baee94-b1ce-4235-9897-b0206ef4b460",
-  "started_at": "2026-08-16T23:18:53.515322+00:00",
-  "finished_at": "2026-08-16T23:22:56.347804+00:00",
+  "run_id": "17800cbe-33f3-4514-8054-f10e1eab021c",
+  "started_at": "2026-08-16T23:40:15.445567+00:00",
+  "finished_at": "2026-08-16T23:45:17.982873+00:00",
   "tickers_attempted": [
     "2330",
     "2454",
@@ -169,16 +169,16 @@
   "tickers_failed": [],
   "ai_commentary_count": 0,
   "ai_quality": {
-    "status": "degraded",
-    "lazy_score": 48,
+    "status": "blocked",
+    "lazy_score": 35,
     "threshold": 60,
-    "coverage": 0.5,
+    "coverage": 0.25,
     "min_coverage": 0.9,
     "metrics": {
-      "length_short_rate": 0.5,
+      "length_short_rate": 0.0,
       "self_ref_miss_rate": 1.0,
       "cross_similarity_rate": 0.0,
-      "anchor_miss_rate": 0.875,
+      "anchor_miss_rate": 0.863,
       "validation_reject_rate": 0.25,
       "avg_retries": 0.0
     },
@@ -231,7 +231,7 @@
     "batch_workers": 1,
     "fallback_batches": 4,
     "repair_attempts": 1,
-    "raw_status": "degraded",
+    "raw_status": "blocked",
     "historical": {
       "status": "regression",
       "sample_count": 6,
@@ -240,7 +240,7 @@
       "p95_lazy_score": 28.0,
       "median_coverage": 1.0,
       "previous_repeat_rate": 0.0,
-      "compared_tickers": 40,
+      "compared_tickers": 20,
       "flags": [
         "coverage_below_historical_baseline"
       ],
@@ -260,7 +260,7 @@
   "sources_status": {
     "translation": "ok",
     "finmind": "ok",
-    "gemini": "partial",
+    "gemini": "down",
     "finnhub": "not_used"
   },
   "data_repo_committed": true
