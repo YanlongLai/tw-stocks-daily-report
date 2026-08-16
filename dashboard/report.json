@@ -1,6 +1,6 @@
 {
   "schema_version": "1.2.0",
-  "generated_at_utc": "2026-08-16T07:00:03Z",
+  "generated_at_utc": "2026-08-16T08:20:36Z",
   "source": "tw-stocks-core",
   "schema_url": "https://raw.githubusercontent.com/YanlongLai/tw-stocks-daily-report/main/schema/v1.json",
   "ticker_count": 80,
@@ -12642,15 +12642,15 @@
       "tier": "good",
       "actionable": true,
       "question": "新聞情緒在過去 24 小時是否大幅轉變？",
-      "answer": "情緒分數從 0.0 變至 0.8（4 正面 / 0 負面）。",
-      "answer_short": "情緒 +0.80",
+      "answer": "情緒分數從 0.0 變至 0.6（3 正面 / 0 負面）。",
+      "answer_short": "情緒 +0.60",
       "explanation": "情緒驟變常為事件性催化（合作案、訴訟、財測上修等）。",
       "evidence": {
         "facts": {
-          "score_curr": 0.8,
+          "score_curr": 0.6,
           "score_prev": 0.0,
-          "score_delta": 0.8,
-          "positive_count": 4,
+          "score_delta": 0.6,
+          "positive_count": 3,
           "negative_count": 0,
           "top_negative_title": ""
         },
@@ -17276,8 +17276,8 @@
           "top_topic": "2330 台積電 - 外媒：輝達台積電和Lumentum聯手打造AI的光速高速公路- 股市爆料同學會",
           "top_titles": [
             "2330 台積電 - 外媒：輝達台積電和Lumentum聯手打造AI的光速高速公路- 股市爆料同學會",
-            "2330 台積電 - 本週8/16台股資產變動超過千億排行榜分析- 股市爆料同學會",
-            "2330 台積電 - 從媽祖民間信仰與道教觀來看，這次凍結首相支薪，對投資人的啟示- 股市爆料同學會"
+            "2330 台積電 - 8/16 韓國軍火紛爭： 主力先知道？🥹 - 股市爆料同學會",
+            "2330 台積電 - 本週8/16台股資產變動超過千億排行榜分析- 股市爆料同學會"
           ]
         },
         "method": "news_cluster_window_v1",
@@ -17416,7 +17416,7 @@
       "tier": "info",
       "actionable": true,
       "question": "短時間內是否出現新聞群聚？",
-      "answer": "近期 5 則 混合 新聞，主題：瑞昱(2379) 個股概覽 | 個股 - 股市。",
+      "answer": "近期 5 則 混合 新聞，主題：2379 瑞昱- 週六AI晶片大跌怕台股受到短暫情緒性賣壓-。",
       "answer_short": "新聞群聚 5 則/混合",
       "explanation": "新聞群聚反映重大事件或市場關注度突增。",
       "evidence": {
@@ -17424,11 +17424,11 @@
           "window_hours": 24,
           "n_news": 5,
           "direction": "mixed",
-          "top_topic": "瑞昱(2379) 個股概覽 | 個股 - 股市",
+          "top_topic": "2379 瑞昱- 週六AI晶片大跌怕台股受到短暫情緒性賣壓- 股市爆料同學會",
           "top_titles": [
-            "瑞昱(2379) 個股概覽 | 個股 - 股市",
             "2379 瑞昱- 週六AI晶片大跌怕台股受到短暫情緒性賣壓- 股市爆料同學會",
-            "【26Q2財報公告】瑞昱(2379) Q2 營收375.532億元，創歷史新高，季增3.1%、年成長17.67%-CMoney 小編"
+            "【26Q2財報公告】瑞昱(2379) Q2 營收375.532億元，創歷史新高，季增3.1%、年成長17.67%-CMoney 小編",
+            "鉅亨速報 - Factset 最新調查：瑞昱(2379-TW)EPS預估下修至31.91元，預估目標價為723.5元"
           ]
         },
         "method": "news_cluster_window_v1",
@@ -17608,7 +17608,7 @@
           "top_titles": [
             "6770 力積電- 〈台股風向球〉8月來反彈2700點 4萬6關前籌碼面轉強有助驚驚漲格局- 股市爆料同學會",
             "記憶體持續受市場矚目！「這3檔」單周被外資狂掃逾47萬張 連買力積電4日猛灌240億元",
-            "記憶體績優生開趴！力積電爆量漲停登人氣王 群聯、創見等接力走強"
+            "台股連2周反彈千點，何時站穩46K？力積電、南亞科、群創...外資聯手狂掃，15檔亮點個股出列"
           ]
         },
         "method": "news_cluster_window_v1",
@@ -18220,8 +18220,8 @@
           "top_topic": "仁寶(2324)股價漲停43元還能追？最新目標價？鴻海、和碩、廣達...億元教授點名代工四雄「買它最賺」！下車時機曝光",
           "top_titles": [
             "仁寶(2324)股價漲停43元還能追？最新目標價？鴻海、和碩、廣達...億元教授點名代工四雄「買它最賺」！下車時機曝光",
-            "AI伺服器營收拚年增10倍！和碩擬發200億元可轉債、再募1億美元投信本週砸5.44億元買逾6千張",
-            "討論牆 | 盤中速報 - 和碩(4938)股價拉至漲停，漲停價100.0元，成交16,690張"
+            "討論牆 | 盤中速報 - 和碩(4938)股價拉至漲停，漲停價100.0元，成交16,690張",
+            "AI伺服器營收拚年增10倍！和碩擬發200億元可轉債、再募1億美元投信本週砸5.44億元買逾6千張"
           ]
         },
         "method": "news_cluster_window_v1",
@@ -19473,7 +19473,7 @@
       "tier": "info",
       "actionable": true,
       "question": "短時間內是否出現新聞群聚？",
-      "answer": "近期 5 則 混合 新聞，主題：電子材料再傳漲價？　南亞總經親自回應「這樣說」 | 財經 |。",
+      "answer": "近期 5 則 混合 新聞，主題：主動式 ETF 最近都在買誰？寶雅爆量奪冠、南亞富喬跟上。",
       "answer_short": "新聞群聚 5 則/混合",
       "explanation": "新聞群聚反映重大事件或市場關注度突增。",
       "evidence": {
@@ -19481,11 +19481,11 @@
           "window_hours": 24,
           "n_news": 5,
           "direction": "mixed",
-          "top_topic": "電子材料再傳漲價？　南亞總經親自回應「這樣說」 | 財經 | CTWANT",
+          "top_topic": "主動式 ETF 最近都在買誰？寶雅爆量奪冠、南亞富喬跟上",
           "top_titles": [
+            "主動式 ETF 最近都在買誰？寶雅爆量奪冠、南亞富喬跟上",
             "電子材料再傳漲價？　南亞總經親自回應「這樣說」 | 財經 | CTWANT",
-            "這檔一喊漲「7檔受惠股嗨翻」！CCL漲價潮再起 南亞亮燈、台光電狂飆8％法人掃逾1.2萬張",
-            "討論牆 | 盤中速報 - 南亞(1303)大漲7.41%，報203元"
+            "這檔一喊漲「7檔受惠股嗨翻」！CCL漲價潮再起 南亞亮燈、台光電狂飆8％法人掃逾1.2萬張"
           ]
         },
         "method": "news_cluster_window_v1",
@@ -20230,7 +20230,7 @@
           "top_titles": [
             "買14張0050均價110元！他崩潰「每天看6位數損益」 過來人建議：放著都別看",
             "台股7月震盪TISA扣款逆勢破10億元 0050霸榜創新高",
-            "ETF法人方向分歧，退休資金該追高股息還是回到0050？-詠晴K線解密"
+            "7月台股大怒神 0050定期定額124萬戶續創新高"
           ]
         },
         "method": "news_cluster_window_v1",
@@ -20289,8 +20289,8 @@
           "top_topic": "2026年8月台股ETF配息排行：00881單次配息率衝8.6%奪冠，00878首破1元！最新配息排行與投資攻略！",
           "top_titles": [
             "2026年8月台股ETF配息排行：00881單次配息率衝8.6%奪冠，00878首破1元！最新配息排行與投資攻略！",
-            "元大高股息 優於大盤",
-            "0056 元大高股息- 下面一位，北上高速列車重新南下載客，車票有限機會難得請把握。 - 股市爆料同學會"
+            "百張大戶跌回2萬人！00403A甩破發窘境「2.8萬人逢高下車」 外資連買5日搶24.1萬張入手",
+            "元大高股息 優於大盤"
           ]
         },
         "method": "news_cluster_window_v1",
@@ -20434,11 +20434,11 @@
           "window_hours": 24,
           "n_news": 5,
           "direction": "mixed",
-          "top_topic": "國巨漲停一天又變臉！華新科、禾伸堂全陪葬「外資目標價1450成誘多？」保守派法人驚吐務實價只剩X88",
+          "top_topic": "國巨漲停一天又變臉！華新科、禾伸堂全陪葬「外資目標價1450成誘多？」保守派法人驚吐務實價只剩X88 - 上市櫃",
           "top_titles": [
-            "國巨漲停一天又變臉！華新科、禾伸堂全陪葬「外資目標價1450成誘多？」保守派法人驚吐務實價只剩X88",
+            "國巨漲停一天又變臉！華新科、禾伸堂全陪葬「外資目標價1450成誘多？」保守派法人驚吐務實價只剩X88 - 上市櫃",
             "國巨套在1000元好煎熬！股民嘆：茶不思飯不想 連帳戶都不敢打開",
-            "國巨高檔套牢好煎熬！股民嘆：茶不思飯不想 連帳戶都不敢打開"
+            "國巨*腰斬震盪心惶惶！分析師喊下週「這關鍵價位」必須守住：若能帶量突破680會更穩說法一次看"
           ]
         },
         "method": "news_cluster_window_v1",
@@ -20514,7 +20514,7 @@
       "tier": "info",
       "actionable": true,
       "question": "短時間內是否出現新聞群聚？",
-      "answer": "近期 5 則 混合 新聞，主題：討論牆 | 盤中速報 - 矽力-KY(6415)急拉5.22。",
+      "answer": "近期 5 則 混合 新聞，主題：矽力*-KY(6415) 個股概覽 | 個股 - 股市。",
       "answer_short": "新聞群聚 5 則/混合",
       "explanation": "新聞群聚反映重大事件或市場關注度突增。",
       "evidence": {
@@ -20522,11 +20522,11 @@
           "window_hours": 24,
           "n_news": 5,
           "direction": "mixed",
-          "top_topic": "討論牆 | 盤中速報 - 矽力-KY(6415)急拉5.22%報475.0元，成交527張",
+          "top_topic": "矽力*-KY(6415) 個股概覽 | 個股 - 股市",
           "top_titles": [
+            "矽力*-KY(6415) 個股概覽 | 個股 - 股市",
             "討論牆 | 盤中速報 - 矽力-KY(6415)急拉5.22%報475.0元，成交527張",
-            "【09:32 即時新聞】矽力*-KY(6415)亮燈漲停至511元，受AI資料中心與車用電源成長題材激勵＋法人買盤與技術面多頭結構支撐",
-            "矽力*-KY(6415) 今日股價與討論 - 股市爆料同學會"
+            "【09:32 即時新聞】矽力*-KY(6415)亮燈漲停至511元，受AI資料中心與車用電源成長題材激勵＋法人買盤與技術面多頭結構支撐"
           ]
         },
         "method": "news_cluster_window_v1",
@@ -20940,7 +20940,7 @@
           "top_titles": [
             "科技股迎法說大秀！宏碁、亞光「PC+CPO」新武器搶鏡 群創獲利暴增178％「連賺4季」",
             "宏碁、亞光、群創法說 聚焦",
-            "2353 宏碁 - 社宅包租代管政策遇逆風，從兆基案看資金監管漏洞與「混帳」隱憂 - 股市爆料同學會"
+            "宏碁人事異動 營運長高樹國請辭"
           ]
         },
         "method": "news_cluster_window_v1",
@@ -21406,7 +21406,7 @@
       "tier": "info",
       "actionable": true,
       "question": "短時間內是否出現新聞群聚？",
-      "answer": "近期 5 則 混合 新聞，主題：第一金獲利／前七月賺209.37億元、EPS 1.46元雙創。",
+      "answer": "近期 5 則 混合 新聞，主題：公股四金二銀前7月合賺1057億元年增2成！ 第一金華南金躋。",
       "answer_short": "新聞群聚 5 則/混合",
       "explanation": "新聞群聚反映重大事件或市場關注度突增。",
       "evidence": {
@@ -21414,11 +21414,11 @@
           "window_hours": 24,
           "n_news": 5,
           "direction": "mixed",
-          "top_topic": "第一金獲利／前七月賺209.37億元、EPS 1.46元雙創歷史同期新高| 個股情報| 股市",
+          "top_topic": "公股四金二銀前7月合賺1057億元年增2成！ 第一金華南金躋身200億俱樂部",
           "top_titles": [
+            "公股四金二銀前7月合賺1057億元年增2成！ 第一金華南金躋身200億俱樂部",
             "第一金獲利／前七月賺209.37億元、EPS 1.46元雙創歷史同期新高| 個股情報| 股市",
-            "【2026/07月營收公告】第一金(2892) 七月營收77.66億元，表現亮眼、呈現雙成長，創歷史新高，年增2.37%",
-            "公股四金二銀前7月合賺1057億元年增2成！ 第一金華南金躋身200億俱樂部"
+            "【2026/07月營收公告】第一金(2892) 七月營收77.66億元，表現亮眼、呈現雙成長，創歷史新高，年增2.37%"
           ]
         },
         "method": "news_cluster_window_v1",
@@ -21523,7 +21523,7 @@
       "tier": "info",
       "actionable": true,
       "question": "短時間內是否出現新聞群聚？",
-      "answer": "近期 5 則 混合 新聞，主題：2885 元大金 - 抖音影片是不是詐騙廣告 - 股市爆料同。",
+      "answer": "近期 5 則 混合 新聞，主題：元大金是每月皆較去年同期成長的證券型金控龍頭！穩定輸出就是讚。",
       "answer_short": "新聞群聚 5 則/混合",
       "explanation": "新聞群聚反映重大事件或市場關注度突增。",
       "evidence": {
@@ -21531,10 +21531,10 @@
           "window_hours": 24,
           "n_news": 5,
           "direction": "mixed",
-          "top_topic": "2885 元大金 - 抖音影片是不是詐騙廣告 - 股市爆料同學會",
+          "top_topic": "元大金是每月皆較去年同期成長的證券型金控龍頭！穩定輸出就是讚",
           "top_titles": [
+            "元大金是每月皆較去年同期成長的證券型金控龍頭！穩定輸出就是讚",
             "2885 元大金 - 抖音影片是不是詐騙廣告 - 股市爆料同學會",
-            "2885 元大金- 元大金是每月皆較去年同期成長的證券型金控龍頭！穩定輸出就是讚- 股市爆料同學會",
             "【2026/07月營收公告】元大金(2885) 七月營收175.6億元，年增78.99%-CMoney 小編"
           ]
         },
@@ -21609,7 +21609,7 @@
       "tier": "info",
       "actionable": true,
       "question": "短時間內是否出現新聞群聚？",
-      "answer": "近期 5 則 混合 新聞，主題：中租-KY 法人買盤進駐。",
+      "answer": "近期 5 則 混合 新聞，主題：中租-KY(5871) 個股概覽 | 個股 - 股市。",
       "answer_short": "新聞群聚 5 則/混合",
       "explanation": "新聞群聚反映重大事件或市場關注度突增。",
       "evidence": {
@@ -21617,11 +21617,11 @@
           "window_hours": 24,
           "n_news": 5,
           "direction": "mixed",
-          "top_topic": "中租-KY 法人買盤進駐",
+          "top_topic": "中租-KY(5871) 個股概覽 | 個股 - 股市",
           "top_titles": [
+            "中租-KY(5871) 個股概覽 | 個股 - 股市",
             "中租-KY 法人買盤進駐",
-            "中租-KY(5871)-同學風向與貼文摘要 - 股市爆料同學會",
-            "5871 中租-KY - 外資聽我的話買7000多張雖賠猶賺 - 股市爆料同學會"
+            "中租-KY(5871)-同學風向與貼文摘要 - 股市爆料同學會"
           ]
         },
         "method": "news_cluster_window_v1",
@@ -21900,7 +21900,7 @@
   ],
   "data": {
     "schema_version": "1.2.0",
-    "generated_at_utc": "2026-08-16T07:00:03Z",
+    "generated_at_utc": "2026-08-16T08:20:36Z",
     "last_updated": "2026-08-16",
     "tickers": [
       "2330",
@@ -22232,6 +22232,13 @@
             "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTE5ncXZFWU5TaEFrcFVSWDJqVzZURTlJSXlUYVdSZlBJQTlkaHI5cHQ5N0tMZTNUTTZRcG9NV2tyYkdzLW1keERldk9xbWtCanBORUhyY3NGelo?oc=5\" target=\"_blank\">2330 台積電 - 外媒：輝達台積電和Lumentum聯手打造AI的光速高速公路- 股市爆料同學會</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CMoney</font>"
           },
           {
+            "title": "2330 台積電 - 8/16 韓國軍火紛爭： 主力先知道？🥹 - 股市爆料同學會",
+            "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1uVkZYSHN1VlI3VWdPRW9KMFNGM19aRWhmM01HX0loWmJ5cmpla04wdHVmRU1CZFFRdlp5WHRwandxZmNEdDlidkJGbnd0MW5ZdlRxYUJoOHE?oc=5",
+            "source": "CMoney",
+            "date": "2026-08-16",
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTE1uVkZYSHN1VlI3VWdPRW9KMFNGM19aRWhmM01HX0loWmJ5cmpla04wdHVmRU1CZFFRdlp5WHRwandxZmNEdDlidkJGbnd0MW5ZdlRxYUJoOHE?oc=5\" target=\"_blank\">2330 台積電 - 8/16 韓國軍火紛爭： 主力先知道？🥹 - 股市爆料同學會</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CMoney</font>"
+          },
+          {
             "title": "2330 台積電 - 本週8/16台股資產變動超過千億排行榜分析- 股市爆料同學會",
             "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE13SEg2NXFETEFaZ25mRXhXaGtOZnc0VzBwa0MzQzhoTEJTRUFXZ041MGdWSi05c1B2U3oxWGJjYkV0RjM1ZENpSzZwWnpSTGtnS3RwNzF3OVQ?oc=5",
             "source": "CMoney",
@@ -22251,13 +22258,6 @@
             "source": "CMoney",
             "date": "2026-08-16",
             "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTE5wUWNjSmVFWTFReUFaMFM2WE9QRXpabVdNai1fNDBnRDJCT0NfOFZsWFBzeEpYM2puSjItaHpfWGhDMjZPQnBNdThPQnlWODVFNzVCOEtIV1Q?oc=5\" target=\"_blank\">2330 台積電 - 還能買嗎？😆😆 - 股市爆料同學會</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CMoney</font>"
-          },
-          {
-            "title": "大砍台積電ADR 7成持股？ 軟銀Q2套現2.7億美元",
-            "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5CaXpvT19oZFN2Snd4a2daVnhIU0FYc2thRE50YnFzbzJPNFhDcXBUSWtOeWNMQlhIb1RzVE4wM2tDcXFqc3pvQXBFSQ?oc=5",
-            "source": "三立新聞",
-            "date": "2026-08-15",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiS0FVX3lxTE5CaXpvT19oZFN2Snd4a2daVnhIU0FYc2thRE50YnFzbzJPNFhDcXBUSWtOeWNMQlhIb1RzVE4wM2tDcXFqc3pvQXBFSQ?oc=5\" target=\"_blank\">大砍台積電ADR 7成持股？ 軟銀Q2套現2.7億美元</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">三立新聞</font>"
           }
         ],
         "news_sentiment": {
@@ -28675,8 +28675,8 @@
                 "top_topic": "2330 台積電 - 外媒：輝達台積電和Lumentum聯手打造AI的光速高速公路- 股市爆料同學會",
                 "top_titles": [
                   "2330 台積電 - 外媒：輝達台積電和Lumentum聯手打造AI的光速高速公路- 股市爆料同學會",
-                  "2330 台積電 - 本週8/16台股資產變動超過千億排行榜分析- 股市爆料同學會",
-                  "2330 台積電 - 從媽祖民間信仰與道教觀來看，這次凍結首相支薪，對投資人的啟示- 股市爆料同學會"
+                  "2330 台積電 - 8/16 韓國軍火紛爭： 主力先知道？🥹 - 股市爆料同學會",
+                  "2330 台積電 - 本週8/16台股資產變動超過千億排行榜分析- 股市爆料同學會"
                 ]
               },
               "method": "news_cluster_window_v1",
@@ -42404,13 +42404,6 @@
         },
         "news": [
           {
-            "title": "瑞昱(2379) 個股概覽 | 個股 - 股市",
-            "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1Ydk1OYWlGWW1Bd3dTZVgzdjN3UkZYeWk4YXE2bGJ1WS1FN01wNlgzOVhSX3FFSXpTUHkyaUtDZzFRQU9DZDZaX2FYd0U1TVdMSDE0?oc=5",
-            "source": "CMoney",
-            "date": "2026-08-16",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiU0FVX3lxTE1Ydk1OYWlGWW1Bd3dTZVgzdjN3UkZYeWk4YXE2bGJ1WS1FN01wNlgzOVhSX3FFSXpTUHkyaUtDZzFRQU9DZDZaX2FYd0U1TVdMSDE0?oc=5\" target=\"_blank\">瑞昱(2379) 個股概覽 | 個股 - 股市</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CMoney</font>"
-          },
-          {
             "title": "2379 瑞昱- 週六AI晶片大跌怕台股受到短暫情緒性賣壓- 股市爆料同學會",
             "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE54LXd0UFc2VG1JSlZIcS1FaTluamxpVnZCdHVxQ1c0NkRKWDcyT1pzbjduX0gzVjhHUDViOXFjUHNlMUN2bnppUV9mazRhNVZoakM5NDZtZVY?oc=5",
             "source": "CMoney",
@@ -42437,6 +42430,13 @@
             "source": "sinotrade.com.tw",
             "date": "2026-08-09",
             "summary": "<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE5RaUdJUEtkVTNLOXkzdDY4VjlzRXlmRzk2QXJ6d2lwa19KblprUFBKdS1ad3JLZmZ4c3pEMlk1NFlIS2dWV2JoTG8zcDZHbWlYNFR2ZTJPWkVzOHN2X0dGeTBKRmY3SnlXTDBXdWNXYktWclR0QUE?oc=5\" target=\"_blank\">Factset 最新調查：瑞昱(2379-TW)EPS預估下修至31.91元，預估目標價為723.5元｜新聞快訊｜豐雲學堂</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">sinotrade.com.tw</font>"
+          },
+          {
+            "title": "營運向上聯詠、瑞昱權證亮- 日報",
+            "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBhRXhRY21CUExpZzFBYnJJSFZYWEJLMklOV0VVbmhDM3llVXlBazVpZllpY1lYN3l6ME5BTWJZN0VwZlZILXdjNlo4eVVZajZxc2o0VDRONkUtNlpYdDNr?oc=5",
+            "source": "工商時報",
+            "date": "2026-08-09",
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTFBhRXhRY21CUExpZzFBYnJJSFZYWEJLMklOV0VVbmhDM3llVXlBazVpZllpY1lYN3l6ME5BTWJZN0VwZlZILXdjNlo4eVVZajZxc2o0VDRONkUtNlpYdDNr?oc=5\" target=\"_blank\">營運向上聯詠、瑞昱權證亮- 日報</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">工商時報</font>"
           }
         ],
         "news_sentiment": {
@@ -48897,7 +48897,7 @@
             "tier": "info",
             "actionable": true,
             "question": "短時間內是否出現新聞群聚？",
-            "answer": "近期 5 則 混合 新聞，主題：瑞昱(2379) 個股概覽 | 個股 - 股市。",
+            "answer": "近期 5 則 混合 新聞，主題：2379 瑞昱- 週六AI晶片大跌怕台股受到短暫情緒性賣壓-。",
             "answer_short": "新聞群聚 5 則/混合",
             "explanation": "新聞群聚反映重大事件或市場關注度突增。",
             "evidence": {
@@ -48905,11 +48905,11 @@
                 "window_hours": 24,
                 "n_news": 5,
                 "direction": "mixed",
-                "top_topic": "瑞昱(2379) 個股概覽 | 個股 - 股市",
+                "top_topic": "2379 瑞昱- 週六AI晶片大跌怕台股受到短暫情緒性賣壓- 股市爆料同學會",
                 "top_titles": [
-                  "瑞昱(2379) 個股概覽 | 個股 - 股市",
                   "2379 瑞昱- 週六AI晶片大跌怕台股受到短暫情緒性賣壓- 股市爆料同學會",
-                  "【26Q2財報公告】瑞昱(2379) Q2 營收375.532億元，創歷史新高，季增3.1%、年成長17.67%-CMoney 小編"
+                  "【26Q2財報公告】瑞昱(2379) Q2 營收375.532億元，創歷史新高，季增3.1%、年成長17.67%-CMoney 小編",
+                  "鉅亨速報 - Factset 最新調查：瑞昱(2379-TW)EPS預估下修至31.91元，預估目標價為723.5元"
                 ]
               },
               "method": "news_cluster_window_v1",
@@ -62587,13 +62587,6 @@
             "summary": "<a href=\"https://news.google.com/rss/articles/CBMi6ANBVV95cUxNNy1mNXNPZGM3Xy1HRUNEN245enowSEZ2dzJaNG00c0VwX1ZRWmhfZXd4cW0tWVdWclFwdlQzQjRBbTRWbWVZTkIwTS02WVlCTWJWMi10akI2ZGNIVjFnLVhHSWlQbnN1Ql9MZmtPZFJPQVB1U2JUb3k1LWZNQjBWZjU0S1pPSUV4WTVmWVJkQ2NqeGY5Nnp5ckdFWm1pcThoRURPYngtclFRZ1Q5Tk1wbktfSWtBSEFnQTV3bmg1VUU2TzRoRmQ2RWcwaTFfQ2lubjVSUlBEdmNPbGZqOTUtR1E4dHp6V1R6TWkwbG8zMlcxamNUMU1weld5THI1WC1WMExyZ19oVVRJa1BpdXhPQnNKNzdHMGR1TU1Ld2JLYzFWNWtZdHBmSmFuNXhPSlNFS0d5YkoxNm9FNU80MjU4QW5lemhtSE9tUjV1UzUyQzZlRFhyOGQ5ZkNhSjZ6bHZKRFhNQ0Y2MHVMdGk5cDRvbTlQRUIxQUtROUZoRGRMWmdGVWVWVksycGVuOGFZNXJWQTFFeXh3dUEzbklydHpfODFQbnVicldzMzhySGNyc2E4YktXV2c4U3dkT0VPUUZGT2ZOY0dQSlNjcG5rQ1RQOEw3M2s5ZXZvVlM0NzZtYlFWYTJLTnR2dQ?oc=5\" target=\"_blank\">記憶體持續受市場矚目！「這3檔」單周被外資狂掃逾47萬張 連買力積電4日猛灌240億元</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo股市</font>"
           },
           {
-            "title": "記憶體績優生開趴！力積電爆量漲停登人氣王 群聯、創見等接力走強",
-            "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9lZDAtVGVERnc5ZTBYVTV4YVFLLUUteVZ5NnliV3dLci1OOG1NSlo2aFlkLS1tcFhtWjU0TllRRC1jME1UNkhxNXI1N3lOdGxETmhCeHdDcEJQZ9IBX0FVX3lxTE1pMThxQk5JeDJjMGdYRnNnN252VG1oZWpFUmdKRmdLU3V3WlJNLXg3YVlUMUV6clQya3c4VFNHdjRrcVlZOVJmeDNpMmFJNmdJUEFqZHktYktjSGlRVUFv?oc=5",
-            "source": "經濟日報",
-            "date": "2026-08-15",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE9lZDAtVGVERnc5ZTBYVTV4YVFLLUUteVZ5NnliV3dLci1OOG1NSlo2aFlkLS1tcFhtWjU0TllRRC1jME1UNkhxNXI1N3lOdGxETmhCeHdDcEJQZ9IBX0FVX3lxTE1pMThxQk5JeDJjMGdYRnNnN252VG1oZWpFUmdKRmdLU3V3WlJNLXg3YVlUMUV6clQya3c4VFNHdjRrcVlZOVJmeDNpMmFJNmdJUEFqZHktYktjSGlRVUFv?oc=5\" target=\"_blank\">記憶體績優生開趴！力積電爆量漲停登人氣王 群聯、創見等接力走強</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">經濟日報</font>"
-          },
-          {
             "title": "台股連2周反彈千點，何時站穩46K？力積電、南亞科、群創...外資聯手狂掃，15檔亮點個股出列",
             "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQd2QzTnFxeE8tTmh0cUgzQ2lfTjVpcmFCQWZOOFF0QUk2d0duVkYxT0lqMVJVX1ZUZDk2akV5b0E2OWs0UVJsTzJ6N3NfLW84eXFMNGZKQWRTSU9teWZONWJyRy1rSVFsa1psX3lYTnRtMGg0aWxkMHByQTc5aWxadQ?oc=5",
             "source": "今周刊",
@@ -62606,6 +62599,13 @@
             "source": "TVBS新聞網",
             "date": "2026-08-15",
             "summary": "<a href=\"https://news.google.com/rss/articles/CBMiT0FVX3lxTFB0czNGTWxLbUpnR2FpTWRqSVBiak0zM0RvdUdwaEItVXN4S2lXbTZ4VDBpZU8ySk1EZUFKXzMyVUxObDdZSGJWajhReTFNR2M?oc=5\" target=\"_blank\">外資回來了！單週進補2061億元 狂掃「這檔」逾31萬張</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TVBS新聞網</font>"
+          },
+          {
+            "title": "外資本周買超2,061億 狂掃力積電31萬張 還有2檔傳產股也大買",
+            "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE0xVHdER2RmYnhZQnVtamp6elJJRGlVcXFQZWdtTEJ5bmVZaHBWa2dtOGk4QnFSY3AxTUdhVUlsSFlTYUNBZVNWVEpxcHIwNG5V0gFWQVVfeXFMT3NPa08xMkVlT2lRV1Z6N3I5YjdfT19aSmF3REY4RHNwQ0VoYnFaUXJrYXRpREQ5N2dUZnJjZWVfbjFPcGh0X1Z2aE5LeW1FUG5Wc19TNEE?oc=5",
+            "source": "UDN",
+            "date": "2026-08-14",
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiUEFVX3lxTE0xVHdER2RmYnhZQnVtamp6elJJRGlVcXFQZWdtTEJ5bmVZaHBWa2dtOGk4QnFSY3AxTUdhVUlsSFlTYUNBZVNWVEpxcHIwNG5V0gFWQVVfeXFMT3NPa08xMkVlT2lRV1Z6N3I5YjdfT19aSmF3REY4RHNwQ0VoYnFaUXJrYXRpREQ5N2dUZnJjZWVfbjFPcGh0X1Z2aE5LeW1FUG5Wc19TNEE?oc=5\" target=\"_blank\">外資本周買超2,061億 狂掃力積電31萬張 還有2檔傳產股也大買</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">UDN</font>"
           }
         ],
         "news_sentiment": {
@@ -69026,7 +69026,7 @@
                 "top_titles": [
                   "6770 力積電- 〈台股風向球〉8月來反彈2700點 4萬6關前籌碼面轉強有助驚驚漲格局- 股市爆料同學會",
                   "記憶體持續受市場矚目！「這3檔」單周被外資狂掃逾47萬張 連買力積電4日猛灌240億元",
-                  "記憶體績優生開趴！力積電爆量漲停登人氣王 群聯、創見等接力走強"
+                  "台股連2周反彈千點，何時站穩46K？力積電、南亞科、群創...外資聯手狂掃，15檔亮點個股出列"
                 ]
               },
               "method": "news_cluster_window_v1",
@@ -123241,18 +123241,18 @@
             "summary": "<a href=\"https://news.google.com/rss/articles/CBMigAFBVV95cUxPZ0Q5REdFbkRBeTFBZjdmS3p5UEdCdFRRRVBuQ1ltak1zYjVqbnZFVk1NMHlmTFR3QUt1ejNGOGlsdGRMNTdyaUNQaDRKeUQwVTZjQ3NNMHhSQ0t0WHFjM25kbUN4S0MwYTM3dmZVUWFQUHpWcE5lVi1McUpCMkV2Ng?oc=5\" target=\"_blank\">仁寶(2324)股價漲停43元還能追？最新目標價？鴻海、和碩、廣達...億元教授點名代工四雄「買它最賺」！下車時機曝光</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">今周刊</font>"
           },
           {
-            "title": "AI伺服器營收拚年增10倍！和碩擬發200億元可轉債、再募1億美元投信本週砸5.44億元買逾6千張",
-            "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1XR3NqT1I0Qlp3aFdXeUhkOURnZDJUa2pHRjctTW5SNExBbTUwdFRneEtfNTdzWlZNWFRhMjlNUE01YmJ4VENPOEpkOA?oc=5",
-            "source": "FTNN 新聞網",
-            "date": "2026-08-15",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiS0FVX3lxTE1XR3NqT1I0Qlp3aFdXeUhkOURnZDJUa2pHRjctTW5SNExBbTUwdFRneEtfNTdzWlZNWFRhMjlNUE01YmJ4VENPOEpkOA?oc=5\" target=\"_blank\">AI伺服器營收拚年增10倍！和碩擬發200億元可轉債、再募1億美元投信本週砸5.44億元買逾6千張</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">FTNN 新聞網</font>"
-          },
-          {
             "title": "討論牆 | 盤中速報 - 和碩(4938)股價拉至漲停，漲停價100.0元，成交16,690張",
             "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9yU2ZRM3ViSVgxUU5Sa1N4NkVCS1N6dmtTZHhJTGJBdlNYQU5teGpkZFg1ekNlX1NWSFBsZUZLM25qSEppZFRvUXMtRFZxaEtTcUVoX1VuN0RLLV9SdjNQYWtWLVI?oc=5",
             "source": "LINE TODAY",
             "date": "2026-08-15",
             "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZEFVX3lxTE9yU2ZRM3ViSVgxUU5Sa1N4NkVCS1N6dmtTZHhJTGJBdlNYQU5teGpkZFg1ekNlX1NWSFBsZUZLM25qSEppZFRvUXMtRFZxaEtTcUVoX1VuN0RLLV9SdjNQYWtWLVI?oc=5\" target=\"_blank\">討論牆 | 盤中速報 - 和碩(4938)股價拉至漲停，漲停價100.0元，成交16,690張</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">LINE TODAY</font>"
+          },
+          {
+            "title": "AI伺服器營收拚年增10倍！和碩擬發200億元可轉債、再募1億美元投信本週砸5.44億元買逾6千張",
+            "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1XR3NqT1I0Qlp3aFdXeUhkOURnZDJUa2pHRjctTW5SNExBbTUwdFRneEtfNTdzWlZNWFRhMjlNUE01YmJ4VENPOEpkOA?oc=5",
+            "source": "FTNN 新聞網",
+            "date": "2026-08-15",
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiS0FVX3lxTE1XR3NqT1I0Qlp3aFdXeUhkOURnZDJUa2pHRjctTW5SNExBbTUwdFRneEtfNTdzWlZNWFRhMjlNUE01YmJ4VENPOEpkOA?oc=5\" target=\"_blank\">AI伺服器營收拚年增10倍！和碩擬發200億元可轉債、再募1億美元投信本週砸5.44億元買逾6千張</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">FTNN 新聞網</font>"
           },
           {
             "title": "Q2每股賺1.68元、H1EPS達2.26元！「電子代工大廠」周漲8.84% 自營商卻脫手2255張抱回2億元",
@@ -129741,8 +129741,8 @@
                 "top_topic": "仁寶(2324)股價漲停43元還能追？最新目標價？鴻海、和碩、廣達...億元教授點名代工四雄「買它最賺」！下車時機曝光",
                 "top_titles": [
                   "仁寶(2324)股價漲停43元還能追？最新目標價？鴻海、和碩、廣達...億元教授點名代工四雄「買它最賺」！下車時機曝光",
-                  "AI伺服器營收拚年增10倍！和碩擬發200億元可轉債、再募1億美元投信本週砸5.44億元買逾6千張",
-                  "討論牆 | 盤中速報 - 和碩(4938)股價拉至漲停，漲停價100.0元，成交16,690張"
+                  "討論牆 | 盤中速報 - 和碩(4938)股價拉至漲停，漲停價100.0元，成交16,690張",
+                  "AI伺服器營收拚年增10倍！和碩擬發200億元可轉債、再募1億美元投信本週砸5.44億元買逾6千張"
                 ]
               },
               "method": "news_cluster_window_v1",
@@ -190760,11 +190760,11 @@
             "summary": "<a href=\"https://news.google.com/rss/articles/CBMiT0FVX3lxTE5LS3hKZGU2LWFFOEhYblM4YUk2TGo1dnkxMi1CX194YzZVYXlfODBDRTdGTDdkaXdzWWpySVhUekd6SjVYMDJ3am1LZktPQVU?oc=5\" target=\"_blank\">長榮航上半年EPS 2.24元 客貨運需求熱延伸至Q3</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">news.cnyes.com</font>"
           },
           {
-            "title": "△個股：客運穩健成長＋貨運需求暢旺，長榮航(2618)上半年EPS 2.24元",
-            "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNVWpOc0tINFZjd3NmVXZ6UWY2SVFIV1N3b3M1VHR1NU5LdGtoVVdnSUw1SV9ic1V0cTVRN1hXYzl3RnZnWWFlS28td3Y3NGt2ZDFsdTh5RldXQTN1X3NrLXVKY0d6UmF5dmx4eTY2X05hcS1oNzNjcHdoSERvempsNHdCLVZEUEFV?oc=5",
-            "source": "富聯網",
+            "title": "長榮航與正崴獲利豐，多產業上半年財報亮眼-財經焦點情報站",
+            "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPMlhaamxzMmFBSmRITmpmbzRPZzNuMDRXeFNWaHY0bzE0NXJzOWFFRUpGbUJqcHZaeTBPeFRrXzdTRy16OEtFUHpxTGhSU0ZlVzFSNlE4QVJDa1dpa09fdWxqZHJtVVBsTllTbWJnNVdWcmYxWVRjX2c5OFRwZU5zYzhn?oc=5",
+            "source": "CMoney投資網誌",
             "date": "2026-08-13",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxNVWpOc0tINFZjd3NmVXZ6UWY2SVFIV1N3b3M1VHR1NU5LdGtoVVdnSUw1SV9ic1V0cTVRN1hXYzl3RnZnWWFlS28td3Y3NGt2ZDFsdTh5RldXQTN1X3NrLXVKY0d6UmF5dmx4eTY2X05hcS1oNzNjcHdoSERvempsNHdCLVZEUEFV?oc=5\" target=\"_blank\">△個股：客運穩健成長＋貨運需求暢旺，長榮航(2618)上半年EPS 2.24元</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">富聯網</font>"
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxPMlhaamxzMmFBSmRITmpmbzRPZzNuMDRXeFNWaHY0bzE0NXJzOWFFRUpGbUJqcHZaeTBPeFRrXzdTRy16OEtFUHpxTGhSU0ZlVzFSNlE4QVJDa1dpa09fdWxqZHJtVVBsTllTbWJnNVdWcmYxWVRjX2c5OFRwZU5zYzhn?oc=5\" target=\"_blank\">長榮航與正崴獲利豐，多產業上半年財報亮眼-財經焦點情報站</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CMoney投資網誌</font>"
           }
         ],
         "news_sentiment": {
@@ -204295,11 +204295,11 @@
             "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxOUHZFYXFRMDNYX2dGWmwzczNVOFJxcUp0NXNFcnI1Q0l6aVV0Tk5DRS1ONUMtSGxnZXM4b2tWWUljSC1vLUhwUU53OGdIak5GUUtad2pnSC1qUFdIMjZnX0FHTTZnTUE2eTJEMDg1YXpwY1NwWUlzbXVpNkxYQ182dUc5NzlkX05r?oc=5\" target=\"_blank\">《台北股市》不斷更新！12家金控營收開獎</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">富聯網</font>"
           },
           {
-            "title": "13家金控前7月獲利逼近5千億！ 富邦金、國泰金賺進逾半個股本",
-            "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE14TUtRZ0lFbnMwTVFVNnlFdWJVRzFfUC1GV2tScktvOXlNaWtjOC1FUnBVYmNFUXlJZjZHelZRNDF4YXdNd0o5UGt1c1gxekdmUHfSAVBBVV95cUxNSlg1NnpES1A0RlhCM1FoVWlDS2VTVzROeHBiSWctS3FUdEtDVkZCcDd5SWk2b2lzeUJQR0NTUjRXLS04M0Y4V3dPV1dWV2hEQg?oc=5",
-            "source": "ETtoday財經雲",
+            "title": "金融股輪流飆！國泰金大漲逼近100元關卡 富邦金再刷新高",
+            "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9EcjQwYV95blNJeExKc3gxM21lekZlejNjVVozODZJMEQ4V2cxd0VMT2hvT0h4WGhHYjFrbmlXdURtZ2M1eDVTbGxNeUI5Q1hOeUkxWXRGVlpGZ9IBX0FVX3lxTFBON3V2ZnZBUUk1dmh5aTFuaVAxQ1hLVGJHSFJ6QWpwSFVRdzVEQVRkc29tYVNEU01TSGtVcldaN2N1ZHI3SWZrZkg2NVY4MlpFc1ZaQ2dnc1RrdndxcGhB?oc=5",
+            "source": "經濟日報",
             "date": "2026-08-14",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiUkFVX3lxTE14TUtRZ0lFbnMwTVFVNnlFdWJVRzFfUC1GV2tScktvOXlNaWtjOC1FUnBVYmNFUXlJZjZHelZRNDF4YXdNd0o5UGt1c1gxekdmUHfSAVBBVV95cUxNSlg1NnpES1A0RlhCM1FoVWlDS2VTVzROeHBiSWctS3FUdEtDVkZCcDd5SWk2b2lzeUJQR0NTUjRXLS04M0Y4V3dPV1dWV2hEQg?oc=5\" target=\"_blank\">13家金控前7月獲利逼近5千億！ 富邦金、國泰金賺進逾半個股本</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ETtoday財經雲</font>"
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE9EcjQwYV95blNJeExKc3gxM21lekZlejNjVVozODZJMEQ4V2cxd0VMT2hvT0h4WGhHYjFrbmlXdURtZ2M1eDVTbGxNeUI5Q1hOeUkxWXRGVlpGZ9IBX0FVX3lxTFBON3V2ZnZBUUk1dmh5aTFuaVAxQ1hLVGJHSFJ6QWpwSFVRdzVEQVRkc29tYVNEU01TSGtVcldaN2N1ZHI3SWZrZkg2NVY4MlpFc1ZaQ2dnc1RrdndxcGhB?oc=5\" target=\"_blank\">金融股輪流飆！國泰金大漲逼近100元關卡 富邦金再刷新高</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">經濟日報</font>"
           },
           {
             "title": "國泰金前7月獲利逾873億元、EPS 5.68元",
@@ -204310,10 +204310,10 @@
           }
         ],
         "news_sentiment": {
-          "score": 0.8,
-          "positive_count": 4,
+          "score": 0.6,
+          "positive_count": 3,
           "negative_count": 0,
-          "neutral_count": 1,
+          "neutral_count": 2,
           "label": "very_positive",
           "top_positive_title": "13家金控獲利出爐，前7月EPS有11家賺逾1元「僅2家沒有」，富邦金、國泰金、凱基金...存股一表看",
           "top_negative_title": null
@@ -210630,15 +210630,15 @@
             "tier": "good",
             "actionable": true,
             "question": "新聞情緒在過去 24 小時是否大幅轉變？",
-            "answer": "情緒分數從 0.0 變至 0.8（4 正面 / 0 負面）。",
-            "answer_short": "情緒 +0.80",
+            "answer": "情緒分數從 0.0 變至 0.6（3 正面 / 0 負面）。",
+            "answer_short": "情緒 +0.60",
             "explanation": "情緒驟變常為事件性催化（合作案、訴訟、財測上修等）。",
             "evidence": {
               "facts": {
-                "score_curr": 0.8,
+                "score_curr": 0.6,
                 "score_prev": 0.0,
-                "score_delta": 0.8,
-                "positive_count": 4,
+                "score_delta": 0.6,
+                "positive_count": 3,
                 "negative_count": 0,
                 "top_negative_title": ""
               },
@@ -278209,6 +278209,13 @@
         },
         "news": [
           {
+            "title": "主動式 ETF 最近都在買誰？寶雅爆量奪冠、南亞富喬跟上",
+            "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1PbGFKZXJ3eDhUaC1IdXU3Q2xWN0JzRDRKbjVVejIwa3BSU0FoMlNCV0tJWmJqbUtCbmk1aUpmWi10Ujh6OUVleUFKRU9oMWhzWkV30gFYQVVfeXFMUHJJSEVWbmVFQk9tMVc4ckQxWlZHbXcyQlR3Y0JWSjNidDkzYUNSX1U2NnN0dkt2aXRVY2VnR2lXQmNjYTVmNUZLWEhVM0hrUkRydEM1Ri1EOA?oc=5",
+            "source": "UDN",
+            "date": "2026-08-16",
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiU0FVX3lxTE1PbGFKZXJ3eDhUaC1IdXU3Q2xWN0JzRDRKbjVVejIwa3BSU0FoMlNCV0tJWmJqbUtCbmk1aUpmWi10Ujh6OUVleUFKRU9oMWhzWkV30gFYQVVfeXFMUHJJSEVWbmVFQk9tMVc4ckQxWlZHbXcyQlR3Y0JWSjNidDkzYUNSX1U2NnN0dkt2aXRVY2VnR2lXQmNjYTVmNUZLWEhVM0hrUkRydEM1Ri1EOA?oc=5\" target=\"_blank\">主動式 ETF 最近都在買誰？寶雅爆量奪冠、南亞富喬跟上</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">UDN</font>"
+          },
+          {
             "title": "電子材料再傳漲價？　南亞總經親自回應「這樣說」 | 財經 | CTWANT",
             "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFAybUNxZWM3SnV2U1Fsa192VU9tOThzaXgwczNwbjVYTVRtRDBuSXlPZ2NMdU5YU2Y3ZlFRdFBfLU0zTkhxc2g5aHNETFFYdGvSAVRBVV95cUxPMWJBUFlKMXNIY3dxVDBVTk0wOTZsb2JyM3g5Wm5PTTNLZ0NYWDNNSG9seEQ1TlhsZDFTTGN0bVRMel9iN3VTTjFGQTlJOXFKSWU2aUs?oc=5",
             "source": "CTWANT",
@@ -278235,13 +278242,6 @@
             "source": "CMoney",
             "date": "2026-08-15",
             "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTE5mcVpmVkJpR0VmbnJhSUxybmRvbktaeEpvY2dVUXd2eE9va2tYR1hhNldHLXVYM2JpMTB5d3A4cFNEZ3RBckd5NkFyR1lJMkJBaF9oSF95bkk?oc=5\" target=\"_blank\">1303 南亞 - 大利多??? - 股市爆料同學會</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CMoney</font>"
-          },
-          {
-            "title": "討論牆 | 盤中速報 - 南亞(1303)股價拉至漲停，漲停價207.5元，成交86,576張",
-            "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9XV01UZUVodzdrUjdyQy1td1kzUmFuU3RyekdsZGVOS1NiM1Qxcm96OFVBR1ZvVVp6VjVUeUNZcklwTVJuWGNtWFZ4cHlHV2k1aE9ZM2ZETUxQa0NGVHBkaHlqb0E?oc=5",
-            "source": "LINE TODAY",
-            "date": "2026-08-15",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZEFVX3lxTE9XV01UZUVodzdrUjdyQy1td1kzUmFuU3RyekdsZGVOS1NiM1Qxcm96OFVBR1ZvVVp6VjVUeUNZcklwTVJuWGNtWFZ4cHlHV2k1aE9ZM2ZETUxQa0NGVHBkaHlqb0E?oc=5\" target=\"_blank\">討論牆 | 盤中速報 - 南亞(1303)股價拉至漲停，漲停價207.5元，成交86,576張</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">LINE TODAY</font>"
           }
         ],
         "news_sentiment": {
@@ -284703,7 +284703,7 @@
             "tier": "info",
             "actionable": true,
             "question": "短時間內是否出現新聞群聚？",
-            "answer": "近期 5 則 混合 新聞，主題：電子材料再傳漲價？　南亞總經親自回應「這樣說」 | 財經 |。",
+            "answer": "近期 5 則 混合 新聞，主題：主動式 ETF 最近都在買誰？寶雅爆量奪冠、南亞富喬跟上。",
             "answer_short": "新聞群聚 5 則/混合",
             "explanation": "新聞群聚反映重大事件或市場關注度突增。",
             "evidence": {
@@ -284711,11 +284711,11 @@
                 "window_hours": 24,
                 "n_news": 5,
                 "direction": "mixed",
-                "top_topic": "電子材料再傳漲價？　南亞總經親自回應「這樣說」 | 財經 | CTWANT",
+                "top_topic": "主動式 ETF 最近都在買誰？寶雅爆量奪冠、南亞富喬跟上",
                 "top_titles": [
+                  "主動式 ETF 最近都在買誰？寶雅爆量奪冠、南亞富喬跟上",
                   "電子材料再傳漲價？　南亞總經親自回應「這樣說」 | 財經 | CTWANT",
-                  "這檔一喊漲「7檔受惠股嗨翻」！CCL漲價潮再起 南亞亮燈、台光電狂飆8％法人掃逾1.2萬張",
-                  "討論牆 | 盤中速報 - 南亞(1303)大漲7.41%，報203元"
+                  "這檔一喊漲「7檔受惠股嗨翻」！CCL漲價潮再起 南亞亮燈、台光電狂飆8％法人掃逾1.2萬張"
                 ]
               },
               "method": "news_cluster_window_v1",
@@ -311869,9 +311869,9 @@
           {
             "title": "台南(1473)-同學風向與貼文摘要 - 股市爆料同學會",
             "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE15MmRqNWdzTTZpZzctUzdGc3cyRVpTZFN3WUFzcjV1ejBvN3lLeDJVcjNKcTd2ZVhwY2lycVBVdnJZMS1aUHpFc2tUcjZUZWE1anFIOHNDSU9TdTlYN1Q5OFlR?oc=5",
-            "source": "CMoney",
+            "source": "cmoney.tw",
             "date": "2026-08-14",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiYkFVX3lxTE15MmRqNWdzTTZpZzctUzdGc3cyRVpTZFN3WUFzcjV1ejBvN3lLeDJVcjNKcTd2ZVhwY2lycVBVdnJZMS1aUHpFc2tUcjZUZWE1anFIOHNDSU9TdTlYN1Q5OFlR?oc=5\" target=\"_blank\">台南(1473)-同學風向與貼文摘要 - 股市爆料同學會</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CMoney</font>"
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiYkFVX3lxTE15MmRqNWdzTTZpZzctUzdGc3cyRVpTZFN3WUFzcjV1ejBvN3lLeDJVcjNKcTd2ZVhwY2lycVBVdnJZMS1aUHpFc2tUcjZUZWE1anFIOHNDSU9TdTlYN1Q5OFlR?oc=5\" target=\"_blank\">台南(1473)-同學風向與貼文摘要 - 股市爆料同學會</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">cmoney.tw</font>"
           },
           {
             "title": "【26Q2財報公告】台南(1473) Q2 營收14.312億元，創下近2季新低，季減26.95%、年衰退4.8%-CMoney 小編",
@@ -311883,9 +311883,9 @@
           {
             "title": "【2026/07月營收公告】台南(1473) 七月營收6.63億元，表現亮眼、呈現雙成長，創近5個月以來新高，年增12.31%",
             "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5wVVF2ZElsUlVPVmhpR2hNMU9JMk9SZTVVdms3cUR2TlVUeGFfMEoyeTlXY2F3NDRVLTZiMXFoWjdqXzE4cEhnRGZIWGxfanhhMGV5TThhd2NCYU1lMFBqOWxLOVFLMEU?oc=5",
-            "source": "CMoney",
+            "source": "cmoney.tw",
             "date": "2026-08-10",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5wVVF2ZElsUlVPVmhpR2hNMU9JMk9SZTVVdms3cUR2TlVUeGFfMEoyeTlXY2F3NDRVLTZiMXFoWjdqXzE4cEhnRGZIWGxfanhhMGV5TThhd2NCYU1lMFBqOWxLOVFLMEU?oc=5\" target=\"_blank\">【2026/07月營收公告】台南(1473) 七月營收6.63億元，表現亮眼、呈現雙成長，創近5個月以來新高，年增12.31%</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CMoney</font>"
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5wVVF2ZElsUlVPVmhpR2hNMU9JMk9SZTVVdms3cUR2TlVUeGFfMEoyeTlXY2F3NDRVLTZiMXFoWjdqXzE4cEhnRGZIWGxfanhhMGV5TThhd2NCYU1lMFBqOWxLOVFLMEU?oc=5\" target=\"_blank\">【2026/07月營收公告】台南(1473) 七月營收6.63億元，表現亮眼、呈現雙成長，創近5個月以來新高，年增12.31%</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">cmoney.tw</font>"
           },
           {
             "title": "財報：台南(1473)115/01/01-115/06/30歸屬母公司淨利1億131萬元，EPS 0.69元",
@@ -318675,9 +318675,9 @@
           {
             "title": "中鋼(2002)第二季虧轉盈，這次只是反彈還是景氣反轉？",
             "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9iUXJUN3NJUEU1YnlZc2FHTENnc0luSG5RWWtpREVYVVBsSHZvYTNidUZHYzlmR0xYTWJXcGVWRXo5bEp6SUM0d2FSQklVUF8xSmNLRGlR?oc=5",
-            "source": "優分析UAnalyze",
+            "source": "uanalyze.com.tw",
             "date": "2026-08-11",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiVkFVX3lxTE9iUXJUN3NJUEU1YnlZc2FHTENnc0luSG5RWWtpREVYVVBsSHZvYTNidUZHYzlmR0xYTWJXcGVWRXo5bEp6SUM0d2FSQklVUF8xSmNLRGlR?oc=5\" target=\"_blank\">中鋼(2002)第二季虧轉盈，這次只是反彈還是景氣反轉？</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">優分析UAnalyze</font>"
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiVkFVX3lxTE9iUXJUN3NJUEU1YnlZc2FHTENnc0luSG5RWWtpREVYVVBsSHZvYTNidUZHYzlmR0xYTWJXcGVWRXo5bEp6SUM0d2FSQklVUF8xSmNLRGlR?oc=5\" target=\"_blank\">中鋼(2002)第二季虧轉盈，這次只是反彈還是景氣反轉？</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">uanalyze.com.tw</font>"
           }
         ],
         "news_sentiment": {
@@ -325378,18 +325378,18 @@
             "summary": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxOV21TampZUXlLUV9feEVIUjVNMlZJLWpPZjdBS2xkWkZaTWdzVW51eW4tcXRuc09vc25YanEzdnk2TG9TaGxVNkdfYTdwZmJlcTE3YkZlWFR3MFZjYnAyQTRjTmE1VzFLaE15Y0tIMXBIWXdRZUREMThnZDZ4NzJUb3JTQS05RUFsNmJNaUdfZWM?oc=5\" target=\"_blank\">【即時新聞】大成鋼(2027)最新獲利估翻倍！今年EPS上看5.7元，法人搶先佈局！</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CMoney投資網誌</font>"
           },
           {
-            "title": "【26Q2財報公告】大成鋼(2027) Q2 營收359.9805億元，創歷史新高，季增15.47%、年成長41.64%-CMoney 小編",
-            "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNQ0NQYVB6elRZX2J5VzN6NFgtQmVrLXNndDRIb21IN3k4TzVYbXo2elpDUmlCM0tfN2U3Ykx1dThRN1ZWeXVPRlhLM0xRWnlPeExabkhmZjhuVGpjck1sSlBHU3E5NGRoMEh6VmY2X2hyb2dEX2ZVUkpqZWM1YWRFdjZMSlZudVRoR2c?oc=5",
-            "source": "CMoney投資網誌",
+            "title": "2027 大成鋼 - 大戶人數減少 但比例怎增加 有大大知道這表怎麼看嗎 - 股市爆料同學會",
+            "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9KMnZjeUFYVWNKSDVmZkVnTjgtYXRERkdTRnhHU3JUNVJPQTVSX0lOU2tCWjRMTktkWXpSZ0RDcVhvb0YxZFpqMnRzVHl3WmdsR2Q4cUlxNFQ?oc=5",
+            "source": "cmoney.tw",
             "date": "2026-08-14",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxNQ0NQYVB6elRZX2J5VzN6NFgtQmVrLXNndDRIb21IN3k4TzVYbXo2elpDUmlCM0tfN2U3Ykx1dThRN1ZWeXVPRlhLM0xRWnlPeExabkhmZjhuVGpjck1sSlBHU3E5NGRoMEh6VmY2X2hyb2dEX2ZVUkpqZWM1YWRFdjZMSlZudVRoR2c?oc=5\" target=\"_blank\">【26Q2財報公告】大成鋼(2027) Q2 營收359.9805億元，創歷史新高，季增15.47%、年成長41.64%-CMoney 小編</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CMoney投資網誌</font>"
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTE9KMnZjeUFYVWNKSDVmZkVnTjgtYXRERkdTRnhHU3JUNVJPQTVSX0lOU2tCWjRMTktkWXpSZ0RDcVhvb0YxZFpqMnRzVHl3WmdsR2Q4cUlxNFQ?oc=5\" target=\"_blank\">2027 大成鋼 - 大戶人數減少 但比例怎增加 有大大知道這表怎麼看嗎 - 股市爆料同學會</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">cmoney.tw</font>"
           }
         ],
         "news_sentiment": {
-          "score": 0.4,
-          "positive_count": 2,
+          "score": 0.2,
+          "positive_count": 1,
           "negative_count": 0,
-          "neutral_count": 3,
+          "neutral_count": 4,
           "label": "positive",
           "top_positive_title": "【即時新聞】大成鋼(2027)最新獲利估翻倍！今年EPS上看5.7元，法人搶先佈局！",
           "top_negative_title": null
@@ -352293,11 +352293,11 @@
             "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE5rZklVQmx0QnRJdGVjXzIwVnpkNW9yS2g1TzFDY0U0d0RuZEE0N1dwSHdvVGIyaVA5N1dJbFNsdVZBRjhTNUVNb3AwRzI1dkNoTEtmaXNXNE43bXZjamRV?oc=5\" target=\"_blank\">法人回補千億16檔重資集結中鋼最多張統一連買14日最長- 日報</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">工商時報</font>"
           },
           {
-            "title": "【2026/07月營收公告】統一(1216) 七月營收621.69億元，表現亮眼、呈現雙成長，年增8.85%-CMoney 小編",
-            "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNZHNQRV9uR0IzMk1tTm0xTFNZaTJoLXpMa2RBOVgxTnU0bEhNbUNtbUFScFR3b3FSbnYyTjcwQlloQ0VoLWllQ1Bza3BOWElYaXctcXFZWVlUcnJxTk16U2pDWHdlYXdnallmc2tBb1k0NG5MTV9XTUpINDRSdl81aXd4TXhITWFZSGc?oc=5",
-            "source": "CMoney投資網誌",
+            "title": "【2026/07月營收公告】統一(1216) 七月營收621.69億元，表現亮眼、呈現雙成長，創近6個月以來新高，年增8.85%",
+            "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0wM0lESDhzay1mQ0VhaEs4dEtGbEdpc19QQndqUWVnaVl6WEdqN3lta3ZoWkVndUhpbEd2N2Q1UXotVXplQzhfUTludkR6WW53VmZ1NHFZeU03alphZVMwU0Q1aFZMRnM?oc=5",
+            "source": "CMoney",
             "date": "2026-08-10",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxNZHNQRV9uR0IzMk1tTm0xTFNZaTJoLXpMa2RBOVgxTnU0bEhNbUNtbUFScFR3b3FSbnYyTjcwQlloQ0VoLWllQ1Bza3BOWElYaXctcXFZWVlUcnJxTk16U2pDWHdlYXdnallmc2tBb1k0NG5MTV9XTUpINDRSdl81aXd4TXhITWFZSGc?oc=5\" target=\"_blank\">【2026/07月營收公告】統一(1216) 七月營收621.69億元，表現亮眼、呈現雙成長，年增8.85%-CMoney 小編</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CMoney投資網誌</font>"
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0wM0lESDhzay1mQ0VhaEs4dEtGbEdpc19QQndqUWVnaVl6WEdqN3lta3ZoWkVndUhpbEd2N2Q1UXotVXplQzhfUTludkR6WW53VmZ1NHFZeU03alphZVMwU0Q1aFZMRnM?oc=5\" target=\"_blank\">【2026/07月營收公告】統一(1216) 七月營收621.69億元，表現亮眼、呈現雙成長，創近6個月以來新高，年增8.85%</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CMoney</font>"
           },
           {
             "title": "統一集團營收寫兩大驚奇 7月、前七月皆創同期佳績",
@@ -352313,7 +352313,7 @@
           "negative_count": 0,
           "neutral_count": 4,
           "label": "positive",
-          "top_positive_title": "【2026/07月營收公告】統一(1216) 七月營收621.69億元，表現亮眼、呈現雙成長，年增8.85%-CMoney 小編",
+          "top_positive_title": "【2026/07月營收公告】統一(1216) 七月營收621.69億元，表現亮眼、呈現雙成長，創近6個月以來新高，年增8.85%",
           "top_negative_title": null
         },
         "announcements": [],
@@ -372554,13 +372554,6 @@
             "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTE1xdVplM2FTWEtSYXA0Vl93cXR3QV8wSXdXbDJ3UU10ZEhfZHFscV96aUltTkdhZXQtRlRPbTNySzRNeHpXZ3A0OVQwWDhaR3h5dDRKeldYeVc?oc=5\" target=\"_blank\">台股7月震盪TISA扣款逆勢破10億元 0050霸榜創新高</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">自由時報</font>"
           },
           {
-            "title": "ETF法人方向分歧，退休資金該追高股息還是回到0050？-詠晴K線解密",
-            "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNOFc0azlUdHpmd3dsMC1fSGt1UkdxRkhxbFhCcDJuWngyLWlLT0d0cHhDMEFJb2EwZFp1OUNzT2xqbVJ5ZURrWjM2VHJKR0d3R191NXc1dnR6MWRIdk9HQ0RIc1o5Y2lxTXlZQ0xBTDJiQnE4aWZIcFZQY0gyd0ZuSGJJSFpvWjg?oc=5",
-            "source": "CMoney投資網誌",
-            "date": "2026-08-15",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMihwFBVV95cUxNOFc0azlUdHpmd3dsMC1fSGt1UkdxRkhxbFhCcDJuWngyLWlLT0d0cHhDMEFJb2EwZFp1OUNzT2xqbVJ5ZURrWjM2VHJKR0d3R191NXc1dnR6MWRIdk9HQ0RIc1o5Y2lxTXlZQ0xBTDJiQnE4aWZIcFZQY0gyd0ZuSGJJSFpvWjg?oc=5\" target=\"_blank\">ETF法人方向分歧，退休資金該追高股息還是回到0050？-詠晴K線解密</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CMoney投資網誌</font>"
-          },
-          {
             "title": "7月台股大怒神 0050定期定額124萬戶續創新高",
             "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5DMkg4MVJnOXRFZ1RjY1FDUnRCbnZTTXN3TEEtaDY5cVg5bjhrenQzNEtxSHNWb05JcDlNak0tUERBblhMZW52ZHlwZnhmQkEzcUJfME8zM2QwUdIBX0FVX3lxTE5sWUtjY0hIZTlraVZwN1daTk9hZ3FkaHlRM05GNnRyb0RFd29XbTBMSXpqTWFucGJWS0F2YTB1NmN0ZzA4eXI4NlhIUDdDRmI4RGlLZzl1WFhydTdEYTBz?oc=5",
             "source": "經濟日報",
@@ -372568,11 +372561,18 @@
             "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE5DMkg4MVJnOXRFZ1RjY1FDUnRCbnZTTXN3TEEtaDY5cVg5bjhrenQzNEtxSHNWb05JcDlNak0tUERBblhMZW52ZHlwZnhmQkEzcUJfME8zM2QwUdIBX0FVX3lxTE5sWUtjY0hIZTlraVZwN1daTk9hZ3FkaHlRM05GNnRyb0RFd29XbTBMSXpqTWFucGJWS0F2YTB1NmN0ZzA4eXI4NlhIUDdDRmI4RGlLZzl1WFhydTdEYTBz?oc=5\" target=\"_blank\">7月台股大怒神 0050定期定額124萬戶續創新高</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">經濟日報</font>"
           },
           {
+            "title": "ETF法人方向分歧，退休資金該追高股息還是回到0050？-詠晴K線解密",
+            "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNOFc0azlUdHpmd3dsMC1fSGt1UkdxRkhxbFhCcDJuWngyLWlLT0d0cHhDMEFJb2EwZFp1OUNzT2xqbVJ5ZURrWjM2VHJKR0d3R191NXc1dnR6MWRIdk9HQ0RIc1o5Y2lxTXlZQ0xBTDJiQnE4aWZIcFZQY0gyd0ZuSGJJSFpvWjg?oc=5",
+            "source": "CMoney投資網誌",
+            "date": "2026-08-15",
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMihwFBVV95cUxNOFc0azlUdHpmd3dsMC1fSGt1UkdxRkhxbFhCcDJuWngyLWlLT0d0cHhDMEFJb2EwZFp1OUNzT2xqbVJ5ZURrWjM2VHJKR0d3R191NXc1dnR6MWRIdk9HQ0RIc1o5Y2lxTXlZQ0xBTDJiQnE4aWZIcFZQY0gyd0ZuSGJJSFpvWjg?oc=5\" target=\"_blank\">ETF法人方向分歧，退休資金該追高股息還是回到0050？-詠晴K線解密</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CMoney投資網誌</font>"
+          },
+          {
             "title": "0050 元大台灣50 - 川普祭無人機關稅100%，台日韓等盟友只課15% - 股市爆料同學會",
             "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9nY1B5TlpyN0xfN3RYQjFKVTRRa1FxNFppSDk3blpFRFhYeEdUd1plTXhRTm95T2JHalFiWS1Zdl9sQ0MyUTllX2R6MTBmd3lzV1lmNEdmelY?oc=5",
-            "source": "CMoney",
+            "source": "cmoney.tw",
             "date": "2026-08-15",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTE9nY1B5TlpyN0xfN3RYQjFKVTRRa1FxNFppSDk3blpFRFhYeEdUd1plTXhRTm95T2JHalFiWS1Zdl9sQ0MyUTllX2R6MTBmd3lzV1lmNEdmelY?oc=5\" target=\"_blank\">0050 元大台灣50 - 川普祭無人機關稅100%，台日韓等盟友只課15% - 股市爆料同學會</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CMoney</font>"
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTE9nY1B5TlpyN0xfN3RYQjFKVTRRa1FxNFppSDk3blpFRFhYeEdUd1plTXhRTm95T2JHalFiWS1Zdl9sQ0MyUTllX2R6MTBmd3lzV1lmNEdmelY?oc=5\" target=\"_blank\">0050 元大台灣50 - 川普祭無人機關稅100%，台日韓等盟友只課15% - 股市爆料同學會</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">cmoney.tw</font>"
           }
         ],
         "news_sentiment": {
@@ -378982,7 +378982,7 @@
                 "top_titles": [
                   "買14張0050均價110元！他崩潰「每天看6位數損益」 過來人建議：放著都別看",
                   "台股7月震盪TISA扣款逆勢破10億元 0050霸榜創新高",
-                  "ETF法人方向分歧，退休資金該追高股息還是回到0050？-詠晴K線解密"
+                  "7月台股大怒神 0050定期定額124萬戶續創新高"
                 ]
               },
               "method": "news_cluster_window_v1",
@@ -379242,6 +379242,13 @@
             "summary": "<a href=\"https://news.google.com/rss/articles/CBMizwNBVV95cUxQSEZ1VjNyZGxFSEthQV9WVVpiYUV1a2xZODAyNEttc2VBSGphVE1LTG1IYWY4bEE4a1FwOTQ0aHdidVRKTWhhOG1lcFA0QzdwdlhkUTZURmVHcy0xSkNVMU5za1hYRnlzY2RRUG5rNVQ0bGdEUnVqVVNPWVYxYUp6MTIwMHlRVjFJUlRBa2ZXcHVITGNSRk5uR2JfcW5MMmdiYUlQT3NkdUxLUXFNYU1QTC1Qd2hvSmFGRFBFZzIyNnRlTk5rb3E5Y0JvYU81NnNxSi1fd29IaUxYRG52MzBHUGNGMjM4QWM1bzV1blUxRWpwc1hpZ1N2Y1pWTFNOMDJTekt4dGxqcERJVG9KWXp0T0kzLVdIZlFrc2l2UmQ5MDcyRG9RQ3VLb3o5R1R6dlRRTDZCY3V0YzdZb1YzTFo2dHNOeE45OUZXX1JqR2l3RC04Z240NVBBUlF6QVJ3YjdVazZMa1hWaWZha25aeUNHaTV3Y09WZFdvRlBtTFFLN2tZRUpzRnhSOGJOTGFJWDhTb2NEQ0N4b3Z1NW5EZTdsc21GQ280RUlrQlJNeFFIVVUxMWRIM1lSeXdLbnhIQ0FTVWZVb05nZHdfa19TZndv?oc=5\" target=\"_blank\">2026年8月台股ETF配息排行：00881單次配息率衝8.6%奪冠，00878首破1元！最新配息排行與投資攻略！</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">sinotrade.com.tw</font>"
           },
           {
+            "title": "百張大戶跌回2萬人！00403A甩破發窘境「2.8萬人逢高下車」 外資連買5日搶24.1萬張入手",
+            "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1kVnc1LXlNbVl6UWxraHIxQklMNDlGazhzbUFfcTh0VEEyb3lNV1gxWHI1Mm1VYTg3blF3MThjdWY3M01BbmkzS19DOA?oc=5",
+            "source": "FTNN 新聞網",
+            "date": "2026-08-16",
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiS0FVX3lxTE1kVnc1LXlNbVl6UWxraHIxQklMNDlGazhzbUFfcTh0VEEyb3lNV1gxWHI1Mm1VYTg3blF3MThjdWY3M01BbmkzS19DOA?oc=5\" target=\"_blank\">百張大戶跌回2萬人！00403A甩破發窘境「2.8萬人逢高下車」 外資連買5日搶24.1萬張入手</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">FTNN 新聞網</font>"
+          },
+          {
             "title": "元大高股息 優於大盤",
             "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPcG5sc3I2Zlc0YkVnNjdxVDlyN2UtWHUzREY1Y2lHZWxlNDdocnlDS0FaMEZNcFcwU3dKNFB6ZG9CejR5d2Fib0FyQkJzcmZtaXN3RVhMUUFXc2NEdVM0dXRzSGtjS2Q4Z1dUck5ENklIVmlfQXJXMGJRTTdxVGcxSFRraUPSAV9BVV95cUxOT2p0MW00YnR0T1NHbDczeVV2SjJKVjVlZ2dWZkFWOXJMQkZma3JTLWF0cG8zaGtaTDY2aGVxNU1haXgtd2JqcmNkdi1HVTdISDRFUVNQQzY3LUpOZGp3UQ?oc=5",
             "source": "經濟日報",
@@ -379251,9 +379258,9 @@
           {
             "title": "0056 元大高股息- 下面一位，北上高速列車重新南下載客，車票有限機會難得請把握。 - 股市爆料同學會",
             "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5DOXhlUmNDNWJpTGJFWDBsX0s5WXJJQ3ZRTUs5ZlZHdGZ0Wlh6Q1NoUnNzLUNpb3hscVJWQVJfU21sSFZDM1Nhd2lMd0ZwM3V1el82Zm93N0g?oc=5",
-            "source": "CMoney",
+            "source": "cmoney.tw",
             "date": "2026-08-15",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTE5DOXhlUmNDNWJpTGJFWDBsX0s5WXJJQ3ZRTUs5ZlZHdGZ0Wlh6Q1NoUnNzLUNpb3hscVJWQVJfU21sSFZDM1Nhd2lMd0ZwM3V1el82Zm93N0g?oc=5\" target=\"_blank\">0056 元大高股息- 下面一位，北上高速列車重新南下載客，車票有限機會難得請把握。 - 股市爆料同學會</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CMoney</font>"
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTE5DOXhlUmNDNWJpTGJFWDBsX0s5WXJJQ3ZRTUs5ZlZHdGZ0Wlh6Q1NoUnNzLUNpb3hscVJWQVJfU21sSFZDM1Nhd2lMd0ZwM3V1el82Zm93N0g?oc=5\" target=\"_blank\">0056 元大高股息- 下面一位，北上高速列車重新南下載客，車票有限機會難得請把握。 - 股市爆料同學會</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">cmoney.tw</font>"
           },
           {
             "title": "ETF法人方向分歧，退休資金該追高股息還是回到0050？-詠晴K線解密",
@@ -379261,13 +379268,6 @@
             "source": "CMoney投資網誌",
             "date": "2026-08-15",
             "summary": "<a href=\"https://news.google.com/rss/articles/CBMihwFBVV95cUxNOFc0azlUdHpmd3dsMC1fSGt1UkdxRkhxbFhCcDJuWngyLWlLT0d0cHhDMEFJb2EwZFp1OUNzT2xqbVJ5ZURrWjM2VHJKR0d3R191NXc1dnR6MWRIdk9HQ0RIc1o5Y2lxTXlZQ0xBTDJiQnE4aWZIcFZQY0gyd0ZuSGJJSFpvWjg?oc=5\" target=\"_blank\">ETF法人方向分歧，退休資金該追高股息還是回到0050？-詠晴K線解密</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CMoney投資網誌</font>"
-          },
-          {
-            "title": "2026 ETF績效排行出爐！00981A狂賺78%、0050只排第10，高股息ETF還能不能存？",
-            "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5rTVBiWVRjT3U5QkJ3ZXd2S3IwNHR5dDdDbUNFRDlONlVBZEVuMmhhV0Nwdnl5VlVORk01MGliSDhqWGs1MG0xSFVxVkZjaFJwbHUyV2pkNEVOQXktdnlxWnlqdUhSSTNWNUNQVWFxS052YVBOMVdB?oc=5",
-            "source": "數位時代",
-            "date": "2026-08-14",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMid0FVX3lxTE5rTVBiWVRjT3U5QkJ3ZXd2S3IwNHR5dDdDbUNFRDlONlVBZEVuMmhhV0Nwdnl5VlVORk01MGliSDhqWGs1MG0xSFVxVkZjaFJwbHUyV2pkNEVOQXktdnlxWnlqdUhSSTNWNUNQVWFxS052YVBOMVdB?oc=5\" target=\"_blank\">2026 ETF績效排行出爐！00981A狂賺78%、0050只排第10，高股息ETF還能不能存？</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">數位時代</font>"
           }
         ],
         "news_sentiment": {
@@ -385596,8 +385596,8 @@
                 "top_topic": "2026年8月台股ETF配息排行：00881單次配息率衝8.6%奪冠，00878首破1元！最新配息排行與投資攻略！",
                 "top_titles": [
                   "2026年8月台股ETF配息排行：00881單次配息率衝8.6%奪冠，00878首破1元！最新配息排行與投資攻略！",
-                  "元大高股息 優於大盤",
-                  "0056 元大高股息- 下面一位，北上高速列車重新南下載客，車票有限機會難得請把握。 - 股市爆料同學會"
+                  "百張大戶跌回2萬人！00403A甩破發窘境「2.8萬人逢高下車」 外資連買5日搶24.1萬張入手",
+                  "元大高股息 優於大盤"
                 ]
               },
               "method": "news_cluster_window_v1",
@@ -392519,11 +392519,11 @@
         },
         "news": [
           {
-            "title": "國巨漲停一天又變臉！華新科、禾伸堂全陪葬「外資目標價1450成誘多？」保守派法人驚吐務實價只剩X88",
+            "title": "國巨漲停一天又變臉！華新科、禾伸堂全陪葬「外資目標價1450成誘多？」保守派法人驚吐務實價只剩X88 - 上市櫃",
             "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE93UFBsbGhXdVNSVThwLUFJMVdoa1NjZjdBeE51Tjg4Zk13RHZUYzgyNVk2TTZxSG5BVHMzZDE5UnNhMGIycXFaUXhzUXdpNjNETEFSYmE0dXR5U3JXOG8za3J5bTBFYVg4cUE?oc=5",
             "source": "旺得富理財網",
             "date": "2026-08-16",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiakFVX3lxTE93UFBsbGhXdVNSVThwLUFJMVdoa1NjZjdBeE51Tjg4Zk13RHZUYzgyNVk2TTZxSG5BVHMzZDE5UnNhMGIycXFaUXhzUXdpNjNETEFSYmE0dXR5U3JXOG8za3J5bTBFYVg4cUE?oc=5\" target=\"_blank\">國巨漲停一天又變臉！華新科、禾伸堂全陪葬「外資目標價1450成誘多？」保守派法人驚吐務實價只剩X88</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">旺得富理財網</font>"
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiakFVX3lxTE93UFBsbGhXdVNSVThwLUFJMVdoa1NjZjdBeE51Tjg4Zk13RHZUYzgyNVk2TTZxSG5BVHMzZDE5UnNhMGIycXFaUXhzUXdpNjNETEFSYmE0dXR5U3JXOG8za3J5bTBFYVg4cUE?oc=5\" target=\"_blank\">國巨漲停一天又變臉！華新科、禾伸堂全陪葬「外資目標價1450成誘多？」保守派法人驚吐務實價只剩X88 - 上市櫃</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">旺得富理財網</font>"
           },
           {
             "title": "國巨套在1000元好煎熬！股民嘆：茶不思飯不想 連帳戶都不敢打開",
@@ -392533,11 +392533,11 @@
             "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE1xUlJPeXdEbHphMnNEOG54Z2QxTTNmTk9tYXQ3NVpLWUxBYjcwaExXcWNSN0Zyckh0S0JBX3pzNHlMaXJFTzFHUjZHVFgzVk1IWFgxZFFINmk0YVFKLS13?oc=5\" target=\"_blank\">國巨套在1000元好煎熬！股民嘆：茶不思飯不想 連帳戶都不敢打開</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">自由財經</font>"
           },
           {
-            "title": "國巨高檔套牢好煎熬！股民嘆：茶不思飯不想 連帳戶都不敢打開",
-            "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9UemhHSDRaUGRUUnJsNzZHM0szUFY0cWcxdEF0NUdSbGF6Q21WZ1J4aEdrX1NjeWxYaDVQSWc2QXpaNFFnX0hlMUR4dmM0RWtLejllUWs2ZEdXREgyN1RJcmJwU0U?oc=5",
-            "source": "自由財經",
+            "title": "國巨*腰斬震盪心惶惶！分析師喊下週「這關鍵價位」必須守住：若能帶量突破680會更穩說法一次看",
+            "url": "https://news.google.com/rss/articles/CBMigANBVV95cUxPM3F6SmhSenlnZTcxdl9HNTg3TG9yeFdNM2FBc3ZVekJ1Wl8tV081alR6YmhPT0h3cHFPNDVrOWdpTUIxWkVuV0cyWHVWRHVSV3cxT2dxaHRTZG9JNkJYRDhOM3V3M2xsTFZsZXVLSGhrWnRma3IwTDY1aHRUOXg1eEVhQ1F1RnIwUW9jS1BsZVd6SENncjVQV0xxYXJ3UHIweXhCZlJnVUpXZ1RiMWd2TmZkcjNmUmdoT1MyM1JQY0RRM3pjOTJyZ3ZPZ3lMNzVES2ZFaGFMUDVwSjNMS3E5OW9xVHpXUTFpX1FOYnJsdm9rTkdQNEZMNkpLVFV1MVZRYTBsS3g0eUNIYTNldUU1STF2Yk1GNUhCX0o5OWZRZGJnQWhNTDh1MGJxZ2ZERnpRS3NpUHEtT2NxYm5FX1g4enhRNnpHMTdMTmVaYnc3M1dseWI0VG55Z0FqeFczMTZ4X0lOQ0pFbUR2WXI1Vk9ZcTNsbmVKcGo3UURrMjRSMko?oc=5",
+            "source": "Yahoo股市",
             "date": "2026-08-16",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZEFVX3lxTE9UemhHSDRaUGRUUnJsNzZHM0szUFY0cWcxdEF0NUdSbGF6Q21WZ1J4aEdrX1NjeWxYaDVQSWc2QXpaNFFnX0hlMUR4dmM0RWtLejllUWs2ZEdXREgyN1RJcmJwU0U?oc=5\" target=\"_blank\">國巨高檔套牢好煎熬！股民嘆：茶不思飯不想 連帳戶都不敢打開</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">自由財經</font>"
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMigANBVV95cUxPM3F6SmhSenlnZTcxdl9HNTg3TG9yeFdNM2FBc3ZVekJ1Wl8tV081alR6YmhPT0h3cHFPNDVrOWdpTUIxWkVuV0cyWHVWRHVSV3cxT2dxaHRTZG9JNkJYRDhOM3V3M2xsTFZsZXVLSGhrWnRma3IwTDY1aHRUOXg1eEVhQ1F1RnIwUW9jS1BsZVd6SENncjVQV0xxYXJ3UHIweXhCZlJnVUpXZ1RiMWd2TmZkcjNmUmdoT1MyM1JQY0RRM3pjOTJyZ3ZPZ3lMNzVES2ZFaGFMUDVwSjNMS3E5OW9xVHpXUTFpX1FOYnJsdm9rTkdQNEZMNkpLVFV1MVZRYTBsS3g0eUNIYTNldUU1STF2Yk1GNUhCX0o5OWZRZGJnQWhNTDh1MGJxZ2ZERnpRS3NpUHEtT2NxYm5FX1g4enhRNnpHMTdMTmVaYnc3M1dseWI0VG55Z0FqeFczMTZ4X0lOQ0pFbUR2WXI1Vk9ZcTNsbmVKcGo3UURrMjRSMko?oc=5\" target=\"_blank\">國巨*腰斬震盪心惶惶！分析師喊下週「這關鍵價位」必須守住：若能帶量突破680會更穩說法一次看</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo股市</font>"
           },
           {
             "title": "網友苦笑在辦告別式了？外資提款國巨百億 專家點出下周關鍵價",
@@ -392547,20 +392547,20 @@
             "summary": "<a href=\"https://news.google.com/rss/articles/CBMiU0FVX3lxTFBiTWdoYTJOcDN1TUc3RFktczhRMDM1OHZMdXdxVHNhUUVPYkZRcTVIX2E2clctd0h6T28zWEpYZ0VTMDFsVFVsX1ZDdVRRbm50QjhR?oc=5\" target=\"_blank\">網友苦笑在辦告別式了？外資提款國巨百億 專家點出下周關鍵價</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">中天新聞網</font>"
           },
           {
-            "title": "討論牆 | 盤中速報 - 國巨(2327)股價拉至漲停，漲停價662.0元，成交27,617張",
-            "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9XMkxZdERoQ1FFX3MzLTJMamwyVjE4TmFwdDVsYlZscmhWRXFiajNSWExnWV9pTzlkYVotc2hNRVFEMGcyR1Vldi1jYTJnWEhIVzhpOWdLY25JQ1lzSW1pYUJfNGo?oc=5",
-            "source": "LINE TODAY",
-            "date": "2026-08-15",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZEFVX3lxTE9XMkxZdERoQ1FFX3MzLTJMamwyVjE4TmFwdDVsYlZscmhWRXFiajNSWExnWV9pTzlkYVotc2hNRVFEMGcyR1Vldi1jYTJnWEhIVzhpOWdLY25JQ1lzSW1pYUJfNGo?oc=5\" target=\"_blank\">討論牆 | 盤中速報 - 國巨(2327)股價拉至漲停，漲停價662.0元，成交27,617張</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">LINE TODAY</font>"
+            "title": "國巨高檔套牢好煎熬！股民嘆：茶不思飯不想 連帳戶都不敢打開",
+            "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9UemhHSDRaUGRUUnJsNzZHM0szUFY0cWcxdEF0NUdSbGF6Q21WZ1J4aEdrX1NjeWxYaDVQSWc2QXpaNFFnX0hlMUR4dmM0RWtLejllUWs2ZEdXREgyN1RJcmJwU0U?oc=5",
+            "source": "自由財經",
+            "date": "2026-08-16",
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZEFVX3lxTE9UemhHSDRaUGRUUnJsNzZHM0szUFY0cWcxdEF0NUdSbGF6Q21WZ1J4aEdrX1NjeWxYaDVQSWc2QXpaNFFnX0hlMUR4dmM0RWtLejllUWs2ZEdXREgyN1RJcmJwU0U?oc=5\" target=\"_blank\">國巨高檔套牢好煎熬！股民嘆：茶不思飯不想 連帳戶都不敢打開</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">自由財經</font>"
           }
         ],
         "news_sentiment": {
-          "score": 0.0,
-          "positive_count": 0,
+          "score": 0.2,
+          "positive_count": 1,
           "negative_count": 0,
-          "neutral_count": 5,
-          "label": "neutral",
-          "top_positive_title": null,
+          "neutral_count": 4,
+          "label": "positive",
+          "top_positive_title": "國巨*腰斬震盪心惶惶！分析師喊下週「這關鍵價位」必須守住：若能帶量突破680會更穩說法一次看",
           "top_negative_title": null
         },
         "announcements": [],
@@ -398732,10 +398732,11 @@
           "tier_30d": "laggard"
         },
         "hot_rank": {
-          "score": 65,
+          "score": 67,
           "tier": "warm",
           "drivers": [
             "+momentum",
+            "+sentiment",
             "+chip_streak"
           ]
         },
@@ -399048,11 +399049,11 @@
                 "window_hours": 24,
                 "n_news": 5,
                 "direction": "mixed",
-                "top_topic": "國巨漲停一天又變臉！華新科、禾伸堂全陪葬「外資目標價1450成誘多？」保守派法人驚吐務實價只剩X88",
+                "top_topic": "國巨漲停一天又變臉！華新科、禾伸堂全陪葬「外資目標價1450成誘多？」保守派法人驚吐務實價只剩X88 - 上市櫃",
                 "top_titles": [
-                  "國巨漲停一天又變臉！華新科、禾伸堂全陪葬「外資目標價1450成誘多？」保守派法人驚吐務實價只剩X88",
+                  "國巨漲停一天又變臉！華新科、禾伸堂全陪葬「外資目標價1450成誘多？」保守派法人驚吐務實價只剩X88 - 上市櫃",
                   "國巨套在1000元好煎熬！股民嘆：茶不思飯不想 連帳戶都不敢打開",
-                  "國巨高檔套牢好煎熬！股民嘆：茶不思飯不想 連帳戶都不敢打開"
+                  "國巨*腰斬震盪心惶惶！分析師喊下週「這關鍵價位」必須守住：若能帶量突破680會更穩說法一次看"
                 ]
               },
               "method": "news_cluster_window_v1",
@@ -399305,6 +399306,13 @@
         },
         "news": [
           {
+            "title": "矽力*-KY(6415) 個股概覽 | 個股 - 股市",
+            "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9OT2lpY1h4SkljSjM0Q2tiOXFQamU2RkVtVUtzQkdKNnUxZG1ZS3RIekxvR2tuMzYtNFc2MUFETVJMWGdoZDBVWEdYMUhTZ1FtdmdN?oc=5",
+            "source": "cmoney.tw",
+            "date": "2026-08-15",
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiU0FVX3lxTE9OT2lpY1h4SkljSjM0Q2tiOXFQamU2RkVtVUtzQkdKNnUxZG1ZS3RIekxvR2tuMzYtNFc2MUFETVJMWGdoZDBVWEdYMUhTZ1FtdmdN?oc=5\" target=\"_blank\">矽力*-KY(6415) 個股概覽 | 個股 - 股市</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">cmoney.tw</font>"
+          },
+          {
             "title": "討論牆 | 盤中速報 - 矽力-KY(6415)急拉5.22%報475.0元，成交527張",
             "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1Ydlh6Zy1UM2kwWGhEd2tZblNqSU9MRmkwYUpka1Etb1N5dWt4WmNmYWw1R3Y0MFA0X3ZISHZrTC1jQnc1ME9IWjllendwQ3lJSHRFV2xaM3kwYVBmMl9odTZsSVE?oc=5",
             "source": "LINE TODAY",
@@ -399321,9 +399329,9 @@
           {
             "title": "矽力*-KY(6415) 今日股價與討論 - 股市爆料同學會",
             "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE16dEcyN2E0Z2RfdHRaOUcxRUQxbFptXzRMalZJMWNaTVNtZHhBMjVTdERmaHdHcU03ZXdYYWxvS1ViWXdPbDFEYTNiUzJkQlE?oc=5",
-            "source": "CMoney",
+            "source": "cmoney.tw",
             "date": "2026-08-13",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiT0FVX3lxTE16dEcyN2E0Z2RfdHRaOUcxRUQxbFptXzRMalZJMWNaTVNtZHhBMjVTdERmaHdHcU03ZXdYYWxvS1ViWXdPbDFEYTNiUzJkQlE?oc=5\" target=\"_blank\">矽力*-KY(6415) 今日股價與討論 - 股市爆料同學會</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CMoney</font>"
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiT0FVX3lxTE16dEcyN2E0Z2RfdHRaOUcxRUQxbFptXzRMalZJMWNaTVNtZHhBMjVTdERmaHdHcU03ZXdYYWxvS1ViWXdPbDFEYTNiUzJkQlE?oc=5\" target=\"_blank\">矽力*-KY(6415) 今日股價與討論 - 股市爆料同學會</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">cmoney.tw</font>"
           },
           {
             "title": "矽力*-KY7月營收月增13.1%",
@@ -399331,20 +399339,13 @@
             "source": "TechNews 科技新報",
             "date": "2026-08-10",
             "summary": "<a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxQX2h2YTMzbnZ2dGk0RGNPTmx1Si13ZENDU1dHNG9XRjJKTk9qQ1FpQ0VZalhEYUFtWTRfQ1E3OFRQYXR5OWVsczdzMUZvNEhmdGJTdkdwbTd6YjY4Q1BBQmEzSHF1U2loazZrYW01WGtYTTVkWUlEVmRFOHNzTXlMVEtn?oc=5\" target=\"_blank\">矽力*-KY7月營收月增13.1%</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TechNews 科技新報</font>"
-          },
-          {
-            "title": "【2026/07月營收公告】矽力*-KY(6415) 七月營收23.57億元，表現亮眼、呈現雙成長，創近51個月以來新高，年增58.55%",
-            "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNX2NxRjF5YmZreUs4azBQbDNVSElDUWZ4dkwxUUlzczVRNkxZR3N4SER0TzBkZHVkdUhJOVBiY09HcndmVU0tSUdOS1FoWnEyVEtYM3UxMjh3ekRoZkxYOF9Hbk9wOV9zTjdCUERueUNYNTE5N0FKNENlTDlGVUdNWG0yOGxIRWhrZmc?oc=5",
-            "source": "CMoney投資網誌",
-            "date": "2026-08-10",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxNX2NxRjF5YmZreUs4azBQbDNVSElDUWZ4dkwxUUlzczVRNkxZR3N4SER0TzBkZHVkdUhJOVBiY09HcndmVU0tSUdOS1FoWnEyVEtYM3UxMjh3ekRoZkxYOF9Hbk9wOV9zTjdCUERueUNYNTE5N0FKNENlTDlGVUdNWG0yOGxIRWhrZmc?oc=5\" target=\"_blank\">【2026/07月營收公告】矽力*-KY(6415) 七月營收23.57億元，表現亮眼、呈現雙成長，創近51個月以來新高，年增58.55%</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CMoney投資網誌</font>"
           }
         ],
         "news_sentiment": {
-          "score": 0.375,
-          "positive_count": 2,
+          "score": 0.2222,
+          "positive_count": 1,
           "negative_count": 0,
-          "neutral_count": 3,
+          "neutral_count": 4,
           "label": "positive",
           "top_positive_title": "【09:32 即時新聞】矽力*-KY(6415)亮燈漲停至511元，受AI資料中心與車用電源成長題材激勵＋法人買盤與技術面多頭結構支撐",
           "top_negative_title": null
@@ -405829,7 +405830,7 @@
             "tier": "info",
             "actionable": true,
             "question": "短時間內是否出現新聞群聚？",
-            "answer": "近期 5 則 混合 新聞，主題：討論牆 | 盤中速報 - 矽力-KY(6415)急拉5.22。",
+            "answer": "近期 5 則 混合 新聞，主題：矽力*-KY(6415) 個股概覽 | 個股 - 股市。",
             "answer_short": "新聞群聚 5 則/混合",
             "explanation": "新聞群聚反映重大事件或市場關注度突增。",
             "evidence": {
@@ -405837,11 +405838,11 @@
                 "window_hours": 24,
                 "n_news": 5,
                 "direction": "mixed",
-                "top_topic": "討論牆 | 盤中速報 - 矽力-KY(6415)急拉5.22%報475.0元，成交527張",
+                "top_topic": "矽力*-KY(6415) 個股概覽 | 個股 - 股市",
                 "top_titles": [
+                  "矽力*-KY(6415) 個股概覽 | 個股 - 股市",
                   "討論牆 | 盤中速報 - 矽力-KY(6415)急拉5.22%報475.0元，成交527張",
-                  "【09:32 即時新聞】矽力*-KY(6415)亮燈漲停至511元，受AI資料中心與車用電源成長題材激勵＋法人買盤與技術面多頭結構支撐",
-                  "矽力*-KY(6415) 今日股價與討論 - 股市爆料同學會"
+                  "【09:32 即時新聞】矽力*-KY(6415)亮燈漲停至511元，受AI資料中心與車用電源成長題材激勵＋法人買盤與技術面多頭結構支撐"
                 ]
               },
               "method": "news_cluster_window_v1",
@@ -406096,9 +406097,9 @@
           {
             "title": "3661 世芯-KY - 評：很久沒有看到世芯天天有新聞發了...but.. --- ... - 股市爆料同學會",
             "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE52OFlDYzE0dDlieHBmMFR4T2ctZjNtRWFBa09nVnVjNGY5T2V2eVVoTUh2cTZNMnFOaktNcG9ld1ZpbWt0ajZXYVJxdHBlN1RxM2xCMWZSc3o?oc=5",
-            "source": "CMoney",
+            "source": "cmoney.tw",
             "date": "2026-08-15",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTE52OFlDYzE0dDlieHBmMFR4T2ctZjNtRWFBa09nVnVjNGY5T2V2eVVoTUh2cTZNMnFOaktNcG9ld1ZpbWt0ajZXYVJxdHBlN1RxM2xCMWZSc3o?oc=5\" target=\"_blank\">3661 世芯-KY - 評：很久沒有看到世芯天天有新聞發了...but.. --- ... - 股市爆料同學會</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CMoney</font>"
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTE52OFlDYzE0dDlieHBmMFR4T2ctZjNtRWFBa09nVnVjNGY5T2V2eVVoTUh2cTZNMnFOaktNcG9ld1ZpbWt0ajZXYVJxdHBlN1RxM2xCMWZSc3o?oc=5\" target=\"_blank\">3661 世芯-KY - 評：很久沒有看到世芯天天有新聞發了...but.. --- ... - 股市爆料同學會</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">cmoney.tw</font>"
           },
           {
             "title": "世芯-KY有望再拿下一家CSP客戶，看旺至2029年",
@@ -419591,16 +419592,16 @@
           {
             "title": "6239 力成- 力成目前處於「中長線打底、短線回測」的交會期- 股市爆料同學會",
             "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1ZVmNEdEhpQl9qZTFvUmVWMDFwZloyNE5UM2hZR3Z1R3dqdGwxSkhwZVlFcTRYUHZVbEVVWVM0Z0ZpLVhpVmlvUm11S0RKNzRSVHhRUVA2UXc?oc=5",
-            "source": "CMoney",
+            "source": "cmoney.tw",
             "date": "2026-08-14",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTE1ZVmNEdEhpQl9qZTFvUmVWMDFwZloyNE5UM2hZR3Z1R3dqdGwxSkhwZVlFcTRYUHZVbEVVWVM0Z0ZpLVhpVmlvUm11S0RKNzRSVHhRUVA2UXc?oc=5\" target=\"_blank\">6239 力成- 力成目前處於「中長線打底、短線回測」的交會期- 股市爆料同學會</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CMoney</font>"
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTE1ZVmNEdEhpQl9qZTFvUmVWMDFwZloyNE5UM2hZR3Z1R3dqdGwxSkhwZVlFcTRYUHZVbEVVWVM0Z0ZpLVhpVmlvUm11S0RKNzRSVHhRUVA2UXc?oc=5\" target=\"_blank\">6239 力成- 力成目前處於「中長線打底、短線回測」的交會期- 股市爆料同學會</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">cmoney.tw</font>"
           },
           {
             "title": "6239 力成- 股市最新爆料，掌握股友們對眾個股股價、技術分析、新聞的第一手... - 股市爆料同學會",
             "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9SWDZST0dOYmZ0TmdYdkZoUHlkZDUxQUR0cXBNdlh5cVBSTU4td0xyLVRpYmtHcWZvWFBtQ0pYbWdVdTI0ZzdIZ2Iwc194VlNyTml4VklkQ3I?oc=5",
-            "source": "CMoney",
+            "source": "cmoney.tw",
             "date": "2026-08-13",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTE9SWDZST0dOYmZ0TmdYdkZoUHlkZDUxQUR0cXBNdlh5cVBSTU4td0xyLVRpYmtHcWZvWFBtQ0pYbWdVdTI0ZzdIZ2Iwc194VlNyTml4VklkQ3I?oc=5\" target=\"_blank\">6239 力成- 股市最新爆料，掌握股友們對眾個股股價、技術分析、新聞的第一手... - 股市爆料同學會</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CMoney</font>"
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTE9SWDZST0dOYmZ0TmdYdkZoUHlkZDUxQUR0cXBNdlh5cVBSTU4td0xyLVRpYmtHcWZvWFBtQ0pYbWdVdTI0ZzdIZ2Iwc194VlNyTml4VklkQ3I?oc=5\" target=\"_blank\">6239 力成- 股市最新爆料，掌握股友們對眾個股股價、技術分析、新聞的第一手... - 股市爆料同學會</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">cmoney.tw</font>"
           },
           {
             "title": "討論牆 | 盤中速報 - 力成(6239)急拉3.33%報295.0元，成交9,750張",
@@ -419619,9 +419620,9 @@
           {
             "title": "【08/11券商評等報告彙整】力成(6239) 今日僅1家券商發布績效評等報告，評價為看多，目標價為384元。",
             "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE11WkZQRkFiWnZyU0NSVzBUeW1CcHhIZnA3aGI4eFVCSjZid3lBY1dlZUlFR09MN1BlQUNCVnRPU3FreWl2WVhsSl9NamNzMWs4cVkzU3hHcUR5REp0X2lEUDZGdUhUeXM?oc=5",
-            "source": "CMoney",
+            "source": "cmoney.tw",
             "date": "2026-08-11",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTE11WkZQRkFiWnZyU0NSVzBUeW1CcHhIZnA3aGI4eFVCSjZid3lBY1dlZUlFR09MN1BlQUNCVnRPU3FreWl2WVhsSl9NamNzMWs4cVkzU3hHcUR5REp0X2lEUDZGdUhUeXM?oc=5\" target=\"_blank\">【08/11券商評等報告彙整】力成(6239) 今日僅1家券商發布績效評等報告，評價為看多，目標價為384元。</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CMoney</font>"
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTE11WkZQRkFiWnZyU0NSVzBUeW1CcHhIZnA3aGI4eFVCSjZid3lBY1dlZUlFR09MN1BlQUNCVnRPU3FreWl2WVhsSl9NamNzMWs4cVkzU3hHcUR5REp0X2lEUDZGdUhUeXM?oc=5\" target=\"_blank\">【08/11券商評等報告彙整】力成(6239) 今日僅1家券商發布績效評等報告，評價為看多，目標價為384元。</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">cmoney.tw</font>"
           }
         ],
         "news_sentiment": {
@@ -433064,9 +433065,9 @@
           {
             "title": "2357 華碩 - [情報] 中國產DDR5記憶體速度達到9000MT/s，現 - 股市爆料同學會",
             "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFA1UWFZNjNvWXJsYmoyYkhNeEMyRUY4Zk85cGp1QmF1ZlphMUVuLWc3aE16dFQxYVBvbVptcEFsMTdOLVpNQ0J5Z2NLcWQ0clRhMjNWM0p0OEs?oc=5",
-            "source": "CMoney",
+            "source": "cmoney.tw",
             "date": "2026-08-16",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTFA1UWFZNjNvWXJsYmoyYkhNeEMyRUY4Zk85cGp1QmF1ZlphMUVuLWc3aE16dFQxYVBvbVptcEFsMTdOLVpNQ0J5Z2NLcWQ0clRhMjNWM0p0OEs?oc=5\" target=\"_blank\">2357 華碩 - [情報] 中國產DDR5記憶體速度達到9000MT/s，現 - 股市爆料同學會</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CMoney</font>"
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTFA1UWFZNjNvWXJsYmoyYkhNeEMyRUY4Zk85cGp1QmF1ZlphMUVuLWc3aE16dFQxYVBvbVptcEFsMTdOLVpNQ0J5Z2NLcWQ0clRhMjNWM0p0OEs?oc=5\" target=\"_blank\">2357 華碩 - [情報] 中國產DDR5記憶體速度達到9000MT/s，現 - 股市爆料同學會</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">cmoney.tw</font>"
           },
           {
             "title": "旺季行情來了？PC大廠股價一度叩關千元吸金155億 法人點名Q3三大引擎齊發",
@@ -433078,9 +433079,9 @@
           {
             "title": "2357 華碩 - 華碩凱基5C購04 閃金光- 股市爆料同學會",
             "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9Xd0R1YXRnZUxGczdrdEM1NnZMbGg1NU1zeGtjcFJGSmlVUDZvQ0J5Qk1HRXFNT0pfQ1RwT2pSb0hrU19mV3M3eGRGV1BfWk1vWHVHQkcwREI?oc=5",
-            "source": "CMoney",
+            "source": "cmoney.tw",
             "date": "2026-08-15",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTE9Xd0R1YXRnZUxGczdrdEM1NnZMbGg1NU1zeGtjcFJGSmlVUDZvQ0J5Qk1HRXFNT0pfQ1RwT2pSb0hrU19mV3M3eGRGV1BfWk1vWHVHQkcwREI?oc=5\" target=\"_blank\">2357 華碩 - 華碩凱基5C購04 閃金光- 股市爆料同學會</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CMoney</font>"
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTE9Xd0R1YXRnZUxGczdrdEM1NnZMbGg1NU1zeGtjcFJGSmlVUDZvQ0J5Qk1HRXFNT0pfQ1RwT2pSb0hrU19mV3M3eGRGV1BfWk1vWHVHQkcwREI?oc=5\" target=\"_blank\">2357 華碩 - 華碩凱基5C購04 閃金光- 股市爆料同學會</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">cmoney.tw</font>"
           },
           {
             "title": "AI 伺服器商機大爆發！仁寶漲停、華碩破千、緯穎創高 新成長引擎曝光",
@@ -439856,10 +439857,10 @@
           },
           {
             "title": "〈熱門股〉仁寶衝刺AI伺服器業務 外資狂敲逾10萬張周漲逾1成",
-            "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9zZm1EcUhZVnVJbTRYcjBXbTdscXZfTnJNWFVubTF5Zzk3d1VWTjJTM1Zfc2JlbGRKczlOLVByUVVPVmI5WkpsWWRuU2NKcDA?oc=5",
-            "source": "鉅亨網",
+            "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5MSUZZOUN4RkJDY3JNcHJBX3RFdGtyOC1aMDRmc3Z0bnhzYUZmTW1JSVVPdWx1YzlMSVNnZEx5QjJ6eTloVW9Tam9tMkZqbzA?oc=5",
+            "source": "news.cnyes.com",
             "date": "2026-08-15",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiT0FVX3lxTE9zZm1EcUhZVnVJbTRYcjBXbTdscXZfTnJNWFVubTF5Zzk3d1VWTjJTM1Zfc2JlbGRKczlOLVByUVVPVmI5WkpsWWRuU2NKcDA?oc=5\" target=\"_blank\">〈熱門股〉仁寶衝刺AI伺服器業務 外資狂敲逾10萬張周漲逾1成</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">鉅亨網</font>"
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiT0FVX3lxTE5MSUZZOUN4RkJDY3JNcHJBX3RFdGtyOC1aMDRmc3Z0bnhzYUZmTW1JSVVPdWx1YzlMSVNnZEx5QjJ6eTloVW9Tam9tMkZqbzA?oc=5\" target=\"_blank\">〈熱門股〉仁寶衝刺AI伺服器業務 外資狂敲逾10萬張周漲逾1成</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">news.cnyes.com</font>"
           },
           {
             "title": "AI 伺服器商機大爆發！仁寶漲停、華碩破千、緯穎創高 新成長引擎曝光",
@@ -446631,9 +446632,9 @@
           {
             "title": "【即時新聞】【即時新聞】緯穎(6669)大漲7％！法人揭長線動能，後市還能追嗎？",
             "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Bb3JKM0o5YXpxNUFMR3pfTU1YSEVDcUVlNzNobmExeVdTRmJxbDB0ZGNyNDZyYTl5SUJob3ZNaElEZlNzMVJrUFdGUnh2UWxHVlBNeUUxTWtHMzF1bWVQT2tOOWNhU0U?oc=5",
-            "source": "CMoney",
+            "source": "cmoney.tw",
             "date": "2026-08-14",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Bb3JKM0o5YXpxNUFMR3pfTU1YSEVDcUVlNzNobmExeVdTRmJxbDB0ZGNyNDZyYTl5SUJob3ZNaElEZlNzMVJrUFdGUnh2UWxHVlBNeUUxTWtHMzF1bWVQT2tOOWNhU0U?oc=5\" target=\"_blank\">【即時新聞】【即時新聞】緯穎(6669)大漲7％！法人揭長線動能，後市還能追嗎？</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CMoney</font>"
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Bb3JKM0o5YXpxNUFMR3pfTU1YSEVDcUVlNzNobmExeVdTRmJxbDB0ZGNyNDZyYTl5SUJob3ZNaElEZlNzMVJrUFdGUnh2UWxHVlBNeUUxTWtHMzF1bWVQT2tOOWNhU0U?oc=5\" target=\"_blank\">【即時新聞】【即時新聞】緯穎(6669)大漲7％！法人揭長線動能，後市還能追嗎？</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">cmoney.tw</font>"
           }
         ],
         "news_sentiment": {
@@ -453379,13 +453380,6 @@
             "summary": "<a href=\"https://news.google.com/rss/articles/CBMiUEFVX3lxTFBuZFZFaHZPVG1XQk13THZfZTNpQTZGRGFBNnhudjFqZkRleXMyUWxxUTZWakVTbDVVcEFvN29TYVU5UGVLU1o2S1lhSjdfdjVJ0gFWQVVfeXFMTTFiZGJBbnNCNVM4ZF91VDdlR3RpWElGZjIwbVhJZ0lKQll0RjZoV0hlODg4S1FGLVZaR1FJVVZCRFdUREM3SnQ1TkNCY1JoZGRaTHNEbHc?oc=5\" target=\"_blank\">宏碁、亞光、群創法說 聚焦</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">UDN</font>"
           },
           {
-            "title": "2353 宏碁 - 社宅包租代管政策遇逆風，從兆基案看資金監管漏洞與「混帳」隱憂 - 股市爆料同學會",
-            "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBPS3hNSVZQUm94YWRUTHdsR1lLcjZYVWdiX0pMdzZYek5KVFVjUGJ1WHQxbTN6VDdncEhFelczbFZqeUdBUFM0Z3ZVR1FKakhCekRaZlhYZjM?oc=5",
-            "source": "CMoney",
-            "date": "2026-08-15",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTFBPS3hNSVZQUm94YWRUTHdsR1lLcjZYVWdiX0pMdzZYek5KVFVjUGJ1WHQxbTN6VDdncEhFelczbFZqeUdBUFM0Z3ZVR1FKakhCekRaZlhYZjM?oc=5\" target=\"_blank\">2353 宏碁 - 社宅包租代管政策遇逆風，從兆基案看資金監管漏洞與「混帳」隱憂 - 股市爆料同學會</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CMoney</font>"
-          },
-          {
             "title": "宏碁人事異動 營運長高樹國請辭",
             "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA2aDhFc2pMZGxDbFJEVE1lUW5IWHk2YnJqUFIxX2xxYzRRdHU4QnBMTTgtWTNCR1lEZzNpandlTzhuOFEyR0Zzemp6LUtZeXJXYVFuNmdVdkFxZ9IBX0FVX3lxTFBsZGFjMHU5eklFaU9JM2dYRUtUclUydHIxRnZ5T256eFBRTzhMODBFd3Y3SExqX1BRR2h2Q2ZhVks5MjQxUHdWTzRWa3Jxak51djF3bldrYVNnUUo5cnBB?oc=5",
             "source": "經濟日報",
@@ -453393,11 +453387,18 @@
             "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTFA2aDhFc2pMZGxDbFJEVE1lUW5IWHk2YnJqUFIxX2xxYzRRdHU4QnBMTTgtWTNCR1lEZzNpandlTzhuOFEyR0Zzemp6LUtZeXJXYVFuNmdVdkFxZ9IBX0FVX3lxTFBsZGFjMHU5eklFaU9JM2dYRUtUclUydHIxRnZ5T256eFBRTzhMODBFd3Y3SExqX1BRR2h2Q2ZhVks5MjQxUHdWTzRWa3Jxak51djF3bldrYVNnUUo5cnBB?oc=5\" target=\"_blank\">宏碁人事異動 營運長高樹國請辭</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">經濟日報</font>"
           },
           {
-            "title": "被爆偷吃美女總監5年！宏碁營運長高樹國火速辭職 清空子公司職務",
-            "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9rSUJyN0ZMNWRPX3hhMWNzRG1JSURGMTdlM0txeVNrdWd0U3Y2clpDMzZyZmpObWozWVM5TzlxVlFSUXNianlBYU1OVQ?oc=5",
-            "source": "三立新聞",
+            "title": "2353 宏碁 - 社宅包租代管政策遇逆風，從兆基案看資金監管漏洞與「混帳」隱憂 - 股市爆料同學會",
+            "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBPS3hNSVZQUm94YWRUTHdsR1lLcjZYVWdiX0pMdzZYek5KVFVjUGJ1WHQxbTN6VDdncEhFelczbFZqeUdBUFM0Z3ZVR1FKakhCekRaZlhYZjM?oc=5",
+            "source": "cmoney.tw",
+            "date": "2026-08-15",
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTFBPS3hNSVZQUm94YWRUTHdsR1lLcjZYVWdiX0pMdzZYek5KVFVjUGJ1WHQxbTN6VDdncEhFelczbFZqeUdBUFM0Z3ZVR1FKakhCekRaZlhYZjM?oc=5\" target=\"_blank\">2353 宏碁 - 社宅包租代管政策遇逆風，從兆基案看資金監管漏洞與「混帳」隱憂 - 股市爆料同學會</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">cmoney.tw</font>"
+          },
+          {
+            "title": "宏碁營運長高樹國「傳緋聞」宣布辭職　集團職務一併辭去",
+            "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1OQzNWV0JfVWNHWTZqd202YzNYbWJJYzV1bE5SZ2xJWFVoek90Z0tqNkxNTXlCY3cyNUFXRjkwYl8xSmpYeENtcl85c1EtU2hwX2fSAVBBVV95cUxOcmRTNE1IeXRmdjR2clc2YzFpVnAtV0gwall1N2trUGNudXRfWm9sYWhhcGRZdU1qd1NyNTA2dHJndkVVWGpDNXNuMWkxeHpSRQ?oc=5",
+            "source": "ETtoday財經雲",
             "date": "2026-08-14",
-            "summary": "<ol><li><a href=\"https://news.google.com/rss/articles/CBMiS0FVX3lxTE9rSUJyN0ZMNWRPX3hhMWNzRG1JSURGMTdlM0txeVNrdWd0U3Y2clpDMzZyZmpObWozWVM5TzlxVlFSUXNianlBYU1OVQ?oc=5\" target=\"_blank\">被爆偷吃美女總監5年！宏碁營運長高樹國火速辭職 清空子公司職務</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">三立新聞</font></li><li><a href=\"https://news.google.com/rss/articles/CBMiUkFVX3lxTE1OQzNWV0JfVWNHWTZqd202YzNYbWJJYzV1bE5SZ2xJWFVoek90Z0tqNkxNTXlCY3cyNUFXRjkwYl8xSmpYeENtcl85c1EtU2hwX2fSAVBBVV95cUxOcmRTNE1IeXRmdjR2clc2YzFpVnAtV0gwall1N2trUGNudXRfWm9sYWhhcGRZdU1qd1NyNTA2dHJndkVVWGpDNXNuMWkxeHpSRQ?oc=5\" target=\"_blank\">宏碁營運長高樹國「傳緋聞」宣布辭職　集團職務一併辭去</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ETtoday財經雲</font></li><li><a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxQWEw2TDdtSUZsU3N4MU5RQVdaN0Zta1ZjV3pOMW9laG5HNHVFSmVZdHNRVEJkVlpPMVRtdW1JNGNkSE5ySTM2cHlQLVVqWVU5WUFoTG8teFlkNkxXZUVTVEd1ek5WQmFhdUxsb0owYnNTTDFBZ193N1R6OE9hZUVfVmdnYmN2UmhjVUE?oc=5\" target=\"_blank\">宏碁營運長高樹國爆偷吃美女總監 14日火速請辭集團所有職務</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">PChome Online 新聞</font></li><li><a href=\"https://news.google.com/rss/articles/CBMiVkFVX3lxTE91RWNlZGVxQ3VkOFgxUm04eUpMM09UX3VFTlhoN2hLM1ROaWx0cDNpYnZXYTNZMVFOMUJFcGVuYUZiaWQtX3huaHNMcmdkdmp0VjVtRHZ3?oc=5\" target=\"_blank\">遭爆與女下屬滑進摩鐵3小時 宏碁營運長閃電辭職 | EBC 東森新聞</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">LINE TODAY</font></li><li><a href=\"https://news.google.com/rss/articles/CBMiTkFVX3lxTFA1d0JMcHF2dnp6VGM5Z3lSMF9xQ2pwczZ5akt1cmtTX3pEM09qRGhXTGE0ZzljbTlOWXVCdDZZZDU4OWNtcjJsaUZDd0FQZw?oc=5\" target=\"_blank\">快訊／宏碁營運長高樹國爆婚外情！「偷歡女總監5年」宣布辭職</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TVBS新聞網</font></li><li><a href=\"https://news.google.com/rss/articles/CBMiVkFVX3lxTE9reTZOR09VY2dUb2VrQlIzdDBOejNSb0pFQ0tjSE9ZT2lLby1jUWlnTTB5V1J5aTNBN3pHRFNVcm1PVzhDdE1QRllrUG8xLXUyZC1UN21R?oc=5\" target=\"_blank\">偷情風波毀前途！ 宏碁營運長高樹國辭職 | 自由電子報</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">LINE TODAY</font></li><li><a href=\"https://news.google.com/rss/articles/CBMiVkFVX3lxTE93RjNYbG9TbkRMX0FkZ0NGU2V0dlVBazZPZTVzNFViNkFrLXlJYkh2RHlPSG1Oa0V0Zk5Val9QUkl2TkU3azBjM2YwQy1xWEpmUHktaWVR?oc=5\" target=\"_blank\">遭爆與下屬婚外情後 宏碁營運長高樹國辭任所有職務！ 董事長陳俊聖兼任營運長 | 太報</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">LINE TODAY</font></li></ol>"
+            "summary": "<ol><li><a href=\"https://news.google.com/rss/articles/CBMiUkFVX3lxTE1OQzNWV0JfVWNHWTZqd202YzNYbWJJYzV1bE5SZ2xJWFVoek90Z0tqNkxNTXlCY3cyNUFXRjkwYl8xSmpYeENtcl85c1EtU2hwX2fSAVBBVV95cUxOcmRTNE1IeXRmdjR2clc2YzFpVnAtV0gwall1N2trUGNudXRfWm9sYWhhcGRZdU1qd1NyNTA2dHJndkVVWGpDNXNuMWkxeHpSRQ?oc=5\" target=\"_blank\">宏碁營運長高樹國「傳緋聞」宣布辭職　集團職務一併辭去</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ETtoday財經雲</font></li><li><a href=\"https://news.google.com/rss/articles/CBMiUEFVX3lxTFBmc1FGVnVTSU1XTDZ3VzhMM0ktRndJdVhpblg3Nzd3eUpWWmpPZkItYzVCeENZZFpNNERIQkgtMDdUbWlxWUxISWVJb0VyaF9F0gFWQVVfeXFMTWlNaTFua3VpcURCSUprbEFGZUlrTmpUeTBrRW5Uakt4d3drZXVtTXJ2V19MRmNDckczQ29OaU9NTnJlZi1FSDY4aWZSbGZHbWlBNDJOSlE?oc=5\" target=\"_blank\">宏碁人事異動 營運長高樹國請辭</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">UDN</font></li><li><a href=\"https://news.google.com/rss/articles/CBMiS0FVX3lxTE9rSUJyN0ZMNWRPX3hhMWNzRG1JSURGMTdlM0txeVNrdWd0U3Y2clpDMzZyZmpObWozWVM5TzlxVlFSUXNianlBYU1OVQ?oc=5\" target=\"_blank\">被爆偷吃美女總監5年！宏碁營運長高樹國火速辭職 清空子公司職務</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">三立新聞</font></li><li><a href=\"https://news.google.com/rss/articles/CBMiVkFVX3lxTE91RWNlZGVxQ3VkOFgxUm04eUpMM09UX3VFTlhoN2hLM1ROaWx0cDNpYnZXYTNZMVFOMUJFcGVuYUZiaWQtX3huaHNMcmdkdmp0VjVtRHZ3?oc=5\" target=\"_blank\">遭爆與女下屬滑進摩鐵3小時 宏碁營運長閃電辭職 | EBC 東森新聞</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">LINE TODAY</font></li><li><a href=\"https://news.google.com/rss/articles/CBMiTkFVX3lxTFA1d0JMcHF2dnp6VGM5Z3lSMF9xQ2pwczZ5akt1cmtTX3pEM09qRGhXTGE0ZzljbTlOWXVCdDZZZDU4OWNtcjJsaUZDd0FQZw?oc=5\" target=\"_blank\">快訊／宏碁營運長高樹國爆婚外情！「偷歡女總監5年」宣布辭職</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TVBS新聞網</font></li><li><a href=\"https://news.google.com/rss/articles/CBMiUEFVX3lxTE1QRFREVUU0MTlyc0xHdEF2dTdoMGl3R292andBOU44U0NRZUZPeUI3eHNQMTMtTzBFYWkxcUJkd0xITDJQaTYxQTZCZkJPeWxL0gFWQVVfeXFMTnprYXJwV0xHNTExcWxIQWZwUHh0d25VMWFQTTQ4aXBTUV8xNkJSX2RSd3RXZW13Z1QycGpwMFFhWHdHSTJuaEMyZVBPcURyZlVEY1JPcFE?oc=5\" target=\"_blank\">宏碁營運長高樹國請辭</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">UDN</font></li><li><a href=\"https://news.google.com/rss/articles/CBMiVkFVX3lxTE9reTZOR09VY2dUb2VrQlIzdDBOejNSb0pFQ0tjSE9ZT2lLby1jUWlnTTB5V1J5aTNBN3pHRFNVcm1PVzhDdE1QRllrUG8xLXUyZC1UN21R?oc=5\" target=\"_blank\">偷情風波毀前途！ 宏碁營運長高樹國辭職 | 自由電子報</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">LINE TODAY</font></li><li><a href=\"https://news.google.com/rss/articles/CBMiVkFVX3lxTE93RjNYbG9TbkRMX0FkZ0NGU2V0dlVBazZPZTVzNFViNkFrLXlJYkh2RHlPSG1Oa0V0Zk5Val9QUkl2TkU3azBjM2YwQy1xWEpmUHktaWVR?oc=5\" target=\"_blank\">遭爆與下屬婚外情後 宏碁營運長高樹國辭任所有職務！ 董事長陳俊聖兼任營運長 | 太報</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">LINE TODAY</font></li></ol>"
           }
         ],
         "news_sentiment": {
@@ -459871,7 +459872,7 @@
                 "top_titles": [
                   "科技股迎法說大秀！宏碁、亞光「PC+CPO」新武器搶鏡 群創獲利暴增178％「連賺4季」",
                   "宏碁、亞光、群創法說 聚焦",
-                  "2353 宏碁 - 社宅包租代管政策遇逆風，從兆基案看資金監管漏洞與「混帳」隱憂 - 股市爆料同學會"
+                  "宏碁人事異動 營運長高樹國請辭"
                 ]
               },
               "method": "news_cluster_window_v1",
@@ -460126,9 +460127,9 @@
           {
             "title": "2474 可成- 可成，除了AI伺服器PC，無人機也即將大幅成長- 股市爆料同學會",
             "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5wa1ZXMTNSanlzUzltMUwtWGZUcXd1YmoxYXRBNlQwVWMxMWhPeERGcE44NFlycENWbGpBWV9CMkV6Ym9rNUJTYi1HRHBSeHBUN2ZmVFlLcEU?oc=5",
-            "source": "CMoney",
+            "source": "cmoney.tw",
             "date": "2026-08-15",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTE5wa1ZXMTNSanlzUzltMUwtWGZUcXd1YmoxYXRBNlQwVWMxMWhPeERGcE44NFlycENWbGpBWV9CMkV6Ym9rNUJTYi1HRHBSeHBUN2ZmVFlLcEU?oc=5\" target=\"_blank\">2474 可成- 可成，除了AI伺服器PC，無人機也即將大幅成長- 股市爆料同學會</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CMoney</font>"
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTE5wa1ZXMTNSanlzUzltMUwtWGZUcXd1YmoxYXRBNlQwVWMxMWhPeERGcE44NFlycENWbGpBWV9CMkV6Ym9rNUJTYi1HRHBSeHBUN2ZmVFlLcEU?oc=5\" target=\"_blank\">2474 可成- 可成，除了AI伺服器PC，無人機也即將大幅成長- 股市爆料同學會</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">cmoney.tw</font>"
           },
           {
             "title": "可成 AI新產品量產",
@@ -460140,9 +460141,9 @@
           {
             "title": "2474 可成- 可成目前短線強於中長線，均線架構正迎來黃金交叉的修復期- 股市爆料同學會",
             "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFA3RTE1Nl81T2VPTGNTUzlQXzd6NWhyQVU3b2RVb1MzMndoV2Z0dkpidWY0ay1yX1o3Y1RRYThnZEZtYVJ6TGY1ekpwT2JPNzNRQmxhOUtCcEs?oc=5",
-            "source": "CMoney",
+            "source": "cmoney.tw",
             "date": "2026-08-14",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTFA3RTE1Nl81T2VPTGNTUzlQXzd6NWhyQVU3b2RVb1MzMndoV2Z0dkpidWY0ay1yX1o3Y1RRYThnZEZtYVJ6TGY1ekpwT2JPNzNRQmxhOUtCcEs?oc=5\" target=\"_blank\">2474 可成- 可成目前短線強於中長線，均線架構正迎來黃金交叉的修復期- 股市爆料同學會</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CMoney</font>"
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTFA3RTE1Nl81T2VPTGNTUzlQXzd6NWhyQVU3b2RVb1MzMndoV2Z0dkpidWY0ay1yX1o3Y1RRYThnZEZtYVJ6TGY1ekpwT2JPNzNRQmxhOUtCcEs?oc=5\" target=\"_blank\">2474 可成- 可成目前短線強於中長線，均線架構正迎來黃金交叉的修復期- 股市爆料同學會</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">cmoney.tw</font>"
           },
           {
             "title": "【公告】可成買回股份金額達新台幣三億元以上",
@@ -460154,9 +460155,9 @@
           {
             "title": "2474 可成- 【金包銀之可成：機殼大廠量縮驚險收紅，穩紮穩打步步為營！】 - 股市爆料同學會",
             "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9zMWhOM19EbDdaZ3lMZlNtaHdTeDZOVTE4NWwyOXRpZUVVYU95T1lvLWQ5VVh2cy1KNXE3aUsxR3F5Rm1EWWJBUDRnR0EzR2NnclQ0SERMNWw?oc=5",
-            "source": "CMoney",
+            "source": "cmoney.tw",
             "date": "2026-08-13",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTE9zMWhOM19EbDdaZ3lMZlNtaHdTeDZOVTE4NWwyOXRpZUVVYU95T1lvLWQ5VVh2cy1KNXE3aUsxR3F5Rm1EWWJBUDRnR0EzR2NnclQ0SERMNWw?oc=5\" target=\"_blank\">2474 可成- 【金包銀之可成：機殼大廠量縮驚險收紅，穩紮穩打步步為營！】 - 股市爆料同學會</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CMoney</font>"
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTE9zMWhOM19EbDdaZ3lMZlNtaHdTeDZOVTE4NWwyOXRpZUVVYU95T1lvLWQ5VVh2cy1KNXE3aUsxR3F5Rm1EWWJBUDRnR0EzR2NnclQ0SERMNWw?oc=5\" target=\"_blank\">2474 可成- 【金包銀之可成：機殼大廠量縮驚險收紅，穩紮穩打步步為營！】 - 股市爆料同學會</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">cmoney.tw</font>"
           }
         ],
         "news_sentiment": {
@@ -466861,9 +466862,9 @@
           {
             "title": "【08/12券商評等報告彙整】文曄(3036) 今日僅1家券商發布績效評等報告，評價為看多，目標價為343元。",
             "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5mb3RSOHZtTXBBUWozTnR6dXMyOHpHR29WVUZFSXB6eXRzMGdYRmRVazVwR3VNZHMwX3NqZkh4ZjM5YmdvQTlkTHBMQV9ZSDU0VlVSYjlacHZrWFFJampPVjZDQWtJcHc?oc=5",
-            "source": "CMoney",
+            "source": "cmoney.tw",
             "date": "2026-08-12",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5mb3RSOHZtTXBBUWozTnR6dXMyOHpHR29WVUZFSXB6eXRzMGdYRmRVazVwR3VNZHMwX3NqZkh4ZjM5YmdvQTlkTHBMQV9ZSDU0VlVSYjlacHZrWFFJampPVjZDQWtJcHc?oc=5\" target=\"_blank\">【08/12券商評等報告彙整】文曄(3036) 今日僅1家券商發布績效評等報告，評價為看多，目標價為343元。</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CMoney</font>"
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5mb3RSOHZtTXBBUWozTnR6dXMyOHpHR29WVUZFSXB6eXRzMGdYRmRVazVwR3VNZHMwX3NqZkh4ZjM5YmdvQTlkTHBMQV9ZSDU0VlVSYjlacHZrWFFJampPVjZDQWtJcHc?oc=5\" target=\"_blank\">【08/12券商評等報告彙整】文曄(3036) 今日僅1家券商發布績效評等報告，評價為看多，目標價為343元。</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">cmoney.tw</font>"
           }
         ],
         "news_sentiment": {
@@ -473552,9 +473553,9 @@
           {
             "title": "3702 大聯大 - 傻眼 完全不拉喔 - 股市爆料同學會",
             "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9TUHl6UG5RQ2FlZmtWa3FIdXBQdjgxWlFyY3RCc3FKMWJNX3UxYUNjaEYweHVpZ005QlA1Yi1adUpCWDFBOUR0bjlNOG1OeU0xRmJ0a3EwbTA?oc=5",
-            "source": "CMoney",
+            "source": "cmoney.tw",
             "date": "2026-08-14",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTE9TUHl6UG5RQ2FlZmtWa3FIdXBQdjgxWlFyY3RCc3FKMWJNX3UxYUNjaEYweHVpZ005QlA1Yi1adUpCWDFBOUR0bjlNOG1OeU0xRmJ0a3EwbTA?oc=5\" target=\"_blank\">3702 大聯大 - 傻眼 完全不拉喔 - 股市爆料同學會</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CMoney</font>"
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTE9TUHl6UG5RQ2FlZmtWa3FIdXBQdjgxWlFyY3RCc3FKMWJNX3UxYUNjaEYweHVpZ005QlA1Yi1adUpCWDFBOUR0bjlNOG1OeU0xRmJ0a3EwbTA?oc=5\" target=\"_blank\">3702 大聯大 - 傻眼 完全不拉喔 - 股市爆料同學會</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">cmoney.tw</font>"
           },
           {
             "title": "【26Q2財報公告】大聯大(3702) Q2 營收4,562.1062億元，季增44.14%、年成長82.15%-CMoney 小編",
@@ -480272,9 +480273,9 @@
           {
             "title": "智易(3596)-同學風向與貼文摘要 - 股市爆料同學會",
             "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9Pc05CeFRLNDhDd0tZbUk5c0IxYUJ0U0xoYllTeFJVaTRjb1FsUlY5ajlWeHFFdGlHVEwzcXF3MlpBdENhenY4bVAtWWhwVDVOVjRPSnp1cDRMVXp5UllqcHl3?oc=5",
-            "source": "CMoney",
+            "source": "cmoney.tw",
             "date": "2026-08-15",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiYkFVX3lxTE9Pc05CeFRLNDhDd0tZbUk5c0IxYUJ0U0xoYllTeFJVaTRjb1FsUlY5ajlWeHFFdGlHVEwzcXF3MlpBdENhenY4bVAtWWhwVDVOVjRPSnp1cDRMVXp5UllqcHl3?oc=5\" target=\"_blank\">智易(3596)-同學風向與貼文摘要 - 股市爆料同學會</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CMoney</font>"
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiYkFVX3lxTE9Pc05CeFRLNDhDd0tZbUk5c0IxYUJ0U0xoYllTeFJVaTRjb1FsUlY5ajlWeHFFdGlHVEwzcXF3MlpBdENhenY4bVAtWWhwVDVOVjRPSnp1cDRMVXp5UllqcHl3?oc=5\" target=\"_blank\">智易(3596)-同學風向與貼文摘要 - 股市爆料同學會</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">cmoney.tw</font>"
           },
           {
             "title": "討論牆 | 下一個網通週期誰最有彈性？中磊(5388)、智易(3596)告訴你，找對產業還不夠",
@@ -480286,16 +480287,16 @@
           {
             "title": "下一個網通週期誰最有彈性？中磊(5388)、智易(3596)告訴你，找對產業還不夠",
             "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE43MFh5djU3R0dDdzZPLWFJY3pOLW9DLVB6cEJQakhxNmh3SnRyZGRScm44TVpZdmdhMG9EM3Y1S0I5dndOVFMxQURlRkprc3NpMXFQZ3Jn?oc=5",
-            "source": "優分析UAnalyze",
+            "source": "uanalyze.com.tw",
             "date": "2026-08-12",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiVkFVX3lxTE43MFh5djU3R0dDdzZPLWFJY3pOLW9DLVB6cEJQakhxNmh3SnRyZGRScm44TVpZdmdhMG9EM3Y1S0I5dndOVFMxQURlRkprc3NpMXFQZ3Jn?oc=5\" target=\"_blank\">下一個網通週期誰最有彈性？中磊(5388)、智易(3596)告訴你，找對產業還不夠</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">優分析UAnalyze</font>"
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiVkFVX3lxTE43MFh5djU3R0dDdzZPLWFJY3pOLW9DLVB6cEJQakhxNmh3SnRyZGRScm44TVpZdmdhMG9EM3Y1S0I5dndOVFMxQURlRkprc3NpMXFQZ3Jn?oc=5\" target=\"_blank\">下一個網通週期誰最有彈性？中磊(5388)、智易(3596)告訴你，找對產業還不夠</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">uanalyze.com.tw</font>"
           },
           {
             "title": "【08/11券商評等報告彙整】智易(3596) 今日僅1家券商發布績效評等報告，評價為看多，目標價為222元。",
             "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1vdUJfbUJUVm9XSnU4alBmOTRuaWhYM2pDTjQyNnduOWcxOW1DcFJzXy1qMHYwNUExS05hd0ZtLWF4VTl6LUI0cHlzUUN3cmlVaXo3NEFaZzlCVC10Q1ZJSjFheGNxWGM?oc=5",
-            "source": "CMoney",
+            "source": "cmoney.tw",
             "date": "2026-08-11",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1vdUJfbUJUVm9XSnU4alBmOTRuaWhYM2pDTjQyNnduOWcxOW1DcFJzXy1qMHYwNUExS05hd0ZtLWF4VTl6LUI0cHlzUUN3cmlVaXo3NEFaZzlCVC10Q1ZJSjFheGNxWGM?oc=5\" target=\"_blank\">【08/11券商評等報告彙整】智易(3596) 今日僅1家券商發布績效評等報告，評價為看多，目標價為222元。</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CMoney</font>"
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1vdUJfbUJUVm9XSnU4alBmOTRuaWhYM2pDTjQyNnduOWcxOW1DcFJzXy1qMHYwNUExS05hd0ZtLWF4VTl6LUI0cHlzUUN3cmlVaXo3NEFaZzlCVC10Q1ZJSjFheGNxWGM?oc=5\" target=\"_blank\">【08/11券商評等報告彙整】智易(3596) 今日僅1家券商發布績效評等報告，評價為看多，目標價為222元。</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">cmoney.tw</font>"
           },
           {
             "title": "94要賺錢 未來事件簿 &sol; 事前預告3596智易買最低賣最高",
@@ -487054,9 +487055,9 @@
           {
             "title": "【即時新聞】台光電(2383)AI發威大漲7％！獲ETF重倉卡位，後市還能追嗎？",
             "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB5Y3RhNmJ1bTVaSFFqbmdNVldUZVA1Z0pjWG9UWmpjZEhmZDBVblZGenJKVkpyejFwdS1sdlpXOGJfYVlwQWFHcTZyZ2JTZjFZeFVUTGRmdllrblhZaEJpSGpMVjFBUEE?oc=5",
-            "source": "CMoney",
+            "source": "cmoney.tw",
             "date": "2026-08-14",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB5Y3RhNmJ1bTVaSFFqbmdNVldUZVA1Z0pjWG9UWmpjZEhmZDBVblZGenJKVkpyejFwdS1sdlpXOGJfYVlwQWFHcTZyZ2JTZjFZeFVUTGRmdllrblhZaEJpSGpMVjFBUEE?oc=5\" target=\"_blank\">【即時新聞】台光電(2383)AI發威大漲7％！獲ETF重倉卡位，後市還能追嗎？</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CMoney</font>"
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB5Y3RhNmJ1bTVaSFFqbmdNVldUZVA1Z0pjWG9UWmpjZEhmZDBVblZGenJKVkpyejFwdS1sdlpXOGJfYVlwQWFHcTZyZ2JTZjFZeFVUTGRmdllrblhZaEJpSGpMVjFBUEE?oc=5\" target=\"_blank\">【即時新聞】台光電(2383)AI發威大漲7％！獲ETF重倉卡位，後市還能追嗎？</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">cmoney.tw</font>"
           },
           {
             "title": "【即時新聞】台光電(2383)大漲7%領軍上攻！這「5檔概念股」買盤狂湧準備接棒？",
@@ -507220,6 +507221,13 @@
         },
         "news": [
           {
+            "title": "公股四金二銀前7月合賺1057億元年增2成！ 第一金華南金躋身200億俱樂部",
+            "url": "https://news.google.com/rss/articles/CBMiuANBVV95cUxPdGtpWUtqenFWVDl5ZFlrLV9wbGNUNVZON0M5OUxUcUd3TENTWmY5dHRleklzdTd1M2lGMDh0c3JMZUNWbDFobC0zanFRc0VMejhhMWRBTnlXQUN3enZBUXdLakFQeTgwdTdPaXFsZ3Q0NEhndUVkT1U5a05ZaDNBOVE2YXFVQ0k4dkVsel9sNDQ2VERZb3B2RWc5RzNrVDR5R2lSSnNOQURfQ2liQ0ZhNVR3TDN2X0RZZGVHMm9TTHhSQzB4RG9fZ2s4UTJCbDhuX1czQzI4T0NjOE53RmV4MFhzdWp4azlUaUZWRWkwb3FFcjBQOEpfSFY1NG9iM21wbHVVcmNaampTZGRObnVYRHBqR3NjaERBU21KNV9jd3FaMFZ5YjZ5cmdtVFRjUDJZc1k1SWJZNTZ5dUw1TnF5NnJRdW1LT192b21RRHlya1Q0ZzRoMHVscDJJeExmVFhRRkNEdm9nSXZvenBxZk5OVm53dThPOXA2dFAxZV9DWlJPNEFOeDlmaUJzLTFTVE43TUI5cWMtWDhpbm9QWTQ0am42ckV5UHRNUDJKTkNuZE5ncE1iNE54Tg?oc=5",
+            "source": "Yahoo股市",
+            "date": "2026-08-14",
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiuANBVV95cUxPdGtpWUtqenFWVDl5ZFlrLV9wbGNUNVZON0M5OUxUcUd3TENTWmY5dHRleklzdTd1M2lGMDh0c3JMZUNWbDFobC0zanFRc0VMejhhMWRBTnlXQUN3enZBUXdLakFQeTgwdTdPaXFsZ3Q0NEhndUVkT1U5a05ZaDNBOVE2YXFVQ0k4dkVsel9sNDQ2VERZb3B2RWc5RzNrVDR5R2lSSnNOQURfQ2liQ0ZhNVR3TDN2X0RZZGVHMm9TTHhSQzB4RG9fZ2s4UTJCbDhuX1czQzI4T0NjOE53RmV4MFhzdWp4azlUaUZWRWkwb3FFcjBQOEpfSFY1NG9iM21wbHVVcmNaampTZGRObnVYRHBqR3NjaERBU21KNV9jd3FaMFZ5YjZ5cmdtVFRjUDJZc1k1SWJZNTZ5dUw1TnF5NnJRdW1LT192b21RRHlya1Q0ZzRoMHVscDJJeExmVFhRRkNEdm9nSXZvenBxZk5OVm53dThPOXA2dFAxZV9DWlJPNEFOeDlmaUJzLTFTVE43TUI5cWMtWDhpbm9QWTQ0am42ckV5UHRNUDJKTkNuZE5ncE1iNE54Tg?oc=5\" target=\"_blank\">公股四金二銀前7月合賺1057億元年增2成！ 第一金華南金躋身200億俱樂部</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo股市</font>"
+          },
+          {
             "title": "第一金獲利／前七月賺209.37億元、EPS 1.46元雙創歷史同期新高| 個股情報| 股市",
             "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBLOUhmTVNDRnNSZ3pOZTY4LU1uRzdJdWxXMFAxcUo0VnFzY2g3UEU4d2FGUDMxRDBqN090ODJFOUVxOGpfWjZfb0FfR1ljYTE0M0pZTEN3X2FmV212MmcwMjRNTURhM3kxa2UyMGM2bC1HNXc?oc=5",
             "source": "UDN",
@@ -507232,13 +507240,6 @@
             "source": "CMoney投資網誌",
             "date": "2026-08-14",
             "summary": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxNcnhsVDBMa3VUQnZ5eTY5VG1CV0J3a1ZpV05Sci1yUm45SUhsbWtjYk5UTnpVYVR5SkM2TXhxS2trTEc4Y1ppNG1oZHNqUEd4QmxsaWF6aGVRRUlnUTczRWpvd3dpdWhLRDBuM0hhUlNaYWJYQmplTERvaDVPQXhlT1pITFlhX2F6VFE?oc=5\" target=\"_blank\">【2026/07月營收公告】第一金(2892) 七月營收77.66億元，表現亮眼、呈現雙成長，創歷史新高，年增2.37%</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CMoney投資網誌</font>"
-          },
-          {
-            "title": "公股四金二銀前7月合賺1057億元年增2成！ 第一金華南金躋身200億俱樂部",
-            "url": "https://news.google.com/rss/articles/CBMiuANBVV95cUxPdGtpWUtqenFWVDl5ZFlrLV9wbGNUNVZON0M5OUxUcUd3TENTWmY5dHRleklzdTd1M2lGMDh0c3JMZUNWbDFobC0zanFRc0VMejhhMWRBTnlXQUN3enZBUXdLakFQeTgwdTdPaXFsZ3Q0NEhndUVkT1U5a05ZaDNBOVE2YXFVQ0k4dkVsel9sNDQ2VERZb3B2RWc5RzNrVDR5R2lSSnNOQURfQ2liQ0ZhNVR3TDN2X0RZZGVHMm9TTHhSQzB4RG9fZ2s4UTJCbDhuX1czQzI4T0NjOE53RmV4MFhzdWp4azlUaUZWRWkwb3FFcjBQOEpfSFY1NG9iM21wbHVVcmNaampTZGRObnVYRHBqR3NjaERBU21KNV9jd3FaMFZ5YjZ5cmdtVFRjUDJZc1k1SWJZNTZ5dUw1TnF5NnJRdW1LT192b21RRHlya1Q0ZzRoMHVscDJJeExmVFhRRkNEdm9nSXZvenBxZk5OVm53dThPOXA2dFAxZV9DWlJPNEFOeDlmaUJzLTFTVE43TUI5cWMtWDhpbm9QWTQ0am42ckV5UHRNUDJKTkNuZE5ncE1iNE54Tg?oc=5",
-            "source": "Yahoo股市",
-            "date": "2026-08-14",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiuANBVV95cUxPdGtpWUtqenFWVDl5ZFlrLV9wbGNUNVZON0M5OUxUcUd3TENTWmY5dHRleklzdTd1M2lGMDh0c3JMZUNWbDFobC0zanFRc0VMejhhMWRBTnlXQUN3enZBUXdLakFQeTgwdTdPaXFsZ3Q0NEhndUVkT1U5a05ZaDNBOVE2YXFVQ0k4dkVsel9sNDQ2VERZb3B2RWc5RzNrVDR5R2lSSnNOQURfQ2liQ0ZhNVR3TDN2X0RZZGVHMm9TTHhSQzB4RG9fZ2s4UTJCbDhuX1czQzI4T0NjOE53RmV4MFhzdWp4azlUaUZWRWkwb3FFcjBQOEpfSFY1NG9iM21wbHVVcmNaampTZGRObnVYRHBqR3NjaERBU21KNV9jd3FaMFZ5YjZ5cmdtVFRjUDJZc1k1SWJZNTZ5dUw1TnF5NnJRdW1LT192b21RRHlya1Q0ZzRoMHVscDJJeExmVFhRRkNEdm9nSXZvenBxZk5OVm53dThPOXA2dFAxZV9DWlJPNEFOeDlmaUJzLTFTVE43TUI5cWMtWDhpbm9QWTQ0am42ckV5UHRNUDJKTkNuZE5ncE1iNE54Tg?oc=5\" target=\"_blank\">公股四金二銀前7月合賺1057億元年增2成！ 第一金華南金躋身200億俱樂部</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo股市</font>"
           },
           {
             "title": "盈餘：第一金(2892)自結前7月稅後盈餘209.37億元，EPS 1.46元",
@@ -513683,7 +513684,7 @@
             "tier": "info",
             "actionable": true,
             "question": "短時間內是否出現新聞群聚？",
-            "answer": "近期 5 則 混合 新聞，主題：第一金獲利／前七月賺209.37億元、EPS 1.46元雙創。",
+            "answer": "近期 5 則 混合 新聞，主題：公股四金二銀前7月合賺1057億元年增2成！ 第一金華南金躋。",
             "answer_short": "新聞群聚 5 則/混合",
             "explanation": "新聞群聚反映重大事件或市場關注度突增。",
             "evidence": {
@@ -513691,11 +513692,11 @@
                 "window_hours": 24,
                 "n_news": 5,
                 "direction": "mixed",
-                "top_topic": "第一金獲利／前七月賺209.37億元、EPS 1.46元雙創歷史同期新高| 個股情報| 股市",
+                "top_topic": "公股四金二銀前7月合賺1057億元年增2成！ 第一金華南金躋身200億俱樂部",
                 "top_titles": [
+                  "公股四金二銀前7月合賺1057億元年增2成！ 第一金華南金躋身200億俱樂部",
                   "第一金獲利／前七月賺209.37億元、EPS 1.46元雙創歷史同期新高| 個股情報| 股市",
-                  "【2026/07月營收公告】第一金(2892) 七月營收77.66億元，表現亮眼、呈現雙成長，創歷史新高，年增2.37%",
-                  "公股四金二銀前7月合賺1057億元年增2成！ 第一金華南金躋身200億俱樂部"
+                  "【2026/07月營收公告】第一金(2892) 七月營收77.66億元，表現亮眼、呈現雙成長，創歷史新高，年增2.37%"
                 ]
               },
               "method": "news_cluster_window_v1",
@@ -520713,18 +520714,18 @@
         },
         "news": [
           {
-            "title": "2885 元大金 - 抖音影片是不是詐騙廣告 - 股市爆料同學會",
-            "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1kalZJSW50TmljeVBaYlhJdWNoOHdRUmhURzh0bnl1UVVtODczN0hyUzZLaTJ1dXBZQmJPandVajJpMWFFdzhCM3VUY3N5UmN6SW8xNGRWUjQ?oc=5",
-            "source": "CMoney",
+            "title": "元大金是每月皆較去年同期成長的證券型金控龍頭！穩定輸出就是讚",
+            "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9KUEpMLThRUktHTkJXVkh2YWJrRy12OGlvRjM2dTVDUUpWZkZ1VUZBTkFNenRYWGhPc2VhUVpySUs3eWVZVUl3aWNDZm9WUXFiMS1iaHU0WjM?oc=5",
+            "source": "cmoney.tw",
             "date": "2026-08-15",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTE1kalZJSW50TmljeVBaYlhJdWNoOHdRUmhURzh0bnl1UVVtODczN0hyUzZLaTJ1dXBZQmJPandVajJpMWFFdzhCM3VUY3N5UmN6SW8xNGRWUjQ?oc=5\" target=\"_blank\">2885 元大金 - 抖音影片是不是詐騙廣告 - 股市爆料同學會</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CMoney</font>"
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTE9KUEpMLThRUktHTkJXVkh2YWJrRy12OGlvRjM2dTVDUUpWZkZ1VUZBTkFNenRYWGhPc2VhUVpySUs3eWVZVUl3aWNDZm9WUXFiMS1iaHU0WjM?oc=5\" target=\"_blank\">元大金是每月皆較去年同期成長的證券型金控龍頭！穩定輸出就是讚</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">cmoney.tw</font>"
           },
           {
-            "title": "2885 元大金- 元大金是每月皆較去年同期成長的證券型金控龍頭！穩定輸出就是讚- 股市爆料同學會",
-            "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9KUEpMLThRUktHTkJXVkh2YWJrRy12OGlvRjM2dTVDUUpWZkZ1VUZBTkFNenRYWGhPc2VhUVpySUs3eWVZVUl3aWNDZm9WUXFiMS1iaHU0WjM?oc=5",
-            "source": "CMoney",
+            "title": "2885 元大金 - 抖音影片是不是詐騙廣告 - 股市爆料同學會",
+            "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1kalZJSW50TmljeVBaYlhJdWNoOHdRUmhURzh0bnl1UVVtODczN0hyUzZLaTJ1dXBZQmJPandVajJpMWFFdzhCM3VUY3N5UmN6SW8xNGRWUjQ?oc=5",
+            "source": "cmoney.tw",
             "date": "2026-08-15",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTE9KUEpMLThRUktHTkJXVkh2YWJrRy12OGlvRjM2dTVDUUpWZkZ1VUZBTkFNenRYWGhPc2VhUVpySUs3eWVZVUl3aWNDZm9WUXFiMS1iaHU0WjM?oc=5\" target=\"_blank\">2885 元大金- 元大金是每月皆較去年同期成長的證券型金控龍頭！穩定輸出就是讚- 股市爆料同學會</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CMoney</font>"
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTE1kalZJSW50TmljeVBaYlhJdWNoOHdRUmhURzh0bnl1UVVtODczN0hyUzZLaTJ1dXBZQmJPandVajJpMWFFdzhCM3VUY3N5UmN6SW8xNGRWUjQ?oc=5\" target=\"_blank\">2885 元大金 - 抖音影片是不是詐騙廣告 - 股市爆料同學會</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">cmoney.tw</font>"
           },
           {
             "title": "【2026/07月營收公告】元大金(2885) 七月營收175.6億元，年增78.99%-CMoney 小編",
@@ -520736,9 +520737,9 @@
           {
             "title": "2885 元大金 - 【元大金(2885)盤後解析】外資大賣投信撐，高檔換手 今... - 股市爆料同學會",
             "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE0tWF9GUFp2V3BKbzVhLTVBZ1l1LXJma2Ryd0tLNWJKcnpYR21KRE4yTjR2bWFDZTNrc0tZQ2JBcDhDdERUajB6OW9YRWhIWnNJeFBpUFJoYkg?oc=5",
-            "source": "CMoney",
+            "source": "cmoney.tw",
             "date": "2026-08-14",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTE0tWF9GUFp2V3BKbzVhLTVBZ1l1LXJma2Ryd0tLNWJKcnpYR21KRE4yTjR2bWFDZTNrc0tZQ2JBcDhDdERUajB6OW9YRWhIWnNJeFBpUFJoYkg?oc=5\" target=\"_blank\">2885 元大金 - 【元大金(2885)盤後解析】外資大賣投信撐，高檔換手 今... - 股市爆料同學會</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CMoney</font>"
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTE0tWF9GUFp2V3BKbzVhLTVBZ1l1LXJma2Ryd0tLNWJKcnpYR21KRE4yTjR2bWFDZTNrc0tZQ2JBcDhDdERUajB6OW9YRWhIWnNJeFBpUFJoYkg?oc=5\" target=\"_blank\">2885 元大金 - 【元大金(2885)盤後解析】外資大賣投信撐，高檔換手 今... - 股市爆料同學會</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">cmoney.tw</font>"
           },
           {
             "title": "13家金控前7月獲利逼近5千億！ 富邦金、國泰金賺進逾半個股本",
@@ -520754,7 +520755,7 @@
           "negative_count": 0,
           "neutral_count": 3,
           "label": "positive",
-          "top_positive_title": "2885 元大金- 元大金是每月皆較去年同期成長的證券型金控龍頭！穩定輸出就是讚- 股市爆料同學會",
+          "top_positive_title": "元大金是每月皆較去年同期成長的證券型金控龍頭！穩定輸出就是讚",
           "top_negative_title": null
         },
         "announcements": [],
@@ -527153,7 +527154,7 @@
             "tier": "info",
             "actionable": true,
             "question": "短時間內是否出現新聞群聚？",
-            "answer": "近期 5 則 混合 新聞，主題：2885 元大金 - 抖音影片是不是詐騙廣告 - 股市爆料同。",
+            "answer": "近期 5 則 混合 新聞，主題：元大金是每月皆較去年同期成長的證券型金控龍頭！穩定輸出就是讚。",
             "answer_short": "新聞群聚 5 則/混合",
             "explanation": "新聞群聚反映重大事件或市場關注度突增。",
             "evidence": {
@@ -527161,10 +527162,10 @@
                 "window_hours": 24,
                 "n_news": 5,
                 "direction": "mixed",
-                "top_topic": "2885 元大金 - 抖音影片是不是詐騙廣告 - 股市爆料同學會",
+                "top_topic": "元大金是每月皆較去年同期成長的證券型金控龍頭！穩定輸出就是讚",
                 "top_titles": [
+                  "元大金是每月皆較去年同期成長的證券型金控龍頭！穩定輸出就是讚",
                   "2885 元大金 - 抖音影片是不是詐騙廣告 - 股市爆料同學會",
-                  "2885 元大金- 元大金是每月皆較去年同期成長的證券型金控龍頭！穩定輸出就是讚- 股市爆料同學會",
                   "【2026/07月營收公告】元大金(2885) 七月營收175.6億元，年增78.99%-CMoney 小編"
                 ]
               },
@@ -527418,6 +527419,13 @@
         },
         "news": [
           {
+            "title": "中租-KY(5871) 個股概覽 | 個股 - 股市",
+            "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBOcVhjYlhySDJIb0N6STV2Nm9Xc05CRXZYRDZIaXY0TTFlUEhrNWEzdFJyR0VIYWpySDhxWTBHenN0UE5CSFdyUUdjOG1HR1V1dGxF?oc=5",
+            "source": "CMoney",
+            "date": "2026-08-16",
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiU0FVX3lxTFBOcVhjYlhySDJIb0N6STV2Nm9Xc05CRXZYRDZIaXY0TTFlUEhrNWEzdFJyR0VIYWpySDhxWTBHenN0UE5CSFdyUUdjOG1HR1V1dGxF?oc=5\" target=\"_blank\">中租-KY(5871) 個股概覽 | 個股 - 股市</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CMoney</font>"
+          },
+          {
             "title": "中租-KY 法人買盤進駐",
             "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE02SXZSYkZfNGtuMUIxMkpMVXpWQVNfbW9ZSlpVVDdBLVVTS2ZHY0tmejZPSUFqWHpSczgxWTJGVGRlVTFwQkgyUnhnOU4yRVlOeFJ0V00zOWtNUVZpZkN1TWRxczI2cUhZeXJJ?oc=5",
             "source": "中時新聞網",
@@ -527444,21 +527452,14 @@
             "source": "CMoney投資網誌",
             "date": "2026-08-11",
             "summary": "<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxONXhORXVwZTNudDdOVlFSN1pNYVBzMEdsc3dyakg3SWhQUV9ibDNNZlMwZmwtYlNpTnZPN1l0aFNrZElONmM5X3l4ODl3T0tJRDFDTmpUQ28xaFhfQ2U4UjYyZlRpbVVvY3hjblF2a0NGVTUwQVBVWVl3VkoxYmVkWm9PeWJROEhKMF9QUjhB?oc=5\" target=\"_blank\">【12:09 即時新聞】中租-KY(5871)股價上漲逾4%，7月獲利與營收雙成長帶動買盤迴流＋短線脫離低檔尋求技術反彈</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CMoney投資網誌</font>"
-          },
-          {
-            "title": "中租-KY 7月營收轉雙增；前7月三大市場獲利全年增- 新聞",
-            "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPVWRaWmUtRkdZV1dTUzBKY0ZBT0NRYVZUQURGcjlFcDR1R25CNmZhaTRYVnUxRjZ1VDVJRWs2dGNOcDdXQlAxRWk4RTBnMzZxQ01UQm9aRWFLX2VWcGRYcFZmT2FBLXZPRl80R09acFN3eW5QRjc0b0JGVmY1Y0V5dVoyV1g2WXpBZmxCY2RwUWNfZw?oc=5",
-            "source": "MoneyDJ理財網",
-            "date": "2026-08-11",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxPVWRaWmUtRkdZV1dTUzBKY0ZBT0NRYVZUQURGcjlFcDR1R25CNmZhaTRYVnUxRjZ1VDVJRWs2dGNOcDdXQlAxRWk4RTBnMzZxQ01UQm9aRWFLX2VWcGRYcFZmT2FBLXZPRl80R09acFN3eW5QRjc0b0JGVmY1Y0V5dVoyV1g2WXpBZmxCY2RwUWNfZw?oc=5\" target=\"_blank\">中租-KY 7月營收轉雙增；前7月三大市場獲利全年增- 新聞</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MoneyDJ理財網</font>"
           }
         ],
         "news_sentiment": {
-          "score": 0.2857,
-          "positive_count": 2,
+          "score": 0.125,
+          "positive_count": 1,
           "negative_count": 0,
-          "neutral_count": 3,
-          "label": "positive",
+          "neutral_count": 4,
+          "label": "neutral",
           "top_positive_title": "【12:09 即時新聞】中租-KY(5871)股價上漲逾4%，7月獲利與營收雙成長帶動買盤迴流＋短線脫離低檔尋求技術反彈",
           "top_negative_title": null
         },
@@ -533631,10 +533632,9 @@
           "tier_30d": "laggard"
         },
         "hot_rank": {
-          "score": 54,
+          "score": 51,
           "tier": "neutral",
           "drivers": [
-            "+sentiment",
             "+chip_streak"
           ]
         },
@@ -533887,7 +533887,7 @@
             "tier": "info",
             "actionable": true,
             "question": "短時間內是否出現新聞群聚？",
-            "answer": "近期 5 則 混合 新聞，主題：中租-KY 法人買盤進駐。",
+            "answer": "近期 5 則 混合 新聞，主題：中租-KY(5871) 個股概覽 | 個股 - 股市。",
             "answer_short": "新聞群聚 5 則/混合",
             "explanation": "新聞群聚反映重大事件或市場關注度突增。",
             "evidence": {
@@ -533895,11 +533895,11 @@
                 "window_hours": 24,
                 "n_news": 5,
                 "direction": "mixed",
-                "top_topic": "中租-KY 法人買盤進駐",
+                "top_topic": "中租-KY(5871) 個股概覽 | 個股 - 股市",
                 "top_titles": [
+                  "中租-KY(5871) 個股概覽 | 個股 - 股市",
                   "中租-KY 法人買盤進駐",
-                  "中租-KY(5871)-同學風向與貼文摘要 - 股市爆料同學會",
-                  "5871 中租-KY - 外資聽我的話買7000多張雖賠猶賺 - 股市爆料同學會"
+                  "中租-KY(5871)-同學風向與貼文摘要 - 股市爆料同學會"
                 ]
               },
               "method": "news_cluster_window_v1",
@@ -534154,9 +534154,9 @@
           {
             "title": "裕民(2606) 個股概覽 | 個股 - 股市",
             "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8ySDBmXzhKVGxXTk8wWjB2NEtqYjhhWGxOay1NbmNfVDlPOGZ5cDJwSUs1NXgwVXdaRWFENEN2MGtidndBQ05QMGNGZFZKYjlpUWZN?oc=5",
-            "source": "CMoney",
+            "source": "cmoney.tw",
             "date": "2026-08-16",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiU0FVX3lxTE8ySDBmXzhKVGxXTk8wWjB2NEtqYjhhWGxOay1NbmNfVDlPOGZ5cDJwSUs1NXgwVXdaRWFENEN2MGtidndBQ05QMGNGZFZKYjlpUWZN?oc=5\" target=\"_blank\">裕民(2606) 個股概覽 | 個股 - 股市</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CMoney</font>"
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiU0FVX3lxTE8ySDBmXzhKVGxXTk8wWjB2NEtqYjhhWGxOay1NbmNfVDlPOGZ5cDJwSUs1NXgwVXdaRWFENEN2MGtidndBQ05QMGNGZFZKYjlpUWZN?oc=5\" target=\"_blank\">裕民(2606) 個股概覽 | 個股 - 股市</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">cmoney.tw</font>"
           },
           {
             "title": "討論牆 | 盤中速報 - 裕民(2606)急跌-3.26%報65.2元，成交646張",
@@ -534168,16 +534168,16 @@
           {
             "title": "裕民(2606)-同學風向與貼文摘要 - 股市爆料同學會",
             "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5JN012NjBHc3NjcmNaYVk2bGM5d0RpeXhMSkdYZ0JJZUJRWEw3QmJUR0E5VnBBTU5DWDZXTVBzY0VMWHAzTFVWeW5ILTBFcGJlSXhJNVBRUW1aU1N2LXBJZTdn?oc=5",
-            "source": "CMoney",
+            "source": "cmoney.tw",
             "date": "2026-08-14",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiYkFVX3lxTE5JN012NjBHc3NjcmNaYVk2bGM5d0RpeXhMSkdYZ0JJZUJRWEw3QmJUR0E5VnBBTU5DWDZXTVBzY0VMWHAzTFVWeW5ILTBFcGJlSXhJNVBRUW1aU1N2LXBJZTdn?oc=5\" target=\"_blank\">裕民(2606)-同學風向與貼文摘要 - 股市爆料同學會</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CMoney</font>"
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiYkFVX3lxTE5JN012NjBHc3NjcmNaYVk2bGM5d0RpeXhMSkdYZ0JJZUJRWEw3QmJUR0E5VnBBTU5DWDZXTVBzY0VMWHAzTFVWeW5ILTBFcGJlSXhJNVBRUW1aU1N2LXBJZTdn?oc=5\" target=\"_blank\">裕民(2606)-同學風向與貼文摘要 - 股市爆料同學會</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">cmoney.tw</font>"
           },
           {
             "title": "【08/13券商評等報告彙整】裕民(2606) 今日僅1家券商發布績效評等報告，評價為看多，目標價為83元。",
             "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE11RU16bEtHLWgwT3M5VWNEZ3Z3elVEN280Qm1yYnZLc2ZUUlpPd3kycDE5bERMVWxUWjlyUHdseHRKXzNmV3lwXzhzMlNJbndjTERsNFBTajI0Qm5OWUFrOERmU3F5MWc?oc=5",
-            "source": "CMoney",
+            "source": "cmoney.tw",
             "date": "2026-08-13",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTE11RU16bEtHLWgwT3M5VWNEZ3Z3elVEN280Qm1yYnZLc2ZUUlpPd3kycDE5bERMVWxUWjlyUHdseHRKXzNmV3lwXzhzMlNJbndjTERsNFBTajI0Qm5OWUFrOERmU3F5MWc?oc=5\" target=\"_blank\">【08/13券商評等報告彙整】裕民(2606) 今日僅1家券商發布績效評等報告，評價為看多，目標價為83元。</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CMoney</font>"
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTE11RU16bEtHLWgwT3M5VWNEZ3Z3elVEN280Qm1yYnZLc2ZUUlpPd3kycDE5bERMVWxUWjlyUHdseHRKXzNmV3lwXzhzMlNJbndjTERsNFBTajI0Qm5OWUFrOERmU3F5MWc?oc=5\" target=\"_blank\">【08/13券商評等報告彙整】裕民(2606) 今日僅1家券商發布績效評等報告，評價為看多，目標價為83元。</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">cmoney.tw</font>"
           },
           {
             "title": "散裝航運迎強彈！裕民、新興領軍，西芒杜鐵礦砂成下一個爆發點｜產業熱話｜豐雲學堂2026 年 08 月",
@@ -540856,24 +540856,24 @@
         "news": [
           {
             "title": "財報：華新(1605)115年上半年稅後盈餘126億2752萬元，EPS 2.85元",
-            "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxONkNmR2otcVZrUmdqaV95UTlkcnVLdEk2c3JvYi1IcmtBVmMwSXhVQTZtdzhGdmdyX1NLS29zbmU5a3ZNWkhCNnZWaXNvMFhha1JacVp5YTEyWlI1Vi1tbGpwQVR3R0VBQW5aUm83TEJvUERVMFUyWFB2UFRWMEJMNGN6RHE4MlB3?oc=5",
+            "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNbm5ZVm1JeGJZM2RHbGRYeXFKOWI4cjQtMmw5OU5ZVVhFMFVrU2pQbVREQWl4bmRadTFXRE5uSzZ5S2xER25PNGdJM0k3WEM5LVpBeXFWbWx0MHZXQmlpSGNqLXBiTThpV2ZReDFlTkZPd0tfX2s5eU4wZW9nX2NQYmFlYWZVZ3FiQ245MlBaM0k4dw?oc=5",
             "source": "富聯網",
             "date": "2026-08-14",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxONkNmR2otcVZrUmdqaV95UTlkcnVLdEk2c3JvYi1IcmtBVmMwSXhVQTZtdzhGdmdyX1NLS29zbmU5a3ZNWkhCNnZWaXNvMFhha1JacVp5YTEyWlI1Vi1tbGpwQVR3R0VBQW5aUm83TEJvUERVMFUyWFB2UFRWMEJMNGN6RHE4MlB3?oc=5\" target=\"_blank\">財報：華新(1605)115年上半年稅後盈餘126億2752萬元，EPS 2.85元</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">富聯網</font>"
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxNbm5ZVm1JeGJZM2RHbGRYeXFKOWI4cjQtMmw5OU5ZVVhFMFVrU2pQbVREQWl4bmRadTFXRE5uSzZ5S2xER25PNGdJM0k3WEM5LVpBeXFWbWx0MHZXQmlpSGNqLXBiTThpV2ZReDFlTkZPd0tfX2s5eU4wZW9nX2NQYmFlYWZVZ3FiQ245MlBaM0k4dw?oc=5\" target=\"_blank\">財報：華新(1605)115年上半年稅後盈餘126億2752萬元，EPS 2.85元</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">富聯網</font>"
           },
           {
             "title": "【即時新聞】華新(1605)獲法人狂掃逾4萬張，這「2檔概念股」湧現調節賣壓！",
             "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE45cVlOWUpoRXppY2Zfd2sxbUlETVRVbmtjSzlPX2VPMFA1MkprUjc2REhjYVQyaFI5UGpkUGZnWDBaWUNJVnFONFl0LVo2MDdUYjMtVkpEVlplME9TVUVmQ2FXXzR1UUE?oc=5",
-            "source": "CMoney",
+            "source": "cmoney.tw",
             "date": "2026-08-13",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTE45cVlOWUpoRXppY2Zfd2sxbUlETVRVbmtjSzlPX2VPMFA1MkprUjc2REhjYVQyaFI5UGpkUGZnWDBaWUNJVnFONFl0LVo2MDdUYjMtVkpEVlplME9TVUVmQ2FXXzR1UUE?oc=5\" target=\"_blank\">【即時新聞】華新(1605)獲法人狂掃逾4萬張，這「2檔概念股」湧現調節賣壓！</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CMoney</font>"
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTE45cVlOWUpoRXppY2Zfd2sxbUlETVRVbmtjSzlPX2VPMFA1MkprUjc2REhjYVQyaFI5UGpkUGZnWDBaWUNJVnFONFl0LVo2MDdUYjMtVkpEVlplME9TVUVmQ2FXXzR1UUE?oc=5\" target=\"_blank\">【即時新聞】華新(1605)獲法人狂掃逾4萬張，這「2檔概念股」湧現調節賣壓！</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">cmoney.tw</font>"
           },
           {
             "title": "1605 華新- ⭐華新未來股價能破百元嗎？真正值得觀察的是接下來2～3年 - 股市爆料同學會",
             "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE4xUHozTlNtRFF2U2NacnBDZ3Z2bFVGMnZ1NVh5U3o0Z2d3ZFUzalVIV2o0Z0VoaGJiN3pUZDdOblgyeVZSUk1XaF9YUUdrbW9iX2pVczBYTTQ?oc=5",
-            "source": "CMoney",
+            "source": "cmoney.tw",
             "date": "2026-08-13",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTE4xUHozTlNtRFF2U2NacnBDZ3Z2bFVGMnZ1NVh5U3o0Z2d3ZFUzalVIV2o0Z0VoaGJiN3pUZDdOblgyeVZSUk1XaF9YUUdrbW9iX2pVczBYTTQ?oc=5\" target=\"_blank\">1605 華新- ⭐華新未來股價能破百元嗎？真正值得觀察的是接下來2～3年 - 股市爆料同學會</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CMoney</font>"
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTE4xUHozTlNtRFF2U2NacnBDZ3Z2bFVGMnZ1NVh5U3o0Z2d3ZFUzalVIV2o0Z0VoaGJiN3pUZDdOblgyeVZSUk1XaF9YUUdrbW9iX2pVczBYTTQ?oc=5\" target=\"_blank\">1605 華新- ⭐華新未來股價能破百元嗎？真正值得觀察的是接下來2～3年 - 股市爆料同學會</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">cmoney.tw</font>"
           },
           {
             "title": "華新(1605)可以買？9天漲4成站上40元，股價便宜漲勢又不輸華邦電、連外資都大買4.4萬張「原因曝光」",
@@ -547589,9 +547589,9 @@
           {
             "title": "正新(2105)-同學風向與貼文摘要 - 股市爆料同學會",
             "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB4aTJxOTRDUXMxU3RISExMUnFDeHByc2lRam13UHlZV0JfLWpjQzFNSndqY2poU2VnYXJXcXA1eGNOV3hkNTZWRnZvYzRxUjBNMWRMcTczeWVsWW8zaTc4bWhn?oc=5",
-            "source": "CMoney",
+            "source": "cmoney.tw",
             "date": "2026-08-13",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiYkFVX3lxTFB4aTJxOTRDUXMxU3RISExMUnFDeHByc2lRam13UHlZV0JfLWpjQzFNSndqY2poU2VnYXJXcXA1eGNOV3hkNTZWRnZvYzRxUjBNMWRMcTczeWVsWW8zaTc4bWhn?oc=5\" target=\"_blank\">正新(2105)-同學風向與貼文摘要 - 股市爆料同學會</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CMoney</font>"
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiYkFVX3lxTFB4aTJxOTRDUXMxU3RISExMUnFDeHByc2lRam13UHlZV0JfLWpjQzFNSndqY2poU2VnYXJXcXA1eGNOV3hkNTZWRnZvYzRxUjBNMWRMcTczeWVsWW8zaTc4bWhn?oc=5\" target=\"_blank\">正新(2105)-同學風向與貼文摘要 - 股市爆料同學會</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">cmoney.tw</font>"
           },
           {
             "title": "【26Q2財報公告】正新(2105) Q2 營收251.9042億元，連2季成長，季增7.52%、年成長9.58%-CMoney 小編",
@@ -547610,9 +547610,9 @@
           {
             "title": "2105 正新- 1月1日累計至本期止基本每股盈餘(損失) (元):1.05 - 股市爆料同學會",
             "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5sUEdpMWlySEF3eFRoc2thNDZlRUNZdGdTTktWSDlLTVFaVWFXY1dpQmQwdTRnYWZiZUlNSHZmWjRVa01LcU5DNEg3eENsSWZ0THIxNFJweVA?oc=5",
-            "source": "CMoney",
+            "source": "cmoney.tw",
             "date": "2026-08-12",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTE5sUEdpMWlySEF3eFRoc2thNDZlRUNZdGdTTktWSDlLTVFaVWFXY1dpQmQwdTRnYWZiZUlNSHZmWjRVa01LcU5DNEg3eENsSWZ0THIxNFJweVA?oc=5\" target=\"_blank\">2105 正新- 1月1日累計至本期止基本每股盈餘(損失) (元):1.05 - 股市爆料同學會</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CMoney</font>"
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTE5sUEdpMWlySEF3eFRoc2thNDZlRUNZdGdTTktWSDlLTVFaVWFXY1dpQmQwdTRnYWZiZUlNSHZmWjRVa01LcU5DNEg3eENsSWZ0THIxNFJweVA?oc=5\" target=\"_blank\">2105 正新- 1月1日累計至本期止基本每股盈餘(損失) (元):1.05 - 股市爆料同學會</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">cmoney.tw</font>"
           },
           {
             "title": "財報：正新(2105)115/1/1-115/6/30歸屬母公司淨利34億1508萬元，EPS 1.05元",
@@ -554324,9 +554324,9 @@
           {
             "title": "豐泰(9910) 個股概覽 | 個股 - 股市",
             "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE83YTF5cGtlSzY3QzItUjhBdGZOWURwSk12Wkc0ZnRvczB4SHhReU5aNFk5Z05MbzBKbmpsQjV1UGpueWxVNTlRajlXWDllSjBSb1gw?oc=5",
-            "source": "CMoney",
+            "source": "cmoney.tw",
             "date": "2026-08-15",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiU0FVX3lxTE83YTF5cGtlSzY3QzItUjhBdGZOWURwSk12Wkc0ZnRvczB4SHhReU5aNFk5Z05MbzBKbmpsQjV1UGpueWxVNTlRajlXWDllSjBSb1gw?oc=5\" target=\"_blank\">豐泰(9910) 個股概覽 | 個股 - 股市</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CMoney</font>"
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiU0FVX3lxTE83YTF5cGtlSzY3QzItUjhBdGZOWURwSk12Wkc0ZnRvczB4SHhReU5aNFk5Z05MbzBKbmpsQjV1UGpueWxVNTlRajlXWDllSjBSb1gw?oc=5\" target=\"_blank\">豐泰(9910) 個股概覽 | 個股 - 股市</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">cmoney.tw</font>"
           },
           {
             "title": "討論牆 | 盤中速報 - 豐泰(9910)股價拉至漲停，漲停價86.3元，成交6,475張",
@@ -554345,16 +554345,16 @@
           {
             "title": "【26Q2財報公告】豐泰(9910) Q2 營收203.7972億元，季增 5.95％、年衰退 0.1％",
             "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5SelFTRmMteW1mM19GVWI4bUxDNm0xb2lzVzkyVnRBbEc4SUxBdU9TZXVxaHFyVUN5RG5LcDFGNmlGMnFxbzRCWF93c29SOXh6OGhIQlZ3aDdyMVoxQnJrNXZxSFlJT1k?oc=5",
-            "source": "CMoney",
+            "source": "cmoney.tw",
             "date": "2026-08-12",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5SelFTRmMteW1mM19GVWI4bUxDNm0xb2lzVzkyVnRBbEc4SUxBdU9TZXVxaHFyVUN5RG5LcDFGNmlGMnFxbzRCWF93c29SOXh6OGhIQlZ3aDdyMVoxQnJrNXZxSFlJT1k?oc=5\" target=\"_blank\">【26Q2財報公告】豐泰(9910) Q2 營收203.7972億元，季增 5.95％、年衰退 0.1％</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CMoney</font>"
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5SelFTRmMteW1mM19GVWI4bUxDNm0xb2lzVzkyVnRBbEc4SUxBdU9TZXVxaHFyVUN5RG5LcDFGNmlGMnFxbzRCWF93c29SOXh6OGhIQlZ3aDdyMVoxQnJrNXZxSFlJT1k?oc=5\" target=\"_blank\">【26Q2財報公告】豐泰(9910) Q2 營收203.7972億元，季增 5.95％、年衰退 0.1％</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">cmoney.tw</font>"
           },
           {
             "title": "【2026/07月營收公告】豐泰(9910) 七月營收73.94億元，表現亮眼、呈現雙成長，創近11個月以來新高，年增1%",
             "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE51ejVnOXJLSThKOVVYT085ejFiak5hTlBJcjUyaXRKTGNqYlFxdFNMTmVFNjg4c182bFI2a094WmRhSzF1YkZxdTFHTWNYRGtIOVptZnJPTW5sWGVDMU1JQWlhRjY5Y0k?oc=5",
-            "source": "CMoney",
+            "source": "cmoney.tw",
             "date": "2026-08-10",
-            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTE51ejVnOXJLSThKOVVYT085ejFiak5hTlBJcjUyaXRKTGNqYlFxdFNMTmVFNjg4c182bFI2a094WmRhSzF1YkZxdTFHTWNYRGtIOVptZnJPTW5sWGVDMU1JQWlhRjY5Y0k?oc=5\" target=\"_blank\">【2026/07月營收公告】豐泰(9910) 七月營收73.94億元，表現亮眼、呈現雙成長，創近11個月以來新高，年增1%</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CMoney</font>"
+            "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTE51ejVnOXJLSThKOVVYT085ejFiak5hTlBJcjUyaXRKTGNqYlFxdFNMTmVFNjg4c182bFI2a094WmRhSzF1YkZxdTFHTWNYRGtIOVptZnJPTW5sWGVDMU1JQWlhRjY5Y0k?oc=5\" target=\"_blank\">【2026/07月營收公告】豐泰(9910) 七月營收73.94億元，表現亮眼、呈現雙成長，創近11個月以來新高，年增1%</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">cmoney.tw</font>"
           }
         ],
         "news_sentiment": {
@@ -561229,8 +561229,8 @@
         "direction": "同向"
       },
       {
-        "sector_a": "半導體",
-        "sector_b": "玻璃陶瓷",
+        "sector_a": "玻璃陶瓷",
+        "sector_b": "半導體",
         "correlation": 0.88,
         "direction": "同向"
       },
@@ -561247,8 +561247,8 @@
         "direction": "同向"
       },
       {
-        "sector_a": "半導體",
-        "sector_b": "半導體封測",
+        "sector_a": "鋼鐵",
+        "sector_b": "半導體",
         "correlation": 0.83,
         "direction": "同向"
       }
@@ -561346,66 +561346,50 @@
       "sector_dispersion": 1.587,
       "rationale": "加權指數跌破 200MA = 風險規避"
     },
-    "ai_commentary_summary": "台股整體呈現**多空分歧**格局，大型ETF（0050、0056）獲外資**持續買超**支撐趨勢向上，但KD死亡交叉暗示短線過熱。",
+    "ai_commentary_summary": "本週台灣科技股呈現分化，**半導體龍頭** 台積電持續領先，**營收成長** 帶動整體正向情緒；但多檔個股如**友達** 2409 受大額外資賣超，呈現**出貨壓力**；**廣達** 2382 受益AI訂單，顯示**資金流入**；**技嘉*",
     "ai_commentary_highlights": [],
     "ai_commentary": {
-      "summary": "台股整體呈現[[key:多空分歧]]格局，大型ETF（0050、0056）獲外資[[pos:持續買超]]支撐趨勢向上，但KD死亡交叉暗示短線過熱。半導體鏈（3037、3661、6415）基本面亮眼、法人[[pos:買意濃厚]]，惟RSI/KD偏高需防回檔。傳產股（2912、2731）技術面偏弱、籌碼[[neg:外資賣超]]，宜觀望。國巨（2327）高檔震盪、外資[[warn:大幅出逃]]，風險偏高。整體建議[[key:精選強勢題材]]、嚴守停損。\n\n今日台股整體呈現[[pos:多頭]]趨勢，金控類股如[[key:台新金]]、[[key:華新]]持續受法人買超支撐，技術面多數顯示[[pos:偏強]]RSI與MACD多頭；然而部分電子與鋼鐵股仍受[[neg:空頭]]壓力，KD死亡交叉與布林帶上軌提醒[[warn:波動警戒]]，投資人應審慎布局。",
-      "6505": "缺乏即時技術數據，無法完整分析。建議關注基本面與籌碼動向，謹慎評估流動性風險。",
-      "1101": "台泥水泥龍頭，受惠基建需求。技術面待補數據，留意外資動向與月營收表現。",
-      "1802": "桂格食品防禦股，殖利率具吸引力。需關注原料成本與通膨對獲利影響。",
-      "1473": "李長榮化工，須觀察化工景氣循環與匯率影響。建議參考月營收趨勢判斷。",
-      "2002": "中鋼鋼鐵龍頭，受惠基建與鋼價。關注外資回補力道與原料成本變化。",
-      "2027": "大成鋼鐵中型股，彈性較大。技術面需突破關鍵均線，量能配合為關鍵。",
-      "3711": "日月光投控封測龍頭，AI需求長期利多。短線關注法人籌碼與季線支撐。",
-      "4736": "台達電電源管理領導者，AI伺服器受惠。留意營收成長動能與獲利能見度。",
-      "1707": "上緯投控金融持股，資產價值型。關注子公司獲利貢獻與配息政策穩定性。",
-      "1216": "統一企業集團核心，7月營收[[pos:創同期新高]]、雙成長。技術面待數據，基本面[[key:穩健成長]]、防禦性強，適合長線配置。",
-      "2912": "統一超商價格[[neg:跌破年線]]、RSI 30[[key:超賣反彈]]機率高，但外資連5賣[[neg:籌碼流失]]、KD死亡交叉，趨勢未轉。目標價305元存[[warn:價值陷阱]]風險，建議[[key:觀望等轉折]]。",
-      "2731": "雄獅旅遊Q2連3增、7月[[pos:創5月新高]]，但技術面空頭排列、RSI 38偏弱，外投雙賣[[neg:籌碼轉弱]]。下半年旺季可期，惟需[[key:量價配合]]確認趨勢反轉。",
-      "0050": "元大台灣50站上年線、外資[[pos:狂買10萬張]]、MACD多頭，趨勢[[key:強勢明確]]。但KD死亡交叉、OBV背離[[warn:短線過熱]]，追高風險增。適合[[key:定期定額]]布局。",
-      "0056": "元大高股息多頭排列、三大法人[[pos:同步買超]]、RSI 62偏強，殖利率具吸引力。KD高檔死亡交叉、OBV背離[[warn:需防回檔]]，適合[[key:防禦配置]]長抱。",
-      "00878": "國泰永續高股息強勢上漲、配息[[key:首破1元]]吸睛，但外資[[neg:大賣1.7萬張]]、籌碼轉配風險。RSI 62、MFI 60偏多，短線[[warn:獲利了結]]壓力大。",
-      "2327": "國巨漲停後[[neg:重挫6%]]、外資[[warn:賣超3.2萬張]]、目標價1450存誘多疑慮。MA60大幅偏離、KD死亡交叉，高檔[[key:套牢風險]]極高，嚴守停損。",
-      "6415": "矽力-KY 7月營收[[pos:創51月新高]]年增58%、AI車用雙引擎，外資買超、MACD多頭，技術面[[key:多頭結構]]完整。放量上攻、ATR高波動，[[warn:追高風險]]需控。",
-      "3661": "世芯-KY Q2獲利[[pos:寫同期新高]]、EPS 37.57元、CSP客戶擴張可見度高。股價貼近布林上軌、MFI 82[[warn:嚴重過熱]]，KD死亡交叉，[[key:高檔震盪]]機率大。",
-      "3037": "欣興載板龍頭、1.6T光模組[[key:缺貨題材]]、外資[[pos:買超1.3萬張]]、重返千金俱樂部。MACD多頭、趨勢強，但KD高檔死叉、RSI 61[[warn:短線過熱]]，適合[[key:趨勢跟隨]]。",
-      "6239": "力成車用MCU轉型中、站上年線但MA60遠離、外資[[neg:賣超1萬張]]、RSI 50中性。處中長線打底與短線回測交會期，[[key:觀望為宜]]待方向選擇。",
-      "3006": "缺乏明顯技術信號，價格略高於MA20，RSI中性，建議持觀望。",
-      "2357": "毛利率回升但KD死亡交叉，短線或見回檔，留意量能下降。",
-      "2324": "股價接近年線上揚，RSI偏弱，需觀察法人持倉變化。",
-      "6669": "技術面顯示價格貼近上軌，MACD正向，[[pos:注意]]波動率上升。",
-      "2474": "價格貼近年線上揚，RSI略偏弱，成交量正常，建議持有。",
-      "2383": "台光電近期受AI概念推波，RSI68偏強、MACD多頭，外資買超顯示[[pos:法人看好]]，但KD死亡交叉與布林上軌提醒[[warn:短線警戒]]。",
-      "2368": "金像電價格處於MA20上方而MA60下方，RSI53偏強、MACD多頭，外資大幅賣超，顯示[[neg:法人悲觀]]，需關注底部支撐。",
-      "2886": "兆豐金價格低於MA20、MACD空頭，RSI44偏弱，外資持續賣超，屬[[neg:弱勢]]股，觀望為宜。",
-      "2892": "第一金RSI44偏弱、MACD空頭，外資大幅買超，形成[[pos:法人買進]],但KD黃金交叉顯示短線支撐，仍以觀望為主。",
-      "2887": "台新金技術指標全面看好，RSI66偏強、MACD多頭、KD黃金交叉，外資與投信大量買進，判定為[[pos:買進]]信號。",
-      "2885": "元大金價格高於MA，RSI61偏強、MACD多頭，KD死亡交叉提示回檔風險，建議持有。",
-      "5871": "中租-KY價格低於MA、RSI44偏弱、KD死亡交叉，MACD空頭，雖外資略為買超，但仍屬[[neg:弱勢]]，觀望。",
-      "2606": "裕民RSI57偏強、MACD多頭，KD死亡交叉，外資持平，屬[[pos:持股]]機會。",
-      "1605": "華新RSI63偏強、MACD多頭，外資大幅買超，技術與籌碼均顯示[[pos:買進]]信號。",
-      "2105": "正新RSI41偏弱、KD死亡交叉，外資大幅賣超，屬[[neg:賣壓]]，建議觀察止損。",
-      "9910": "豐泰RSI48偏弱、MACD微多頭但KD死亡交叉，外資小幅買超，屬[[pos:中性]]，以觀望為宜",
-      "2330": "",
-      "2454": "",
-      "2303": "",
-      "2379": "",
-      "3034": "",
-      "5347": "",
-      "6770": "",
-      "2449": "",
-      "3008": "",
-      "2409": "",
-      "2317": "",
-      "2382": "",
-      "2376": "",
-      "2356": "",
-      "3231": "",
-      "4938": "",
-      "2354": "",
-      "2395": "",
-      "3005": "",
-      "2308": "",
+      "summary": "本週台灣科技股呈現分化，[[key:半導體龍頭]] 台積電持續領先，[[pos:營收成長]] 帶動整體正向情緒；但多檔個股如[[key:友達]] 2409 受大額外資賣超，呈現[[warn:出貨壓力]]；[[key:廣達]] 2382 受益AI訂單，顯示[[pos:資金流入]]；[[key:技嘉]] 2376 雖上漲但RSI過熱，需警惕[[warn:短線修正]]；其他指標較弱券如[[key:研華]] 2395 仍處於[[pos:多頭排列]]。整體而言，市場偏[[pos:偏多]]但需留意個別股的[[warn:分散風險]]。\n\n本市場受惠於大盤持續[[pos:uptrend]]站上年線，MA20、MA60均呈現正向偏離，RSI[[pos:strong momentum]]68顯示偏強，MACD多頭且MFI高達81，動能強勁。然而[[neg:KD death cross]]與布林帶貼近上軌顯示短期[[warn:overbought]]風險，法人近5日小幅買超1,552張[[key:balanced chips]]。綜合判斷以持有為主，需留意波動與可能的回檔。",
+      "2330": "台積電 (2330) 依舊是半導體領袖，收盤價站上MA20，RSI~55呈現[[pos:持續成長]]；MACD多頭仍在，外資持續淨買，估值略高需[[warn:警慎佈局]]。",
+      "2454": "2454 為電子零組件商，股價微跌接近MA20，RSI中性，外資小幅淨買入，短線看漲較為[[pos:穩健]]，但波動仍在[[warn:關注回檔]]。",
+      "2303": "2303 電源IC領導者，股價高於MA20，RSI~58呈[[pos:偏強]]；外資近五日淨買超，成交量正常，建議觀察後市持[[(key:需求持續)]]。",
+      "2379": "2379 影像晶片廠，當前股價略低於MA20，RSI約55屬[[pos:弱勢]], 外資呈小幅賣超，建議短期觀望以防[[warn:跌勢擴大]]。",
+      "3034": "3034 MediaTek 受益5G與AI，股價站上MA20，RSI~60屬[[pos:偏強]]；外資大幅買超，籌碼積極，短期可考慮[[key:加碼布局]]。",
+      "5347": "5347 為光電模組公司，股價接近MA20，RSI略低於50，外資淨賣超，技術面顯示[[warn:需觀望]]，建議持[[(key:觀望)]]。",
+      "6770": "6770 產業自動化廠，價格高於MA20且RSI~57，外資持續淨買入，成交量放大，短線呈[[pos:上攻]]態勢，可適度進場。",
+      "2449": "2449 為電源供應商，股價略跌於MA20下方，RSI~52屬[[pos:弱勢]]，外資淨賣超，技術面呈現[[warn:下行壓力]]，建議觀望。",
+      "3008": "3008 為工業自動化，價格高於MA20，RSI~59顯示[[pos:動能佳]]，外資淨買超，籌碼吸納，短期可關注突破機會。",
+      "2409": "2409 友達近期大額外資賣超，價格站上MA20但跌破MA60，RSI~50偏強，KD死叉，顯示[[warn:分配出貨]]風險，建議觀望。",
+      "2317": "2317 鴻海營收創新高，價格站上MA20與MA60，RSI~54偏強，MACD多頭，外資淨買5,821張，技術與基本面均呈[[pos:多頭]]，維持持有。",
+      "2382": "2382 廣達受AI封裝利好，價格遠超MA20，RSI~51偏強，外資連續淨買3,680張，KD死叉但資金持續流入，短期給予[[pos:買進信號]]。",
+      "2376": "2376 技嘉股價大幅高於MA20/MA60，RSI 72過熱，KD金叉，外資大量買入19,593張，短線需防[[warn:回撤風險]]，暫定觀望。",
+      "2356": "2356 英業達受AI伺服器題材推波，價格高於MA20，RSI~61偏強，外資大額買超54,502張，籌碼呈[[pos:聚集]]，建議可適度介入。",
+      "3231": "3231 緯創股價上穿MA20與MA60，RSI~62偏強，外資淨買27,902張，KD死叉但資金持續流入，短期給予[[pos:買入建議]]。",
+      "4938": "4938 和碩股價站上MA20與MA60，RSI~66偏強，外資淨買31,905張，KD死叉，技術面仍屬[[pos:多頭]]，適度配置。",
+      "2354": "2354 鴻準價格持平於MA20，RSI~65偏強，外資買超22,362張，量能正常，短期仍屬[[pos:持股] ]，留意波動。",
+      "2395": "2395 研華價格遠高於MA20/MA60，RSI 71過熱，KD金叉，外資淨買微幅，短線需警惕[[warn:過熱回檔]]，觀望為宜。",
+      "3005": "3005 神基價格略高於MA20，RSI~61偏強，MACD稍弱，外資淨買2,160張，KD死叉，整體呈[[warn:中性]]，建議觀望。",
+      "2308": "2308 台達電價格高於MA20但低於MA60，RSI~56偏強，外資賣超4,016張，KD死叉，基本面穩健但籌碼偏弱，保持[[pos:持有]]。",
+      "3006": "受整體市場上行氛圍影響，股價預計維持在年線上方。技術面顯示價格[[pos:above MA20]]，RSI仍在60上方，MACD正向。KD呈[[neg:KD death cross]]，提示[[warn:short-term pullback]]。建議觀望持有。",
+      "2357": "隨大盤持續上揚，該股價格略高於MA20，呈現輕度超買。RSI保持在62，MACD呈現多頭。KD死亡交叉暗示短線可能回檔，建議持有並關注成交量變化。",
+      "2324": "受益於市場整體多頭趨勢，股價位於MA20之上，RSI顯示偏強。MACD維持正向，但KD已出現死亡交叉，提示短期修正風險。建議觀望，待技術企穩後再考慮加碼。",
+      "6669": "在整體市場上行背景下，股價略高於MA20，RSI保持在64，MACD為多頭。KD死亡交叉仍在警示，短期波動可能加大，建議持有並注意止損點位。",
+      "2353": "受大盤向上帶動，股價略站上MA20，RSI處於中上區，MACD呈多頭。KD死亡交叉帶來短期回調壓力，建議觀望，若成交量支撐可考慮逢低布局。",
+      "2474": "在上升趨勢中，價格稍高於MA20，RSI顯示偏強，MACD正向。KD死亡交叉提示短線可能震盪，建議持有，同時留意量能是否持續放大。",
+      "3036": "受大盤走勢影響，股價維持在MA20上方，RSI約66，MACD多頭。KD死亡交叉提醒短期調整風險，建議觀望，若量能回升則可考慮進場。",
+      "3702": "在市場多頭環境下，價格略高於MA20，RSI保持在63，MACD正向。KD已出現死亡交叉，短期可能回檔，建議持有並監控成交量變化。",
+      "3596": "受益於整體上行，股價站上MA20，RSI偏強，MACD呈多頭。KD死亡交叉仍在，短期波動風險較高，建議觀望，待KD回升再決策。",
+      "2383": "台光電近期受AI概念刺激大漲7%，外資與投信快速建倉。技術面價格接近上軌，RSI高於70顯示過熱，KD死亡交叉仍在，短期需警惕回檔。建議持有觀察盈餘上修與法人動向。",
+      "2368": "金像電目前價格高於MA20但低於MA60，RSI53偏強，MACD多頭。KD黃金交叉顯示潛在上漲動能。外資大幅賣超，投信買超，法人淨賣超[[neg:卖超压力]]。建議持有觀望。",
+      "2886": "兆豐金價格低於MA20，RSI44偏弱，MACD空頭，KD黃金交叉。雖然外資賣超，但投信大量買入，形成[[key:資金累積]]。綜合訊號中性，建議觀望。",
+      "2892": "第一金價格低於MA20，RSI44偏弱，MACD空頭，KD黃金交叉。外資與投信持續買超，顯示機構逐步吸納。建議觀望，待動能轉正後再進場。",
+      "2887": "台新金價格明顯高於MA20及MA60，RSI66偏強，MACD多頭，KD黃金交叉。法人持續大量買超，顯示強勁資金流入。綜合訊號偏多，建議買進。",
+      "2885": "元大金價格高於MA20與MA60，RSI61偏強，MACD多頭。KD死亡交叉提醒短期可能震盪。法人正向買超，資金面平衡，建議持有。",
+      "5871": "中租-KY價格低於MA20與MA60，RSI44偏弱，MACD空頭，KD死亡交叉。法人略為買超，資金面中性。綜合訊號偏空，建議觀望。",
+      "2606": "裕民股價高於MA20與MA60，RSI57偏強，MACD多頭。KD死亡交叉提示短期回調風險。法人淨賣超較小，資金面平衡，建議持有。",
+      "1605": "華新股價遠高於MA20與MA60，RSI63偏強，MACD多頭，KD死亡交叉。法人大量買超，形成[[key:資金聚集]]。綜合訊號偏多，建議買進。",
+      "2105": "正新價格低於MA20與MA60，RSI41偏弱，MACD略為多頭，KD死亡交叉。外資大幅賣超，顯示資金流出，風險升高。建議觀望，注意停損。",
+      "9910": "豐泰價格略高於MA20但低於MA60，RSI48偏弱，MACD略為多頭，KD死亡交叉。法人小幅買超，資金面中性。綜合訊號中性，建議觀望。",
       "3017": "",
       "2345": "",
       "2603": "",
@@ -561426,73 +561410,69 @@
       "1301": "",
       "1303": "",
       "1326": "",
-      "2353": "",
-      "3036": "",
-      "3702": "",
-      "3596": ""
+      "6505": "",
+      "1101": "",
+      "1802": "",
+      "1473": "",
+      "2002": "",
+      "2027": "",
+      "3711": "",
+      "4736": "",
+      "1707": "",
+      "1216": "",
+      "2912": "",
+      "2731": "",
+      "0050": "",
+      "0056": "",
+      "00878": "",
+      "2327": "",
+      "6415": "",
+      "3661": "",
+      "3037": "",
+      "6239": ""
     },
     "ai_commentary_en": {
-      "summary": "TWSE shows [[key:divergent signals]]: major ETFs (0050, 0056) rise on [[pos:foreign buying]] but KD death crosses warn of [[warn:near-term overheating]]. Semi-chain (3037, 3661, 6415) fundamentals strong with [[pos:heavy institutional accumulation]], yet RSI/KD elevated. Traditional plays (2912, 2731) weak technically with [[neg:foreign selling]]; stay sidelined. Yageo (2327) volatile at highs, [[warn:foreign exit]] 32k shares — high trap risk. Favor [[key:selective momentum]] with strict stops.\n\nThe Taiwan market today shows an overall [[pos:bullish]] tilt, with financials like [[key:Taishin Financial]] and [[key:HuaXin]] buoyed by institutional buying and strong [[pos:technical]] signals; however, several electronics and steel stocks remain under [[neg:bearish]] pressure, and a KD death cross plus upper Bollinger bands flag [[warn:volatility alerts]], urging investors to allocate cautiously.",
-      "6505": "No real-time technical data available. Monitor fundamentals and chip flow; assess liquidity risk cautiously.",
-      "1101": "Cement leader Taiwan Cement benefits from infra demand. Await technicals; watch foreign flow and monthly revenue.",
-      "1802": "Quaker defensive yield play. Track raw material costs and inflation impact on earnings.",
-      "1473": "Eternal Materials chemical cyclical. Watch cycle turn and FX; use monthly revenue trend for timing.",
-      "2002": "China Steel infra/steel price beneficiary. Monitor foreign buyback strength and raw cost shifts.",
-      "2027": "Tung Ho Steel mid-cap with higher beta. Needs key MA breakout with volume confirmation.",
-      "3711": "ASE Holdings packaging leader, AI tailwind long-term. Near-term watch institutional chips and quarterly MA support.",
-      "4736": "Delta Electronics power management leader, AI server beneficiary. Track revenue momentum and earnings visibility.",
-      "1707": "U-Ming Marine asset-value financial holding. Focus on subsidiary earnings contribution and dividend stability.",
-      "1216": "Uni-President core, July revenue [[pos:record high]] dual growth. Technicals pending; [[key:steady growth]] defensive, suited for long-term allocation.",
-      "2912": "PChome [[neg:below yearly line]], RSI 30 [[key:oversold bounce]] likely, but 5-day [[neg:foreign selling]] and KD death cross — trend unbroken. TP 305 risks [[warn:value trap]]; [[key:wait for reversal]].",
-      "2731": "Lion Travel Q2 3Q growth, July [[pos:5-month high]], but bearish MA stack, RSI 38 weak, foreign/trust [[neg:selling]] — H2 peak season hopeful, needs [[key:volume-price confirmation]].",
-      "0050": "Yuanta TP50 above yearly line, [[pos:foreign buy 100k+]], MACD bullish — [[key:strong trend clear]]. KD death cross, OBV divergence [[warn:near-term overheated]]; chase risk up. Best for [[key:DCA accumulation]].",
-      "0056": "Yuanta High Dividend bullish alignment, three institutions [[pos:net buyers]], RSI 62 strong, yield attractive. KD high death cross, OBV divergence [[warn:pullback risk]]; suits [[key:defensive holding]].",
-      "00878": "Cathay Sustainable High Div rally, [[key:dividend breaks NT$1]] draw, but [[neg:foreign sells 17k]] — rotation risk. RSI 62, MFI 60 bullish; [[warn:profit-taking pressure]] near-term.",
-      "2327": "Yageo [[neg:drops 6% after limit-up]], [[warn:foreign dumps 32k]], TP 1450 suspected bait. MA60 wide gap, KD death cross — [[key:high trap risk]] extreme; honor stop-loss.",
-      "6415": "Voltronic July rev [[pos:51-month high]] +58% YoY, AI/auto dual engines, foreign buying, MACD bull — [[key:bull structure]] intact. High volume/ATR; [[warn:chase risk]] manageable.",
-      "3661": "Alchip Q2 profit [[pos:record high]], EPS 37.57, CSP client expansion visible. Price near Bollinger top, MFI 82 [[warn:extreme overheat]], KD death cross — [[key:high-range consolidation]] likely.",
-      "3037": "Unimicron substrate leader, 1.6T optical [[key:shortage theme]], [[pos:foreign buys 13k+]], back to NT$1k club. MACD bull, trend strong, but KD high death cross, RSI 61 [[warn:near-term heated]]; [[key:trend follow]].",
-      "6239": "Powerchip MCU pivot, above yearly but far from MA60, [[neg:foreign sells 10k]], RSI 50 neutral. At long-base/short-pullback junction; [[key:wait for direction]].",
-      "3006": "No clear technical signals; price marginally above MA20, RSI neutral – hold and watch.",
-      "2357": "Margin improvement yet KD death cross suggests short‑term pullback; watch volume.",
-      "2324": "Price near an upward yearly trend, RSI weak, monitor institutional flows.",
-      "6669": "Price near the upper Bollinger band, MACD positive; [[pos:watch]] rising volatility.",
-      "2353": "Moving averages indicate weakness; KD death cross – consider trimming.",
-      "2474": "RSI slightly strong but volume below average; limited short‑term momentum.",
-      "3036": "Above MA20 with MACD bullish; keep an eye on foreign selling pressure.",
-      "3702": "Mixed indicators, KD death cross – higher risk profile.",
-      "3596": "RSI weak, MACD bearish – recommendation is to stay aside.",
-      "2383": "Taiwan Light sees AI‑driven rally; RSI 68 strong, MACD bullish, foreign net buying shows [[pos:institutional support]]; however KD death cross and near‑band tops warn of [[warn:short‑term pullback]].",
-      "2368": "JinXiang’s price above MA20 but below MA60; RSI 53 strong, MACD bullish, yet foreign investors sold heavily, indicating [[neg:institutional pessimism]]; watch support levels.",
-      "2886": "Mega Financial price below MA20, MACD bearish, RSI 44 weak; foreign sellers dominate – a [[neg:weak]] stock, stay on the sidelines.",
-      "2892": "Daiichi Financial RSI 44 weak, MACD bearish, but foreign investors net bought heavily, creating a [[pos:institutional buying]] backdrop; KD golden cross hints at short‑term support – still watch.",
-      "2887": "Taishin Financial shows comprehensive strength: RSI 66, MACD bullish, KD golden cross, massive foreign and trust buying – a clear [[pos:buy]] signal.",
-      "2885": "Yuanta Financial above MA, RSI 61 strong, MACD bullish; KD death cross signals possible pullback – hold position.",
-      "5871": "Chung租‑KY below both MAs, RSI 44 weak, KD death cross, MACD bearish; despite slight foreign buying, it remains [[neg:weak]] – watch.",
-      "2606": "Yumin’s RSI 57 strong, MACD bullish, KD death cross; foreign net neutral – a [[pos:hold]] opportunity.",
-      "1605": "HuaXin’s RSI 63 strong, MACD bullish, foreign net buying massive; both technical and flow favor a [[pos:buy]] stance.",
-      "2105": "ZhengXin RSI 41 weak, KD death cross, foreign sellers heavy – [[neg:selling pressure]]; monitor stop‑loss levels.",
-      "9910": "FengTai RSI 48 weak, MACD marginally bullish, KD death cross; slight foreign buying makes it [[pos:neutral]] – best kept as watch.",
-      "2330": "",
-      "2454": "",
-      "2303": "",
-      "2379": "",
-      "3034": "",
-      "5347": "",
-      "6770": "",
-      "2449": "",
-      "3008": "",
-      "2409": "",
-      "2317": "",
-      "2382": "",
-      "2376": "",
-      "2356": "",
-      "3231": "",
-      "4938": "",
-      "2354": "",
-      "2395": "",
-      "3005": "",
-      "2308": "",
+      "summary": "This week Taiwan's tech sector shows divergence: the [[key:foundry leader]] TSMC continues to drive a [[pos:positive earnings]] trend, lifting market sentiment; however, stocks like [[key:AUO]] 2409 face heavy foreign selling, indicating [[warn:distribution risk]]. [[key:Quanta]] 2382 benefits from AI orders, showing [[pos:capital inflow]]; while [[key:GIGABYTE]] 2376, despite gains, has an overbought RSI, warranting a [[warn:short‑term pullback]] watch. Other names such as [[key:Advantech]] 2395 remain in a [[pos:bullish alignment]] but require caution. Overall bias is [[pos:bullish]], yet investors should monitor [[warn:stock‑specific volatility]] carefully.\n\nThe market is riding a clear [[pos:uptrend]] as the index stays above the yearly line, with MA20 and MA60 both in positive deviation. RSI at [[pos:strong momentum]]68 signals strength, MACD remains bullish and MFI is high at 81, indicating robust momentum. However, the [[neg:KD death cross]] together with Bollinger bands near the upper band raise a short‑term [[warn:overbought]] risk. Institutional investors have a modest net purchase of 1,552 lots, suggesting [[key:balanced chips]]. Overall stance is HOLD, but stay alert to volatility and potential pull‑backs.",
+      "2330": "TSMC (2330) remains the semiconductor flagship, price above MA20, RSI ~55 shows [[pos:steady growth]]; MACD stays bullish, foreign investors net buying, valuation slightly high – [[warn:watch valuation]] while holding.",
+      "2454": "2454 is an electronic components firm, price near MA20 with neutral RSI, slight foreign net buy, short‑term outlook [[pos:stable]] but watch for [[warn:possible pullback]].",
+      "2303": "2303, a power‑IC leader, trades above MA20, RSI ~58 indicating [[pos:strength]]; foreign net buying supports a modest upside, keep an eye on [[key:demand trends]].",
+      "2379": "2379, an imaging chip maker, sits just below MA20, RSI around 55 showing [[pos:weakness]]; foreign investors are net sellers, suggesting a [[warn:short‑term downside]] risk – advisable to wait.",
+      "3034": "3034 MediaTek benefits from 5G and AI, price above MA20, RSI ~60 [[pos:strong momentum]]; large foreign net buy, aggressive chip accumulation – consider [[key:add position]].",
+      "5347": "5347, a photonics module company, price hovers around MA20, RSI slightly under 50, foreign net sell, technicals suggest [[warn:cautious approach]] – maintain a watch stance.",
+      "6770": "6770, an automation supplier, price above MA20, RSI ~57, foreign net buying and rising volume indicate a [[pos:upward bias]]; a modest entry could be considered.",
+      "2449": "2449, a power‑supply maker, price just under MA20, RSI ~52 [[pos:soft]] and foreign net sell, technicals point to [[warn:downward pressure]] – recommend observation.",
+      "3008": "3008, an industrial automation firm, trading above MA20, RSI ~59 suggests [[pos:good momentum]]; foreign net buying and accumulating chips make short‑term breakout potential worth watching.",
+      "2409": "2409 AUO shows heavy foreign sells, price above MA20 but below MA60, RSI ~50 neutral, KD death cross, indicating [[warn:distribution risk]] – a watch position is prudent.",
+      "2317": "2317 Foxconn posted record Q2 revenue, price above both MA20 and MA60, RSI ~54 [[pos:bullish]], MACD bullish, foreign net buy of 5,821 shares, both fundamentals and technicals support a [[pos:hold]].",
+      "2382": "2382 Quanta benefits from AI‑packaging demand, price far above MA20, RSI ~51 [[pos:strength]], foreign net buy of 3,680 shares, KD death cross but capital inflow persists – a [[pos:buy signal]] for the short term.",
+      "2376": "2376 Gigabyte trades far above MA20/MA60, RSI 72 overbought, KD golden cross, foreign net buy 19,593 shares; short‑term correction risk [[warn:pullback risk]] – currently a watch stance.",
+      "2356": "2356 Inventec rides AI server theme, price above MA20, RSI ~61 [[pos:strength]], foreign net buy 54,502 shares, accumulating chips – consider a modest entry.",
+      "3231": "3231 Wistron sits above MA20 and MA60, RSI ~62 [[pos:strong]], foreign net buy 27,902 shares, KD death cross yet capital continues to flow – short‑term [[pos:buy recommendation]].",
+      "4938": "4938 Pegatron price above MA20/MA60, RSI ~66 [[pos:strength]], foreign net buy 31,905 shares, KD death cross, technicals still [[pos:bullish]] – suitable for modest allocation.",
+      "2354": "2354 Hon Hai Precision trades near MA20, RSI ~65 [[pos:strength]], foreign net buy 22,362 shares, normal volume, short‑term [[pos:hold]] with attention to volatility.",
+      "2395": "2395 Advantech price well above MA20/MA60, RSI 71 overbought, KD golden cross, foreign net buy modest, short‑term [[warn:overbought pullback]] risk – watch.",
+      "3005": "3005 Sannic price slightly above MA20, RSI ~61 [[pos:moderate strength]], MACD slightly bearish, foreign net buy 2,160 shares, KD death cross, overall [[warn:neutral]] stance – watch.",
+      "2308": "2308 Delta Electronics price above MA20 but below MA60, RSI ~56 [[pos:moderate strength]], foreign net sell 4,016 shares, KD death cross, fundamentals solid but chip flow weak – maintain a [[pos:hold]].",
+      "3006": "Benefiting from the market’s rally, the stock stays above the yearly line. Price is [[pos:above MA20]], RSI stays above 60 and MACD is bullish. KD shows a [[neg:KD death cross]], hinting at a [[warn:short‑term pullback]]. Recommend a watch‑and‑hold approach.",
+      "2357": "Riding the broad uptrend, the share trades slightly above MA20, showing mild overbought conditions. RSI sits at 62, MACD is bullish. KD’s death cross signals short‑term correction risk; hold and monitor volume.",
+      "2324": "With the market’s bullish bias, price sits above MA20 and RSI is strong. MACD stays positive but KD has entered a [[neg:KD death cross]], warning of a near‑term dip. Suggest a cautious hold pending stabilization.",
+      "6669": "In line with the overall rise, the price is marginally above MA20, RSI at 64, MACD bullish. KD death cross remains a red flag for short‑term volatility; advise holding with defined stop‑loss levels.",
+      "2353": "The stock follows the market’s upward drift, trading just over MA20, RSI in the upper range, MACD bullish. However, a [[neg:KD death cross]] adds short‑term downside pressure. Recommend watching and waiting for a pull‑back entry.",
+      "2474": "Amid the market upswing, price is slightly above MA20, RSI strong, MACD positive. KD death cross suggests possible short‑term wobble; hold while watching volume trends.",
+      "3036": "Supported by the market’s uptrend, the share remains above MA20, RSI around 66, MACD bullish. KD death cross warns of potential short‑term correction; suggest a watch stance.",
+      "3702": "Within the bullish environment, price is modestly above MA20, RSI at 63, MACD positive. KD has turned negative, indicating short‑term pull‑back risk; hold and track turnover.",
+      "3596": "Riding the market’s rise, price sits above MA20, RSI strong, MACD bullish. KD death cross persists, raising short‑term volatility concerns; advise a cautious hold.",
+      "2383": "Taiwan Semiconductor (2383) surged 7% on AI hype, with heavy institutional buying. Price hugs the upper Bollinger band, RSI above 70 signals overbought, and KD death cross remains; short‑term pull‑back risk is [[warn:present]]. Hold while monitoring EPS upgrades and fund flow.",
+      "2368": "Jinxiang Electronics trades above MA20 but below MA60, RSI 53 (slightly strong), MACD bullish, and KD golden cross suggests upside. However, foreign investors sold heavily, creating a [[neg:sell pressure]] net of 4,042 lots. Hold with caution.",
+      "2886": "Mega Financial’s price is below MA20, RSI 44 (weak), MACD bearish, but KD golden cross and strong inflow from institutional investors create a [[key:fund accumulation]] scenario. Signals are mixed; recommend watching.",
+      "2892": "First Financial trades below MA20, RSI 44, MACD bearish, yet KD golden cross and substantial institutional buying signal a gradual absorption. Maintain a watch stance until momentum improves.",
+      "2887": "Tai Shin Financial is firmly above MA20 and MA60, RSI 66 (strong), MACD bullish, KD golden cross, and massive institutional buying totalling 93,362 lots. All major signals point bullish; issue a BUY recommendation.",
+      "2885": "Yuanta Financial stays above both MAs, RSI 61 (strong), MACD bullish, but KD death cross hints at possible short‑term jitter. Institutional buying is modest and balanced; HOLD is appropriate.",
+      "5871": "China Rental‑KY is trading below both MAs, RSI 44 (weak), MACD bearish, KD death cross, with only slight institutional net buying. Overall bias leans bearish; maintain a WATCH position.",
+      "2606": "Yumin’s price is above MA20 and MA60, RSI 57 (strong), MACD bullish, yet KD death cross warns of a near‑term pull‑back. Institutional net selling is small, keeping the chip balance; HOLD.",
+      "1605": "Hua Hsin trades well above both MAs, RSI 63 (strong), MACD bullish, KD death cross, and displays a massive [[key:institutional buying]] of over 110k lots. Strong multi‑signal setup justifies a BUY.",
+      "2105": "Cheng Shin sits below both MAs, RSI 41 (weak), MACD marginally bullish, KD death cross at low levels, and foreign investors have dumped over 15k lots. Risk is rising; recommend WATCH with stop‑loss vigilance.",
+      "9910": "Feng Tai’s price is just above MA20 but below MA60, RSI 48 (weak), MACD slightly bullish, KD death cross present, and modest institutional buying. Signals are neutral; suggest a WATCH stance.",
       "3017": "",
       "2345": "",
       "2603": "",
@@ -561512,7 +561492,27 @@
       "3045": "",
       "1301": "",
       "1303": "",
-      "1326": ""
+      "1326": "",
+      "6505": "",
+      "1101": "",
+      "1802": "",
+      "1473": "",
+      "2002": "",
+      "2027": "",
+      "3711": "",
+      "4736": "",
+      "1707": "",
+      "1216": "",
+      "2912": "",
+      "2731": "",
+      "0050": "",
+      "0056": "",
+      "00878": "",
+      "2327": "",
+      "6415": "",
+      "3661": "",
+      "3037": "",
+      "6239": ""
     },
     "weekly_verdict_movers": {
       "upgrades": [],
@@ -561772,8 +561772,8 @@
         }
       ]
     },
-    "fetched_at": "2026-08-16T07:00:03Z",
-    "data_hash": "3a6d3c9fbe1df775b37b13ae88c81cc914092ebb69fbf218fc2179e4fa1efe8b",
+    "fetched_at": "2026-08-16T08:20:36Z",
+    "data_hash": "aa0b5c9d2a68ec67cb898eae7c9557a40c35f3283711a816d9833d5f2250de85",
     "report_one_liner": "今日 24 檔買進 / 3 檔賣出，市場環境風險規避（加權指數跌破 200MA = 風險規避）。",
     "report_two_liner": "今日 24 檔買進 / 3 檔賣出，市場環境風險規避（加權指數跌破 200MA = 風險規避）。\n👍 買進：6669 +6.0% / 2027 -5.6% / 6770 +4.7% | 👎 賣出：2610 -1.0% / 3596 -0.6% / 3045 -0.5%"
   }
