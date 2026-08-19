@@ -1,7 +1,7 @@
 {
-  "run_id": "89a5b902-e13d-4f4c-804e-9099ee9d2324",
-  "started_at": "2026-08-18T08:30:11.633860+00:00",
-  "finished_at": "2026-08-18T08:39:36.579879+00:00",
+  "run_id": "019cb143-88ca-457f-8509-aef0ba4d227f",
+  "started_at": "2026-08-19T01:05:10.717849+00:00",
+  "finished_at": "2026-08-19T01:13:24.145708+00:00",
   "tickers_attempted": [
     "2330",
     "2454",
@@ -170,22 +170,22 @@
   "ai_commentary_count": 0,
   "ai_quality": {
     "status": "degraded",
-    "lazy_score": 45,
+    "lazy_score": 37,
     "threshold": 60,
-    "coverage": 0.5,
+    "coverage": 0.75,
     "min_coverage": 0.9,
     "metrics": {
-      "length_short_rate": 0.5,
+      "length_short_rate": 0.25,
       "self_ref_miss_rate": 0.9,
-      "cross_similarity_rate": 0.007,
-      "anchor_miss_rate": 0.725,
-      "validation_reject_rate": 0.35,
+      "cross_similarity_rate": 0.009,
+      "anchor_miss_rate": 0.688,
+      "validation_reject_rate": 0.237,
       "avg_retries": 0.0
     },
-    "validation_rejects": 28,
+    "validation_rejects": 19,
     "vip": {
       "status": "blocked",
-      "lazy_score": 175,
+      "lazy_score": 130,
       "threshold": 60,
       "coverage": 0.0,
       "min_coverage": 1.0,
@@ -194,10 +194,10 @@
         "self_ref_miss_rate": 1.0,
         "cross_similarity_rate": 0.0,
         "anchor_miss_rate": 1.0,
-        "validation_reject_rate": 14.0,
+        "validation_reject_rate": 9.5,
         "avg_retries": 0.0
       },
-      "validation_rejects": 28,
+      "validation_rejects": 19,
       "market": "tw",
       "requested_tickers": [
         "2330",
@@ -232,7 +232,7 @@
     "batch_size": 20,
     "batch_count": 4,
     "batch_workers": 1,
-    "fallback_batches": 4,
+    "fallback_batches": 2,
     "repair_attempts": 1,
     "raw_status": "degraded",
     "historical": {
@@ -243,7 +243,7 @@
       "p95_lazy_score": 28.0,
       "median_coverage": 1.0,
       "previous_repeat_rate": 0.0,
-      "compared_tickers": 20,
+      "compared_tickers": 40,
       "flags": [
         "coverage_below_historical_baseline"
       ],
@@ -265,7 +265,8 @@
   },
   "sources_status": {
     "translation": "ok",
-    "finmind": "ok",
+    "finmind": "partial",
+    "twse": "down",
     "gemini": "partial",
     "finnhub": "not_used"
   },
