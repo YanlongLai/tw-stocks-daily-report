@@ -1,7 +1,7 @@
 {
-  "run_id": "2b5c5c22-27eb-4984-afe8-abe593f0d86e",
-  "started_at": "2026-08-29T23:19:12.300408+00:00",
-  "finished_at": "2026-08-30T00:01:17.268206+00:00",
+  "run_id": "73aae6b7-1b2c-4082-895b-f5edcfe73e93",
+  "started_at": "2026-08-30T03:07:06.382981+00:00",
+  "finished_at": "2026-08-30T03:33:30.063728+00:00",
   "tickers_attempted": [
     "2330",
     "2454",
@@ -413,15 +413,17 @@
     "3189",
     "8046",
     "4958",
+    "3026",
     "2059",
     "3665",
     "3450",
+    "3042",
     "3653",
     "2301",
     "2492",
     "3481",
-    "2455",
     "2451",
+    "3167",
     "2313",
     "2634",
     "2486",
@@ -433,8 +435,6 @@
     "2426",
     "6446",
     "3532",
-    "2484",
-    "2481",
     "7769",
     "4967",
     "8996",
@@ -446,11 +446,10 @@
     "6451",
     "2637",
     "8271",
+    "3090",
     "2359",
     "6805",
-    "6515",
     "7750",
-    "2605",
     "6472",
     "8021",
     "3406",
@@ -458,7 +457,6 @@
     "2489",
     "1590",
     "1402",
-    "2851",
     "6426",
     "7610",
     "8210",
@@ -466,8 +464,6 @@
     "2464",
     "4977",
     "6715",
-    "2404",
-    "8150",
     "2478",
     "00881",
     "8112",
@@ -475,6 +471,8 @@
     "1519",
     "7711",
     "2377",
+    "6139",
+    "5284",
     "8103",
     "6691",
     "2428",
@@ -493,20 +491,16 @@
     "9921",
     "1709",
     "1708",
-    "2890",
     "1717",
     "2467",
     "2351",
     "2834",
     "8261",
-    "3673",
-    "3706",
     "6409",
     "6456",
     "4764",
     "00929",
     "6271",
-    "3714",
     "1314",
     "6414",
     "9904",
@@ -524,6 +518,8 @@
     "8028",
     "2801",
     "4919",
+    "3376",
+    "3413",
     "6949",
     "2493",
     "2465",
@@ -533,6 +529,7 @@
     "6224",
     "5876",
     "2374",
+    "3149",
     "00830",
     "2472",
     "1808",
@@ -567,6 +564,7 @@
     "2312",
     "2636",
     "6834",
+    "3715",
     "9914",
     "1409",
     "5388",
@@ -579,6 +577,7 @@
     "8926",
     "3022",
     "2845",
+    "3504",
     "6116",
     "00757",
     "6944",
@@ -623,6 +622,7 @@
     "2421",
     "00892",
     "6191",
+    "4566",
     "8454",
     "6753",
     "1316",
@@ -634,17 +634,7 @@
   ],
   "tickers_failed": [
     {
-      "ticker": "3026",
-      "stage": "fetch",
-      "error": "raw fetch returned empty / errored"
-    },
-    {
-      "ticker": "3042",
-      "stage": "fetch",
-      "error": "raw fetch returned empty / errored"
-    },
-    {
-      "ticker": "3167",
+      "ticker": "2455",
       "stage": "fetch",
       "error": "raw fetch returned empty / errored"
     },
@@ -654,52 +644,62 @@
       "error": "raw fetch returned empty / errored"
     },
     {
-      "ticker": "3090",
+      "ticker": "2484",
       "stage": "fetch",
       "error": "raw fetch returned empty / errored"
     },
     {
-      "ticker": "6139",
+      "ticker": "2481",
       "stage": "fetch",
       "error": "raw fetch returned empty / errored"
     },
     {
-      "ticker": "5284",
+      "ticker": "6515",
+      "stage": "fetch",
+      "error": "raw fetch returned empty / errored"
+    },
+    {
+      "ticker": "2605",
+      "stage": "fetch",
+      "error": "raw fetch returned empty / errored"
+    },
+    {
+      "ticker": "2851",
+      "stage": "fetch",
+      "error": "raw fetch returned empty / errored"
+    },
+    {
+      "ticker": "2404",
+      "stage": "fetch",
+      "error": "raw fetch returned empty / errored"
+    },
+    {
+      "ticker": "8150",
+      "stage": "fetch",
+      "error": "raw fetch returned empty / errored"
+    },
+    {
+      "ticker": "2890",
+      "stage": "fetch",
+      "error": "raw fetch returned empty / errored"
+    },
+    {
+      "ticker": "3673",
+      "stage": "fetch",
+      "error": "raw fetch returned empty / errored"
+    },
+    {
+      "ticker": "3706",
+      "stage": "fetch",
+      "error": "raw fetch returned empty / errored"
+    },
+    {
+      "ticker": "3714",
       "stage": "fetch",
       "error": "raw fetch returned empty / errored"
     },
     {
       "ticker": "3583",
-      "stage": "fetch",
-      "error": "raw fetch returned empty / errored"
-    },
-    {
-      "ticker": "3376",
-      "stage": "fetch",
-      "error": "raw fetch returned empty / errored"
-    },
-    {
-      "ticker": "3413",
-      "stage": "fetch",
-      "error": "raw fetch returned empty / errored"
-    },
-    {
-      "ticker": "3149",
-      "stage": "fetch",
-      "error": "raw fetch returned empty / errored"
-    },
-    {
-      "ticker": "3715",
-      "stage": "fetch",
-      "error": "raw fetch returned empty / errored"
-    },
-    {
-      "ticker": "3504",
-      "stage": "fetch",
-      "error": "raw fetch returned empty / errored"
-    },
-    {
-      "ticker": "4566",
       "stage": "fetch",
       "error": "raw fetch returned empty / errored"
     }
@@ -709,37 +709,37 @@
     "enabled": true,
     "status": "partial",
     "requested_tickers": [
-      "3026",
-      "3042",
-      "3167",
+      "2455",
       "3044",
-      "3090",
-      "6139",
-      "5284",
-      "3583",
-      "3376",
-      "3413",
-      "3149",
-      "3715",
-      "3504",
-      "4566"
+      "2484",
+      "2481",
+      "6515",
+      "2605",
+      "2851",
+      "2404",
+      "8150",
+      "2890",
+      "3673",
+      "3706",
+      "3714",
+      "3583"
     ],
     "recovered_tickers": [],
     "failed_tickers": [
-      "3026",
-      "3042",
-      "3167",
+      "2455",
       "3044",
-      "3090",
-      "6139",
-      "5284",
-      "3583",
-      "3376",
-      "3413",
-      "3149",
-      "3715",
-      "3504",
-      "4566"
+      "2484",
+      "2481",
+      "6515",
+      "2605",
+      "2851",
+      "2404",
+      "8150",
+      "2890",
+      "3673",
+      "3706",
+      "3714",
+      "3583"
     ],
     "skipped_tickers": [],
     "batch_size": 20,
@@ -747,39 +747,39 @@
     "rounds": 1,
     "delay_seconds": 30,
     "delay_applied_seconds": 30,
-    "duration_seconds": 32.085
+    "duration_seconds": 30.58
   },
   "ai_commentary_count": 0,
   "ai_quality": {
-    "status": "degraded",
+    "status": "pass",
     "lazy_score": 28,
     "threshold": 60,
     "coverage": 1.0,
     "min_coverage": 0.9,
     "metrics": {
       "length_short_rate": 0.0,
-      "self_ref_miss_rate": 0.647,
-      "cross_similarity_rate": 0.118,
-      "anchor_miss_rate": 0.588,
-      "validation_reject_rate": 0.353,
+      "self_ref_miss_rate": 0.693,
+      "cross_similarity_rate": 0.078,
+      "anchor_miss_rate": 0.654,
+      "validation_reject_rate": 0.281,
       "avg_retries": 0.0
     },
-    "validation_rejects": 108,
+    "validation_rejects": 86,
     "vip": {
       "status": "pass",
-      "lazy_score": 30,
+      "lazy_score": 35,
       "threshold": 60,
       "coverage": 1.0,
       "min_coverage": 1.0,
       "metrics": {
         "length_short_rate": 0.0,
-        "self_ref_miss_rate": 0.0,
-        "cross_similarity_rate": 1.0,
-        "anchor_miss_rate": 0.0,
-        "validation_reject_rate": 1.0,
+        "self_ref_miss_rate": 1.0,
+        "cross_similarity_rate": 0.0,
+        "anchor_miss_rate": 1.0,
+        "validation_reject_rate": 0.0,
         "avg_retries": 0.0
       },
-      "validation_rejects": 2,
+      "validation_rejects": 0,
       "market": "tw",
       "requested_tickers": [
         "2330",
@@ -797,56 +797,51 @@
       "support_status": "pass",
       "history_min_samples": 3,
       "historical": {
-        "status": "regression",
-        "sample_count": 23,
+        "status": "stable",
+        "sample_count": 25,
         "min_samples": 3,
         "median_lazy_score": 30.0,
         "p95_lazy_score": 55.0,
         "median_coverage": 1.0,
-        "previous_repeat_rate": 1.0,
+        "previous_repeat_rate": 0.0,
         "compared_tickers": 2,
-        "flags": [
-          "vip_commentary_repeat"
-        ]
+        "flags": []
       }
     },
     "batch_size": 20,
     "batch_count": 16,
     "batch_workers": 1,
-    "fallback_batches": 16,
+    "fallback_batches": 12,
     "repair_attempts": 1,
     "raw_status": "pass",
     "historical": {
       "status": "stable",
-      "sample_count": 21,
+      "sample_count": 22,
       "min_samples": 3,
-      "median_lazy_score": 27.0,
+      "median_lazy_score": 26.0,
       "p95_lazy_score": 31.0,
       "median_coverage": 1.0,
-      "previous_repeat_rate": 0.129,
-      "compared_tickers": 295,
+      "previous_repeat_rate": 0.231,
+      "compared_tickers": 294,
       "flags": [],
       "vip": {
-        "status": "regression",
-        "sample_count": 23,
+        "status": "stable",
+        "sample_count": 25,
         "min_samples": 3,
         "median_lazy_score": 30.0,
         "p95_lazy_score": 55.0,
         "median_coverage": 1.0,
-        "previous_repeat_rate": 1.0,
+        "previous_repeat_rate": 0.0,
         "compared_tickers": 2,
-        "flags": [
-          "vip_commentary_repeat"
-        ]
+        "flags": []
       }
     }
   },
   "sources_status": {
-    "translation": "ok",
+    "translation": "down",
     "finmind": "partial",
-    "twse": "partial",
-    "yfinance": "partial",
-    "gemini": "partial",
+    "yfinance": "ok",
+    "gemini": "ok",
     "finnhub": "not_used"
   },
   "data_repo_committed": true

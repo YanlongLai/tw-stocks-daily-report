@@ -182,7 +182,8 @@
         },
         "price_history": {
           "type": "array",
-          "description": "Up to 750 trading-day OHLCV bars (oldest first)",
+          "maxItems": 90,
+          "description": "Latest 90 calendar days of OHLCV bars (oldest first); weekends and market holidays may yield fewer rows",
           "items": { "$ref": "#/$defs/OHLCVBar" }
         }
       }
