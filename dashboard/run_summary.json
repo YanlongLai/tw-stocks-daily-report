@@ -1,7 +1,7 @@
 {
-  "run_id": "d8cb9b56-7ee2-4e41-96a3-9499b8efa99e",
-  "started_at": "2026-09-03T04:47:23.046382+00:00",
-  "finished_at": "2026-09-03T04:58:33.806556+00:00",
+  "run_id": "7fec494b-9c9e-459b-bf1f-b1ad416564f6",
+  "started_at": "2026-09-03T08:30:18.610770+00:00",
+  "finished_at": "2026-09-03T08:42:09.412074+00:00",
   "tickers_attempted": [
     "2330",
     "2454",
@@ -233,7 +233,7 @@
       "length_short_rate": 0.0,
       "self_ref_miss_rate": 0.99,
       "cross_similarity_rate": 0.0,
-      "anchor_miss_rate": 0.97,
+      "anchor_miss_rate": 0.98,
       "validation_reject_rate": 0.0,
       "avg_retries": 0.0
     },
@@ -248,7 +248,7 @@
         "length_short_rate": 0.0,
         "self_ref_miss_rate": 0.99,
         "cross_similarity_rate": 0.0,
-        "anchor_miss_rate": 0.97,
+        "anchor_miss_rate": 0.98,
         "validation_reject_rate": 0.0,
         "avg_retries": 0.0
       },
@@ -565,7 +565,7 @@
       "history_min_samples": 3,
       "historical": {
         "status": "stable",
-        "sample_count": 20,
+        "sample_count": 21,
         "min_samples": 3,
         "median_lazy_score": 20.0,
         "p95_lazy_score": 35.0,
@@ -583,7 +583,7 @@
     "raw_status": "pass",
     "historical": {
       "status": "stable",
-      "sample_count": 19,
+      "sample_count": 20,
       "min_samples": 3,
       "median_lazy_score": 25.0,
       "p95_lazy_score": 35.0,
@@ -593,7 +593,7 @@
       "flags": [],
       "vip": {
         "status": "stable",
-        "sample_count": 20,
+        "sample_count": 21,
         "min_samples": 3,
         "median_lazy_score": 20.0,
         "p95_lazy_score": 35.0,
