@@ -1,7 +1,7 @@
 {
-  "run_id": "16829ff8-59da-42b1-8e6a-511d5547ec27",
-  "started_at": "2026-09-04T01:05:13.811229+00:00",
-  "finished_at": "2026-09-04T01:18:22.001892+00:00",
+  "run_id": "ac34b76e-09e3-45a2-9038-9c4dc0a2dd21",
+  "started_at": "2026-09-04T03:00:08.094122+00:00",
+  "finished_at": "2026-09-04T03:12:48.689658+00:00",
   "tickers_attempted": [
     "2330",
     "2454",
@@ -225,30 +225,30 @@
   "ai_commentary_count": 0,
   "ai_quality": {
     "status": "pass",
-    "lazy_score": 34,
+    "lazy_score": 33,
     "threshold": 60,
     "coverage": 1.0,
     "min_coverage": 0.9,
     "metrics": {
       "length_short_rate": 0.0,
-      "self_ref_miss_rate": 1.0,
+      "self_ref_miss_rate": 0.99,
       "cross_similarity_rate": 0.0,
-      "anchor_miss_rate": 0.92,
+      "anchor_miss_rate": 0.9,
       "validation_reject_rate": 0.0,
       "avg_retries": 0.0
     },
     "validation_rejects": 0,
     "vip": {
       "status": "pass",
-      "lazy_score": 34,
+      "lazy_score": 33,
       "threshold": 60,
       "coverage": 1.0,
       "min_coverage": 1.0,
       "metrics": {
         "length_short_rate": 0.0,
-        "self_ref_miss_rate": 1.0,
+        "self_ref_miss_rate": 0.99,
         "cross_similarity_rate": 0.0,
-        "anchor_miss_rate": 0.92,
+        "anchor_miss_rate": 0.9,
         "validation_reject_rate": 0.0,
         "avg_retries": 0.0
       },
@@ -565,7 +565,7 @@
       "history_min_samples": 3,
       "historical": {
         "status": "stable",
-        "sample_count": 22,
+        "sample_count": 23,
         "min_samples": 3,
         "median_lazy_score": 20.0,
         "p95_lazy_score": 35.0,
@@ -583,7 +583,7 @@
     "raw_status": "pass",
     "historical": {
       "status": "stable",
-      "sample_count": 21,
+      "sample_count": 22,
       "min_samples": 3,
       "median_lazy_score": 25.0,
       "p95_lazy_score": 35.0,
@@ -593,7 +593,7 @@
       "flags": [],
       "vip": {
         "status": "stable",
-        "sample_count": 22,
+        "sample_count": 23,
         "min_samples": 3,
         "median_lazy_score": 20.0,
         "p95_lazy_score": 35.0,
@@ -606,9 +606,7 @@
   },
   "sources_status": {
     "translation": "down",
-    "finmind": "partial",
-    "yfinance": "ok",
-    "twse": "ok",
+    "finmind": "ok",
     "gemini": "ok",
     "finnhub": "not_used"
   },
