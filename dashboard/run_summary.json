@@ -1,7 +1,7 @@
 {
-  "run_id": "be02460a-03d1-4a71-b5b1-535580820728",
-  "started_at": "2026-09-18T23:56:31.808153+00:00",
-  "finished_at": "2026-09-19T00:11:12.020022+00:00",
+  "run_id": "8e3826fc-5e5d-444d-9920-48d91846d564",
+  "started_at": "2026-09-19T00:21:01.078798+00:00",
+  "finished_at": "2026-09-19T00:31:46.306517+00:00",
   "tickers_attempted": [
     "2330",
     "2454",
@@ -225,7 +225,7 @@
   "ai_commentary_count": 0,
   "ai_quality": {
     "status": "pass",
-    "lazy_score": 34,
+    "lazy_score": 33,
     "threshold": 60,
     "coverage": 1.0,
     "min_coverage": 0.9,
@@ -233,7 +233,7 @@
       "length_short_rate": 0.0,
       "self_ref_miss_rate": 1.0,
       "cross_similarity_rate": 0.0,
-      "anchor_miss_rate": 0.9,
+      "anchor_miss_rate": 0.89,
       "validation_reject_rate": 0.0,
       "avg_retries": 0.0
     },
@@ -263,10 +263,10 @@
     "raw_status": "pass",
     "historical": {
       "status": "stable",
-      "sample_count": 19,
+      "sample_count": 20,
       "min_samples": 3,
       "median_lazy_score": 34.0,
-      "p95_lazy_score": 38.0,
+      "p95_lazy_score": 35.0,
       "median_coverage": 1.0,
       "previous_repeat_rate": 0.0,
       "compared_tickers": 100,
@@ -281,7 +281,7 @@
   },
   "sources_status": {
     "translation": "ok",
-    "finmind": "partial",
+    "finmind": "down",
     "yfinance": "ok",
     "twse": "ok",
     "gemini": "ok",
