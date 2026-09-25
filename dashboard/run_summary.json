@@ -1,7 +1,7 @@
 {
-  "run_id": "b9f014b1-0afc-4ca0-873a-433dffd4b92d",
-  "started_at": "2026-09-25T01:05:09.005794+00:00",
-  "finished_at": "2026-09-25T01:18:50.142814+00:00",
+  "run_id": "3b1bddac-ed2c-4d37-9b1d-75e05ca514a7",
+  "started_at": "2026-09-25T03:00:19.428408+00:00",
+  "finished_at": "2026-09-25T03:12:57.537602+00:00",
   "tickers_attempted": [
     "2330",
     "2454",
@@ -231,9 +231,9 @@
     "min_coverage": 0.9,
     "metrics": {
       "length_short_rate": 0.0,
-      "self_ref_miss_rate": 1.0,
+      "self_ref_miss_rate": 0.99,
       "cross_similarity_rate": 0.0,
-      "anchor_miss_rate": 0.91,
+      "anchor_miss_rate": 0.97,
       "validation_reject_rate": 0.0,
       "avg_retries": 0.0
     },
@@ -263,7 +263,7 @@
     "raw_status": "pass",
     "historical": {
       "status": "stable",
-      "sample_count": 54,
+      "sample_count": 55,
       "min_samples": 3,
       "median_lazy_score": 34.0,
       "p95_lazy_score": 35.0,
@@ -280,10 +280,8 @@
     }
   },
   "sources_status": {
-    "translation": "down",
-    "finmind": "partial",
-    "yfinance": "ok",
-    "twse": "ok",
+    "translation": "ok",
+    "finmind": "ok",
     "gemini": "ok",
     "finnhub": "not_used"
   },
