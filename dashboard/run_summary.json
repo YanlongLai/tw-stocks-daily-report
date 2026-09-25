@@ -1,7 +1,7 @@
 {
-  "run_id": "410777a8-37a2-430b-ba10-807d0c4ce1b4",
-  "started_at": "2026-09-24T01:37:44.042725+00:00",
-  "finished_at": "2026-09-24T01:52:14.607200+00:00",
+  "run_id": "b9f014b1-0afc-4ca0-873a-433dffd4b92d",
+  "started_at": "2026-09-25T01:05:09.005794+00:00",
+  "finished_at": "2026-09-25T01:18:50.142814+00:00",
   "tickers_attempted": [
     "2330",
     "2454",
@@ -233,7 +233,7 @@
       "length_short_rate": 0.0,
       "self_ref_miss_rate": 1.0,
       "cross_similarity_rate": 0.0,
-      "anchor_miss_rate": 0.9,
+      "anchor_miss_rate": 0.91,
       "validation_reject_rate": 0.0,
       "avg_retries": 0.0
     },
@@ -263,7 +263,7 @@
     "raw_status": "pass",
     "historical": {
       "status": "stable",
-      "sample_count": 30,
+      "sample_count": 54,
       "min_samples": 3,
       "median_lazy_score": 34.0,
       "p95_lazy_score": 35.0,
@@ -280,7 +280,7 @@
     }
   },
   "sources_status": {
-    "translation": "ok",
+    "translation": "down",
     "finmind": "partial",
     "yfinance": "ok",
     "twse": "ok",
