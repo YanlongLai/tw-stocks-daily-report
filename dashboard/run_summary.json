@@ -1,7 +1,7 @@
 {
-  "run_id": "5a16b069-493b-4cc6-adfa-e3e3ba767659",
-  "started_at": "2026-09-28T03:00:15.748756+00:00",
-  "finished_at": "2026-09-28T03:10:44.306321+00:00",
+  "run_id": "8e31715a-ac0c-45b6-a06f-08a73afc342c",
+  "started_at": "2026-09-28T08:30:09.666759+00:00",
+  "finished_at": "2026-09-28T08:43:14.983835+00:00",
   "tickers_attempted": [
     "2330",
     "2454",
@@ -225,15 +225,15 @@
   "ai_commentary_count": 0,
   "ai_quality": {
     "status": "pass",
-    "lazy_score": 35,
+    "lazy_score": 33,
     "threshold": 60,
     "coverage": 1.0,
     "min_coverage": 0.9,
     "metrics": {
       "length_short_rate": 0.0,
-      "self_ref_miss_rate": 1.0,
+      "self_ref_miss_rate": 0.99,
       "cross_similarity_rate": 0.0,
-      "anchor_miss_rate": 0.99,
+      "anchor_miss_rate": 0.9,
       "validation_reject_rate": 0.0,
       "avg_retries": 0.0
     },
@@ -263,7 +263,7 @@
     "raw_status": "pass",
     "historical": {
       "status": "stable",
-      "sample_count": 58,
+      "sample_count": 59,
       "min_samples": 3,
       "median_lazy_score": 34.0,
       "p95_lazy_score": 35.0,
