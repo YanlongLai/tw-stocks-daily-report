@@ -1,7 +1,7 @@
 {
-  "run_id": "35bea63e-46a8-4529-adcb-c95376d92ca3",
-  "started_at": "2026-09-30T03:00:19.957172+00:00",
-  "finished_at": "2026-09-30T03:12:46.097811+00:00",
+  "run_id": "f9629bf2-a85d-4797-b22c-d8999378f267",
+  "started_at": "2026-09-30T08:30:10.972793+00:00",
+  "finished_at": "2026-09-30T08:42:51.139744+00:00",
   "tickers_attempted": [
     "2330",
     "2454",
@@ -233,7 +233,7 @@
       "length_short_rate": 0.0,
       "self_ref_miss_rate": 1.0,
       "cross_similarity_rate": 0.0,
-      "anchor_miss_rate": 0.97,
+      "anchor_miss_rate": 0.99,
       "validation_reject_rate": 0.0,
       "avg_retries": 0.0
     },
@@ -263,7 +263,7 @@
     "raw_status": "pass",
     "historical": {
       "status": "stable",
-      "sample_count": 64,
+      "sample_count": 65,
       "min_samples": 3,
       "median_lazy_score": 34.0,
       "p95_lazy_score": 35.0,
@@ -280,7 +280,7 @@
     }
   },
   "sources_status": {
-    "translation": "down",
+    "translation": "ok",
     "finmind": "ok",
     "gemini": "ok",
     "finnhub": "not_used"
