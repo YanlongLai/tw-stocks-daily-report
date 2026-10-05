@@ -1,0 +1,28 @@
+schema_version: 0.1.0
+id: TW-NEWS-THUMBNAILS-INTEGRATION-20261005
+project: dappgo-stocks-daily-report
+title: Integrate TW RSS thumbnail metadata schema with the daily report contract
+status: review
+risk: medium
+question: Can the daily report carry the same optional per-item RSS image contract without breaking existing consumers?
+acceptance_criteria:
+  - Daily report schema matches the core image metadata fields and enum values.
+  - All new fields remain optional for existing report payloads.
+  - JSON schema validation and downstream contract checks pass.
+  - Core and daily-report schema digests are reconciled before release.
+evidence:
+  - Source schema change was reviewed from the prior session's dirty worktree and ported onto current origin/main.
+  - Current session: JSON syntax, git diff checks, schema parity, and jsonschema Draft 2020-12 checks passed.
+provenance:
+  source: owner-authorized-session-integration
+  supersedes_work_item: TW-NEWS-RSS-THUMBNAILS-20261003
+  codex_task_id: 01a0fece-c7bd-7bf2-9678-09f4b5de62ed
+  host_id: local
+  repository: https://github.com/YanlongLai/tw-stocks-daily-report.git
+  branch: fix/tw-report-news-thumbnails-integration-20261005
+  worktree: tw-report-news-thumbnails-integration-20261005
+  created_at: 2026-10-05
+coordination:
+  scope:
+    - schemas/data.schema.json
+    - artifacts/TW-NEWS-THUMBNAILS-INTEGRATION-20261005
