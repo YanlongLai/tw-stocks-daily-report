@@ -17,7 +17,7 @@ provenance:
   source: owner-authorized-session-integration
   supersedes_work_item: TW-NEWS-RSS-THUMBNAILS-20261003
   codex_task_id: 01a0fece-c7bd-7bf2-9678-09f4b5de62ed
-  host_id: local
+  host_id: Yenlungs-MacBook-Pro-2.local
   repository: https://github.com/YanlongLai/tw-stocks-daily-report.git
   branch: fix/tw-report-news-thumbnails-integration-20261005
   worktree: tw-report-news-thumbnails-integration-20261005
