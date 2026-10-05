@@ -21,7 +21,7 @@ provenance:
   repository: https://github.com/YanlongLai/tw-stocks-daily-report.git
   branch: fix/tw-report-news-thumbnails-integration-20261005
   worktree: tw-report-news-thumbnails-integration-20261005
-  created_at: 2026-10-05
+  created_at: "2026-10-05"
 coordination:
   scope:
     - schemas/data.schema.json
