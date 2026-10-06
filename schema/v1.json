@@ -476,7 +476,15 @@
         "summary": { "type": "string" },
         "provider": { "type": "string" },
         "provider_id": { "type": "string" },
-        "published_at_utc": { "type": "string", "format": "date-time" }
+        "published_at_utc": { "type": "string", "format": "date-time" },
+        "image_url": { "type": ["string", "null"], "format": "uri" },
+        "image_source": {
+          "type": ["string", "null"],
+          "enum": ["rss:media", "rss:thumbnail", "rss:enclosure", "rss:image", "rss:description", null],
+          "description": "Source field that supplied the public RSS thumbnail URL."
+        },
+        "image_status": { "type": "string", "enum": ["available", "missing", "blocked", "invalid", "stale", "disabled"] },
+        "image_usage": { "type": "string", "enum": ["public_feed", "discovery_only", "licensed"] }
       }
     },
     "NewsSentiment": {
