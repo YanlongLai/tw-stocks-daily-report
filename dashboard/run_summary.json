@@ -1,7 +1,7 @@
 {
-  "run_id": "830e1b4c-435d-49a2-9ffa-36d06d4373ea",
-  "started_at": "2026-10-06T03:00:16.594029+00:00",
-  "finished_at": "2026-10-06T03:11:45.762368+00:00",
+  "run_id": "8bfac5cb-de3b-4ada-8aa9-daef5d05fe73",
+  "started_at": "2026-10-06T08:30:11.638879+00:00",
+  "finished_at": "2026-10-06T08:41:13.419896+00:00",
   "tickers_attempted": [
     "2330",
     "2454",
@@ -265,7 +265,7 @@
     "raw_status": "pass",
     "historical": {
       "status": "stable",
-      "sample_count": 76,
+      "sample_count": 77,
       "min_samples": 3,
       "median_lazy_score": 34.0,
       "p95_lazy_score": 35.0,
@@ -282,7 +282,7 @@
     }
   },
   "sources_status": {
-    "translation": "ok",
+    "translation": "down",
     "finmind": "ok",
     "gemini": "ok",
     "finnhub": "not_used"
