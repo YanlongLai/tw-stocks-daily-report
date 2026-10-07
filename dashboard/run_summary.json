@@ -1,7 +1,7 @@
 {
-  "run_id": "3919b878-39d2-44e8-92c9-14be1d6f2f72",
-  "started_at": "2026-10-07T01:05:08.800625+00:00",
-  "finished_at": "2026-10-07T01:25:17.508481+00:00",
+  "run_id": "d3993f26-2ecc-4b78-8d0b-47de0dc22f0b",
+  "started_at": "2026-10-07T03:00:17.616788+00:00",
+  "finished_at": "2026-10-07T03:14:25.012197+00:00",
   "tickers_attempted": [
     "2330",
     "2454",
@@ -209,55 +209,26 @@
     "0050"
   ],
   "tickers_failed": [],
-  "tickers_recovered": [
-    "3533",
-    "1101",
-    "2834",
-    "1802",
-    "2324",
-    "1504",
-    "3702",
-    "6139"
-  ],
+  "tickers_recovered": [],
   "recovery": {
     "enabled": true,
-    "status": "complete",
-    "requested_tickers": [
-      "3533",
-      "1101",
-      "2834",
-      "1802",
-      "2324",
-      "1504",
-      "3702",
-      "6139"
-    ],
-    "recovered_tickers": [
-      "3533",
-      "1101",
-      "2834",
-      "1802",
-      "2324",
-      "1504",
-      "3702",
-      "6139"
-    ],
+    "status": "not_needed",
+    "requested_tickers": [],
+    "recovered_tickers": [],
     "failed_tickers": [],
     "skipped_tickers": [],
     "batch_size": 20,
-    "batch_count": 1,
-    "rounds": 1,
+    "batch_count": 0,
+    "rounds": 0,
     "delay_seconds": 30,
-    "delay_applied_seconds": 30,
-    "duration_seconds": 32.608
+    "delay_applied_seconds": 0,
+    "duration_seconds": 0.0
   },
   "ai_commentary_count": 0,
   "ai_quality": {},
   "sources_status": {
     "translation": "ok",
-    "finmind": "partial",
-    "yfinance": "ok",
-    "twse": "ok",
+    "finmind": "ok",
     "gemini": "down",
     "finnhub": "not_used"
   },
