@@ -1,7 +1,7 @@
 {
-  "run_id": "75330f05-4765-46d8-a3c4-596dd9c99d15",
-  "started_at": "2026-10-07T08:30:11.597876+00:00",
-  "finished_at": "2026-10-07T08:35:56.466045+00:00",
+  "run_id": "0ee4c814-6aa8-4380-bd46-156e9001bb35",
+  "started_at": "2026-10-08T02:30:10.733201+00:00",
+  "finished_at": "2026-10-08T02:40:05.043261+00:00",
   "tickers_attempted": [
     "2330",
     "2454",
@@ -227,7 +227,7 @@
   "ai_commentary_count": 0,
   "ai_quality": {},
   "sources_status": {
-    "translation": "down",
+    "translation": "ok",
     "finmind": "ok",
     "gemini": "down",
     "finnhub": "not_used"
