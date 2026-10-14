@@ -1,11 +1,11 @@
 {
-  "hash": "7f3ce7b34ece3d5db7617ca077990234a281d657e2fdd0931324235dd98f1897",
+  "hash": "6f8bc4bbfebf78aca502a1b323e0dc15c97e70339de9830be565b846fdd91f9b",
   "schema_version": "1.2.0",
   "report_date": "2026-10-14",
-  "generated_at_utc": "2026-10-14T01:25:48Z",
-  "publication_slot": "tw-open",
+  "generated_at_utc": "2026-10-14T03:17:14Z",
+  "publication_slot": "tw-midday",
   "publication_revision": 1,
-  "publication_run_id": "33e0a20f-196f-4d07-aa35-0ae3562a2474",
-  "data_url_v2": "dashboard/data-7f3ce7b34ece.json",
+  "publication_run_id": "4f20b9d5-04d5-4807-8339-679033fdb681",
+  "data_url_v2": "dashboard/data-6f8bc4bbfebf.json",
   "data_url": "https://raw.githubusercontent.com/YanlongLai/tw-stocks-daily-report/main/dashboard/data.json"
 }
