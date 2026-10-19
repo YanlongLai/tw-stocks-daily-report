@@ -1,7 +1,7 @@
 {
-  "run_id": "bb8ac4f1-16b8-4366-8e2b-064cace306be",
-  "started_at": "2026-10-19T03:40:55.552738+00:00",
-  "finished_at": "2026-10-19T04:07:01.586381+00:00",
+  "run_id": "25e9cc66-0b5f-4a9a-8405-ef328e4c52c7",
+  "started_at": "2026-10-19T05:51:04.759253+00:00",
+  "finished_at": "2026-10-19T06:19:57.968377+00:00",
   "tickers_attempted": [
     "2330",
     "2454",
@@ -227,22 +227,22 @@
   "ai_commentary_count": 0,
   "ai_quality": {
     "status": "pass",
-    "lazy_score": 27,
+    "lazy_score": 26,
     "threshold": 60,
     "coverage": 1.0,
     "min_coverage": 0.9,
     "metrics": {
       "length_short_rate": 0.0,
-      "self_ref_miss_rate": 1.0,
+      "self_ref_miss_rate": 0.99,
       "cross_similarity_rate": 0.0,
-      "anchor_miss_rate": 0.446,
+      "anchor_miss_rate": 0.426,
       "validation_reject_rate": 0.0,
       "avg_retries": 0.0
     },
     "validation_rejects": 0,
     "vip": {
       "status": "pass",
-      "lazy_score": 27,
+      "lazy_score": 26,
       "threshold": 60,
       "coverage": 1.0,
       "min_coverage": 1.0,
@@ -250,7 +250,7 @@
         "length_short_rate": 0.0,
         "self_ref_miss_rate": 1.0,
         "cross_similarity_rate": 0.0,
-        "anchor_miss_rate": 0.44,
+        "anchor_miss_rate": 0.43,
         "validation_reject_rate": 0.0,
         "avg_retries": 0.0
       },
@@ -567,41 +567,46 @@
       "history_min_samples": 3,
       "historical": {
         "status": "stable",
-        "sample_count": 27,
+        "sample_count": 28,
         "min_samples": 3,
         "median_lazy_score": 35.0,
         "p95_lazy_score": 35.0,
         "median_coverage": 1.0,
         "previous_repeat_rate": 0.0,
-        "compared_tickers": 50,
+        "compared_tickers": 100,
         "flags": []
       }
     },
     "batch_size": 10,
     "batch_count": 11,
     "batch_workers": 1,
-    "fallback_batches": 1,
+    "fallback_batches": 0,
     "repair_attempts": 1,
+    "legacy_grounded_fallbacks": {
+      "zh": [],
+      "en": []
+    },
+    "public_viewpoint_policy": "model-prose-or-legacy-grounded-fallback",
     "raw_status": "pass",
     "historical": {
       "status": "stable",
-      "sample_count": 82,
+      "sample_count": 83,
       "min_samples": 3,
       "median_lazy_score": 34.0,
       "p95_lazy_score": 35.0,
       "median_coverage": 1.0,
       "previous_repeat_rate": 0.0,
-      "compared_tickers": 51,
+      "compared_tickers": 101,
       "flags": [],
       "vip": {
         "status": "stable",
-        "sample_count": 27,
+        "sample_count": 28,
         "min_samples": 3,
         "median_lazy_score": 35.0,
         "p95_lazy_score": 35.0,
         "median_coverage": 1.0,
         "previous_repeat_rate": 0.0,
-        "compared_tickers": 50,
+        "compared_tickers": 100,
         "flags": []
       }
     }
