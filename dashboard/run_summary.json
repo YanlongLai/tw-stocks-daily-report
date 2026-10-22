@@ -1,7 +1,7 @@
 {
-  "run_id": "e39b0a37-2e08-4981-92c9-c7754fbad7b1",
-  "started_at": "2026-10-21T08:30:08.234645+00:00",
-  "finished_at": "2026-10-21T08:44:11.077522+00:00",
+  "run_id": "ebf59240-2a8d-4846-a5a2-f98d33931d45",
+  "started_at": "2026-10-22T01:05:08.279880+00:00",
+  "finished_at": "2026-10-22T01:23:56.096521+00:00",
   "tickers_attempted": [
     "2330",
     "2454",
@@ -227,7 +227,7 @@
   "ai_commentary_count": 0,
   "ai_quality": {
     "status": "pass",
-    "lazy_score": 25,
+    "lazy_score": 28,
     "threshold": 60,
     "coverage": 1.0,
     "min_coverage": 0.9,
@@ -235,14 +235,14 @@
       "length_short_rate": 0.0,
       "self_ref_miss_rate": 0.99,
       "cross_similarity_rate": 0.0,
-      "anchor_miss_rate": 0.366,
+      "anchor_miss_rate": 0.505,
       "validation_reject_rate": 0.02,
       "avg_retries": 0.0
     },
     "validation_rejects": 2,
     "vip": {
       "status": "pass",
-      "lazy_score": 26,
+      "lazy_score": 28,
       "threshold": 60,
       "coverage": 1.0,
       "min_coverage": 1.0,
@@ -250,7 +250,7 @@
         "length_short_rate": 0.0,
         "self_ref_miss_rate": 1.0,
         "cross_similarity_rate": 0.0,
-        "anchor_miss_rate": 0.37,
+        "anchor_miss_rate": 0.51,
         "validation_reject_rate": 0.02,
         "avg_retries": 0.0
       },
@@ -567,7 +567,7 @@
       "history_min_samples": 3,
       "historical": {
         "status": "stable",
-        "sample_count": 36,
+        "sample_count": 37,
         "min_samples": 3,
         "median_lazy_score": 34.0,
         "p95_lazy_score": 35.0,
@@ -600,7 +600,7 @@
       "flags": [],
       "vip": {
         "status": "stable",
-        "sample_count": 36,
+        "sample_count": 37,
         "min_samples": 3,
         "median_lazy_score": 34.0,
         "p95_lazy_score": 35.0,
@@ -613,7 +613,9 @@
   },
   "sources_status": {
     "translation": "ok",
-    "finmind": "ok",
+    "finmind": "partial",
+    "yfinance": "ok",
+    "twse": "ok",
     "gemini": "ok",
     "finnhub": "not_used"
   },
