@@ -1,7 +1,7 @@
 {
-  "run_id": "2a61c109-e714-45f2-98e1-f9f17a89f449",
-  "started_at": "2026-10-23T03:00:20.654911+00:00",
-  "finished_at": "2026-10-23T03:14:34.254197+00:00",
+  "run_id": "c2405374-1716-4363-84d6-ab556d424b51",
+  "started_at": "2026-10-23T08:30:09.372902+00:00",
+  "finished_at": "2026-10-23T08:50:12.907986+00:00",
   "tickers_attempted": [
     "2330",
     "2454",
@@ -227,7 +227,7 @@
   "ai_commentary_count": 0,
   "ai_quality": {
     "status": "pass",
-    "lazy_score": 28,
+    "lazy_score": 27,
     "threshold": 60,
     "coverage": 1.0,
     "min_coverage": 0.9,
@@ -235,11 +235,11 @@
       "length_short_rate": 0.0,
       "self_ref_miss_rate": 0.99,
       "cross_similarity_rate": 0.0,
-      "anchor_miss_rate": 0.554,
-      "validation_reject_rate": 0.0,
+      "anchor_miss_rate": 0.455,
+      "validation_reject_rate": 0.079,
       "avg_retries": 0.0
     },
-    "validation_rejects": 0,
+    "validation_rejects": 8,
     "vip": {
       "status": "pass",
       "lazy_score": 28,
@@ -250,11 +250,11 @@
         "length_short_rate": 0.0,
         "self_ref_miss_rate": 1.0,
         "cross_similarity_rate": 0.0,
-        "anchor_miss_rate": 0.56,
-        "validation_reject_rate": 0.0,
+        "anchor_miss_rate": 0.46,
+        "validation_reject_rate": 0.08,
         "avg_retries": 0.0
       },
-      "validation_rejects": 0,
+      "validation_rejects": 8,
       "market": "tw",
       "requested_tickers": [
         "2330",
@@ -567,7 +567,7 @@
       "history_min_samples": 3,
       "historical": {
         "status": "stable",
-        "sample_count": 41,
+        "sample_count": 42,
         "min_samples": 3,
         "median_lazy_score": 31.0,
         "p95_lazy_score": 35.0,
@@ -600,7 +600,7 @@
       "flags": [],
       "vip": {
         "status": "stable",
-        "sample_count": 41,
+        "sample_count": 42,
         "min_samples": 3,
         "median_lazy_score": 31.0,
         "p95_lazy_score": 35.0,
