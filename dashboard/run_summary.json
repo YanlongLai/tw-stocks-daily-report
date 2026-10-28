@@ -1,7 +1,7 @@
 {
-  "run_id": "101fcb40-0fe2-4710-ba87-4c4b93236bed",
-  "started_at": "2026-10-28T03:00:22.902481+00:00",
-  "finished_at": "2026-10-28T03:11:16.166687+00:00",
+  "run_id": "2aaaa3d8-a087-445f-ac06-7878b6e6e91c",
+  "started_at": "2026-10-28T08:30:08.908879+00:00",
+  "finished_at": "2026-10-28T08:42:02.929727+00:00",
   "tickers_attempted": [
     "2330",
     "2454",
@@ -227,7 +227,7 @@
   "ai_commentary_count": 0,
   "ai_quality": {
     "status": "pass",
-    "lazy_score": 29,
+    "lazy_score": 24,
     "threshold": 60,
     "coverage": 1.0,
     "min_coverage": 0.9,
@@ -235,14 +235,14 @@
       "length_short_rate": 0.0,
       "self_ref_miss_rate": 0.99,
       "cross_similarity_rate": 0.0,
-      "anchor_miss_rate": 0.624,
+      "anchor_miss_rate": 0.287,
       "validation_reject_rate": 0.0,
       "avg_retries": 0.0
     },
     "validation_rejects": 0,
     "vip": {
       "status": "pass",
-      "lazy_score": 29,
+      "lazy_score": 24,
       "threshold": 60,
       "coverage": 1.0,
       "min_coverage": 1.0,
@@ -250,7 +250,7 @@
         "length_short_rate": 0.0,
         "self_ref_miss_rate": 1.0,
         "cross_similarity_rate": 0.0,
-        "anchor_miss_rate": 0.63,
+        "anchor_miss_rate": 0.29,
         "validation_reject_rate": 0.0,
         "avg_retries": 0.0
       },
@@ -567,7 +567,7 @@
       "history_min_samples": 3,
       "historical": {
         "status": "stable",
-        "sample_count": 50,
+        "sample_count": 51,
         "min_samples": 3,
         "median_lazy_score": 29.0,
         "p95_lazy_score": 35.0,
@@ -600,7 +600,7 @@
       "flags": [],
       "vip": {
         "status": "stable",
-        "sample_count": 50,
+        "sample_count": 51,
         "min_samples": 3,
         "median_lazy_score": 29.0,
         "p95_lazy_score": 35.0,
@@ -612,7 +612,7 @@
     }
   },
   "sources_status": {
-    "translation": "down",
+    "translation": "ok",
     "finmind": "ok",
     "gemini": "ok",
     "finnhub": "not_used"
