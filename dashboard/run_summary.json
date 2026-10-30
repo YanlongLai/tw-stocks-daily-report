@@ -1,7 +1,7 @@
 {
-  "run_id": "ffee1ad7-3cf4-4e8e-b9a9-e61358a804f1",
-  "started_at": "2026-10-30T03:00:17.653800+00:00",
-  "finished_at": "2026-10-30T03:11:41.531414+00:00",
+  "run_id": "eca72242-7a38-45ef-9e63-afab1d440dad",
+  "started_at": "2026-10-30T08:30:08.312437+00:00",
+  "finished_at": "2026-10-30T08:40:44.785350+00:00",
   "tickers_attempted": [
     "2330",
     "2454",
@@ -227,22 +227,22 @@
   "ai_commentary_count": 0,
   "ai_quality": {
     "status": "pass",
-    "lazy_score": 26,
+    "lazy_score": 28,
     "threshold": 60,
     "coverage": 1.0,
     "min_coverage": 0.9,
     "metrics": {
       "length_short_rate": 0.0,
-      "self_ref_miss_rate": 1.0,
+      "self_ref_miss_rate": 0.99,
       "cross_similarity_rate": 0.0,
-      "anchor_miss_rate": 0.386,
+      "anchor_miss_rate": 0.525,
       "validation_reject_rate": 0.0,
       "avg_retries": 0.0
     },
     "validation_rejects": 0,
     "vip": {
       "status": "pass",
-      "lazy_score": 26,
+      "lazy_score": 28,
       "threshold": 60,
       "coverage": 1.0,
       "min_coverage": 1.0,
@@ -250,7 +250,7 @@
         "length_short_rate": 0.0,
         "self_ref_miss_rate": 1.0,
         "cross_similarity_rate": 0.0,
-        "anchor_miss_rate": 0.38,
+        "anchor_miss_rate": 0.53,
         "validation_reject_rate": 0.0,
         "avg_retries": 0.0
       },
@@ -567,7 +567,7 @@
       "history_min_samples": 3,
       "historical": {
         "status": "stable",
-        "sample_count": 56,
+        "sample_count": 57,
         "min_samples": 3,
         "median_lazy_score": 28.0,
         "p95_lazy_score": 35.0,
@@ -600,7 +600,7 @@
       "flags": [],
       "vip": {
         "status": "stable",
-        "sample_count": 56,
+        "sample_count": 57,
         "min_samples": 3,
         "median_lazy_score": 28.0,
         "p95_lazy_score": 35.0,
