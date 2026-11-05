@@ -1,7 +1,7 @@
 {
-  "run_id": "d350c729-dcee-4999-85cb-8355c417952d",
-  "started_at": "2026-11-05T03:01:25.302347+00:00",
-  "finished_at": "2026-11-05T03:15:11.217372+00:00",
+  "run_id": "7fefb661-2b79-4cdf-8dd9-8082a6069014",
+  "started_at": "2026-11-05T08:30:08.293200+00:00",
+  "finished_at": "2026-11-05T08:51:39.356545+00:00",
   "tickers_attempted": [
     "2330",
     "2454",
@@ -226,8 +226,8 @@
   },
   "ai_commentary_count": 0,
   "ai_quality": {
-    "status": "pass",
-    "lazy_score": 28,
+    "status": "degraded",
+    "lazy_score": 27,
     "threshold": 60,
     "coverage": 1.0,
     "min_coverage": 0.9,
@@ -235,14 +235,14 @@
       "length_short_rate": 0.0,
       "self_ref_miss_rate": 0.99,
       "cross_similarity_rate": 0.0,
-      "anchor_miss_rate": 0.525,
+      "anchor_miss_rate": 0.475,
       "validation_reject_rate": 0.0,
       "avg_retries": 0.0
     },
     "validation_rejects": 0,
     "vip": {
       "status": "pass",
-      "lazy_score": 28,
+      "lazy_score": 27,
       "threshold": 60,
       "coverage": 1.0,
       "min_coverage": 1.0,
@@ -250,7 +250,7 @@
         "length_short_rate": 0.0,
         "self_ref_miss_rate": 1.0,
         "cross_similarity_rate": 0.0,
-        "anchor_miss_rate": 0.53,
+        "anchor_miss_rate": 0.48,
         "validation_reject_rate": 0.0,
         "avg_retries": 0.0
       },
@@ -584,10 +584,27 @@
     "repair_attempts": 1,
     "legacy_grounded_fallbacks": {
       "zh": [],
-      "en": []
+      "en": [
+        "3037",
+        "2303",
+        "2382",
+        "2059",
+        "2891",
+        "3017",
+        "2345",
+        "2327",
+        "2412",
+        "2887"
+      ]
     },
     "public_viewpoint_policy": "model-prose-or-legacy-grounded-fallback",
-    "raw_status": "pass",
+    "quality_failures": [
+      {
+        "code": "legacy_grounded_fallback_used",
+        "count": 10
+      }
+    ],
+    "raw_status": "degraded",
     "historical": {
       "status": "stable",
       "sample_count": 78,
@@ -612,9 +629,9 @@
     }
   },
   "sources_status": {
-    "translation": "ok",
+    "translation": "down",
     "finmind": "ok",
-    "gemini": "ok",
+    "gemini": "partial",
     "finnhub": "not_used"
   },
   "data_repo_committed": true
