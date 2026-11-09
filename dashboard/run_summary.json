@@ -1,7 +1,7 @@
 {
-  "run_id": "815a72ee-a37b-474d-8554-18cfd1b05c0e",
-  "started_at": "2026-11-09T03:00:36.724727+00:00",
-  "finished_at": "2026-11-09T03:13:20.822728+00:00",
+  "run_id": "f182204f-2056-46f4-8bbf-bd9182278059",
+  "started_at": "2026-11-09T08:30:20.771773+00:00",
+  "finished_at": "2026-11-09T08:42:39.612959+00:00",
   "tickers_attempted": [
     "2330",
     "2454",
@@ -227,7 +227,7 @@
   "ai_commentary_count": 0,
   "ai_quality": {
     "status": "degraded",
-    "lazy_score": 27,
+    "lazy_score": 29,
     "threshold": 60,
     "coverage": 1.0,
     "min_coverage": 0.9,
@@ -235,14 +235,14 @@
       "length_short_rate": 0.0,
       "self_ref_miss_rate": 0.99,
       "cross_similarity_rate": 0.0,
-      "anchor_miss_rate": 0.465,
-      "validation_reject_rate": 0.02,
+      "anchor_miss_rate": 0.535,
+      "validation_reject_rate": 0.069,
       "avg_retries": 0.0
     },
-    "validation_rejects": 2,
+    "validation_rejects": 7,
     "vip": {
       "status": "pass",
-      "lazy_score": 27,
+      "lazy_score": 29,
       "threshold": 60,
       "coverage": 1.0,
       "min_coverage": 1.0,
@@ -250,11 +250,11 @@
         "length_short_rate": 0.0,
         "self_ref_miss_rate": 1.0,
         "cross_similarity_rate": 0.0,
-        "anchor_miss_rate": 0.47,
-        "validation_reject_rate": 0.02,
+        "anchor_miss_rate": 0.54,
+        "validation_reject_rate": 0.07,
         "avg_retries": 0.0
       },
-      "validation_rejects": 2,
+      "validation_rejects": 7,
       "market": "tw",
       "requested_tickers": [
         "2330",
@@ -581,10 +581,10 @@
     "batch_count": 11,
     "batch_workers": 1,
     "ai_calls": {
-      "count": 37,
-      "p50_duration_ms": 16829.666,
-      "p95_duration_ms": 30707.918,
-      "max_duration_ms": 33576.377,
+      "count": 30,
+      "p50_duration_ms": 14817.83,
+      "p95_duration_ms": 41828.708,
+      "max_duration_ms": 54109.071,
       "timeouts": 1
     },
     "budget_exhausted": false,
@@ -595,16 +595,16 @@
     "legacy_grounded_fallbacks": {
       "zh": [],
       "en": [
-        "3037",
-        "2303",
-        "2382",
-        "2059",
-        "2891",
-        "3017",
-        "2345",
-        "2327",
-        "2412",
-        "2887"
+        "6213",
+        "3533",
+        "1101",
+        "2834",
+        "1802",
+        "2324",
+        "1504",
+        "3702",
+        "6139",
+        "1605"
       ]
     },
     "public_viewpoint_policy": "model-prose-or-legacy-grounded-fallback",
@@ -617,7 +617,7 @@
     "raw_status": "degraded",
     "historical": {
       "status": "stable",
-      "sample_count": 75,
+      "sample_count": 74,
       "min_samples": 3,
       "median_lazy_score": 32.0,
       "p95_lazy_score": 35.0,
