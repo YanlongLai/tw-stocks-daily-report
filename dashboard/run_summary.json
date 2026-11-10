@@ -1,7 +1,7 @@
 {
-  "run_id": "f935384e-5ca7-4c4b-90bb-8a5c20232df7",
-  "started_at": "2026-11-10T01:05:22.556395+00:00",
-  "finished_at": "2026-11-10T01:20:08.527868+00:00",
+  "run_id": "1487e871-4eab-48c6-9331-d7bb95b37bcf",
+  "started_at": "2026-11-10T03:01:43.096541+00:00",
+  "finished_at": "2026-11-10T03:13:31.888384+00:00",
   "tickers_attempted": [
     "2330",
     "2454",
@@ -226,8 +226,8 @@
   },
   "ai_commentary_count": 0,
   "ai_quality": {
-    "status": "degraded",
-    "lazy_score": 25,
+    "status": "pass",
+    "lazy_score": 28,
     "threshold": 60,
     "coverage": 1.0,
     "min_coverage": 0.9,
@@ -235,14 +235,14 @@
       "length_short_rate": 0.0,
       "self_ref_miss_rate": 0.99,
       "cross_similarity_rate": 0.0,
-      "anchor_miss_rate": 0.287,
-      "validation_reject_rate": 0.04,
+      "anchor_miss_rate": 0.515,
+      "validation_reject_rate": 0.069,
       "avg_retries": 0.0
     },
-    "validation_rejects": 4,
+    "validation_rejects": 7,
     "vip": {
       "status": "pass",
-      "lazy_score": 25,
+      "lazy_score": 28,
       "threshold": 60,
       "coverage": 1.0,
       "min_coverage": 1.0,
@@ -250,11 +250,11 @@
         "length_short_rate": 0.0,
         "self_ref_miss_rate": 1.0,
         "cross_similarity_rate": 0.0,
-        "anchor_miss_rate": 0.29,
-        "validation_reject_rate": 0.04,
+        "anchor_miss_rate": 0.52,
+        "validation_reject_rate": 0.07,
         "avg_retries": 0.0
       },
-      "validation_rejects": 4,
+      "validation_rejects": 7,
       "market": "tw",
       "requested_tickers": [
         "2330",
@@ -582,9 +582,9 @@
     "batch_workers": 1,
     "ai_calls": {
       "count": 33,
-      "p50_duration_ms": 15027.355,
-      "p95_duration_ms": 31722.08,
-      "max_duration_ms": 56577.566,
+      "p50_duration_ms": 14586.047,
+      "p95_duration_ms": 32154.084,
+      "max_duration_ms": 32838.311,
       "timeouts": 1
     },
     "budget_exhausted": false,
@@ -594,30 +594,13 @@
     "repair_attempts": 1,
     "legacy_grounded_fallbacks": {
       "zh": [],
-      "en": [
-        "6415",
-        "7750",
-        "6531",
-        "1402",
-        "6789",
-        "3532",
-        "2633",
-        "2347",
-        "6805",
-        "6442"
-      ]
+      "en": []
     },
     "public_viewpoint_policy": "model-prose-or-legacy-grounded-fallback",
-    "quality_failures": [
-      {
-        "code": "legacy_grounded_fallback_used",
-        "count": 10
-      }
-    ],
-    "raw_status": "degraded",
+    "raw_status": "pass",
     "historical": {
       "status": "stable",
-      "sample_count": 73,
+      "sample_count": 72,
       "min_samples": 3,
       "median_lazy_score": 32.0,
       "p95_lazy_score": 35.0,
@@ -640,10 +623,8 @@
   },
   "sources_status": {
     "translation": "ok",
-    "finmind": "partial",
-    "yfinance": "ok",
-    "twse": "ok",
-    "gemini": "partial",
+    "finmind": "ok",
+    "gemini": "ok",
     "finnhub": "not_used"
   },
   "data_repo_committed": true
