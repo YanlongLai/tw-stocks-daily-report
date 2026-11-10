@@ -1,7 +1,7 @@
 {
-  "run_id": "f182204f-2056-46f4-8bbf-bd9182278059",
-  "started_at": "2026-11-09T08:30:20.771773+00:00",
-  "finished_at": "2026-11-09T08:42:39.612959+00:00",
+  "run_id": "f935384e-5ca7-4c4b-90bb-8a5c20232df7",
+  "started_at": "2026-11-10T01:05:22.556395+00:00",
+  "finished_at": "2026-11-10T01:20:08.527868+00:00",
   "tickers_attempted": [
     "2330",
     "2454",
@@ -227,7 +227,7 @@
   "ai_commentary_count": 0,
   "ai_quality": {
     "status": "degraded",
-    "lazy_score": 29,
+    "lazy_score": 25,
     "threshold": 60,
     "coverage": 1.0,
     "min_coverage": 0.9,
@@ -235,14 +235,14 @@
       "length_short_rate": 0.0,
       "self_ref_miss_rate": 0.99,
       "cross_similarity_rate": 0.0,
-      "anchor_miss_rate": 0.535,
-      "validation_reject_rate": 0.069,
+      "anchor_miss_rate": 0.287,
+      "validation_reject_rate": 0.04,
       "avg_retries": 0.0
     },
-    "validation_rejects": 7,
+    "validation_rejects": 4,
     "vip": {
       "status": "pass",
-      "lazy_score": 29,
+      "lazy_score": 25,
       "threshold": 60,
       "coverage": 1.0,
       "min_coverage": 1.0,
@@ -250,11 +250,11 @@
         "length_short_rate": 0.0,
         "self_ref_miss_rate": 1.0,
         "cross_similarity_rate": 0.0,
-        "anchor_miss_rate": 0.54,
-        "validation_reject_rate": 0.07,
+        "anchor_miss_rate": 0.29,
+        "validation_reject_rate": 0.04,
         "avg_retries": 0.0
       },
-      "validation_rejects": 7,
+      "validation_rejects": 4,
       "market": "tw",
       "requested_tickers": [
         "2330",
@@ -581,10 +581,10 @@
     "batch_count": 11,
     "batch_workers": 1,
     "ai_calls": {
-      "count": 30,
-      "p50_duration_ms": 14817.83,
-      "p95_duration_ms": 41828.708,
-      "max_duration_ms": 54109.071,
+      "count": 33,
+      "p50_duration_ms": 15027.355,
+      "p95_duration_ms": 31722.08,
+      "max_duration_ms": 56577.566,
       "timeouts": 1
     },
     "budget_exhausted": false,
@@ -595,16 +595,16 @@
     "legacy_grounded_fallbacks": {
       "zh": [],
       "en": [
-        "6213",
-        "3533",
-        "1101",
-        "2834",
-        "1802",
-        "2324",
-        "1504",
-        "3702",
-        "6139",
-        "1605"
+        "6415",
+        "7750",
+        "6531",
+        "1402",
+        "6789",
+        "3532",
+        "2633",
+        "2347",
+        "6805",
+        "6442"
       ]
     },
     "public_viewpoint_policy": "model-prose-or-legacy-grounded-fallback",
@@ -617,7 +617,7 @@
     "raw_status": "degraded",
     "historical": {
       "status": "stable",
-      "sample_count": 74,
+      "sample_count": 73,
       "min_samples": 3,
       "median_lazy_score": 32.0,
       "p95_lazy_score": 35.0,
@@ -639,8 +639,10 @@
     }
   },
   "sources_status": {
-    "translation": "down",
-    "finmind": "ok",
+    "translation": "ok",
+    "finmind": "partial",
+    "yfinance": "ok",
+    "twse": "ok",
     "gemini": "partial",
     "finnhub": "not_used"
   },
