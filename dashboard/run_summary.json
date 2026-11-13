@@ -1,7 +1,7 @@
 {
-  "run_id": "503041b9-b140-4fd5-9cf0-11a8acb8e0a2",
-  "started_at": "2026-11-13T03:07:37.505436+00:00",
-  "finished_at": "2026-11-13T03:20:34.973293+00:00",
+  "run_id": "d91b3711-d41b-4356-b69c-02828c06bf7a",
+  "started_at": "2026-11-13T08:30:24.307625+00:00",
+  "finished_at": "2026-11-13T08:43:39.991918+00:00",
   "tickers_attempted": [
     "2330",
     "2454",
@@ -226,8 +226,8 @@
   },
   "ai_commentary_count": 0,
   "ai_quality": {
-    "status": "pass",
-    "lazy_score": 28,
+    "status": "degraded",
+    "lazy_score": 29,
     "threshold": 60,
     "coverage": 1.0,
     "min_coverage": 0.9,
@@ -235,14 +235,14 @@
       "length_short_rate": 0.0,
       "self_ref_miss_rate": 0.99,
       "cross_similarity_rate": 0.0,
-      "anchor_miss_rate": 0.535,
+      "anchor_miss_rate": 0.614,
       "validation_reject_rate": 0.0,
       "avg_retries": 0.0
     },
     "validation_rejects": 0,
     "vip": {
       "status": "pass",
-      "lazy_score": 28,
+      "lazy_score": 29,
       "threshold": 60,
       "coverage": 1.0,
       "min_coverage": 1.0,
@@ -250,7 +250,7 @@
         "length_short_rate": 0.0,
         "self_ref_miss_rate": 1.0,
         "cross_similarity_rate": 0.0,
-        "anchor_miss_rate": 0.54,
+        "anchor_miss_rate": 0.62,
         "validation_reject_rate": 0.0,
         "avg_retries": 0.0
       },
@@ -581,10 +581,10 @@
     "batch_count": 11,
     "batch_workers": 2,
     "ai_calls": {
-      "count": 25,
-      "p50_duration_ms": 18449.769,
-      "p95_duration_ms": 31580.287,
-      "max_duration_ms": 60191.787,
+      "count": 28,
+      "p50_duration_ms": 16383.683,
+      "p95_duration_ms": 35439.688,
+      "max_duration_ms": 47585.143,
       "timeouts": 1
     },
     "budget_exhausted": false,
@@ -594,10 +594,27 @@
     "repair_attempts": 1,
     "legacy_grounded_fallbacks": {
       "zh": [],
-      "en": []
+      "en": [
+        "7769",
+        "3008",
+        "2885",
+        "3653",
+        "2360",
+        "2344",
+        "3443",
+        "8046",
+        "2357",
+        "6505"
+      ]
     },
     "public_viewpoint_policy": "model-prose-or-legacy-grounded-fallback",
-    "raw_status": "pass",
+    "quality_failures": [
+      {
+        "code": "legacy_grounded_fallback_used",
+        "count": 10
+      }
+    ],
+    "raw_status": "degraded",
     "historical": {
       "status": "stable",
       "sample_count": 72,
@@ -622,11 +639,10 @@
     }
   },
   "sources_status": {
-    "translation": "down",
+    "translation": "ok",
     "finmind": "partial",
-    "yfinance": "ok",
     "twse": "ok",
-    "gemini": "ok",
+    "gemini": "partial",
     "finnhub": "not_used"
   },
   "data_repo_committed": true
