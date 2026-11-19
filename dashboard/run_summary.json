@@ -1,7 +1,7 @@
 {
-  "run_id": "e5401ed9-b711-4122-8672-ac66b1ff06e6",
-  "started_at": "2026-11-18T08:30:24.579072+00:00",
-  "finished_at": "2026-11-18T08:41:11.140975+00:00",
+  "run_id": "287bc877-b87b-41a6-8da2-096b0b8e6664",
+  "started_at": "2026-11-19T01:05:22.151635+00:00",
+  "finished_at": "2026-11-19T01:18:54.886838+00:00",
   "tickers_attempted": [
     "2330",
     "2454",
@@ -235,14 +235,14 @@
       "length_short_rate": 0.0,
       "self_ref_miss_rate": 0.99,
       "cross_similarity_rate": 0.0,
-      "anchor_miss_rate": 0.634,
+      "anchor_miss_rate": 0.604,
       "validation_reject_rate": 0.0,
       "avg_retries": 0.0
     },
     "validation_rejects": 0,
     "vip": {
       "status": "pass",
-      "lazy_score": 30,
+      "lazy_score": 29,
       "threshold": 60,
       "coverage": 1.0,
       "min_coverage": 1.0,
@@ -250,7 +250,7 @@
         "length_short_rate": 0.0,
         "self_ref_miss_rate": 1.0,
         "cross_similarity_rate": 0.0,
-        "anchor_miss_rate": 0.64,
+        "anchor_miss_rate": 0.61,
         "validation_reject_rate": 0.0,
         "avg_retries": 0.0
       },
@@ -567,7 +567,7 @@
       "history_min_samples": 3,
       "historical": {
         "status": "stable",
-        "sample_count": 72,
+        "sample_count": 73,
         "min_samples": 3,
         "median_lazy_score": 28.0,
         "p95_lazy_score": 32.0,
@@ -581,10 +581,10 @@
     "batch_count": 11,
     "batch_workers": 2,
     "ai_calls": {
-      "count": 28,
-      "p50_duration_ms": 16647.148,
-      "p95_duration_ms": 25575.529,
-      "max_duration_ms": 30864.179,
+      "count": 29,
+      "p50_duration_ms": 16925.418,
+      "p95_duration_ms": 35435.271,
+      "max_duration_ms": 37359.459,
       "timeouts": 1
     },
     "budget_exhausted": false,
@@ -610,7 +610,7 @@
       "flags": [],
       "vip": {
         "status": "stable",
-        "sample_count": 72,
+        "sample_count": 73,
         "min_samples": 3,
         "median_lazy_score": 28.0,
         "p95_lazy_score": 32.0,
@@ -625,7 +625,7 @@
     "translation": "ok",
     "finmind": "partial",
     "yfinance": "ok",
-    "twse": "ok",
+    "twse": "partial",
     "gemini": "ok",
     "finnhub": "not_used"
   },
