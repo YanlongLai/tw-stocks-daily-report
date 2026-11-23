@@ -1,7 +1,7 @@
 {
-  "run_id": "001ec9f8-da2d-4c7b-aaa0-6aa06c8c8149",
-  "started_at": "2026-11-21T22:31:53.488630+00:00",
-  "finished_at": "2026-11-21T22:49:34.829011+00:00",
+  "run_id": "b8347db5-a31c-42fd-b70b-965380d6207a",
+  "started_at": "2026-11-23T01:05:22.577780+00:00",
+  "finished_at": "2026-11-23T01:20:06.299510+00:00",
   "tickers_attempted": [
     "2330",
     "2454",
@@ -227,7 +227,7 @@
   "ai_commentary_count": 0,
   "ai_quality": {
     "status": "pass",
-    "lazy_score": 31,
+    "lazy_score": 27,
     "threshold": 60,
     "coverage": 1.0,
     "min_coverage": 0.9,
@@ -235,14 +235,14 @@
       "length_short_rate": 0.0,
       "self_ref_miss_rate": 0.99,
       "cross_similarity_rate": 0.0,
-      "anchor_miss_rate": 0.723,
-      "validation_reject_rate": 0.0,
+      "anchor_miss_rate": 0.495,
+      "validation_reject_rate": 0.02,
       "avg_retries": 0.0
     },
-    "validation_rejects": 0,
+    "validation_rejects": 2,
     "vip": {
       "status": "pass",
-      "lazy_score": 31,
+      "lazy_score": 28,
       "threshold": 60,
       "coverage": 1.0,
       "min_coverage": 1.0,
@@ -250,11 +250,11 @@
         "length_short_rate": 0.0,
         "self_ref_miss_rate": 1.0,
         "cross_similarity_rate": 0.0,
-        "anchor_miss_rate": 0.73,
-        "validation_reject_rate": 0.0,
+        "anchor_miss_rate": 0.5,
+        "validation_reject_rate": 0.02,
         "avg_retries": 0.0
       },
-      "validation_rejects": 0,
+      "validation_rejects": 2,
       "market": "tw",
       "requested_tickers": [
         "2330",
@@ -567,7 +567,7 @@
       "history_min_samples": 3,
       "historical": {
         "status": "stable",
-        "sample_count": 80,
+        "sample_count": 81,
         "min_samples": 3,
         "median_lazy_score": 28.0,
         "p95_lazy_score": 32.0,
@@ -582,10 +582,10 @@
     "batch_workers": 2,
     "ai_calls": {
       "count": 27,
-      "p50_duration_ms": 28486.442,
-      "p95_duration_ms": 57459.769,
-      "max_duration_ms": 75000.481,
-      "timeouts": 2
+      "p50_duration_ms": 23023.928,
+      "p95_duration_ms": 52241.122,
+      "max_duration_ms": 64395.54,
+      "timeouts": 1
     },
     "budget_exhausted": false,
     "budget_skipped_count": 0,
@@ -610,7 +610,7 @@
       "flags": [],
       "vip": {
         "status": "stable",
-        "sample_count": 80,
+        "sample_count": 81,
         "min_samples": 3,
         "median_lazy_score": 28.0,
         "p95_lazy_score": 32.0,
@@ -623,7 +623,9 @@
   },
   "sources_status": {
     "translation": "down",
-    "finmind": "ok",
+    "finmind": "partial",
+    "yfinance": "ok",
+    "twse": "ok",
     "gemini": "ok",
     "finnhub": "not_used"
   },
