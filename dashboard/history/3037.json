@@ -1,4 +1,4 @@
-{"schema_version":"price-history-v1","market":"tw","symbol":"3037","as_of":"2026-11-25","bar_count":756,"fields":["date","open","high","low","close","volume","ma20","ma60","ma200"],"moving_averages":{"type":"simple","source":"close","periods":[20,60,200],"lookback_bars":962},"bars":[
+{"schema_version":"price-history-v1","market":"tw","symbol":"3037","as_of":"2026-11-25","bar_count":756,"fields":["date","open","high","low","close","volume","ma20","ma60","ma200"],"moving_averages":{"type":"simple","source":"close","periods":[20,60,200],"lookback_bars":961},"bars":[
 ["2023-10-16",167.5,168.0,162.0,164.5,20908824,177.28,181.47,158.94],
 ["2023-10-17",167.5,170.0,166.0,166.5,13419112,176.3,180.86,159.02],
 ["2023-10-18",165.5,166.0,159.5,160.0,20955512,174.78,180.25,159.09],
@@ -755,4 +755,4 @@
 ["2026-11-23",506.0,568.0,484.5,558.0,46555486,811.3,998.48,826.08],
 ["2026-11-24",613.0,613.0,613.0,613.0,1182329,788.95,990.45,827.5],
 ["2026-11-25",570.0,640.0,555.0,585.0,46627565,763.2,980.87,828.74]
-],"content_hash":"077c1719b7d5e7ba2bf8c66642716745a263032849b8ccc99a40a149964006c9"}
+],"content_hash":"a9d0404c8b24775c032e762385080d8770df0ffcd0650b7d923965530e547faa"}
