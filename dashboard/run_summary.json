@@ -1,7 +1,7 @@
 {
-  "run_id": "158a268c-01fa-4507-b0e2-61aeaccb00e4",
-  "started_at": "2026-11-26T08:30:24.806052+00:00",
-  "finished_at": "2026-11-26T08:46:35.491304+00:00",
+  "run_id": "ccaadcf9-abbc-4994-9793-bd4bfbae3df5",
+  "started_at": "2026-11-27T01:05:21.768852+00:00",
+  "finished_at": "2026-11-27T01:19:53.900876+00:00",
   "tickers_attempted": [
     "2330",
     "2454",
@@ -226,8 +226,8 @@
   },
   "ai_commentary_count": 0,
   "ai_quality": {
-    "status": "degraded",
-    "lazy_score": 28,
+    "status": "pass",
+    "lazy_score": 27,
     "threshold": 60,
     "coverage": 1.0,
     "min_coverage": 0.9,
@@ -235,14 +235,14 @@
       "length_short_rate": 0.0,
       "self_ref_miss_rate": 0.99,
       "cross_similarity_rate": 0.0,
-      "anchor_miss_rate": 0.525,
-      "validation_reject_rate": 0.01,
+      "anchor_miss_rate": 0.416,
+      "validation_reject_rate": 0.05,
       "avg_retries": 0.0
     },
-    "validation_rejects": 1,
+    "validation_rejects": 5,
     "vip": {
       "status": "pass",
-      "lazy_score": 28,
+      "lazy_score": 27,
       "threshold": 60,
       "coverage": 1.0,
       "min_coverage": 1.0,
@@ -250,11 +250,11 @@
         "length_short_rate": 0.0,
         "self_ref_miss_rate": 1.0,
         "cross_similarity_rate": 0.0,
-        "anchor_miss_rate": 0.53,
-        "validation_reject_rate": 0.01,
+        "anchor_miss_rate": 0.42,
+        "validation_reject_rate": 0.05,
         "avg_retries": 0.0
       },
-      "validation_rejects": 1,
+      "validation_rejects": 5,
       "market": "tw",
       "requested_tickers": [
         "2330",
@@ -567,7 +567,7 @@
       "history_min_samples": 3,
       "historical": {
         "status": "stable",
-        "sample_count": 88,
+        "sample_count": 89,
         "min_samples": 3,
         "median_lazy_score": 28.0,
         "p95_lazy_score": 31.0,
@@ -581,10 +581,10 @@
     "batch_count": 11,
     "batch_workers": 2,
     "ai_calls": {
-      "count": 31,
-      "p50_duration_ms": 19724.648,
-      "p95_duration_ms": 55037.636,
-      "max_duration_ms": 67623.693,
+      "count": 29,
+      "p50_duration_ms": 19330.353,
+      "p95_duration_ms": 50285.337,
+      "max_duration_ms": 51590.024,
       "timeouts": 1
     },
     "budget_exhausted": false,
@@ -594,27 +594,10 @@
     "repair_attempts": 1,
     "legacy_grounded_fallbacks": {
       "zh": [],
-      "en": [
-        "3037",
-        "2303",
-        "2382",
-        "2059",
-        "2891",
-        "3017",
-        "2345",
-        "2327",
-        "2412",
-        "2887"
-      ]
+      "en": []
     },
     "public_viewpoint_policy": "model-prose-or-legacy-grounded-fallback",
-    "quality_failures": [
-      {
-        "code": "legacy_grounded_fallback_used",
-        "count": 10
-      }
-    ],
-    "raw_status": "degraded",
+    "raw_status": "pass",
     "historical": {
       "status": "stable",
       "sample_count": 67,
@@ -627,7 +610,7 @@
       "flags": [],
       "vip": {
         "status": "stable",
-        "sample_count": 88,
+        "sample_count": 89,
         "min_samples": 3,
         "median_lazy_score": 28.0,
         "p95_lazy_score": 31.0,
@@ -639,11 +622,11 @@
     }
   },
   "sources_status": {
-    "translation": "down",
+    "translation": "ok",
     "finmind": "partial",
     "yfinance": "ok",
-    "twse": "ok",
-    "gemini": "partial",
+    "twse": "partial",
+    "gemini": "ok",
     "finnhub": "not_used"
   },
   "data_repo_committed": true
