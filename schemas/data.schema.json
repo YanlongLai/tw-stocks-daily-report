@@ -13,6 +13,11 @@
       "type": "string",
       "description": "Date of this snapshot (YYYY-MM-DD)."
     },
+    "market_session_date": {
+      "type": "string",
+      "format": "date",
+      "description": "TW session the report's daily moves describe. Before 14:30 Taipei this is the previous session."
+    },
     "tickers": {
       "type": "array",
       "items": { "type": "string", "pattern": "^[0-9]{4,5}$" }
@@ -43,7 +48,19 @@
         "properties": {
           "symbol": { "type": "string" },
           "name": { "type": "string" },
-          "price_change_pct": { "type": "number" },
+          "price_change_pct": {
+            "type": ["number", "null"],
+            "description": "Move from the previous TW session's close to price_change_session's close (%). null when the previous session's bar is missing; never a multi-session move."
+          },
+          "price_change_session": {
+            "type": ["string", "null"],
+            "format": "date",
+            "description": "TW session the ticker's moves end at. Reports before 14:30 Taipei carry the previous session."
+          },
+          "price_change_quality": {
+            "type": "object",
+            "description": "Session anchoring of price_changes: basis, session, base_sessions, null_reasons."
+          },
           "price_history": {
             "type": "array",
             "description": "Last ~250 trading days of OHLCV for chart rendering + client-side MA60/MA200 + timeframe toggles.",
